@@ -1,2 +1,2 @@
-# The-Bench-Prophet
-A web app for nba game predictions using ML and real-time data
+# The Bench Prophet
+A game prediction web app using ML, Flask, and React.
