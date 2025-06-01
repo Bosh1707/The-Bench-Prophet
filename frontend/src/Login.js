@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from './firebase';
+import { Link } from 'react-router-dom';
+import './App.css';
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -11,7 +13,7 @@ export default function Login() {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      alert('Logged in successfully!');
+      // Login will trigger redirect via onAuthStateChanged
     } catch (err) {
       setError(err.message);
     }
@@ -20,10 +22,13 @@ export default function Login() {
   return (
     <form onSubmit={handleLogin}>
       <h2>Login</h2>
-      <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
-      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
+      <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" required />
+      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" required />
       <button type="submit">Log In</button>
       {error && <p style={{ color: 'red' }}>{error}</p>}
+      <div className="link-switch">
+        Don't have an account? <Link to="/signup">Sign up</Link>
+      </div>
     </form>
   );
 }

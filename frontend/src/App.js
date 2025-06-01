@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { auth } from './firebase';
-import Login from './login';
-import Dashboard from './Dashboard'; // Create this component
+import Login from './Login';
+import Signup from './Signup';
+import Dashboard from './Dashboard'; 
+import './App.css';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -17,9 +20,18 @@ function App() {
     return () => unsubscribe();
   }, []);
 
-  if (loading) return <p>Loading...</p>;
+    if (loading) return <p>Loading...</p>;
 
-  return user ? <Dashboard user={user} /> : <Login />;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/login" element={user ? <Navigate to="/dashboard" /> : <Login />} />
+        <Route path="/signup" element={user ? <Navigate to="/dashboard" /> : <Signup />} />
+        <Route path="/dashboard" element={user ? <Dashboard user={user} /> : <Navigate to="/login" />} />
+        <Route path="*" element={<Navigate to={user ? "/dashboard" : "/login"} />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
