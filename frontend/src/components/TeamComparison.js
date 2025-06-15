@@ -9,6 +9,13 @@ const TeamComparison = () => {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  const teams = [
+    "ATL", "BOS", "BKN", "CHA", "CHI", "CLE", "DAL", "DEN",
+    "DET", "GSW", "HOU", "IND", "LAC", "LAL", "MEM", "MIA",
+    "MIL", "MIN", "NOP", "NYK", "OKC", "ORL", "PHI", "PHX",
+    "POR", "SAC", "SAS", "TOR", "UTA", "WAS"
+  ];
+  
   const handleCompare = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -42,20 +49,22 @@ const TeamComparison = () => {
     <div className="dashboard-content">
       <h2>Compare Two NBA Teams</h2>
       <form onSubmit={handleCompare}>
-        <input
-          type="text"
-          placeholder="Team 1 (e.g. LAL or Los Angeles Lakers)"
-          value={team1}
-          onChange={(e) => setTeam1(e.target.value)}
-          required
-        />
-        <input
-          type="text"
-          placeholder="Team 2 (e.g. GSW or Golden State Warriors)"
-          value={team2}
-          onChange={(e) => setTeam2(e.target.value)}
-          required
-        />
+        <label>Team 1:</label>
+        <select value={team1} onChange={(e) => setTeam1(e.target.value)} required>
+          <option value="">-- Select Team 1 --</option>
+          {teams.map((team) => (
+            <option key={team} value={team}>{team}</option>
+          ))}
+        </select>
+
+        <label>Team 2:</label>
+        <select value={team2} onChange={(e) => setTeam2(e.target.value)} required>
+          <option value="">-- Select Team 2 --</option>
+          {teams.map((team) => (
+            <option key={team} value={team}>{team}</option>
+          ))}
+        </select>
+
         <button type="submit" disabled={loading}>
           {loading ? "Comparing..." : "Compare Teams"}
         </button>
