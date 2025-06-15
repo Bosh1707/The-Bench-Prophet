@@ -36,12 +36,23 @@ const TeamComparison = () => {
 
   const prepareChartData = () => {
     if (!result) return [];
-    const teamA = result[team1];
-    const teamB = result[team2];
+
+    const teamAKey = Object.keys(result).find(k =>
+      k.toLowerCase().includes(team1.toLowerCase())
+    );
+    const teamBKey = Object.keys(result).find(k =>
+      k.toLowerCase().includes(team2.toLowerCase())
+    );
+
+    const teamA = result[teamAKey];
+    const teamB = result[teamBKey];
+
+    if (!teamA || !teamB) return []; // prevent error on chart render
+
     return Object.keys(teamA).map((stat) => ({
       stat,
-      [team1]: teamA[stat],
-      [team2]: teamB[stat]
+      [teamAKey]: teamA[stat],
+      [teamBKey]: teamB[stat]
     }));
   };
 
@@ -70,21 +81,27 @@ const TeamComparison = () => {
         </button>
       </form>
 
-      {result && (
-        <div style={{ marginTop: "2rem" }}>
-          <h3>📊 Comparison Result</h3>
-          <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={prepareChartData()} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
-              <XAxis dataKey="stat" />
-              <YAxis />
-              <Tooltip />
-              <Legend />
-              <Bar dataKey={team1} fill="#007bff" />
-              <Bar dataKey={team2} fill="#28a745" />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      )}
+  {result && prepareChartData().length > 0 && (
+    <div style={{ marginTop: "2rem" }}>
+      <h3>📊 Comparison Result</h3>
+      <ResponsiveContainer width="100%" height={300}>
+        <BarChart data={prepareChartData()} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+          <XAxis dataKey="stat" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Bar dataKey={Object.keys(prepareChartData()[0])[1]} fill="#007bff" />
+          <Bar dataKey={Object.keys(prepareChartData()[0])[2]} fill="#28a745" />
+        </BarChart>
+      </ResponsiveContainer>
+    </div>
+  )}
+
+{result && prepareChartData().length === 0 && (
+  <p style={{ color: 'red', marginTop: '1rem' }}>
+    ⚠️ Could not find stats for one or both teams. Try different selections.
+  </p>
+)}
 
       {error && <p style={{ color: "red", marginTop: "1rem" }}>{error}</p>}
     </div>
