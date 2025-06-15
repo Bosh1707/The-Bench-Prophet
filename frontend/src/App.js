@@ -3,7 +3,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import { BrowserRouter as Router, Routes, Route, Navigate, Link } from 'react-router-dom';
 import { auth } from './firebase';
 import Login from './Login';
-import Signup from './signup';
+import Signup from './Signup';
 import Dashboard from './components/PredictionDashboard';
 import TeamComparison from './components/TeamComparison';
 import Navbar from './components/Navbar';
