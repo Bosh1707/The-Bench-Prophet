@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate, Link } from 'react-router-dom';
 import { auth } from './firebase';
 import Login from './Login';
 import Signup from './signup';
-import Dashboard from './Dashboard'; 
+import Dashboard from './components/PredictionDashboard';
+import TeamComparison from './components/TeamComparison';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
@@ -20,14 +22,17 @@ function App() {
     return () => unsubscribe();
   }, []);
 
-    if (loading) return <p>Loading...</p>;
+  if (loading) return <p>Loading...</p>;
 
   return (
     <Router>
+      {user && <Navbar user={user} />}
+
       <Routes>
         <Route path="/login" element={user ? <Navigate to="/dashboard" /> : <Login />} />
         <Route path="/signup" element={user ? <Navigate to="/dashboard" /> : <Signup />} />
         <Route path="/dashboard" element={user ? <Dashboard user={user} /> : <Navigate to="/login" />} />
+        <Route path="/compare" element={user ? <TeamComparison /> : <Navigate to="/login" />} />
         <Route path="*" element={<Navigate to={user ? "/dashboard" : "/login"} />} />
       </Routes>
     </Router>
