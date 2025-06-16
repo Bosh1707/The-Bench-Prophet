@@ -52,7 +52,7 @@ const TeamComparison = () => {
 
     try {
       const response = await axios.get(
-        `https://the-bench-prophet.onrender.com/api/compare-teams?team1=${team1}&team2=${team2}`
+        `https://the-bench-prophet.onrender.com/api/compare-teams?team1={team1}&team2={team2}`
       );
       setResult(response.data);
     } catch (err) {
