@@ -6,7 +6,17 @@ import pandas as pd
 import os
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "https://the-bench-prophet.vercel.app"}}, supports_credentials=True)
+
+CORS(app, resources={r"/api/*": {
+    "origins": [
+        "https://the-bench-prophet.vercel.app",
+        "https://the-bench-prophet-g87kjpnb2-joshuas-projects-517c4114.vercel.app"
+    ],
+    "supports_credentials": True,
+    "methods": ["GET", "POST", "OPTIONS"],
+    "allow_headers": ["Content-Type", "Authorization"]
+}})
+
 model = joblib.load('model.pkl')
 
 data = pd.read_csv('data/nba_2023_2024_final_data.csv')
