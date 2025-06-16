@@ -15,7 +15,7 @@ const TeamComparison = () => {
     "MIL", "MIN", "NOP", "NYK", "OKC", "ORL", "PHI", "PHX",
     "POR", "SAC", "SAS", "TOR", "UTA", "WAS"
   ];
-  
+
   const handleCompare = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -37,17 +37,13 @@ const TeamComparison = () => {
   const prepareChartData = () => {
     if (!result) return [];
 
-    const teamAKey = Object.keys(result).find(k =>
-      k.toLowerCase().includes(team1.toLowerCase())
-    );
-    const teamBKey = Object.keys(result).find(k =>
-      k.toLowerCase().includes(team2.toLowerCase())
-    );
+    const teamAKey = Object.keys(result).find(k => k.toLowerCase().includes(team1.toLowerCase()));
+    const teamBKey = Object.keys(result).find(k => k.toLowerCase().includes(team2.toLowerCase()));
 
     const teamA = result[teamAKey];
     const teamB = result[teamBKey];
 
-    if (!teamA || !teamB) return []; // prevent error on chart render
+    if (!teamA || !teamB) return [];
 
     return Object.keys(teamA).map((stat) => ({
       stat,
@@ -55,6 +51,8 @@ const TeamComparison = () => {
       [teamBKey]: teamB[stat]
     }));
   };
+
+  const chartData = prepareChartData();
 
   return (
     <div className="dashboard-content">
@@ -81,29 +79,29 @@ const TeamComparison = () => {
         </button>
       </form>
 
-  {result && prepareChartData().length > 0 && (
-    <div style={{ marginTop: "2rem" }}>
-      <h3>📊 Comparison Result</h3>
-      <ResponsiveContainer width="100%" height={300}>
-        <BarChart data={prepareChartData()} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
-          <XAxis dataKey="stat" />
-          <YAxis />
-          <Tooltip />
-          <Legend />
-          <Bar dataKey={Object.keys(prepareChartData()[0])[1]} fill="#007bff" />
-          <Bar dataKey={Object.keys(prepareChartData()[0])[2]} fill="#28a745" />
-        </BarChart>
-      </ResponsiveContainer>
-    </div>
-  )}
-
-{result && prepareChartData().length === 0 && (
-  <p style={{ color: 'red', marginTop: '1rem' }}>
-    ⚠️ Could not find stats for one or both teams. Try different selections.
-  </p>
-)}
+      {chartData.length > 0 && (
+        <div style={{ marginTop: "2rem" }}>
+          <h3>📊 Comparison Result</h3>
+          <ResponsiveContainer width="100%" height={300}>
+            <BarChart data={chartData} margin={{ top: 20, right: 30, left: 0, bottom: 5 }}>
+              <XAxis dataKey="stat" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              <Bar dataKey={Object.keys(chartData[0])[1]} fill="#007bff" />
+              <Bar dataKey={Object.keys(chartData[0])[2]} fill="#28a745" />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      )}
 
       {error && <p style={{ color: "red", marginTop: "1rem" }}>{error}</p>}
+
+      {result && chartData.length === 0 && (
+        <p style={{ color: 'red', marginTop: '1rem' }}>
+          ⚠️ Could not find stats for one or both teams. Try different selections.
+        </p>
+      )}
     </div>
   );
 };
