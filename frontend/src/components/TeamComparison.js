@@ -90,7 +90,7 @@ const TeamComparison = () => {
         <select value={team1} onChange={(e) => setTeam1(e.target.value)} required>
           <option value="">-- Select Team 1 --</option>
           {teams.map((team) => (
-            <option key={team} value={team}>{team}</option>
+            <option key={team} value={team}>{TEAM_MAP[team]}</option>
           ))}
         </select>
 
@@ -98,7 +98,7 @@ const TeamComparison = () => {
         <select value={team2} onChange={(e) => setTeam2(e.target.value)} required>
           <option value="">-- Select Team 2 --</option>
           {teams.map((team) => (
-            <option key={team} value={team}>{team}</option>
+            <option key={team} value={team}>{TEAM_MAP[team]}</option>
           ))}
         </select>
 
