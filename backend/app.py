@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from model_utils import predict, get_team_stats
 import joblib
 import pandas as pd
 import os
 
 app = Flask(__name__)
+CORS(app, origins=["https://your-frontend-url.vercel.app"])
 model = joblib.load('model.pkl')
 
 data = pd.read_csv('data/nba_2023_2024_final_data.csv')
