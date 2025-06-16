@@ -65,8 +65,8 @@ const TeamComparison = () => {
   const prepareChartData = () => {
     if (!result) return [];
 
-    const teamAKey = TEAM_MAP[team1];
-    const teamBKey = TEAM_MAP[team2];
+    const teamAKey = team1;
+    const teamBKey = team2;
 
     const teamA = result[teamAKey];
     const teamB = result[teamBKey];
