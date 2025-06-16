@@ -7,15 +7,19 @@ import os
 
 app = Flask(__name__)
 
+ALLOWED_ORIGINS = [
+    "https://the-bench-prophet.vercel.app",
+    "https://the-bench-prophet-nauflqscz-joshuas-projects-517c4114.vercel.app"
+]
+
+# Apply CORS only to /api/* routes with full access
 CORS(app, resources={r"/api/*": {
-    "origins": [
-        "https://the-bench-prophet.vercel.app",
-        "https://the-bench-prophet-g87kjpnb2-joshuas-projects-517c4114.vercel.app"
-    ],
+    "origins": ALLOWED_ORIGINS,
     "supports_credentials": True,
     "methods": ["GET", "POST", "OPTIONS"],
     "allow_headers": ["Content-Type", "Authorization"]
 }})
+
 
 model = joblib.load('model.pkl')
 
