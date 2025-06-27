@@ -12,13 +12,12 @@ class NBADataScraper:
     def __init__(self, base_url="https://www.basketball-reference.com"):
         self.base_url = base_url
         self.team_data = {}  # Cache for team data
-        self.game_results = []  # Store all game results
-        self.team_abbreviations = {}  # Map team names to abbreviations
+        self.game_results = []  # Store game results
+        self.team_abbreviations = {}  # Team names to its abbreviations
         self.load_team_abbreviations()
     
     def load_team_abbreviations(self):
         """Load NBA team abbreviations for URLs"""
-        # Standard mapping of team names to abbreviations used by basketball-reference
         self.team_abbreviations = {
             "Atlanta Hawks": "ATL",
             "Boston Celtics": "BOS",
@@ -53,55 +52,39 @@ class NBADataScraper:
         }
 
     def clean_text(self, text):
-        """Clean text by removing commas, asterisks, and extra whitespace"""
         if not isinstance(text, str):
             return text
         return text.replace(',', '').replace('*', '').strip()
     
     def get_team_abbreviation(self, team_name):
-        """Get the abbreviation for a team name"""
-        # Clean up team name to match our dictionary
         clean_name = team_name.strip()
-        
-        # Direct match
         if clean_name in self.team_abbreviations:
             return self.team_abbreviations[clean_name]
-        
-        # Try to find closest match
         for name, abbr in self.team_abbreviations.items():
             if clean_name in name or name in clean_name:
                 return abbr
-        
-        # Return None if no match found
         print(f"Warning: No abbreviation found for team '{team_name}'")
         return None
 
     def scrape_nba_month(self, url):
-        """Scrape NBA game data for a specific month, excluding specified columns"""
         print(f"Scraping: {url}")
-
         try:
             response = requests.get(url, timeout=10)
-            response.raise_for_status()  # Raise exception for 4XX/5XX responses
+            response.raise_for_status()
         except requests.exceptions.RequestException as e:
             print(f"Error fetching URL: {e}")
             return None
-
         soup = BeautifulSoup(response.content, 'html.parser')
-
         schedule_table = soup.find('table', {'id': 'schedule'})
-
         if not schedule_table:
             tables = soup.find_all('table')
             for table in tables:
                 if table.find('th', string=re.compile("Visitor|Home|Date", re.IGNORECASE)):
                     schedule_table = table
                     break
-
         if not schedule_table:
             print("Could not find schedule table on the page")
             return None
-
         headers = []
         header_row = schedule_table.find('thead')
         if header_row:
@@ -126,9 +109,7 @@ class NBADataScraper:
         for row in all_rows:
             if 'thead' in row.get('class', []):
                 continue
-
             cells = row.find_all(['td', 'th'])
-
             if len(cells) < 3:
                 continue
 
@@ -156,10 +137,9 @@ class NBADataScraper:
             print("No data rows found in the table after filtering")
             return None
 
-        # Create DataFrame with the filtered headers and data
         df = pd.DataFrame(rows, columns=filtered_headers)
 
-        # Re-calculate visitor and home points based on the new header order
+        # Re-calculating visitor and home points based on the new header order that we want
         visitor_pts_idx = None
         home_pts_idx = None
         for i, header in enumerate(filtered_headers):
@@ -183,10 +163,9 @@ class NBADataScraper:
             df['Month'] = month
             df['Season'] = f"{int(year)-1}-{year}"
 
-        # Store the filtered data
         for _, row in df.iterrows():
             game_dict = row.to_dict()
-            # Ensure we have Visitor_PTS and Home_PTS
+            # Ensure Visitor_PTS and Home_PTS exists in the data
             if 'Visitor_PTS' not in game_dict and 'PTS' in game_dict:
                 game_dict['Visitor_PTS'] = self.parse_pts(game_dict['PTS'])
             if 'Home_PTS' not in game_dict and 'PTS.1' in game_dict:
@@ -195,38 +174,32 @@ class NBADataScraper:
 
         return df
 
-    def scrape_full_season(self, season_year, months):
-        """Scrape data for multiple months in a season"""
+    def scrape_full_season(self, season_year, months): # Scraps data for one full season
         all_data = []
-        
         for month in months:
             url = f"{self.base_url}/leagues/NBA_{season_year}_games-{month}.html"
-            month_data = self.scrape_nba_month(url)
-            
+            month_data = self.scrape_nba_month(url)          
             if month_data is not None and not month_data.empty:
                 all_data.append(month_data)
                 print(f"Successfully scraped {month} {season_year} data: {len(month_data)} rows")
             else:
                 print(f"Failed to scrape {month} {season_year} data")
             
-            # Be nice to the server - add a small delay between requests
             time.sleep(1)
         
         if all_data:
-            # Combine all months
             combined_df = pd.concat(all_data, ignore_index=True)
             return combined_df
         else:
             return None
 
     def get_team_season_stats(self, team_abbr, season):
-        """Get season statistics for a specific team"""
         # Check if we already have this team's data cached
         cache_key = f"{team_abbr}_{season}"
         if cache_key in self.team_data:
             return self.team_data[cache_key]
         
-        # Format season as 2023-24 instead of 2023-2024
+        # Changing the season name formatting to 2023-24 instead of 2023-2024
         season_short = season.replace("-20", "-")
         
         url = f"{self.base_url}/teams/{team_abbr}/{season_short}.html"
@@ -241,10 +214,8 @@ class NBADataScraper:
         
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Extract team stats
         team_stats = {}
         
-        # Get team record
         try:
             record_div = soup.find('div', {'data-template': 'Partials/Teams/Summary'})
             if record_div:
@@ -255,7 +226,6 @@ class NBADataScraper:
                     if record_match:
                         team_stats['record'] = record_match.group(1)
             
-            # Get team offensive and defensive ratings
             advanced_div = soup.find('div', {'id': 'all_team_and_opponent'})
             if advanced_div:
                 table = advanced_div.find('table')
@@ -271,24 +241,22 @@ class NBADataScraper:
         except Exception as e:
             print(f"Error parsing team stats: {e}")
         
-        # Cache the result
         self.team_data[cache_key] = team_stats
         
-        # Add a small delay to be nice to the server
+        # Add a small delay to be nice to the server, recommended by peers
         time.sleep(1)
         
         return team_stats
 
     def calculate_recent_performance(self, team_name, date, season, num_games=5):
-        """Calculate recent performance for a team before a specific date"""
         team_abbr = self.get_team_abbreviation(team_name)
         if not team_abbr:
             return {'recent_wins': 0, 'recent_losses': 0, 'win_percentage': 0.0}
         
-        # Convert date to datetime object if it's not already
+        # Converting date to datetime object if it's not already
         if isinstance(date, str):
             try:
-                # Try to parse different date formats
+                # Trying different date formats
                 try:
                     date = datetime.strptime(date, '%a %b %d %Y')
                 except ValueError:
@@ -297,7 +265,6 @@ class NBADataScraper:
                 print(f"Error parsing date: {date}")
                 return {'recent_wins': 0, 'recent_losses': 0, 'win_percentage': 0.0}
         
-        # Find games before this date involving this team
         recent_games = []
         
         for game in self.game_results:
@@ -305,7 +272,6 @@ class NBADataScraper:
             visitor_team = game.get('Visitor/Neutral', '')
             home_team = game.get('Home/Neutral', '')
             
-            # Skip if the game doesn't involve this team
             if team_name not in visitor_team and team_name not in home_team:
                 continue
                 
@@ -316,18 +282,15 @@ class NBADataScraper:
                 except ValueError:
                     game_date = datetime.strptime(game_date_str, '%Y-%m-%d')
                     
-                # Only include games before the specified date
                 if game_date < date:
                     recent_games.append(game)
             except ValueError:
                 continue
         
-        # Sort games by date (most recent first) and take only the most recent N games
         recent_games.sort(key=lambda g: datetime.strptime(g.get('Date', ''), '%a %b %d %Y') 
                          if 'Date' in g and g['Date'] else datetime.now(), reverse=True)
         recent_games = recent_games[:num_games]
         
-        # Count wins and losses
         wins, losses = 0, 0
         
         for game in recent_games:
@@ -347,7 +310,6 @@ class NBADataScraper:
                 else:
                     losses += 1
         
-        # Calculate win percentage
         total_games = wins + losses
         win_percentage = (wins / total_games) * 100 if total_games > 0 else 0
         
@@ -358,7 +320,6 @@ class NBADataScraper:
         }
 
     def calculate_head_to_head(self, team1, team2, season):
-        """Calculate head-to-head record between two teams in a specific season"""
         h2h_games = []
     
         for game in self.game_results:
@@ -366,16 +327,13 @@ class NBADataScraper:
             home_team = game.get('Home/Neutral', '')
             game_season = game.get('Season', '')
         
-            # Only include games from the specified season
             if game_season != season:
                 continue
         
-            # Check if this game is between the two teams
             if ((team1 in visitor_team and team2 in home_team) or 
                 (team2 in visitor_team and team1 in home_team)):
                 h2h_games.append(game)
     
-        # Count wins for each team
         team1_wins = 0
         team2_wins = 0
     
@@ -383,12 +341,10 @@ class NBADataScraper:
             visitor_team = game.get('Visitor/Neutral', '')
             home_team = game.get('Home/Neutral', '')
         
-            # Use the dedicated point columns if available
             if 'Visitor_PTS' in game and 'Home_PTS' in game:
                 visitor_pts = self.parse_pts(game.get('Visitor_PTS', 0))
                 home_pts = self.parse_pts(game.get('Home_PTS', 0))
             else:
-                # Fall back to the original columns
                 visitor_pts = self.parse_pts(game.get('PTS', 0))
                 home_pts = self.parse_pts(game.get('PTS.1', 0))
         
@@ -410,18 +366,14 @@ class NBADataScraper:
         }
         
     def parse_pts(self, pts_value):
-        """Safely parse points value to integer"""
         if pd.isna(pts_value) or pts_value == '':
             return 0
         
-        # Convert to string for consistent processing
         pts_str = str(pts_value).strip()
     
-        # Try direct integer conversion first
         try:
             return int(pts_str)
         except (ValueError, TypeError):
-            # Try to extract numbers only
             try:
                 nums = re.findall(r'\d+', pts_str)
                 if nums:
@@ -432,11 +384,9 @@ class NBADataScraper:
                 return 0
 
     def enhance_game_data(self):
-        """Add advanced statistics to the game data"""
         enhanced_games = []
     
         for game in self.game_results:
-            # Skip if missing crucial data
             if not game.get('Visitor/Neutral') or not game.get('Home/Neutral') or not game.get('Date'):
                 continue
             
@@ -445,11 +395,9 @@ class NBADataScraper:
             date = game.get('Date', '')
             season = game.get('Season', '')
         
-            # Get points, with explicit fallbacks
             visitor_pts = 0
             home_pts = 0
         
-            # Try different possible sources for points in order of preference
             if 'Visitor_PTS' in game and not pd.isna(game['Visitor_PTS']):
                 visitor_pts = self.parse_pts(game['Visitor_PTS'])
             elif 'PTS' in game and not pd.isna(game['PTS']):
@@ -460,7 +408,6 @@ class NBADataScraper:
             elif 'PTS.1' in game and not pd.isna(game['PTS.1']):
                 home_pts = self.parse_pts(game['PTS.1'])
         
-            # If we still don't have points, try to find them in any field
             if visitor_pts == 0 or home_pts == 0:
                 for key, value in game.items():
                     if 'PTS' in key and key not in ['Visitor_PTS', 'Home_PTS', 'PTS', 'PTS.1']:
@@ -472,22 +419,17 @@ class NBADataScraper:
                                 home_pts = pts_value
                                 break
         
-            # Print debug info if points are still zero
             if visitor_pts == 0 or home_pts == 0:
                 print(f"Warning: Zero points detected for game {date}: {visitor_team} vs {home_team}")
                 print(f"Point-related fields in game data: {[k for k in game.keys() if 'PTS' in k or 'pts' in k.lower()]}")
         
-            # Get recent performance data (last 5 games)
             visitor_recent = self.calculate_recent_performance(visitor_team, date, season)
             home_recent = self.calculate_recent_performance(home_team, date, season)
         
-            # Calculate head-to-head record
             h2h = self.calculate_head_to_head(visitor_team, home_team, season)
         
-            # Enhance the game data
             enhanced_game = game.copy()
         
-            # Set the points columns
             enhanced_game['Visitor_PTS'] = visitor_pts
             enhanced_game['Home_PTS'] = home_pts
         
@@ -508,7 +450,6 @@ class NBADataScraper:
         return pd.DataFrame(enhanced_games)
 
     def calculate_days_since_last_match(self, all_game_data):
-        """Calculates 'Days since last match' and adds it to the existing game data."""
         team_last_played = {}
         enhanced_data_with_days = []
         for game in all_game_data:
@@ -551,7 +492,6 @@ class NBADataScraper:
         return enhanced_data_with_days
 
     def calculate_team_record(self, all_game_data):
-        """Calculates the team's record (wins-losses) as of the date of each game."""
         team_records = {}
         enhanced_data_with_records = []
 
@@ -599,43 +539,46 @@ class NBADataScraper:
 
 def main():
         scraper = NBADataScraper()
-        season_year = "2024"
+        seasons = ['2022', '2023', '2024'] # Add the seasons you want
         months = ["october", "november", "december", "january", "february", "march", "april"]
 
-        print(f"Starting to scrape NBA {int(season_year)-1}-{season_year} season data...")
-        basic_data = scraper.scrape_full_season(season_year, months)
+        all_season_data = []
 
-        if basic_data is not None and not basic_data.empty:
-            print("Basic game data scraped successfully.")
-            print("Enhancing data with recent performance and head-to-head records...")
-            enhanced_df = scraper.enhance_game_data()
+        for season in seasons:
+            print(f"Starting to scrape NBA {int(season)-1}-{season} season data...")
+            basic_data = scraper.scrape_full_season(season, months)
 
-            if not enhanced_df.empty:
-                print("Calculating days since last match...")
-                enhanced_data_with_days = scraper.calculate_days_since_last_match(enhanced_df.to_dict('records'))
-                enhanced_df_with_days = pd.DataFrame(enhanced_data_with_days)
+            if basic_data is not None and not basic_data.empty:
+                print("Basic game data scraped successfully.")
+                print("Enhancing data with recent performance and head-to-head records...")
+                enhanced_df = scraper.enhance_game_data()
 
-                # Merge the 'Days Since Last Match' columns into the enhanced DataFrame
-                merged_df = pd.merge(enhanced_df, enhanced_df_with_days[['Date', 'Home/Neutral', 'Visitor/Neutral', 'DSLG (Home)', 'DSLG (Visitor)']],
+                if not enhanced_df.empty:
+                    print("Calculating days since last match...")
+                    enhanced_data_with_days = scraper.calculate_days_since_last_match(enhanced_df.to_dict('records'))
+                    enhanced_df_with_days = pd.DataFrame(enhanced_data_with_days)
+
+                    final_df = pd.merge(enhanced_df, enhanced_df_with_days[['Date', 'Home/Neutral', 'Visitor/Neutral', 'DSLG (Home)', 'DSLG (Visitor)']],
                                      on=['Date', 'Home/Neutral', 'Visitor/Neutral'], how='left')
+                    all_season_data.append(final_df) 
 
-                print("Calculating team records at the time of each game...")
-                final_data_with_records = scraper.calculate_team_record(merged_df.to_dict('records'))
-                final_df_with_records = pd.DataFrame(final_data_with_records)
-
-                os.makedirs("data", exist_ok=True)
-                final_file = f"data/nba_{int(season_year)-1}_{season_year}_final_data.csv"
-                final_df_with_records.to_csv(final_file, index=False)
-                print(f"Saved final data with all attributes to {final_file}")
-
-                print("\nSample of final data:")
-                display_cols = list(final_df_with_records.columns)
-                print(final_df_with_records[display_cols].head())
-
+                else:
+                    print(f"Failed to enhance game data for {int(season)-1}-{season} season.")
             else:
-                print("Failed to enhance game data.")
+                print(f"Failed to scrape basic game data for {int(season)-1}-{season} season.")
+
+        if all_season_data:
+            combined_df = pd.concat(all_season_data, ignore_index=True)
+            os.makedirs("data", exist_ok=True)
+            final_file = "data/nba_2021_2024_final_data.csv"
+            combined_df.to_csv(final_file, index=False)
+            print(f"Saved combined data for all seasons to {final_file}")
+
+            print("\nSample of combined data:")
+            display_cols = list(combined_df.columns)
+            print(combined_df[display_cols].head())
         else:
-            print("Failed to scrape basic game data.")
+            print("No data was scraped for any season")
 
 if __name__ == "__main__":
     main()
