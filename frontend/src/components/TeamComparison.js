@@ -61,7 +61,7 @@ const TeamComparison = () => {
 
     try {
       const response = await axios.get(
-        `https://the-bench-prophet.onrender.com/api/compare-teams`,
+        `https://the-bench-prophet.onrender.com/api/compare`,
         {
           params: {
             team1,
