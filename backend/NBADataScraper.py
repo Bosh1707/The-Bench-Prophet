@@ -536,6 +536,24 @@ class NBADataScraper:
                 team_records.setdefault(home_team, {'wins':0, 'losses':0})['wins'] += 1
 
         return enhanced_data_with_records
+    
+    def enhance_playoff_data(self, playoff_games):
+        """Add playoff-specific fields"""
+        enhanced = []
+        series = defaultdict(list)  # Track series progress
+        
+        for game in playoff_games:
+            # Add playoff round info (extracted from NBA website HTML)
+            game['Playoff_Round'] = self._extract_round_info(game)
+            
+            # Track series wins (first to 4 wins)
+            series_key = tuple(sorted([game['Home/Neutral'], game['Visitor/Neutral']]))
+            series[series_key].append(game)
+            game['Series_Game'] = len(series[series_key])
+            
+            enhanced.append(game)
+        
+        return pd.DataFrame(enhanced)
 
 def main():
         scraper = NBADataScraper()

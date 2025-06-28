@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "antd": "^5.26.2",
+    "axios": "^1.10.0",
+    "recharts": "^3.0.2"
+  }
+}

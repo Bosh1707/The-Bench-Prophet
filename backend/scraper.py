@@ -1,71 +1,55 @@
-# # scraper.py
-# from NBADataScraper import NBADataScraper
-# import os
-# import pandas as pd
-
-# def run_scraper(season_year="2024"):
-#     scraper = NBADataScraper()
-#     months = ["october", "november", "december", "january", "february", "march", "april"]
-#     basic_data = scraper.scrape_full_season(season_year, months)
-
-#     if basic_data is not None and not basic_data.empty:
-#         enhanced_df = scraper.enhance_game_data()
-#         enhanced_data_with_days = scraper.calculate_days_since_last_match(enhanced_df.to_dict('records'))
-#         enhanced_df_with_days = pd.DataFrame(enhanced_data_with_days)
-
-#         merged_df = pd.merge(
-#             enhanced_df,
-#             enhanced_df_with_days[['Date', 'Home/Neutral', 'Visitor/Neutral', 'DSLG (Home)', 'DSLG (Visitor)']],
-#             on=['Date', 'Home/Neutral', 'Visitor/Neutral'],
-#             how='left'
-#         )
-
-#         final_data_with_records = scraper.calculate_team_record(merged_df.to_dict('records'))
-#         final_df_with_records = pd.DataFrame(final_data_with_records)
-
-#         os.makedirs("data", exist_ok=True)
-#         final_file = f"data/nba_{int(season_year)-1}_{season_year}_final_data.csv"
-#         final_df_with_records.to_csv(final_file, index=False)
-#         return final_file
-#     else:
-#         return None
 import os
 import pandas as pd
-from NBADataScraper import NBADataScraper # Ensure this import path is correct
+from NBADataScraper import NBADataScraper
 
-def run_scraper(season_year="2024"):
-    print("🚀 Starting NBA data scraping process...")
-    scraper = NBADataScraper()
-    months = ["october", "november", "december", "january", "february", "march", "april"]
-
-    print(f"🔍 Scraping full season data for {int(season_year)-1}-{season_year}...")
-    basic_data_df_check = scraper.scrape_full_season(season_year, months)
-
-    if basic_data_df_check is not None and not basic_data_df_check.empty and scraper.game_results:
-        print("📊 Enhancing game data with recent performance and head-to-head statistics...")
-        enhanced_df = scraper.enhance_game_data()
-
-        if not enhanced_df.empty:
-            print("📈 Calculating Days Since Last Game (DSLG)...")
-            data_with_dslg_records = scraper.calculate_days_since_last_match(enhanced_df.to_dict('records'))
-            df_with_dslg = pd.DataFrame(data_with_dslg_records)
-
-            print("📋 Calculating final team records (Wins/Losses before each game)...")
-            final_data_with_records_list = scraper.calculate_team_record(df_with_dslg.to_dict('records'))
-            final_df_with_records = pd.DataFrame(final_data_with_records_list)
-
-            os.makedirs("data", exist_ok=True)
-            final_file = f"data/nba_{int(season_year)-1}_{season_year}_final_data.csv"
+def run_scraper(start_year=2021, end_year=2025):
+    """
+    Scrapes NBA data for each season separately and saves to individual CSV files.
+    """
+    print(f"🚀 Starting NBA data scraping from {start_year-1}-{start_year} to {end_year-1}-{end_year}...")
+    
+    for season_year in range(start_year, end_year + 1):
+        year_str = str(season_year)
+        print(f"\n=== Processing {int(year_str)-1}-{year_str} season ===")
+        
+        # Create a new scraper instance for each season
+        scraper = NBADataScraper()
+        months = ["october", "november", "december", "january", "february", "march", "april"]
+        
+        try:
+            # Scrape only the current season
+            print(f"🔍 Scraping {int(year_str)-1}-{year_str} season data...")
+            basic_data = scraper.scrape_full_season(year_str, months)
             
-            final_df_with_records.to_csv(final_file, index=False)
-            print(f"✅ Data scraping and enhancement complete! Data saved to: {final_file}")
-            return final_file
-        else:
-            print("⚠️ No enhanced data was generated. This might indicate an issue within NBADataScraper.enhance_game_data().")
-            return None
-    else:
-        print("❌ Failed to scrape basic game data. Please check the website layout or your internet connection.")
-        return None
+            if basic_data is None or basic_data.empty:
+                print(f"❌ No data found for {int(year_str)-1}-{year_str}")
+                continue
+
+            # Enhance data for this season only
+            print("📊 Enhancing game data...")
+            enhanced_df = scraper.enhance_game_data()
+            
+            if enhanced_df.empty:
+                print(f"⚠️ Enhancement failed for {int(year_str)-1}-{year_str}")
+                continue
+
+            # Calculate DSLG and records for this season
+            print("📈 Calculating advanced metrics...")
+            data_with_dslg = scraper.calculate_days_since_last_match(enhanced_df.to_dict('records'))
+            final_data = scraper.calculate_team_record(data_with_dslg)
+            final_df = pd.DataFrame(final_data)
+
+            # Save to season-specific CSV
+            os.makedirs("data", exist_ok=True)
+            output_file = f"data/nba_{int(year_str)-1}_{year_str}.csv"
+            final_df.to_csv(output_file, index=False)
+            print(f"✅ Successfully saved {output_file}")
+
+        except Exception as e:
+            print(f"🔥 Error processing {int(year_str)-1}-{year_str}: {str(e)}")
+            continue
+
+    print("\n🎉 All seasons processed!")
 
 if __name__ == "__main__":
-    run_scraper(season_year="2024")
+    run_scraper(start_year=2021, end_year=2025)

@@ -1,0 +1,1276 @@
+Date,Visitor/Neutral,PTS,Home/Neutral,,Visitor_PTS,Home_PTS,Month,Season,Recent Wins (Home),Recent Losses (Home),Recent Win % (Home),Recent Wins (Visitor),Recent Losses (Visitor),Recent Win % (Visitor),Matchup Wins (Home),Matchup Wins (Visitor),Total Matchups,DSLG (Visitor),DSLG (Home),Wins (Home),Losses (Home),Wins (Visitor),Losses (Visitor)
+Tue Oct 22 2024,New York Knicks,132,Boston Celtics,,109,132,october,2024-2025,2,3,40.0,2,3,40.0,4,0,4,175.0,176.0,217,107,176,144
+Tue Oct 22 2024,Minnesota Timberwolves,110,Los Angeles Lakers,,103,110,october,2024-2025,3,2,60.0,2,3,40.0,3,6,9,177.0,176.0,167,156,173,155
+Wed Oct 23 2024,Indiana Pacers,109,Detroit Pistons,,115,109,october,2024-2025,4,1,80.0,3,2,60.0,1,3,4,176.0,192.0,73,236,139,175
+Wed Oct 23 2024,Brooklyn Nets,120,Atlanta Hawks,,116,120,october,2024-2025,3,2,60.0,2,3,40.0,2,1,3,192.0,189.0,160,165,165,154
+Wed Oct 23 2024,Orlando Magic,97,Miami Heat,,116,97,october,2024-2025,2,3,40.0,3,2,60.0,2,2,4,176.0,177.0,188,140,124,190
+Wed Oct 23 2024,Milwaukee Bucks,109,Philadelphia 76ers,,124,109,october,2024-2025,3,2,60.0,2,3,40.0,0,4,4,176.0,176.0,205,120,204,120
+Wed Oct 23 2024,Cleveland Cavaliers,106,Toronto Raptors,,136,106,october,2024-2025,3,2,60.0,2,3,40.0,0,4,4,176.0,192.0,142,174,168,153
+Wed Oct 23 2024,Charlotte Hornets,105,Houston Rockets,,110,105,october,2024-2025,4,1,80.0,3,2,60.0,1,1,2,192.0,192.0,99,210,121,188
+Wed Oct 23 2024,Chicago Bulls,123,New Orleans Pelicans,,111,123,october,2024-2025,2,3,40.0,4,1,80.0,2,0,2,187.0,177.0,160,164,154,164
+Wed Oct 23 2024,Memphis Grizzlies,124,Utah Jazz,,126,124,october,2024-2025,3,2,60.0,1,4,20.0,0,4,4,192.0,192.0,164,151,172,148
+Wed Oct 23 2024,Phoenix Suns,113,Los Angeles Clippers,OT,116,113,october,2024-2025,2,3,40.0,3,2,60.0,0,4,4,178.0,178.0,183,138,211,114
+Wed Oct 23 2024,Golden State Warriors,104,Portland Trail Blazers,,140,104,october,2024-2025,2,3,40.0,3,2,60.0,0,3,3,190.0,192.0,116,193,182,140
+Thu Oct 24 2024,Boston Celtics,102,Washington Wizards,,122,102,october,2024-2025,3,2,60.0,2,3,40.0,0,4,4,2.0,193.0,114,195,218,107
+Thu Oct 24 2024,San Antonio Spurs,120,Dallas Mavericks,,109,120,october,2024-2025,3,2,60.0,2,3,40.0,3,1,4,193.0,179.0,181,137,109,200
+Thu Oct 24 2024,Minnesota Timberwolves,115,Sacramento Kings,,117,115,october,2024-2025,1,4,20.0,3,2,60.0,2,2,4,2.0,188.0,154,164,173,156
+Thu Oct 24 2024,Oklahoma City Thunder,87,Denver Nuggets,,102,87,october,2024-2025,2,3,40.0,2,3,40.0,2,2,4,178.0,178.0,210,115,147,168
+Fri Oct 25 2024,Brooklyn Nets,116,Orlando Magic,,101,116,october,2024-2025,3,2,60.0,3,2,60.0,4,0,4,2.0,2.0,125,190,165,155
+Fri Oct 25 2024,Philadelphia 76ers,115,Toronto Raptors,,107,115,october,2024-2025,3,2,60.0,2,3,40.0,4,0,4,2.0,2.0,142,175,205,121
+Fri Oct 25 2024,Charlotte Hornets,125,Atlanta Hawks,,120,125,october,2024-2025,3,2,60.0,4,1,80.0,4,0,4,2.0,2.0,161,165,122,188
+Fri Oct 25 2024,Detroit Pistons,113,Cleveland Cavaliers,,101,113,october,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,169,153,73,237
+Fri Oct 25 2024,Indiana Pacers,123,New York Knicks,,98,123,october,2024-2025,3,2,60.0,3,2,60.0,2,1,3,2.0,3.0,176,145,140,175
+Fri Oct 25 2024,Memphis Grizzlies,128,Houston Rockets,,108,128,october,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,99,211,173,148
+Fri Oct 25 2024,Chicago Bulls,122,Milwaukee Bucks,,133,122,october,2024-2025,3,2,60.0,4,1,80.0,2,2,4,2.0,2.0,205,120,154,165
+Fri Oct 25 2024,Golden State Warriors,86,Utah Jazz,,127,86,october,2024-2025,2,3,40.0,3,2,60.0,1,2,3,2.0,2.0,164,152,183,140
+Fri Oct 25 2024,Phoenix Suns,123,Los Angeles Lakers,,116,123,october,2024-2025,2,3,40.0,3,2,60.0,2,2,4,2.0,3.0,168,156,212,114
+Fri Oct 25 2024,New Orleans Pelicans,103,Portland Trail Blazers,,105,103,october,2024-2025,1,4,20.0,2,3,40.0,3,1,4,2.0,2.0,116,194,161,164
+Sat Oct 26 2024,Los Angeles Clippers,104,Denver Nuggets,,109,104,october,2024-2025,2,3,40.0,2,3,40.0,5,4,9,3.0,2.0,210,116,183,139
+Sat Oct 26 2024,Cleveland Cavaliers,116,Washington Wizards,,135,116,october,2024-2025,3,2,60.0,3,2,60.0,0,4,4,1.0,2.0,114,196,170,153
+Sat Oct 26 2024,Boston Celtics,118,Detroit Pistons,,124,118,october,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,1.0,73,238,219,107
+Sat Oct 26 2024,Miami Heat,106,Charlotte Hornets,,114,106,october,2024-2025,5,0,100.0,2,3,40.0,1,3,4,3.0,1.0,122,189,188,141
+Sat Oct 26 2024,Orlando Magic,124,Memphis Grizzlies,,111,124,october,2024-2025,3,2,60.0,2,3,40.0,2,0,2,1.0,1.0,173,149,126,190
+Sat Oct 26 2024,Toronto Raptors,112,Minnesota Timberwolves,,101,112,october,2024-2025,4,1,80.0,3,2,60.0,1,1,2,1.0,2.0,174,156,143,175
+Sat Oct 26 2024,Oklahoma City Thunder,95,Chicago Bulls,,114,95,october,2024-2025,4,1,80.0,3,2,60.0,0,2,2,2.0,1.0,155,165,148,168
+Sat Oct 26 2024,Houston Rockets,109,San Antonio Spurs,,106,109,october,2024-2025,3,2,60.0,3,2,60.0,1,3,4,1.0,2.0,109,201,100,211
+Sat Oct 26 2024,Dallas Mavericks,114,Phoenix Suns,,102,114,october,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,1.0,212,115,182,137
+Sat Oct 26 2024,Sacramento Kings,131,Los Angeles Lakers,,127,131,october,2024-2025,1,4,20.0,1,4,20.0,4,0,4,2.0,1.0,169,156,154,165
+Sun Oct 27 2024,Philadelphia 76ers,114,Indiana Pacers,OT,118,114,october,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,140,176,205,122
+Sun Oct 27 2024,New Orleans Pelicans,125,Portland Trail Blazers,,103,125,october,2024-2025,1,4,20.0,2,3,40.0,3,1,4,2.0,2.0,116,195,162,164
+Sun Oct 27 2024,Milwaukee Bucks,115,Brooklyn Nets,,102,115,october,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,165,156,205,121
+Sun Oct 27 2024,Atlanta Hawks,128,Oklahoma City Thunder,,104,128,october,2024-2025,4,1,80.0,3,2,60.0,2,0,2,2.0,1.0,149,168,162,165
+Sun Oct 27 2024,Los Angeles Clippers,104,Golden State Warriors,,112,104,october,2024-2025,3,2,60.0,3,2,60.0,0,4,4,1.0,2.0,184,140,184,139
+Mon Oct 28 2024,Indiana Pacers,119,Orlando Magic,,115,119,october,2024-2025,3,2,60.0,3,2,60.0,3,1,4,1.0,2.0,126,191,140,177
+Mon Oct 28 2024,Washington Wizards,119,Atlanta Hawks,,121,119,october,2024-2025,3,2,60.0,2,3,40.0,2,2,4,2.0,1.0,162,166,114,197
+Mon Oct 28 2024,Milwaukee Bucks,119,Boston Celtics,,108,119,october,2024-2025,4,1,80.0,3,2,60.0,3,0,3,1.0,2.0,220,107,205,122
+Mon Oct 28 2024,Denver Nuggets,125,Toronto Raptors,OT,127,125,october,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,2.0,143,176,210,117
+Mon Oct 28 2024,Detroit Pistons,106,Miami Heat,,98,106,october,2024-2025,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,189,141,73,239
+Mon Oct 28 2024,Cleveland Cavaliers,104,New York Knicks,,110,104,october,2024-2025,3,2,60.0,3,2,60.0,0,4,4,2.0,3.0,177,145,171,153
+Mon Oct 28 2024,Houston Rockets,101,San Antonio Spurs,,106,101,october,2024-2025,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,110,201,100,212
+Mon Oct 28 2024,Chicago Bulls,123,Memphis Grizzlies,,126,123,october,2024-2025,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,174,149,155,166
+Mon Oct 28 2024,Utah Jazz,110,Dallas Mavericks,,102,110,october,2024-2025,2,3,40.0,2,3,40.0,2,1,3,3.0,2.0,182,138,164,153
+Mon Oct 28 2024,Portland Trail Blazers,111,Sacramento Kings,,98,111,october,2024-2025,2,3,40.0,1,4,20.0,2,2,4,1.0,2.0,154,166,117,195
+Mon Oct 28 2024,Los Angeles Lakers,109,Phoenix Suns,,105,109,october,2024-2025,2,3,40.0,1,4,20.0,2,2,4,2.0,2.0,213,115,170,156
+Tue Oct 29 2024,Denver Nuggets,139,Brooklyn Nets,OT,144,139,october,2024-2025,4,1,80.0,2,3,40.0,0,2,2,1.0,2.0,166,156,211,117
+Tue Oct 29 2024,Dallas Mavericks,114,Minnesota Timberwolves,,120,114,october,2024-2025,4,1,80.0,1,4,20.0,2,1,3,1.0,3.0,175,156,183,138
+Tue Oct 29 2024,Sacramento Kings,96,Utah Jazz,,113,96,october,2024-2025,3,2,60.0,2,3,40.0,0,4,4,1.0,1.0,164,154,155,166
+Tue Oct 29 2024,New Orleans Pelicans,124,Golden State Warriors,,106,124,october,2024-2025,3,2,60.0,2,3,40.0,4,0,4,2.0,2.0,184,141,162,165
+Wed Oct 30 2024,Detroit Pistons,95,Philadelphia 76ers,,105,95,october,2024-2025,3,2,60.0,3,2,60.0,1,2,3,2.0,3.0,206,122,73,240
+Wed Oct 30 2024,Atlanta Hawks,133,Washington Wizards,,120,133,october,2024-2025,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,115,197,162,167
+Wed Oct 30 2024,Boston Celtics,135,Indiana Pacers,OT,132,135,october,2024-2025,4,1,80.0,3,2,60.0,2,1,3,2.0,2.0,140,178,221,107
+Wed Oct 30 2024,Los Angeles Lakers,134,Cleveland Cavaliers,,110,134,october,2024-2025,3,2,60.0,2,3,40.0,2,0,2,2.0,2.0,172,153,170,157
+Wed Oct 30 2024,Toronto Raptors,138,Charlotte Hornets,,133,138,october,2024-2025,4,1,80.0,2,3,40.0,1,2,3,2.0,4.0,122,190,143,177
+Wed Oct 30 2024,New York Knicks,107,Miami Heat,,116,107,october,2024-2025,1,4,20.0,2,3,40.0,0,3,3,2.0,2.0,190,141,177,146
+Wed Oct 30 2024,Orlando Magic,102,Chicago Bulls,,99,102,october,2024-2025,4,1,80.0,3,2,60.0,2,1,3,2.0,2.0,156,166,127,191
+Wed Oct 30 2024,Brooklyn Nets,106,Memphis Grizzlies,,119,106,october,2024-2025,2,3,40.0,3,2,60.0,1,2,3,1.0,2.0,174,150,166,157
+Wed Oct 30 2024,San Antonio Spurs,105,Oklahoma City Thunder,,93,105,october,2024-2025,4,1,80.0,1,4,20.0,2,1,3,2.0,3.0,150,168,110,202
+Wed Oct 30 2024,New Orleans Pelicans,104,Golden State Warriors,,89,104,october,2024-2025,3,2,60.0,3,2,60.0,4,0,4,1.0,1.0,185,141,162,166
+Wed Oct 30 2024,Portland Trail Blazers,105,Los Angeles Clippers,,106,105,october,2024-2025,4,1,80.0,2,3,40.0,2,1,3,2.0,3.0,185,139,117,196
+Thu Oct 31 2024,Milwaukee Bucks,122,Memphis Grizzlies,,99,122,october,2024-2025,2,3,40.0,3,2,60.0,2,0,2,3.0,1.0,174,151,205,123
+Thu Oct 31 2024,Houston Rockets,102,Dallas Mavericks,,108,102,october,2024-2025,2,3,40.0,3,2,60.0,1,3,4,3.0,2.0,184,138,101,212
+Thu Oct 31 2024,San Antonio Spurs,88,Utah Jazz,,106,88,october,2024-2025,2,3,40.0,2,3,40.0,1,3,4,1.0,2.0,164,155,110,203
+Thu Oct 31 2024,Phoenix Suns,119,Los Angeles Clippers,,125,119,october,2024-2025,3,2,60.0,2,3,40.0,0,4,4,3.0,1.0,185,140,214,115
+Fri Nov 1 2024,Boston Celtics,109,Charlotte Hornets,,124,109,november,2024-2025,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,123,190,221,108
+Fri Nov 1 2024,Orlando Magic,120,Cleveland Cavaliers,,109,120,november,2024-2025,3,2,60.0,3,2,60.0,2,1,3,2.0,2.0,173,153,127,192
+Fri Nov 1 2024,New York Knicks,98,Detroit Pistons,,128,98,november,2024-2025,3,2,60.0,2,3,40.0,5,4,9,2.0,2.0,74,240,178,146
+Fri Nov 1 2024,Sacramento Kings,115,Atlanta Hawks,,123,115,november,2024-2025,2,3,40.0,3,2,60.0,1,1,2,3.0,2.0,162,168,156,166
+Fri Nov 1 2024,Chicago Bulls,120,Brooklyn Nets,,112,120,november,2024-2025,3,2,60.0,3,2,60.0,1,2,3,2.0,2.0,167,157,157,166
+Fri Nov 1 2024,Los Angeles Lakers,125,Toronto Raptors,,131,125,november,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,143,178,170,158
+Fri Nov 1 2024,Indiana Pacers,125,New Orleans Pelicans,,118,125,november,2024-2025,4,1,80.0,3,2,60.0,1,2,3,2.0,2.0,162,167,141,178
+Fri Nov 1 2024,Denver Nuggets,119,Minnesota Timberwolves,,116,119,november,2024-2025,3,2,60.0,2,3,40.0,4,0,4,3.0,3.0,175,157,212,117
+Fri Nov 1 2024,Oklahoma City Thunder,114,Portland Trail Blazers,,137,114,november,2024-2025,2,3,40.0,3,2,60.0,0,4,4,2.0,2.0,118,196,151,168
+Sat Nov 2 2024,Boston Celtics,103,Charlotte Hornets,,113,103,november,2024-2025,2,3,40.0,4,1,80.0,0,4,4,1.0,1.0,123,191,222,108
+Sat Nov 2 2024,Memphis Grizzlies,107,Philadelphia 76ers,,124,107,november,2024-2025,3,2,60.0,1,4,20.0,0,2,2,2.0,3.0,206,123,175,151
+Sat Nov 2 2024,Sacramento Kings,131,Toronto Raptors,OT,128,131,november,2024-2025,2,3,40.0,3,2,60.0,1,1,2,1.0,1.0,143,179,157,166
+Sat Nov 2 2024,Golden State Warriors,121,Houston Rockets,OT,127,121,november,2024-2025,3,2,60.0,2,3,40.0,4,6,10,3.0,2.0,102,212,186,141
+Sat Nov 2 2024,Cleveland Cavaliers,113,Milwaukee Bucks,,114,113,november,2024-2025,4,1,80.0,2,3,40.0,0,4,4,1.0,2.0,205,124,174,153
+Sat Nov 2 2024,Minnesota Timberwolves,113,San Antonio Spurs,,103,113,november,2024-2025,3,2,60.0,2,3,40.0,1,3,4,1.0,2.0,111,203,176,157
+Sat Nov 2 2024,Miami Heat,98,Washington Wizards,,118,98,november,2024-2025,2,3,40.0,1,4,20.0,1,3,4,3.0,3.0,116,197,190,142
+Sat Nov 2 2024,Utah Jazz,129,Denver Nuggets,,103,129,november,2024-2025,3,2,60.0,1,4,20.0,4,0,4,2.0,1.0,212,118,164,156
+Sat Nov 2 2024,Portland Trail Blazers,103,Phoenix Suns,,97,103,november,2024-2025,3,2,60.0,2,3,40.0,2,2,4,1.0,2.0,215,115,118,197
+Sat Nov 2 2024,Oklahoma City Thunder,92,Los Angeles Clippers,,105,92,november,2024-2025,2,3,40.0,3,2,60.0,0,4,4,1.0,2.0,185,141,152,168
+Sun Nov 3 2024,Detroit Pistons,92,Brooklyn Nets,,106,92,november,2024-2025,2,3,40.0,3,2,60.0,0,3,3,2.0,2.0,168,157,74,241
+Sun Nov 3 2024,Atlanta Hawks,111,New Orleans Pelicans,,126,111,november,2024-2025,4,1,80.0,2,3,40.0,0,2,2,2.0,2.0,163,167,162,169
+Sun Nov 3 2024,Orlando Magic,108,Dallas Mavericks,,85,108,november,2024-2025,2,3,40.0,3,2,60.0,2,0,2,2.0,3.0,184,139,127,193
+Mon Nov 4 2024,Milwaukee Bucks,116,Cleveland Cavaliers,,114,116,november,2024-2025,3,2,60.0,3,2,60.0,4,0,4,2.0,2.0,175,153,205,125
+Mon Nov 4 2024,Golden State Warriors,112,Washington Wizards,,125,112,november,2024-2025,1,4,20.0,2,3,40.0,0,2,2,2.0,2.0,116,198,187,141
+Mon Nov 4 2024,Los Angeles Lakers,115,Detroit Pistons,,103,115,november,2024-2025,3,2,60.0,3,2,60.0,2,0,2,3.0,1.0,75,241,171,158
+Mon Nov 4 2024,Boston Celtics,93,Atlanta Hawks,,123,93,november,2024-2025,3,2,60.0,4,1,80.0,2,1,3,2.0,1.0,163,169,223,108
+Mon Nov 4 2024,Memphis Grizzlies,106,Brooklyn Nets,,104,106,november,2024-2025,1,4,20.0,1,4,20.0,2,1,3,2.0,1.0,168,158,176,151
+Mon Nov 4 2024,Sacramento Kings,110,Miami Heat,,111,110,november,2024-2025,2,3,40.0,4,1,80.0,0,2,2,2.0,2.0,191,142,157,167
+Mon Nov 4 2024,Utah Jazz,126,Chicago Bulls,,135,126,november,2024-2025,3,2,60.0,2,3,40.0,1,1,2,2.0,3.0,157,167,164,157
+Mon Nov 4 2024,New York Knicks,109,Houston Rockets,,97,109,november,2024-2025,3,2,60.0,3,2,60.0,1,1,2,3.0,2.0,102,213,179,146
+Mon Nov 4 2024,Charlotte Hornets,114,Minnesota Timberwolves,,93,114,november,2024-2025,2,3,40.0,1,4,20.0,2,0,2,2.0,2.0,176,158,123,192
+Mon Nov 4 2024,Orlando Magic,102,Oklahoma City Thunder,,86,102,november,2024-2025,3,2,60.0,4,1,80.0,2,0,2,1.0,2.0,153,168,127,194
+Mon Nov 4 2024,Portland Trail Blazers,100,New Orleans Pelicans,,118,100,november,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,1.0,163,168,118,198
+Mon Nov 4 2024,Indiana Pacers,127,Dallas Mavericks,,134,127,november,2024-2025,2,3,40.0,3,2,60.0,0,2,2,3.0,1.0,185,139,141,179
+Mon Nov 4 2024,Toronto Raptors,121,Denver Nuggets,,119,121,november,2024-2025,3,2,60.0,2,3,40.0,2,0,2,2.0,2.0,213,118,144,179
+Mon Nov 4 2024,Philadelphia 76ers,118,Phoenix Suns,,116,118,november,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,216,115,206,124
+Mon Nov 4 2024,San Antonio Spurs,113,Los Angeles Clippers,,104,113,november,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,185,142,112,203
+Wed Nov 6 2024,Detroit Pistons,108,Charlotte Hornets,,107,108,november,2024-2025,1,4,20.0,3,2,60.0,2,2,4,2.0,2.0,123,193,76,241
+Wed Nov 6 2024,Orlando Magic,118,Indiana Pacers,,111,118,november,2024-2025,3,2,60.0,4,1,80.0,1,3,4,2.0,2.0,142,179,127,195
+Wed Nov 6 2024,New York Knicks,121,Atlanta Hawks,,116,121,november,2024-2025,2,3,40.0,3,2,60.0,2,3,5,2.0,2.0,163,170,179,147
+Wed Nov 6 2024,Golden State Warriors,112,Boston Celtics,,118,112,november,2024-2025,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,224,108,188,141
+Wed Nov 6 2024,San Antonio Spurs,127,Houston Rockets,,100,127,november,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,103,213,112,204
+Wed Nov 6 2024,Los Angeles Lakers,131,Memphis Grizzlies,,114,131,november,2024-2025,2,3,40.0,4,1,80.0,1,3,4,2.0,2.0,176,152,171,159
+Wed Nov 6 2024,Cleveland Cavaliers,122,New Orleans Pelicans,,131,122,november,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,163,169,176,153
+Wed Nov 6 2024,Chicago Bulls,119,Dallas Mavericks,,99,119,november,2024-2025,1,4,20.0,2,3,40.0,2,0,2,2.0,2.0,185,140,157,168
+Wed Nov 6 2024,Oklahoma City Thunder,124,Denver Nuggets,,122,124,november,2024-2025,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,214,118,154,168
+Wed Nov 6 2024,Miami Heat,115,Phoenix Suns,,112,115,november,2024-2025,1,4,20.0,2,3,40.0,1,1,2,2.0,2.0,217,115,191,143
+Wed Nov 6 2024,Philadelphia 76ers,110,Los Angeles Clippers,,98,110,november,2024-2025,1,4,20.0,3,2,60.0,2,0,2,2.0,2.0,186,142,206,125
+Wed Nov 6 2024,Toronto Raptors,122,Sacramento Kings,,107,122,november,2024-2025,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,158,167,144,180
+Thu Nov 7 2024,Minnesota Timberwolves,119,Chicago Bulls,,135,119,november,2024-2025,3,2,60.0,1,4,20.0,0,2,2,3.0,1.0,157,169,177,158
+Thu Nov 7 2024,Utah Jazz,123,Milwaukee Bucks,,100,123,november,2024-2025,4,1,80.0,3,2,60.0,2,0,2,3.0,3.0,205,126,165,157
+Thu Nov 7 2024,Portland Trail Blazers,118,San Antonio Spurs,,105,118,november,2024-2025,4,1,80.0,4,1,80.0,3,1,4,3.0,1.0,112,205,119,198
+Fri Nov 8 2024,Indiana Pacers,103,Charlotte Hornets,,83,103,november,2024-2025,1,4,20.0,3,2,60.0,2,1,3,2.0,2.0,124,193,143,179
+Fri Nov 8 2024,Atlanta Hawks,122,Detroit Pistons,,121,122,november,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,76,242,164,170
+Fri Nov 8 2024,New Orleans Pelicans,115,Orlando Magic,,88,115,november,2024-2025,5,0,100.0,1,4,20.0,2,0,2,2.0,2.0,127,196,163,170
+Fri Nov 8 2024,Brooklyn Nets,108,Boston Celtics,OT,104,108,november,2024-2025,4,1,80.0,1,4,20.0,4,0,4,4.0,2.0,224,109,169,158
+Fri Nov 8 2024,Golden State Warriors,136,Cleveland Cavaliers,,117,136,november,2024-2025,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,177,153,189,141
+Fri Nov 8 2024,Phoenix Suns,113,Dallas Mavericks,,114,113,november,2024-2025,1,4,20.0,1,4,20.0,1,3,4,2.0,2.0,186,140,218,115
+Fri Nov 8 2024,Milwaukee Bucks,116,New York Knicks,,94,116,november,2024-2025,4,1,80.0,3,2,60.0,3,0,3,1.0,2.0,179,148,206,126
+Fri Nov 8 2024,Washington Wizards,128,Memphis Grizzlies,,104,128,november,2024-2025,2,3,40.0,1,4,20.0,2,0,2,4.0,2.0,177,152,116,199
+Fri Nov 8 2024,Houston Rockets,126,Oklahoma City Thunder,,107,126,november,2024-2025,3,2,60.0,2,3,40.0,3,2,5,2.0,2.0,154,169,104,213
+Fri Nov 8 2024,Miami Heat,135,Denver Nuggets,,122,135,november,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,215,118,191,144
+Fri Nov 8 2024,Portland Trail Blazers,127,Minnesota Timberwolves,,102,127,november,2024-2025,2,3,40.0,4,1,80.0,2,2,4,1.0,1.0,178,158,119,199
+Fri Nov 8 2024,Philadelphia 76ers,116,Los Angeles Lakers,,106,116,november,2024-2025,5,0,100.0,3,2,60.0,1,1,2,2.0,2.0,171,160,206,126
+Fri Nov 8 2024,Los Angeles Clippers,98,Sacramento Kings,,107,98,november,2024-2025,4,1,80.0,0,5,0.0,0,4,4,2.0,2.0,159,167,187,142
+Sat Nov 9 2024,Utah Jazz,110,San Antonio Spurs,,111,110,november,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,113,205,165,158
+Sat Nov 9 2024,Chicago Bulls,113,Atlanta Hawks,,125,113,november,2024-2025,2,3,40.0,2,3,40.0,2,2,4,2.0,1.0,164,171,157,170
+Sat Nov 9 2024,Brooklyn Nets,105,Cleveland Cavaliers,,100,105,november,2024-2025,2,3,40.0,2,3,40.0,4,0,4,1.0,1.0,178,153,169,159
+Sat Nov 9 2024,Toronto Raptors,105,Los Angeles Clippers,,103,105,november,2024-2025,1,4,20.0,3,2,60.0,1,1,2,3.0,1.0,188,142,144,181
+Sun Nov 10 2024,Houston Rockets,99,Detroit Pistons,,101,99,november,2024-2025,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,77,242,104,214
+Sun Nov 10 2024,Boston Celtics,107,Milwaukee Bucks,,113,107,november,2024-2025,3,2,60.0,3,2,60.0,0,3,3,2.0,2.0,206,127,225,109
+Sun Nov 10 2024,New York Knicks,132,Indiana Pacers,,121,132,november,2024-2025,3,2,60.0,4,1,80.0,1,2,3,2.0,2.0,143,180,180,148
+Sun Nov 10 2024,Washington Wizards,121,Orlando Magic,,94,121,november,2024-2025,4,1,80.0,2,3,40.0,4,0,4,2.0,2.0,128,196,116,200
+Sun Nov 10 2024,Miami Heat,94,Minnesota Timberwolves,,95,94,november,2024-2025,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,179,158,191,145
+Sun Nov 10 2024,Golden State Warriors,116,Oklahoma City Thunder,,127,116,november,2024-2025,3,2,60.0,4,1,80.0,1,2,3,2.0,2.0,155,169,189,142
+Sun Nov 10 2024,Charlotte Hornets,107,Philadelphia 76ers,OT,105,107,november,2024-2025,3,2,60.0,1,4,20.0,4,0,4,2.0,2.0,206,127,125,193
+Sun Nov 10 2024,Dallas Mavericks,122,Denver Nuggets,,120,122,november,2024-2025,1,4,20.0,0,5,0.0,3,1,4,2.0,2.0,216,118,186,141
+Sun Nov 10 2024,Sacramento Kings,118,Phoenix Suns,OT,127,118,november,2024-2025,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,219,115,159,168
+Sun Nov 10 2024,Memphis Grizzlies,89,Portland Trail Blazers,,134,89,november,2024-2025,4,1,80.0,2,3,40.0,1,2,3,2.0,2.0,119,200,178,152
+Sun Nov 10 2024,Toronto Raptors,123,Los Angeles Lakers,,103,123,november,2024-2025,4,1,80.0,3,2,60.0,2,0,2,1.0,2.0,172,160,144,182
+Mon Nov 11 2024,Cleveland Cavaliers,113,Chicago Bulls,,119,113,november,2024-2025,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,158,170,179,153
+Mon Nov 11 2024,Washington Wizards,107,Houston Rockets,,92,107,november,2024-2025,2,3,40.0,2,3,40.0,2,0,2,1.0,1.0,105,214,116,201
+Mon Nov 11 2024,Brooklyn Nets,105,New Orleans Pelicans,,107,105,november,2024-2025,1,4,20.0,2,3,40.0,0,2,2,2.0,3.0,163,171,169,160
+Mon Nov 11 2024,Los Angeles Clippers,134,Oklahoma City Thunder,,128,134,november,2024-2025,2,3,40.0,1,4,20.0,4,0,4,2.0,1.0,155,170,189,142
+Mon Nov 11 2024,Sacramento Kings,116,San Antonio Spurs,,96,116,november,2024-2025,2,3,40.0,3,2,60.0,2,2,4,1.0,2.0,113,206,160,168
+Tue Nov 12 2024,Atlanta Hawks,116,Boston Celtics,,117,116,november,2024-2025,3,2,60.0,2,3,40.0,1,2,3,3.0,2.0,226,109,164,172
+Tue Nov 12 2024,Miami Heat,123,Detroit Pistons,OT,121,123,november,2024-2025,2,3,40.0,4,1,80.0,3,1,4,2.0,2.0,77,243,192,145
+Tue Nov 12 2024,Charlotte Hornets,114,Orlando Magic,,89,114,november,2024-2025,3,2,60.0,2,3,40.0,4,0,4,2.0,2.0,129,196,125,194
+Tue Nov 12 2024,New York Knicks,99,Philadelphia 76ers,,111,99,november,2024-2025,3,2,60.0,4,1,80.0,0,4,4,2.0,2.0,207,127,180,149
+Tue Nov 12 2024,Toronto Raptors,99,Milwaukee Bucks,,85,99,november,2024-2025,2,3,40.0,4,1,80.0,3,0,3,2.0,2.0,206,128,144,183
+Tue Nov 12 2024,Phoenix Suns,112,Utah Jazz,,120,112,november,2024-2025,4,1,80.0,1,4,20.0,0,4,4,2.0,3.0,166,158,219,116
+Tue Nov 12 2024,Dallas Mavericks,120,Golden State Warriors,,117,120,november,2024-2025,5,0,100.0,1,4,20.0,2,2,4,2.0,2.0,190,142,186,142
+Tue Nov 12 2024,Minnesota Timberwolves,122,Portland Trail Blazers,,108,122,november,2024-2025,4,1,80.0,2,3,40.0,2,2,4,2.0,2.0,119,201,179,159
+Wed Nov 13 2024,Indiana Pacers,94,Orlando Magic,,90,94,november,2024-2025,2,3,40.0,3,2,60.0,3,1,4,3.0,1.0,130,196,144,180
+Wed Nov 13 2024,Boston Celtics,114,Brooklyn Nets,,139,114,november,2024-2025,3,2,60.0,2,3,40.0,0,4,4,1.0,2.0,170,160,226,110
+Wed Nov 13 2024,Chicago Bulls,123,New York Knicks,,124,123,november,2024-2025,4,1,80.0,2,3,40.0,1,2,3,2.0,1.0,181,149,158,171
+Wed Nov 13 2024,New Orleans Pelicans,106,Oklahoma City Thunder,,88,106,november,2024-2025,1,4,20.0,1,4,20.0,4,0,4,2.0,2.0,156,170,163,172
+Wed Nov 13 2024,Cleveland Cavaliers,106,Philadelphia 76ers,,114,106,november,2024-2025,3,2,60.0,2,3,40.0,1,2,3,2.0,1.0,207,128,180,153
+Wed Nov 13 2024,Los Angeles Clippers,111,Houston Rockets,,103,111,november,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,106,214,189,143
+Wed Nov 13 2024,Detroit Pistons,127,Milwaukee Bucks,OT,120,127,november,2024-2025,2,3,40.0,1,4,20.0,4,0,4,1.0,1.0,207,128,78,243
+Wed Nov 13 2024,Washington Wizards,139,San Antonio Spurs,,130,139,november,2024-2025,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,114,206,116,202
+Wed Nov 13 2024,Memphis Grizzlies,128,Los Angeles Lakers,,123,128,november,2024-2025,3,2,60.0,3,2,60.0,3,1,4,3.0,3.0,173,160,179,152
+Wed Nov 13 2024,Minnesota Timberwolves,106,Portland Trail Blazers,,98,106,november,2024-2025,3,2,60.0,2,3,40.0,2,2,4,1.0,1.0,120,201,179,160
+Wed Nov 13 2024,Phoenix Suns,127,Sacramento Kings,,104,127,november,2024-2025,3,2,60.0,2,3,40.0,3,1,4,1.0,2.0,160,169,220,116
+Thu Nov 14 2024,Dallas Mavericks,115,Utah Jazz,,113,115,november,2024-2025,4,1,80.0,2,3,40.0,1,2,3,2.0,2.0,166,159,186,143
+Fri Nov 15 2024,Miami Heat,111,Indiana Pacers,,124,111,november,2024-2025,3,2,60.0,4,1,80.0,2,2,4,3.0,2.0,144,181,192,146
+Fri Nov 15 2024,Philadelphia 76ers,98,Orlando Magic,,86,98,november,2024-2025,1,4,20.0,2,3,40.0,3,1,4,2.0,2.0,131,196,207,129
+Fri Nov 15 2024,Detroit Pistons,95,Toronto Raptors,,99,95,november,2024-2025,5,0,100.0,2,3,40.0,0,4,4,2.0,3.0,144,184,78,244
+Fri Nov 15 2024,Washington Wizards,129,Atlanta Hawks,,117,129,november,2024-2025,2,3,40.0,4,1,80.0,2,2,4,2.0,3.0,165,172,116,203
+Fri Nov 15 2024,Chicago Bulls,144,Cleveland Cavaliers,,126,144,november,2024-2025,3,2,60.0,3,2,60.0,4,0,4,2.0,2.0,181,153,159,171
+Fri Nov 15 2024,Brooklyn Nets,124,New York Knicks,,122,124,november,2024-2025,3,2,60.0,3,2,60.0,4,0,4,2.0,2.0,181,150,170,161
+Fri Nov 15 2024,Los Angeles Lakers,115,San Antonio Spurs,,120,115,november,2024-2025,1,4,20.0,2,3,40.0,1,3,4,2.0,2.0,115,206,174,160
+Fri Nov 15 2024,Los Angeles Clippers,125,Houston Rockets,,104,125,november,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,107,214,189,144
+Fri Nov 15 2024,Denver Nuggets,101,New Orleans Pelicans,,94,101,november,2024-2025,2,3,40.0,0,5,0.0,1,3,4,5.0,2.0,163,173,217,118
+Fri Nov 15 2024,Phoenix Suns,99,Oklahoma City Thunder,,83,99,november,2024-2025,1,4,20.0,3,2,60.0,3,0,3,2.0,2.0,157,170,220,117
+Fri Nov 15 2024,Memphis Grizzlies,123,Golden State Warriors,,118,123,november,2024-2025,4,1,80.0,3,2,60.0,4,1,5,2.0,3.0,191,142,179,153
+Fri Nov 15 2024,Minnesota Timberwolves,126,Sacramento Kings,OT,130,126,november,2024-2025,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,161,169,179,161
+Sat Nov 16 2024,Milwaukee Bucks,115,Charlotte Hornets,,114,115,november,2024-2025,3,2,60.0,1,4,20.0,1,2,3,3.0,4.0,125,195,208,128
+Sat Nov 16 2024,Toronto Raptors,126,Boston Celtics,OT,123,126,november,2024-2025,2,3,40.0,4,1,80.0,3,1,4,1.0,3.0,227,110,144,185
+Sat Nov 16 2024,Los Angeles Lakers,99,New Orleans Pelicans,,104,99,november,2024-2025,2,3,40.0,2,3,40.0,0,3,3,1.0,1.0,164,173,175,160
+Sat Nov 16 2024,San Antonio Spurs,110,Dallas Mavericks,,93,110,november,2024-2025,3,2,60.0,0,5,0.0,3,1,4,1.0,2.0,186,144,115,207
+Sat Nov 16 2024,Utah Jazz,121,Sacramento Kings,,117,121,november,2024-2025,2,3,40.0,3,2,60.0,4,0,4,2.0,1.0,161,170,167,159
+Sun Nov 17 2024,Phoenix Suns,120,Minnesota Timberwolves,,117,120,november,2024-2025,3,2,60.0,4,1,80.0,4,0,4,2.0,2.0,180,161,220,118
+Sun Nov 17 2024,Miami Heat,119,Indiana Pacers,,110,119,november,2024-2025,2,3,40.0,5,0,100.0,2,2,4,2.0,2.0,144,182,193,146
+Sun Nov 17 2024,Charlotte Hornets,128,Cleveland Cavaliers,,114,128,november,2024-2025,2,3,40.0,2,3,40.0,4,0,4,1.0,2.0,182,153,126,195
+Sun Nov 17 2024,Denver Nuggets,105,Memphis Grizzlies,,90,105,november,2024-2025,3,2,60.0,1,4,20.0,1,2,3,2.0,2.0,179,154,217,119
+Sun Nov 17 2024,Atlanta Hawks,114,Portland Trail Blazers,,110,114,november,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,4.0,121,201,166,172
+Sun Nov 17 2024,Detroit Pistons,104,Washington Wizards,,124,104,november,2024-2025,5,0,100.0,2,3,40.0,1,2,3,2.0,2.0,116,204,79,244
+Sun Nov 17 2024,Houston Rockets,107,Chicago Bulls,,143,107,november,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,2.0,159,172,108,214
+Sun Nov 17 2024,Brooklyn Nets,114,New York Knicks,,104,114,november,2024-2025,2,3,40.0,4,1,80.0,4,0,4,2.0,2.0,182,150,170,162
+Sun Nov 17 2024,Dallas Mavericks,119,Oklahoma City Thunder,,121,119,november,2024-2025,0,5,0.0,3,2,60.0,1,3,4,1.0,2.0,158,170,187,144
+Sun Nov 17 2024,Utah Jazz,116,Los Angeles Clippers,,105,116,november,2024-2025,4,1,80.0,3,2,60.0,4,0,4,1.0,2.0,189,145,167,160
+Mon Nov 18 2024,Chicago Bulls,112,Detroit Pistons,,122,112,november,2024-2025,3,2,60.0,3,2,60.0,3,1,4,1.0,1.0,80,244,159,173
+Mon Nov 18 2024,Philadelphia 76ers,106,Miami Heat,,89,106,november,2024-2025,5,0,100.0,2,3,40.0,4,0,4,3.0,1.0,193,147,207,130
+Mon Nov 18 2024,Washington Wizards,134,New York Knicks,,106,134,november,2024-2025,2,3,40.0,4,1,80.0,4,0,4,1.0,1.0,183,150,116,205
+Mon Nov 18 2024,Indiana Pacers,130,Toronto Raptors,,119,130,november,2024-2025,4,1,80.0,2,3,40.0,2,1,3,1.0,2.0,144,186,145,182
+Mon Nov 18 2024,Houston Rockets,101,Milwaukee Bucks,,100,101,november,2024-2025,2,3,40.0,2,3,40.0,1,1,2,1.0,2.0,208,129,109,214
+Mon Nov 18 2024,Orlando Magic,99,Phoenix Suns,,109,99,november,2024-2025,4,1,80.0,0,5,0.0,0,2,2,3.0,1.0,220,119,132,196
+Mon Nov 18 2024,Atlanta Hawks,108,Sacramento Kings,,109,108,november,2024-2025,2,3,40.0,3,2,60.0,1,1,2,1.0,2.0,162,170,166,173
+Mon Nov 18 2024,Golden State Warriors,102,Los Angeles Clippers,,99,102,november,2024-2025,3,2,60.0,3,2,60.0,4,0,4,3.0,1.0,190,145,192,142
+Tue Nov 19 2024,Cleveland Cavaliers,120,Boston Celtics,,117,120,november,2024-2025,2,3,40.0,2,3,40.0,2,2,4,2.0,3.0,228,110,183,153
+Tue Nov 19 2024,Charlotte Hornets,116,Brooklyn Nets,,115,116,november,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,170,163,126,196
+Tue Nov 19 2024,Denver Nuggets,110,Memphis Grizzlies,,122,110,november,2024-2025,3,2,60.0,2,3,40.0,1,2,3,2.0,2.0,180,154,217,120
+Tue Nov 19 2024,New Orleans Pelicans,132,Dallas Mavericks,,91,132,november,2024-2025,4,1,80.0,2,3,40.0,3,1,4,3.0,2.0,188,144,164,174
+Tue Nov 19 2024,Oklahoma City Thunder,110,San Antonio Spurs,,104,110,november,2024-2025,1,4,20.0,0,5,0.0,1,2,3,2.0,3.0,115,208,158,171
+Tue Nov 19 2024,Utah Jazz,124,Los Angeles Lakers,,118,124,november,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,3.0,176,160,167,161
+Wed Nov 20 2024,New Orleans Pelicans,128,Cleveland Cavaliers,,100,128,november,2024-2025,3,2,60.0,2,3,40.0,2,0,2,1.0,1.0,183,154,164,175
+Wed Nov 20 2024,Chicago Bulls,122,Milwaukee Bucks,,106,122,november,2024-2025,1,4,20.0,3,2,60.0,2,2,4,2.0,2.0,209,129,160,173
+Wed Nov 20 2024,Indiana Pacers,130,Houston Rockets,,113,130,november,2024-2025,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,109,215,145,183
+Wed Nov 20 2024,Philadelphia 76ers,117,Memphis Grizzlies,,111,117,november,2024-2025,3,2,60.0,2,3,40.0,2,0,2,2.0,1.0,180,155,207,131
+Wed Nov 20 2024,Portland Trail Blazers,109,Oklahoma City Thunder,,99,109,november,2024-2025,1,4,20.0,1,4,20.0,4,0,4,3.0,1.0,158,172,122,201
+Wed Nov 20 2024,Atlanta Hawks,120,Golden State Warriors,,97,120,november,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,192,143,167,173
+Wed Nov 20 2024,New York Knicks,122,Phoenix Suns,,138,122,november,2024-2025,4,1,80.0,1,4,20.0,0,2,2,2.0,2.0,220,120,184,150
+Wed Nov 20 2024,Orlando Magic,104,Los Angeles Clippers,,93,104,november,2024-2025,3,2,60.0,1,4,20.0,2,0,2,2.0,2.0,191,145,133,196
+Thu Nov 21 2024,Detroit Pistons,123,Charlotte Hornets,OT,121,123,november,2024-2025,4,1,80.0,3,2,60.0,2,2,4,3.0,2.0,126,197,80,245
+Thu Nov 21 2024,Minnesota Timberwolves,110,Toronto Raptors,,105,110,november,2024-2025,3,2,60.0,3,2,60.0,1,1,2,4.0,3.0,145,186,181,161
+Thu Nov 21 2024,Utah Jazz,126,San Antonio Spurs,,118,126,november,2024-2025,1,4,20.0,3,2,60.0,3,1,4,2.0,2.0,116,208,167,162
+Thu Nov 21 2024,Orlando Magic,118,Los Angeles Lakers,,119,118,november,2024-2025,2,3,40.0,2,3,40.0,0,2,2,1.0,2.0,177,160,133,197
+Fri Nov 22 2024,Brooklyn Nets,113,Philadelphia 76ers,,98,113,november,2024-2025,3,2,60.0,3,2,60.0,2,2,4,3.0,2.0,207,132,171,163
+Fri Nov 22 2024,Boston Celtics,96,Washington Wizards,,108,96,november,2024-2025,4,1,80.0,2,3,40.0,0,4,4,3.0,4.0,116,206,229,110
+Fri Nov 22 2024,Golden State Warriors,108,New Orleans Pelicans,,112,108,november,2024-2025,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,164,176,193,143
+Fri Nov 22 2024,Atlanta Hawks,136,Chicago Bulls,,122,136,november,2024-2025,4,1,80.0,4,1,80.0,2,2,4,2.0,2.0,160,174,167,174
+Fri Nov 22 2024,Portland Trail Blazers,116,Houston Rockets,,88,116,november,2024-2025,2,3,40.0,1,4,20.0,2,1,3,2.0,2.0,110,215,122,202
+Fri Nov 22 2024,Indiana Pacers,129,Milwaukee Bucks,,117,129,november,2024-2025,1,4,20.0,3,2,60.0,4,5,9,2.0,2.0,210,129,145,184
+Fri Nov 22 2024,Dallas Mavericks,120,Denver Nuggets,,123,120,november,2024-2025,3,2,60.0,3,2,60.0,3,1,4,3.0,3.0,218,120,189,144
+Fri Nov 22 2024,Sacramento Kings,104,Los Angeles Clippers,,88,104,november,2024-2025,2,3,40.0,1,4,20.0,4,0,4,4.0,2.0,192,145,162,171
+Sat Nov 23 2024,New York Knicks,121,Utah Jazz,,106,121,november,2024-2025,4,1,80.0,1,4,20.0,1,1,2,3.0,2.0,167,163,185,150
+Sat Nov 23 2024,Detroit Pistons,111,Orlando Magic,,100,111,november,2024-2025,3,2,60.0,4,1,80.0,2,1,3,2.0,2.0,134,197,80,246
+Sat Nov 23 2024,Memphis Grizzlies,131,Chicago Bulls,,142,131,november,2024-2025,3,2,60.0,2,3,40.0,1,1,2,3.0,1.0,161,174,181,155
+Sat Nov 23 2024,Portland Trail Blazers,98,Houston Rockets,,104,98,november,2024-2025,2,3,40.0,2,3,40.0,2,1,3,1.0,1.0,111,215,122,203
+Sat Nov 23 2024,Charlotte Hornets,125,Milwaukee Bucks,,119,125,november,2024-2025,1,4,20.0,3,2,60.0,2,1,3,2.0,1.0,211,129,127,197
+Sat Nov 23 2024,Golden State Warriors,104,San Antonio Spurs,,94,104,november,2024-2025,1,4,20.0,2,3,40.0,2,1,3,1.0,2.0,117,208,194,143
+Sat Nov 23 2024,Denver Nuggets,102,Los Angeles Lakers,,127,102,november,2024-2025,2,3,40.0,3,2,60.0,2,2,4,1.0,2.0,177,161,218,121
+Sun Nov 24 2024,Minnesota Timberwolves,107,Boston Celtics,,105,107,november,2024-2025,2,3,40.0,4,1,80.0,2,0,2,3.0,2.0,230,110,181,162
+Sun Nov 24 2024,Washington Wizards,115,Indiana Pacers,,103,115,november,2024-2025,3,2,60.0,3,2,60.0,4,0,4,2.0,2.0,145,185,116,207
+Sun Nov 24 2024,Dallas Mavericks,123,Miami Heat,OT,118,123,november,2024-2025,4,1,80.0,3,2,60.0,1,1,2,2.0,6.0,194,147,190,144
+Sun Nov 24 2024,Los Angeles Clippers,99,Philadelphia 76ers,,125,99,november,2024-2025,3,2,60.0,1,4,20.0,0,2,2,2.0,2.0,208,132,193,145
+Sun Nov 24 2024,Toronto Raptors,122,Cleveland Cavaliers,,108,122,november,2024-2025,2,3,40.0,2,3,40.0,4,0,4,3.0,4.0,184,154,146,186
+Sun Nov 24 2024,Brooklyn Nets,103,Sacramento Kings,,108,103,november,2024-2025,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,162,172,171,164
+Mon Nov 25 2024,Orlando Magic,84,Charlotte Hornets,,95,84,november,2024-2025,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,127,198,135,197
+Mon Nov 25 2024,Toronto Raptors,102,Detroit Pistons,,100,102,november,2024-2025,4,1,80.0,2,3,40.0,4,0,4,1.0,2.0,80,247,146,187
+Mon Nov 25 2024,New Orleans Pelicans,114,Indiana Pacers,,110,114,november,2024-2025,3,2,60.0,2,3,40.0,2,1,3,3.0,1.0,146,185,164,177
+Mon Nov 25 2024,Dallas Mavericks,119,Atlanta Hawks,,129,119,november,2024-2025,4,1,80.0,3,2,60.0,0,2,2,1.0,3.0,167,175,190,145
+Mon Nov 25 2024,Los Angeles Clippers,126,Boston Celtics,,94,126,november,2024-2025,2,3,40.0,1,4,20.0,2,0,2,1.0,1.0,231,110,194,145
+Mon Nov 25 2024,Portland Trail Blazers,123,Memphis Grizzlies,,98,123,november,2024-2025,2,3,40.0,3,2,60.0,2,1,3,2.0,2.0,182,155,123,203
+Mon Nov 25 2024,New York Knicks,118,Denver Nuggets,,145,118,november,2024-2025,4,1,80.0,2,3,40.0,0,2,2,2.0,2.0,219,121,185,151
+Mon Nov 25 2024,Brooklyn Nets,120,Golden State Warriors,,128,120,november,2024-2025,3,2,60.0,4,1,80.0,1,1,2,1.0,2.0,194,144,172,164
+Mon Nov 25 2024,Oklahoma City Thunder,109,Sacramento Kings,,130,109,november,2024-2025,1,4,20.0,1,4,20.0,0,3,3,5.0,1.0,162,173,159,172
+Tue Nov 26 2024,Chicago Bulls,108,Washington Wizards,,127,108,november,2024-2025,3,2,60.0,2,3,40.0,1,3,4,3.0,2.0,116,208,161,175
+Tue Nov 26 2024,Milwaukee Bucks,103,Miami Heat,,106,103,november,2024-2025,3,2,60.0,1,4,20.0,0,4,4,3.0,2.0,195,147,212,129
+Tue Nov 26 2024,Houston Rockets,111,Minnesota Timberwolves,OT,117,111,november,2024-2025,4,1,80.0,2,3,40.0,2,2,4,3.0,2.0,181,163,111,216
+Tue Nov 26 2024,San Antonio Spurs,115,Utah Jazz,,128,115,november,2024-2025,4,1,80.0,1,4,20.0,1,3,4,3.0,3.0,168,163,118,208
+Tue Nov 26 2024,Los Angeles Lakers,127,Phoenix Suns,,100,127,november,2024-2025,3,2,60.0,2,3,40.0,2,2,4,3.0,6.0,220,121,177,162
+Wed Nov 27 2024,Miami Heat,94,Charlotte Hornets,,98,94,november,2024-2025,3,2,60.0,2,3,40.0,1,3,4,1.0,2.0,127,199,195,148
+Wed Nov 27 2024,Atlanta Hawks,124,Cleveland Cavaliers,,135,124,november,2024-2025,1,4,20.0,4,1,80.0,1,2,3,2.0,3.0,185,154,167,176
+Wed Nov 27 2024,Portland Trail Blazers,121,Indiana Pacers,,114,121,november,2024-2025,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,147,185,123,204
+Wed Nov 27 2024,Chicago Bulls,133,Orlando Magic,,119,133,november,2024-2025,4,1,80.0,3,2,60.0,1,2,3,1.0,2.0,136,197,162,175
+Wed Nov 27 2024,Houston Rockets,115,Philadelphia 76ers,OT,122,115,november,2024-2025,3,2,60.0,2,3,40.0,0,2,2,1.0,3.0,208,133,112,216
+Wed Nov 27 2024,Los Angeles Clippers,96,Washington Wizards,,121,96,november,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,1.0,116,209,194,146
+Wed Nov 27 2024,New York Knicks,129,Dallas Mavericks,,114,129,november,2024-2025,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,191,145,186,151
+Wed Nov 27 2024,Detroit Pistons,131,Memphis Grizzlies,,111,131,november,2024-2025,1,4,20.0,3,2,60.0,2,0,2,2.0,2.0,183,155,81,247
+Wed Nov 27 2024,Sacramento Kings,104,Minnesota Timberwolves,,115,104,november,2024-2025,3,2,60.0,1,4,20.0,2,2,4,2.0,1.0,181,164,162,174
+Wed Nov 27 2024,Toronto Raptors,93,New Orleans Pelicans,,119,93,november,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,164,178,146,188
+Wed Nov 27 2024,Los Angeles Lakers,101,San Antonio Spurs,,119,101,november,2024-2025,2,3,40.0,2,3,40.0,1,3,4,1.0,1.0,119,208,177,163
+Wed Nov 27 2024,Brooklyn Nets,117,Phoenix Suns,,127,117,november,2024-2025,2,3,40.0,4,1,80.0,1,1,2,2.0,1.0,221,121,173,164
+Wed Nov 27 2024,Denver Nuggets,103,Utah Jazz,,122,103,november,2024-2025,3,2,60.0,3,2,60.0,0,4,4,2.0,1.0,168,164,219,122
+Wed Nov 27 2024,Oklahoma City Thunder,101,Golden State Warriors,,105,101,november,2024-2025,3,2,60.0,2,3,40.0,2,1,3,2.0,2.0,194,145,160,172
+Fri Nov 29 2024,New York Knicks,98,Charlotte Hornets,,99,98,november,2024-2025,2,3,40.0,4,1,80.0,1,2,3,2.0,2.0,127,200,186,152
+Fri Nov 29 2024,Cleveland Cavaliers,117,Atlanta Hawks,,101,117,november,2024-2025,4,1,80.0,1,4,20.0,2,1,3,2.0,2.0,168,176,185,155
+Fri Nov 29 2024,New Orleans Pelicans,120,Memphis Grizzlies,,109,120,november,2024-2025,1,4,20.0,3,2,60.0,4,0,4,2.0,2.0,184,155,164,179
+Fri Nov 29 2024,Orlando Magic,100,Brooklyn Nets,,123,100,november,2024-2025,4,1,80.0,3,2,60.0,0,4,4,2.0,2.0,174,164,137,197
+Fri Nov 29 2024,Los Angeles Clippers,93,Minnesota Timberwolves,,92,93,november,2024-2025,2,3,40.0,3,2,60.0,3,0,3,2.0,2.0,181,165,195,146
+Fri Nov 29 2024,Boston Celtics,129,Chicago Bulls,,138,129,november,2024-2025,3,2,60.0,1,4,20.0,1,3,4,4.0,2.0,162,176,232,110
+Fri Nov 29 2024,Detroit Pistons,106,Indiana Pacers,,130,106,november,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,148,185,81,248
+Fri Nov 29 2024,Toronto Raptors,121,Miami Heat,,111,121,november,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,196,148,147,188
+Fri Nov 29 2024,Oklahoma City Thunder,93,Los Angeles Lakers,,101,93,november,2024-2025,2,3,40.0,3,2,60.0,1,2,3,2.0,2.0,178,163,161,172
+Fri Nov 29 2024,Sacramento Kings,115,Portland Trail Blazers,,106,115,november,2024-2025,5,0,100.0,2,3,40.0,2,2,4,2.0,2.0,123,205,163,174
+Sat Nov 30 2024,Atlanta Hawks,104,Charlotte Hornets,,107,104,november,2024-2025,1,4,20.0,3,2,60.0,0,4,4,1.0,1.0,127,201,169,176
+Sat Nov 30 2024,Philadelphia 76ers,96,Detroit Pistons,,111,96,november,2024-2025,4,1,80.0,2,3,40.0,2,1,3,3.0,1.0,82,248,208,134
+Sat Nov 30 2024,Washington Wizards,124,Milwaukee Bucks,,114,124,november,2024-2025,1,4,20.0,2,3,40.0,3,0,3,3.0,4.0,213,129,116,210
+Sat Nov 30 2024,Golden State Warriors,113,Phoenix Suns,,105,113,november,2024-2025,1,4,20.0,2,3,40.0,2,2,4,3.0,3.0,221,122,194,146
+Sat Nov 30 2024,Dallas Mavericks,94,Utah Jazz,,106,94,november,2024-2025,2,3,40.0,3,2,60.0,1,2,3,3.0,3.0,168,165,192,145
+Sun Dec 1 2024,Orlando Magic,92,Brooklyn Nets,,100,92,december,2024-2025,4,1,80.0,3,2,60.0,0,4,4,2.0,2.0,174,165,138,197
+Sun Dec 1 2024,Indiana Pacers,136,Memphis Grizzlies,,121,136,december,2024-2025,1,4,20.0,1,4,20.0,1,1,2,2.0,2.0,185,155,148,186
+Sun Dec 1 2024,Boston Celtics,115,Cleveland Cavaliers,,111,115,december,2024-2025,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,185,156,233,110
+Sun Dec 1 2024,New Orleans Pelicans,118,New York Knicks,,85,118,december,2024-2025,5,0,100.0,3,2,60.0,2,0,2,2.0,2.0,187,152,164,180
+Sun Dec 1 2024,Miami Heat,119,Toronto Raptors,,116,119,december,2024-2025,4,1,80.0,1,4,20.0,1,3,4,2.0,2.0,147,189,197,148
+Sun Dec 1 2024,Oklahoma City Thunder,119,Houston Rockets,,116,119,december,2024-2025,2,3,40.0,4,1,80.0,2,3,5,2.0,4.0,113,216,162,172
+Sun Dec 1 2024,Los Angeles Lakers,104,Utah Jazz,,105,104,december,2024-2025,1,4,20.0,2,3,40.0,1,3,4,2.0,1.0,168,166,178,164
+Sun Dec 1 2024,Dallas Mavericks,131,Portland Trail Blazers,,137,131,december,2024-2025,4,1,80.0,4,1,80.0,1,3,4,1.0,2.0,124,205,193,145
+Sun Dec 1 2024,San Antonio Spurs,125,Sacramento Kings,,127,125,december,2024-2025,3,2,60.0,1,4,20.0,2,2,4,4.0,2.0,163,175,119,209
+Sun Dec 1 2024,Denver Nuggets,126,Los Angeles Clippers,,122,126,december,2024-2025,4,1,80.0,3,2,60.0,4,5,9,4.0,2.0,195,147,220,122
+Mon Dec 2 2024,New Orleans Pelicans,124,Atlanta Hawks,,112,124,december,2024-2025,3,2,60.0,3,2,60.0,2,0,2,1.0,2.0,170,176,164,181
+Mon Dec 2 2024,Miami Heat,108,Boston Celtics,,89,108,december,2024-2025,3,2,60.0,2,3,40.0,3,1,4,1.0,1.0,233,111,197,149
+Mon Dec 2 2024,Brooklyn Nets,128,Chicago Bulls,,102,128,december,2024-2025,2,3,40.0,3,2,60.0,2,1,3,1.0,3.0,162,177,174,166
+Mon Dec 2 2024,Los Angeles Lakers,109,Minnesota Timberwolves,,80,109,december,2024-2025,2,3,40.0,3,2,60.0,6,3,9,1.0,3.0,182,165,179,164
+Tue Dec 3 2024,Philadelphia 76ers,104,Charlotte Hornets,,110,104,december,2024-2025,1,4,20.0,2,3,40.0,0,4,4,3.0,3.0,127,202,209,134
+Tue Dec 3 2024,Washington Wizards,118,Cleveland Cavaliers,,87,118,december,2024-2025,1,4,20.0,2,3,40.0,4,0,4,3.0,2.0,186,156,116,211
+Tue Dec 3 2024,Milwaukee Bucks,107,Detroit Pistons,,128,107,december,2024-2025,3,2,60.0,1,4,20.0,0,4,4,3.0,3.0,82,249,214,129
+Tue Dec 3 2024,Orlando Magic,121,New York Knicks,,106,121,december,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,188,152,139,197
+Tue Dec 3 2024,Indiana Pacers,122,Toronto Raptors,,111,122,december,2024-2025,4,1,80.0,1,4,20.0,2,1,3,2.0,2.0,148,189,148,187
+Tue Dec 3 2024,Utah Jazz,133,Oklahoma City Thunder,,106,133,december,2024-2025,4,1,80.0,0,5,0.0,4,0,4,2.0,2.0,162,173,168,167
+Tue Dec 3 2024,Memphis Grizzlies,121,Dallas Mavericks,,116,121,december,2024-2025,4,1,80.0,1,4,20.0,1,4,5,2.0,2.0,194,145,186,155
+Tue Dec 3 2024,San Antonio Spurs,104,Phoenix Suns,,93,104,december,2024-2025,0,5,0.0,2,3,40.0,2,1,3,2.0,3.0,222,122,120,209
+Tue Dec 3 2024,Golden State Warriors,119,Denver Nuggets,,115,119,december,2024-2025,3,2,60.0,3,2,60.0,2,1,3,3.0,2.0,220,123,194,147
+Tue Dec 3 2024,Houston Rockets,120,Sacramento Kings,,111,120,december,2024-2025,2,3,40.0,2,3,40.0,3,0,3,2.0,2.0,163,176,114,216
+Tue Dec 3 2024,Portland Trail Blazers,127,Los Angeles Clippers,,105,127,december,2024-2025,4,1,80.0,3,2,60.0,2,1,3,2.0,2.0,196,147,124,206
+Wed Dec 4 2024,Detroit Pistons,130,Boston Celtics,,120,130,december,2024-2025,2,3,40.0,2,3,40.0,3,1,4,1.0,2.0,234,111,82,250
+Wed Dec 4 2024,Indiana Pacers,99,Brooklyn Nets,,90,99,december,2024-2025,3,2,60.0,2,3,40.0,1,3,4,1.0,2.0,174,167,148,188
+Wed Dec 4 2024,Los Angeles Lakers,134,Miami Heat,,93,134,december,2024-2025,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,197,150,179,165
+Wed Dec 4 2024,Orlando Magic,102,Philadelphia 76ers,,106,102,december,2024-2025,2,3,40.0,4,1,80.0,1,3,4,1.0,1.0,210,134,139,198
+Wed Dec 4 2024,Atlanta Hawks,104,Milwaukee Bucks,,119,104,december,2024-2025,2,3,40.0,2,3,40.0,2,3,5,2.0,1.0,215,129,171,176
+Wed Dec 4 2024,Minnesota Timberwolves,80,Los Angeles Clippers,,108,80,december,2024-2025,3,2,60.0,1,4,20.0,0,3,3,2.0,1.0,197,147,183,165
+Thu Dec 5 2024,Denver Nuggets,126,Cleveland Cavaliers,,114,126,december,2024-2025,1,4,20.0,3,2,60.0,2,0,2,2.0,2.0,187,156,221,123
+Thu Dec 5 2024,Dallas Mavericks,101,Washington Wizards,,137,101,december,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,116,212,195,145
+Thu Dec 5 2024,Charlotte Hornets,125,New York Knicks,,101,125,december,2024-2025,3,2,60.0,0,5,0.0,2,1,3,2.0,2.0,189,152,127,203
+Thu Dec 5 2024,Oklahoma City Thunder,92,Toronto Raptors,,129,92,december,2024-2025,3,2,60.0,4,1,80.0,0,2,2,2.0,2.0,149,189,163,173
+Thu Dec 5 2024,Sacramento Kings,115,Memphis Grizzlies,,110,115,december,2024-2025,1,4,20.0,2,3,40.0,1,2,3,2.0,2.0,186,156,164,176
+Thu Dec 5 2024,Phoenix Suns,126,New Orleans Pelicans,,124,126,december,2024-2025,4,1,80.0,0,5,0.0,2,1,3,2.0,3.0,164,182,223,122
+Thu Dec 5 2024,Chicago Bulls,124,San Antonio Spurs,,139,124,december,2024-2025,3,2,60.0,2,3,40.0,0,2,2,3.0,2.0,120,210,163,177
+Thu Dec 5 2024,Houston Rockets,99,Golden State Warriors,,93,99,december,2024-2025,3,2,60.0,3,2,60.0,6,4,10,2.0,2.0,194,148,114,217
+Fri Dec 6 2024,Orlando Magic,102,Philadelphia 76ers,,94,102,december,2024-2025,2,3,40.0,4,1,80.0,1,3,4,2.0,2.0,210,135,140,198
+Fri Dec 6 2024,Los Angeles Lakers,134,Atlanta Hawks,OT,132,134,december,2024-2025,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,172,176,179,166
+Fri Dec 6 2024,Milwaukee Bucks,111,Boston Celtics,,105,111,december,2024-2025,2,3,40.0,2,3,40.0,3,0,3,2.0,2.0,235,111,215,130
+Fri Dec 6 2024,Indiana Pacers,123,Chicago Bulls,,132,123,december,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,1.0,164,177,148,189
+Fri Dec 6 2024,Sacramento Kings,113,San Antonio Spurs,,140,113,december,2024-2025,3,2,60.0,3,2,60.0,2,2,4,1.0,1.0,120,211,164,177
+Fri Dec 6 2024,Minnesota Timberwolves,90,Golden State Warriors,,107,90,december,2024-2025,2,3,40.0,1,4,20.0,3,1,4,2.0,1.0,195,148,184,165
+Fri Dec 6 2024,Utah Jazz,99,Portland Trail Blazers,,141,99,december,2024-2025,3,2,60.0,1,4,20.0,2,2,4,3.0,3.0,124,207,168,168
+Sat Dec 7 2024,Cleveland Cavaliers,102,Charlotte Hornets,,116,102,december,2024-2025,1,4,20.0,1,4,20.0,0,4,4,2.0,2.0,127,204,188,156
+Sat Dec 7 2024,Oklahoma City Thunder,109,New Orleans Pelicans,,119,109,december,2024-2025,3,2,60.0,4,1,80.0,0,4,4,2.0,2.0,165,182,164,173
+Sat Dec 7 2024,Denver Nuggets,122,Washington Wizards,,113,122,december,2024-2025,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,116,213,221,124
+Sat Dec 7 2024,Detroit Pistons,111,New York Knicks,,120,111,december,2024-2025,2,3,40.0,3,2,60.0,4,5,9,3.0,2.0,190,152,82,251
+Sat Dec 7 2024,Dallas Mavericks,118,Toronto Raptors,,125,118,december,2024-2025,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,149,190,196,145
+Sat Dec 7 2024,Memphis Grizzlies,121,Boston Celtics,,127,121,december,2024-2025,2,3,40.0,1,4,20.0,1,1,2,2.0,1.0,236,111,187,156
+Sat Dec 7 2024,Phoenix Suns,121,Miami Heat,,111,121,december,2024-2025,3,2,60.0,1,4,20.0,1,1,2,2.0,3.0,198,150,223,123
+Sun Dec 8 2024,Philadelphia 76ers,100,Chicago Bulls,,108,100,december,2024-2025,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,164,178,211,135
+Sun Dec 8 2024,Milwaukee Bucks,113,Brooklyn Nets,,118,113,december,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,4.0,175,167,215,131
+Sun Dec 8 2024,Charlotte Hornets,109,Indiana Pacers,,113,109,december,2024-2025,4,1,80.0,1,4,20.0,1,2,3,1.0,2.0,149,189,127,205
+Sun Dec 8 2024,Denver Nuggets,111,Atlanta Hawks,,141,111,december,2024-2025,2,3,40.0,4,1,80.0,0,2,2,1.0,2.0,173,176,221,125
+Sun Dec 8 2024,Cleveland Cavaliers,122,Miami Heat,,113,122,december,2024-2025,2,3,40.0,2,3,40.0,1,6,7,1.0,1.0,199,150,189,156
+Sun Dec 8 2024,Phoenix Suns,115,Orlando Magic,,110,115,december,2024-2025,5,0,100.0,2,3,40.0,2,0,2,1.0,2.0,140,199,223,124
+Sun Dec 8 2024,New Orleans Pelicans,121,San Antonio Spurs,,116,121,december,2024-2025,2,3,40.0,3,2,60.0,2,2,4,1.0,2.0,120,212,165,183
+Sun Dec 8 2024,Memphis Grizzlies,112,Washington Wizards,,140,112,december,2024-2025,2,3,40.0,2,3,40.0,0,2,2,1.0,1.0,117,213,188,156
+Sun Dec 8 2024,Minnesota Timberwolves,114,Golden State Warriors,,106,114,december,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,195,149,185,165
+Sun Dec 8 2024,Houston Rockets,106,Los Angeles Clippers,,117,106,december,2024-2025,2,3,40.0,4,1,80.0,1,3,4,3.0,4.0,197,148,114,218
+Sun Dec 8 2024,Utah Jazz,141,Sacramento Kings,,97,141,december,2024-2025,3,2,60.0,2,3,40.0,4,0,4,2.0,2.0,165,177,169,168
+Sun Dec 8 2024,Portland Trail Blazers,107,Los Angeles Lakers,,98,107,december,2024-2025,4,1,80.0,2,3,40.0,3,1,4,2.0,2.0,179,167,124,208
+Mon Dec 9 2024,New York Knicks,108,Toronto Raptors,,113,108,december,2024-2025,1,4,20.0,1,4,20.0,0,4,4,2.0,2.0,149,191,190,153
+Tue Dec 10 2024,Orlando Magic,114,Milwaukee Bucks,,109,114,december,2024-2025,3,2,60.0,4,1,80.0,3,1,4,2.0,2.0,216,131,141,199
+Tue Dec 10 2024,Dallas Mavericks,118,Oklahoma City Thunder,,104,118,december,2024-2025,4,1,80.0,4,1,80.0,1,3,4,3.0,3.0,165,173,197,145
+Wed Dec 11 2024,Atlanta Hawks,100,New York Knicks,,108,100,december,2024-2025,1,4,20.0,2,3,40.0,3,2,5,3.0,2.0,191,153,173,177
+Wed Dec 11 2024,Golden State Warriors,91,Houston Rockets,,90,91,december,2024-2025,4,1,80.0,2,3,40.0,4,6,10,3.0,3.0,115,218,196,149
+Thu Dec 12 2024,Detroit Pistons,123,Boston Celtics,,99,123,december,2024-2025,1,4,20.0,3,2,60.0,3,1,4,5.0,5.0,236,112,83,251
+Thu Dec 12 2024,Toronto Raptors,114,Miami Heat,,104,114,december,2024-2025,2,3,40.0,0,5,0.0,3,1,4,3.0,4.0,200,150,149,192
+Thu Dec 12 2024,Sacramento Kings,109,New Orleans Pelicans,,111,109,december,2024-2025,3,2,60.0,2,3,40.0,1,3,4,4.0,4.0,165,184,166,177
+Fri Dec 13 2024,Washington Wizards,115,Cleveland Cavaliers,,105,115,december,2024-2025,2,3,40.0,2,3,40.0,4,0,4,5.0,5.0,189,157,117,214
+Fri Dec 13 2024,Indiana Pacers,107,Philadelphia 76ers,,121,107,december,2024-2025,3,2,60.0,4,1,80.0,1,3,4,5.0,5.0,212,135,149,190
+Fri Dec 13 2024,Charlotte Hornets,109,Chicago Bulls,,95,109,december,2024-2025,1,4,20.0,2,3,40.0,3,1,4,5.0,5.0,164,179,128,205
+Fri Dec 13 2024,Brooklyn Nets,135,Memphis Grizzlies,,119,135,december,2024-2025,3,2,60.0,1,4,20.0,1,2,3,5.0,5.0,189,156,175,168
+Fri Dec 13 2024,Los Angeles Lakers,97,Minnesota Timberwolves,,87,97,december,2024-2025,3,2,60.0,4,1,80.0,6,3,9,5.0,5.0,185,166,180,167
+Fri Dec 13 2024,Los Angeles Clippers,120,Denver Nuggets,,98,120,december,2024-2025,4,1,80.0,1,4,20.0,5,4,9,5.0,5.0,222,125,197,149
+Fri Dec 13 2024,Phoenix Suns,126,Utah Jazz,,134,126,december,2024-2025,3,2,60.0,3,2,60.0,0,4,4,5.0,5.0,169,169,223,125
+Fri Dec 13 2024,San Antonio Spurs,116,Portland Trail Blazers,,118,116,december,2024-2025,2,3,40.0,2,3,40.0,1,3,4,5.0,5.0,124,209,121,212
+Sat Dec 14 2024,Atlanta Hawks,110,Milwaukee Bucks,,102,110,december,2024-2025,3,2,60.0,2,3,40.0,2,3,5,3.0,4.0,217,131,174,177
+Sat Dec 14 2024,Houston Rockets,111,Oklahoma City Thunder,,96,111,december,2024-2025,3,2,60.0,3,2,60.0,3,2,5,3.0,4.0,166,173,116,218
+Sun Dec 15 2024,New Orleans Pelicans,119,Indiana Pacers,,104,119,december,2024-2025,4,1,80.0,2,3,40.0,2,1,3,3.0,2.0,150,190,165,185
+Sun Dec 15 2024,New York Knicks,91,Orlando Magic,,100,91,december,2024-2025,4,1,80.0,1,4,20.0,1,3,4,4.0,5.0,141,200,191,154
+Sun Dec 15 2024,Boston Celtics,98,Washington Wizards,,112,98,december,2024-2025,2,3,40.0,0,5,0.0,0,4,4,3.0,2.0,117,215,237,112
+Sun Dec 15 2024,Minnesota Timberwolves,92,San Antonio Spurs,,106,92,december,2024-2025,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,122,212,186,166
+Sun Dec 15 2024,Portland Trail Blazers,116,Phoenix Suns,,109,116,december,2024-2025,4,1,80.0,2,3,40.0,2,2,4,2.0,2.0,224,125,124,210
+Sun Dec 15 2024,Dallas Mavericks,133,Golden State Warriors,,143,133,december,2024-2025,2,3,40.0,4,1,80.0,2,2,4,5.0,4.0,196,150,197,146
+Sun Dec 15 2024,Memphis Grizzlies,116,Los Angeles Lakers,,110,116,december,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,180,168,190,156
+Mon Dec 16 2024,Philadelphia 76ers,108,Charlotte Hornets,,121,108,december,2024-2025,3,2,60.0,2,3,40.0,0,4,4,3.0,3.0,128,206,212,136
+Mon Dec 16 2024,Miami Heat,125,Detroit Pistons,OT,124,125,december,2024-2025,3,2,60.0,1,4,20.0,3,1,4,4.0,4.0,83,252,201,150
+Mon Dec 16 2024,Cleveland Cavaliers,101,Brooklyn Nets,,130,101,december,2024-2025,2,3,40.0,2,3,40.0,0,4,4,3.0,3.0,175,169,190,157
+Mon Dec 16 2024,Chicago Bulls,121,Toronto Raptors,,122,121,december,2024-2025,1,4,20.0,1,4,20.0,0,4,4,3.0,4.0,149,193,165,179
+Mon Dec 16 2024,Denver Nuggets,129,Sacramento Kings,,130,129,december,2024-2025,3,2,60.0,3,2,60.0,0,4,4,3.0,4.0,167,177,223,125
+Mon Dec 16 2024,Utah Jazz,144,Los Angeles Clippers,,107,144,december,2024-2025,1,4,20.0,3,2,60.0,4,0,4,3.0,3.0,197,150,169,170
+Tue Dec 17 2024,Milwaukee Bucks,81,Oklahoma City Thunder,,97,81,december,2024-2025,2,3,40.0,2,3,40.0,2,1,3,3.0,3.0,167,173,218,131
+Thu Dec 19 2024,Utah Jazz,119,Detroit Pistons,,126,119,december,2024-2025,3,2,60.0,4,1,80.0,1,1,2,3.0,3.0,84,252,169,171
+Thu Dec 19 2024,Oklahoma City Thunder,99,Orlando Magic,,105,99,december,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,4.0,141,201,167,174
+Thu Dec 19 2024,Charlotte Hornets,123,Washington Wizards,,114,123,december,2024-2025,1,4,20.0,3,2,60.0,4,0,4,3.0,4.0,117,216,128,207
+Thu Dec 19 2024,Chicago Bulls,108,Boston Celtics,,117,108,december,2024-2025,1,4,20.0,2,3,40.0,3,1,4,3.0,4.0,238,112,166,179
+Thu Dec 19 2024,Brooklyn Nets,94,Toronto Raptors,,101,94,december,2024-2025,1,4,20.0,2,3,40.0,3,1,4,3.0,3.0,149,194,175,170
+Thu Dec 19 2024,New Orleans Pelicans,133,Houston Rockets,,113,133,december,2024-2025,4,1,80.0,2,3,40.0,4,0,4,4.0,5.0,116,219,165,186
+Thu Dec 19 2024,Golden State Warriors,144,Memphis Grizzlies,,93,144,december,2024-2025,3,2,60.0,1,4,20.0,1,4,5,4.0,4.0,190,157,196,151
+Thu Dec 19 2024,Atlanta Hawks,133,San Antonio Spurs,OT,126,133,december,2024-2025,1,4,20.0,3,2,60.0,2,0,2,5.0,4.0,122,213,174,178
+Thu Dec 19 2024,Los Angeles Clippers,95,Dallas Mavericks,,118,95,december,2024-2025,4,1,80.0,1,4,20.0,1,3,4,3.0,4.0,198,146,198,150
+Thu Dec 19 2024,Indiana Pacers,111,Phoenix Suns,,120,111,december,2024-2025,4,1,80.0,3,2,60.0,0,2,2,4.0,4.0,225,125,151,190
+Thu Dec 19 2024,New York Knicks,107,Minnesota Timberwolves,,133,107,december,2024-2025,4,1,80.0,2,3,40.0,1,1,2,4.0,4.0,187,166,192,154
+Thu Dec 19 2024,Denver Nuggets,126,Portland Trail Blazers,,124,126,december,2024-2025,3,2,60.0,4,1,80.0,2,2,4,3.0,4.0,124,211,224,125
+Thu Dec 19 2024,Los Angeles Lakers,100,Sacramento Kings,,113,100,december,2024-2025,3,2,60.0,3,2,60.0,0,4,4,4.0,3.0,167,178,181,168
+Fri Dec 20 2024,Charlotte Hornets,108,Philadelphia 76ers,,98,108,december,2024-2025,2,3,40.0,3,2,60.0,4,0,4,1.0,4.0,213,136,128,208
+Fri Dec 20 2024,Milwaukee Bucks,124,Cleveland Cavaliers,,101,124,december,2024-2025,3,2,60.0,3,2,60.0,4,0,4,3.0,4.0,191,157,219,131
+Fri Dec 20 2024,Oklahoma City Thunder,97,Miami Heat,,104,97,december,2024-2025,1,4,20.0,2,3,40.0,0,2,2,1.0,4.0,201,151,168,174
+Sat Dec 21 2024,Los Angeles Lakers,99,Sacramento Kings,,103,99,december,2024-2025,2,3,40.0,3,2,60.0,0,4,4,2.0,2.0,167,179,182,168
+Sat Dec 21 2024,Miami Heat,121,Orlando Magic,,114,121,december,2024-2025,2,3,40.0,1,4,20.0,2,2,4,1.0,2.0,141,202,201,152
+Sat Dec 21 2024,Memphis Grizzlies,112,Atlanta Hawks,,128,112,december,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,174,179,191,157
+Sat Dec 21 2024,Utah Jazz,94,Brooklyn Nets,,105,94,december,2024-2025,2,3,40.0,4,1,80.0,0,2,2,2.0,2.0,176,170,170,171
+Sat Dec 21 2024,Boston Celtics,98,Chicago Bulls,,123,98,december,2024-2025,2,3,40.0,1,4,20.0,1,3,4,2.0,2.0,167,179,238,113
+Sat Dec 21 2024,Philadelphia 76ers,126,Cleveland Cavaliers,,99,126,december,2024-2025,3,2,60.0,2,3,40.0,2,1,3,1.0,1.0,192,157,214,136
+Sat Dec 21 2024,Washington Wizards,112,Milwaukee Bucks,,101,112,december,2024-2025,3,2,60.0,1,4,20.0,3,0,3,2.0,1.0,219,132,118,216
+Sat Dec 21 2024,Golden State Warriors,103,Minnesota Timberwolves,,113,103,december,2024-2025,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,187,167,196,152
+Sat Dec 21 2024,New York Knicks,93,New Orleans Pelicans,,104,93,december,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,165,187,193,154
+Sat Dec 21 2024,Los Angeles Clippers,113,Dallas Mavericks,,97,113,december,2024-2025,4,1,80.0,2,3,40.0,1,3,4,2.0,2.0,198,147,199,150
+Sat Dec 21 2024,Portland Trail Blazers,114,San Antonio Spurs,,94,114,december,2024-2025,1,4,20.0,2,3,40.0,3,1,4,2.0,2.0,123,213,125,211
+Sat Dec 21 2024,Detroit Pistons,125,Phoenix Suns,,133,125,december,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,225,126,84,253
+Sun Dec 22 2024,Indiana Pacers,95,Sacramento Kings,,122,95,december,2024-2025,1,4,20.0,3,2,60.0,0,2,2,3.0,1.0,167,180,152,190
+Sun Dec 22 2024,Houston Rockets,110,Toronto Raptors,,114,110,december,2024-2025,1,4,20.0,3,2,60.0,0,2,2,3.0,3.0,149,195,117,219
+Sun Dec 22 2024,Denver Nuggets,129,New Orleans Pelicans,OT,132,129,december,2024-2025,3,2,60.0,4,1,80.0,1,3,4,3.0,1.0,165,188,224,126
+Mon Dec 23 2024,Houston Rockets,101,Charlotte Hornets,,114,101,december,2024-2025,4,1,80.0,3,2,60.0,1,1,2,1.0,3.0,128,209,118,219
+Mon Dec 23 2024,Utah Jazz,124,Cleveland Cavaliers,,113,124,december,2024-2025,2,3,40.0,4,1,80.0,2,0,2,2.0,2.0,193,157,171,171
+Mon Dec 23 2024,Boston Celtics,108,Orlando Magic,,104,108,december,2024-2025,1,4,20.0,2,3,40.0,3,5,8,2.0,2.0,142,202,239,113
+Mon Dec 23 2024,San Antonio Spurs,111,Philadelphia 76ers,,106,111,december,2024-2025,3,2,60.0,1,4,20.0,1,1,2,2.0,2.0,214,137,124,213
+Mon Dec 23 2024,Minnesota Timberwolves,117,Atlanta Hawks,,104,117,december,2024-2025,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,174,180,187,168
+Mon Dec 23 2024,Brooklyn Nets,110,Miami Heat,,95,110,december,2024-2025,2,3,40.0,2,3,40.0,2,1,3,2.0,2.0,201,153,176,171
+Mon Dec 23 2024,Toronto Raptors,139,New York Knicks,,125,139,december,2024-2025,4,1,80.0,1,4,20.0,4,0,4,1.0,2.0,194,154,149,196
+Mon Dec 23 2024,Milwaukee Bucks,91,Chicago Bulls,,112,91,december,2024-2025,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,167,180,220,132
+Mon Dec 23 2024,Los Angeles Clippers,110,Memphis Grizzlies,,114,110,december,2024-2025,3,2,60.0,3,2,60.0,0,3,3,2.0,2.0,192,157,199,151
+Mon Dec 23 2024,Washington Wizards,123,Oklahoma City Thunder,,105,123,december,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,3.0,169,174,118,217
+Mon Dec 23 2024,Portland Trail Blazers,132,Dallas Mavericks,,108,132,december,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,199,147,125,212
+Mon Dec 23 2024,Phoenix Suns,117,Denver Nuggets,,90,117,december,2024-2025,4,1,80.0,2,3,40.0,3,1,4,2.0,1.0,225,126,225,127
+Mon Dec 23 2024,Indiana Pacers,105,Golden State Warriors,,111,105,december,2024-2025,3,2,60.0,3,2,60.0,0,2,2,1.0,2.0,197,152,153,190
+Mon Dec 23 2024,Detroit Pistons,114,Los Angeles Lakers,,117,114,december,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,183,168,85,253
+Wed Dec 25 2024,San Antonio Spurs,117,New York Knicks,,114,117,december,2024-2025,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,195,154,124,214
+Wed Dec 25 2024,Minnesota Timberwolves,99,Dallas Mavericks,,105,99,december,2024-2025,2,3,40.0,2,3,40.0,1,2,3,2.0,2.0,200,147,187,169
+Wed Dec 25 2024,Philadelphia 76ers,114,Boston Celtics,,118,114,december,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,239,114,215,137
+Wed Dec 25 2024,Los Angeles Lakers,113,Golden State Warriors,,115,113,december,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,197,153,183,169
+Wed Dec 25 2024,Denver Nuggets,110,Phoenix Suns,,100,110,december,2024-2025,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,225,128,226,126
+Thu Dec 26 2024,Oklahoma City Thunder,114,Indiana Pacers,,120,114,december,2024-2025,4,1,80.0,2,3,40.0,0,2,2,3.0,3.0,154,190,170,174
+Thu Dec 26 2024,Miami Heat,88,Orlando Magic,,89,88,december,2024-2025,1,4,20.0,2,3,40.0,2,2,4,3.0,3.0,143,202,202,153
+Thu Dec 26 2024,Charlotte Hornets,113,Washington Wizards,,110,113,december,2024-2025,3,2,60.0,3,2,60.0,4,0,4,3.0,3.0,118,218,128,210
+Thu Dec 26 2024,Chicago Bulls,141,Atlanta Hawks,,133,141,december,2024-2025,3,2,60.0,2,3,40.0,2,2,4,3.0,3.0,175,180,167,181
+Thu Dec 26 2024,Toronto Raptors,155,Memphis Grizzlies,,126,155,december,2024-2025,2,3,40.0,2,3,40.0,2,0,2,3.0,3.0,192,158,149,197
+Thu Dec 26 2024,Brooklyn Nets,105,Milwaukee Bucks,,111,105,december,2024-2025,3,2,60.0,3,2,60.0,1,3,4,3.0,3.0,221,132,176,172
+Thu Dec 26 2024,Houston Rockets,111,New Orleans Pelicans,,128,111,december,2024-2025,2,3,40.0,3,2,60.0,0,4,4,3.0,4.0,165,189,119,219
+Thu Dec 26 2024,Utah Jazz,122,Portland Trail Blazers,,120,122,december,2024-2025,3,2,60.0,4,1,80.0,2,2,4,3.0,3.0,125,213,171,172
+Thu Dec 26 2024,Detroit Pistons,113,Sacramento Kings,,114,113,december,2024-2025,1,4,20.0,3,2,60.0,1,1,2,3.0,4.0,167,181,86,253
+Fri Dec 27 2024,New York Knicks,85,Orlando Magic,,108,85,december,2024-2025,0,5,0.0,3,2,60.0,1,3,4,2.0,1.0,143,203,196,154
+Fri Dec 27 2024,Indiana Pacers,142,Boston Celtics,,105,142,december,2024-2025,3,2,60.0,3,2,60.0,1,2,3,1.0,2.0,239,115,154,191
+Fri Dec 27 2024,San Antonio Spurs,87,Brooklyn Nets,,96,87,december,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,1.0,177,172,124,215
+Fri Dec 27 2024,Minnesota Timberwolves,112,Houston Rockets,,113,112,december,2024-2025,4,1,80.0,3,2,60.0,2,2,4,2.0,1.0,120,219,188,169
+Fri Dec 27 2024,Memphis Grizzlies,124,New Orleans Pelicans,,132,124,december,2024-2025,2,3,40.0,2,3,40.0,0,4,4,1.0,1.0,165,190,193,158
+Fri Dec 27 2024,Cleveland Cavaliers,135,Denver Nuggets,,149,135,december,2024-2025,4,1,80.0,1,4,20.0,0,2,2,4.0,2.0,226,127,194,157
+Fri Dec 27 2024,Dallas Mavericks,89,Phoenix Suns,,98,89,december,2024-2025,1,4,20.0,1,4,20.0,3,1,4,2.0,2.0,226,128,200,148
+Fri Dec 27 2024,Golden State Warriors,102,Los Angeles Clippers,,92,102,december,2024-2025,4,1,80.0,2,3,40.0,4,0,4,2.0,4.0,200,151,197,154
+Sat Dec 28 2024,Miami Heat,120,Atlanta Hawks,,110,120,december,2024-2025,2,3,40.0,3,2,60.0,2,3,5,2.0,2.0,176,180,203,153
+Sat Dec 28 2024,Oklahoma City Thunder,94,Charlotte Hornets,,106,94,december,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,128,211,171,174
+Sat Dec 28 2024,New York Knicks,132,Washington Wizards,OT,136,132,december,2024-2025,2,3,40.0,3,2,60.0,0,4,4,1.0,2.0,119,218,197,154
+Sat Dec 28 2024,Milwaukee Bucks,116,Chicago Bulls,,111,116,december,2024-2025,3,2,60.0,3,2,60.0,2,2,4,2.0,2.0,167,182,221,133
+Sat Dec 28 2024,Phoenix Suns,109,Golden State Warriors,,105,109,december,2024-2025,3,2,60.0,1,4,20.0,2,2,4,1.0,1.0,197,155,226,129
+Sat Dec 28 2024,Detroit Pistons,134,Denver Nuggets,,121,134,december,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,1.0,226,128,87,253
+Sat Dec 28 2024,Philadelphia 76ers,111,Utah Jazz,,114,111,december,2024-2025,5,0,100.0,3,2,60.0,0,2,2,3.0,2.0,171,173,216,137
+Sat Dec 28 2024,Dallas Mavericks,126,Portland Trail Blazers,,122,126,december,2024-2025,3,2,60.0,1,4,20.0,1,3,4,1.0,2.0,126,213,201,148
+Sat Dec 28 2024,Sacramento Kings,132,Los Angeles Lakers,,122,132,december,2024-2025,3,2,60.0,0,5,0.0,4,0,4,2.0,3.0,184,169,167,182
+Sun Dec 29 2024,Brooklyn Nets,102,Orlando Magic,,101,102,december,2024-2025,0,5,0.0,3,2,60.0,4,0,4,2.0,2.0,143,204,177,173
+Sun Dec 29 2024,Indiana Pacers,114,Boston Celtics,,123,114,december,2024-2025,2,3,40.0,4,1,80.0,1,2,3,2.0,2.0,240,115,154,192
+Sun Dec 29 2024,Atlanta Hawks,107,Toronto Raptors,,136,107,december,2024-2025,2,3,40.0,1,4,20.0,2,1,3,1.0,3.0,149,198,177,180
+Sun Dec 29 2024,Miami Heat,100,Houston Rockets,,104,100,december,2024-2025,3,2,60.0,3,2,60.0,1,1,2,1.0,2.0,120,220,203,154
+Sun Dec 29 2024,Memphis Grizzlies,130,Oklahoma City Thunder,,106,130,december,2024-2025,4,1,80.0,2,3,40.0,8,0,8,2.0,1.0,172,174,194,158
+Sun Dec 29 2024,San Antonio Spurs,112,Minnesota Timberwolves,,110,112,december,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,189,169,125,215
+Mon Dec 30 2024,Chicago Bulls,108,Charlotte Hornets,OT,115,108,december,2024-2025,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,128,212,168,182
+Mon Dec 30 2024,New York Knicks,106,Washington Wizards,,126,106,december,2024-2025,2,3,40.0,3,2,60.0,0,4,4,2.0,2.0,119,219,198,154
+Mon Dec 30 2024,Los Angeles Clippers,113,New Orleans Pelicans,,116,113,december,2024-2025,1,4,20.0,3,2,60.0,1,2,3,3.0,3.0,165,191,201,151
+Mon Dec 30 2024,Denver Nuggets,121,Utah Jazz,,132,121,december,2024-2025,4,1,80.0,2,3,40.0,0,4,4,2.0,2.0,171,174,227,128
+Mon Dec 30 2024,Cleveland Cavaliers,95,Golden State Warriors,,113,95,december,2024-2025,2,3,40.0,2,3,40.0,0,2,2,3.0,2.0,198,155,195,157
+Mon Dec 30 2024,Philadelphia 76ers,103,Portland Trail Blazers,,125,103,december,2024-2025,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,127,213,217,137
+Mon Dec 30 2024,Dallas Mavericks,110,Sacramento Kings,,100,110,december,2024-2025,1,4,20.0,2,3,40.0,3,1,4,2.0,2.0,167,183,201,149
+Tue Dec 31 2024,Toronto Raptors,125,Boston Celtics,,71,125,december,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,240,116,149,199
+Tue Dec 31 2024,Milwaukee Bucks,112,Indiana Pacers,,120,112,december,2024-2025,4,1,80.0,3,2,60.0,5,4,9,3.0,2.0,155,192,221,134
+Tue Dec 31 2024,Los Angeles Clippers,122,San Antonio Spurs,,86,122,december,2024-2025,4,1,80.0,4,1,80.0,1,3,4,1.0,2.0,125,216,202,151
+Tue Dec 31 2024,Minnesota Timberwolves,113,Oklahoma City Thunder,,105,113,december,2024-2025,3,2,60.0,3,2,60.0,2,2,4,2.0,2.0,173,174,190,169
+Tue Dec 31 2024,Cleveland Cavaliers,110,Los Angeles Lakers,,122,110,december,2024-2025,3,2,60.0,2,3,40.0,0,2,2,1.0,3.0,185,169,196,157
+Tue Dec 31 2024,Memphis Grizzlies,112,Phoenix Suns,,117,112,december,2024-2025,2,3,40.0,3,2,60.0,0,4,4,2.0,3.0,226,130,194,159
+Wed Jan 1 2025,Orlando Magic,105,Detroit Pistons,,96,105,january,2024-2025,4,1,80.0,0,5,0.0,1,2,3,3.0,4.0,87,254,144,204
+Wed Jan 1 2025,Chicago Bulls,125,Washington Wizards,,107,125,january,2024-2025,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,119,220,169,182
+Wed Jan 1 2025,New Orleans Pelicans,119,Miami Heat,,108,119,january,2024-2025,4,1,80.0,0,5,0.0,2,0,2,2.0,3.0,204,154,165,192
+Wed Jan 1 2025,Utah Jazz,119,New York Knicks,,103,119,january,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,199,154,171,175
+Wed Jan 1 2025,Brooklyn Nets,130,Toronto Raptors,,113,130,january,2024-2025,3,2,60.0,3,2,60.0,3,1,4,3.0,1.0,149,200,177,174
+Wed Jan 1 2025,Dallas Mavericks,110,Houston Rockets,,99,110,january,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,3.0,120,221,201,150
+Wed Jan 1 2025,Atlanta Hawks,139,Denver Nuggets,,120,139,january,2024-2025,2,3,40.0,1,4,20.0,2,0,2,3.0,2.0,228,128,178,180
+Wed Jan 1 2025,Philadelphia 76ers,113,Sacramento Kings,,107,113,january,2024-2025,1,4,20.0,4,1,80.0,1,1,2,2.0,2.0,168,183,218,137
+Thu Jan 2 2025,Indiana Pacers,115,Miami Heat,,128,115,january,2024-2025,3,2,60.0,3,2,60.0,2,2,4,2.0,1.0,205,154,155,193
+Thu Jan 2 2025,Boston Celtics,115,Minnesota Timberwolves,,118,115,january,2024-2025,4,1,80.0,1,4,20.0,0,2,2,2.0,2.0,190,170,241,116
+Thu Jan 2 2025,Brooklyn Nets,110,Milwaukee Bucks,,113,110,january,2024-2025,3,2,60.0,4,1,80.0,1,3,4,1.0,2.0,222,134,177,175
+Thu Jan 2 2025,Los Angeles Clippers,116,Oklahoma City Thunder,,98,116,january,2024-2025,2,3,40.0,4,1,80.0,4,0,4,2.0,2.0,174,174,202,152
+Thu Jan 2 2025,Philadelphia 76ers,139,Golden State Warriors,,105,139,january,2024-2025,1,4,20.0,4,1,80.0,1,1,2,1.0,3.0,198,156,218,138
+Thu Jan 2 2025,Portland Trail Blazers,114,Los Angeles Lakers,,106,114,january,2024-2025,2,3,40.0,2,3,40.0,3,1,4,3.0,2.0,185,170,127,214
+Fri Jan 3 2025,Charlotte Hornets,98,Detroit Pistons,,94,98,january,2024-2025,4,1,80.0,2,3,40.0,2,2,4,4.0,2.0,88,254,128,213
+Fri Jan 3 2025,Orlando Magic,97,Toronto Raptors,,106,97,january,2024-2025,3,2,60.0,1,4,20.0,3,1,4,2.0,2.0,150,200,144,205
+Fri Jan 3 2025,Boston Celtics,86,Houston Rockets,,109,86,january,2024-2025,2,3,40.0,1,4,20.0,1,1,2,1.0,2.0,121,221,242,116
+Fri Jan 3 2025,Washington Wizards,132,New Orleans Pelicans,,120,132,january,2024-2025,1,4,20.0,1,4,20.0,2,0,2,2.0,2.0,165,193,120,220
+Fri Jan 3 2025,New York Knicks,117,Oklahoma City Thunder,,107,117,january,2024-2025,2,3,40.0,3,2,60.0,2,0,2,2.0,1.0,175,174,200,154
+Fri Jan 3 2025,Cleveland Cavaliers,122,Dallas Mavericks,,134,122,january,2024-2025,4,1,80.0,3,2,60.0,0,2,2,3.0,2.0,201,151,197,157
+Fri Jan 3 2025,San Antonio Spurs,110,Denver Nuggets,,113,110,january,2024-2025,2,3,40.0,4,1,80.0,1,2,3,3.0,2.0,229,128,126,216
+Fri Jan 3 2025,Memphis Grizzlies,138,Sacramento Kings,,133,138,january,2024-2025,1,4,20.0,3,2,60.0,2,1,3,3.0,2.0,169,183,195,159
+Fri Jan 3 2025,Atlanta Hawks,119,Los Angeles Lakers,,102,119,january,2024-2025,1,4,20.0,2,3,40.0,1,1,2,2.0,1.0,186,170,178,181
+Sat Jan 4 2025,Philadelphia 76ers,94,Brooklyn Nets,,123,94,january,2024-2025,4,1,80.0,5,0,100.0,2,2,4,2.0,2.0,178,175,218,139
+Sat Jan 4 2025,Minnesota Timberwolves,119,Detroit Pistons,,105,119,january,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,1.0,89,254,190,171
+Sat Jan 4 2025,Phoenix Suns,126,Indiana Pacers,,108,126,january,2024-2025,3,2,60.0,2,3,40.0,2,0,2,4.0,2.0,156,193,226,131
+Sat Jan 4 2025,New York Knicks,139,Chicago Bulls,,126,139,january,2024-2025,3,2,60.0,4,1,80.0,2,1,3,1.0,3.0,169,183,200,155
+Sat Jan 4 2025,Utah Jazz,100,Miami Heat,,136,100,january,2024-2025,3,2,60.0,3,2,60.0,1,1,2,3.0,2.0,205,155,171,176
+Sat Jan 4 2025,Portland Trail Blazers,102,Milwaukee Bucks,,105,102,january,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,2.0,222,135,127,215
+Sat Jan 4 2025,Denver Nuggets,111,San Antonio Spurs,OT,122,111,january,2024-2025,4,1,80.0,1,4,20.0,2,1,3,1.0,1.0,127,216,229,129
+Sat Jan 4 2025,Memphis Grizzlies,121,Golden State Warriors,,113,121,january,2024-2025,1,4,20.0,4,1,80.0,4,1,5,1.0,2.0,199,156,195,160
+Sat Jan 4 2025,Atlanta Hawks,131,Los Angeles Clippers,,105,131,january,2024-2025,4,1,80.0,3,2,60.0,2,0,2,1.0,2.0,202,153,178,182
+Sun Jan 5 2025,Boston Celtics,105,Oklahoma City Thunder,,92,105,january,2024-2025,1,4,20.0,2,3,40.0,2,0,2,2.0,2.0,176,174,243,116
+Sun Jan 5 2025,Charlotte Hornets,115,Cleveland Cavaliers,,105,115,january,2024-2025,4,1,80.0,2,3,40.0,4,0,4,2.0,2.0,198,157,128,214
+Sun Jan 5 2025,New Orleans Pelicans,98,Washington Wizards,,110,98,january,2024-2025,1,4,20.0,1,4,20.0,0,2,2,2.0,2.0,120,221,166,193
+Sun Jan 5 2025,Utah Jazz,92,Orlando Magic,,105,92,january,2024-2025,2,3,40.0,3,2,60.0,0,2,2,1.0,2.0,145,205,172,176
+Sun Jan 5 2025,Los Angeles Lakers,119,Houston Rockets,,115,119,january,2024-2025,1,4,20.0,1,4,20.0,1,2,3,2.0,2.0,121,222,187,170
+Sun Jan 5 2025,Sacramento Kings,99,Golden State Warriors,,129,99,january,2024-2025,1,4,20.0,1,4,20.0,2,2,4,2.0,1.0,200,156,170,183
+Mon Jan 6 2025,Portland Trail Blazers,118,Detroit Pistons,,115,118,january,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,90,254,128,215
+Mon Jan 6 2025,Phoenix Suns,99,Philadelphia 76ers,,109,99,january,2024-2025,5,0,100.0,2,3,40.0,0,2,2,2.0,2.0,219,139,226,132
+Mon Jan 6 2025,Indiana Pacers,99,Brooklyn Nets,,113,99,january,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,178,176,157,193
+Mon Jan 6 2025,Orlando Magic,94,New York Knicks,,103,94,january,2024-2025,4,1,80.0,2,3,40.0,3,1,4,1.0,2.0,200,156,145,206
+Mon Jan 6 2025,Milwaukee Bucks,104,Toronto Raptors,,128,104,january,2024-2025,2,3,40.0,2,3,40.0,0,3,3,2.0,3.0,150,201,222,136
+Mon Jan 6 2025,San Antonio Spurs,114,Chicago Bulls,,110,114,january,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,170,183,127,217
+Mon Jan 6 2025,Dallas Mavericks,119,Memphis Grizzlies,,104,119,january,2024-2025,5,0,100.0,4,1,80.0,4,1,5,3.0,2.0,195,161,201,152
+Mon Jan 6 2025,Los Angeles Clippers,108,Minnesota Timberwolves,,106,108,january,2024-2025,3,2,60.0,3,2,60.0,3,0,3,2.0,2.0,190,172,203,153
+Mon Jan 6 2025,Miami Heat,123,Sacramento Kings,2OT,118,123,january,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,1.0,171,183,205,156
+Tue Jan 7 2025,Phoenix Suns,115,Charlotte Hornets,,104,115,january,2024-2025,3,2,60.0,3,2,60.0,1,1,2,1.0,2.0,128,215,227,132
+Tue Jan 7 2025,Houston Rockets,112,Washington Wizards,,135,112,january,2024-2025,1,4,20.0,0,5,0.0,0,2,2,2.0,2.0,120,222,122,222
+Tue Jan 7 2025,Los Angeles Lakers,118,Dallas Mavericks,,97,118,january,2024-2025,4,1,80.0,1,4,20.0,1,2,3,2.0,1.0,201,153,187,171
+Tue Jan 7 2025,Minnesota Timberwolves,97,New Orleans Pelicans,,104,97,january,2024-2025,2,3,40.0,2,3,40.0,1,2,3,1.0,2.0,167,193,191,172
+Tue Jan 7 2025,Atlanta Hawks,121,Utah Jazz,,124,121,january,2024-2025,3,2,60.0,4,1,80.0,0,2,2,3.0,2.0,173,176,178,183
+Tue Jan 7 2025,Boston Celtics,106,Denver Nuggets,,118,106,january,2024-2025,2,3,40.0,3,2,60.0,0,2,2,2.0,3.0,230,129,243,117
+Tue Jan 7 2025,Miami Heat,98,Golden State Warriors,,114,98,january,2024-2025,0,5,0.0,2,3,40.0,0,2,2,1.0,2.0,200,157,205,157
+Wed Jan 8 2025,Oklahoma City Thunder,129,Cleveland Cavaliers,,122,129,january,2024-2025,4,1,80.0,0,5,0.0,1,1,2,3.0,3.0,199,157,177,174
+Wed Jan 8 2025,Chicago Bulls,129,Indiana Pacers,,113,129,january,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,158,193,171,183
+Wed Jan 8 2025,Washington Wizards,109,Philadelphia 76ers,,103,109,january,2024-2025,4,1,80.0,1,4,20.0,2,1,3,1.0,2.0,219,140,120,223
+Wed Jan 8 2025,Detroit Pistons,98,Brooklyn Nets,,113,98,january,2024-2025,3,2,60.0,1,4,20.0,0,3,3,2.0,2.0,178,177,91,254
+Wed Jan 8 2025,Toronto Raptors,112,New York Knicks,,98,112,january,2024-2025,3,2,60.0,1,4,20.0,4,0,4,2.0,2.0,200,157,150,202
+Wed Jan 8 2025,Portland Trail Blazers,100,New Orleans Pelicans,,119,100,january,2024-2025,2,3,40.0,3,2,60.0,1,3,4,2.0,1.0,167,194,128,216
+Wed Jan 8 2025,Los Angeles Clippers,126,Denver Nuggets,,103,126,january,2024-2025,2,3,40.0,4,1,80.0,5,4,9,2.0,1.0,230,130,203,154
+Wed Jan 8 2025,San Antonio Spurs,121,Milwaukee Bucks,,105,121,january,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,223,136,127,218
+Thu Jan 9 2025,Toronto Raptors,132,Cleveland Cavaliers,,126,132,january,2024-2025,3,2,60.0,2,3,40.0,4,0,4,1.0,1.0,200,157,150,203
+Thu Jan 9 2025,Golden State Warriors,104,Detroit Pistons,,107,104,january,2024-2025,1,4,20.0,0,5,0.0,0,2,2,2.0,1.0,92,254,200,158
+Thu Jan 9 2025,Minnesota Timberwolves,89,Orlando Magic,,104,89,january,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,3.0,146,206,192,172
+Thu Jan 9 2025,Portland Trail Blazers,117,Dallas Mavericks,,111,117,january,2024-2025,3,2,60.0,4,1,80.0,3,1,4,1.0,2.0,202,153,129,216
+Thu Jan 9 2025,Houston Rockets,115,Memphis Grizzlies,,119,115,january,2024-2025,4,1,80.0,1,4,20.0,1,3,4,2.0,3.0,196,161,123,222
+Thu Jan 9 2025,Atlanta Hawks,123,Phoenix Suns,,115,123,january,2024-2025,4,1,80.0,5,0,100.0,1,1,2,2.0,2.0,227,133,179,183
+Thu Jan 9 2025,Miami Heat,92,Utah Jazz,,97,92,january,2024-2025,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,173,177,206,157
+Fri Jan 10 2025,Golden State Warriors,108,Indiana Pacers,,96,108,january,2024-2025,2,3,40.0,1,4,20.0,2,0,2,1.0,2.0,159,193,201,158
+Fri Jan 10 2025,Milwaukee Bucks,106,Orlando Magic,,109,106,january,2024-2025,3,2,60.0,2,3,40.0,1,3,4,2.0,1.0,146,207,224,136
+Fri Jan 10 2025,New Orleans Pelicans,115,Philadelphia 76ers,,123,115,january,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,2.0,220,140,167,195
+Fri Jan 10 2025,Sacramento Kings,97,Boston Celtics,,114,97,january,2024-2025,4,1,80.0,1,4,20.0,1,1,2,4.0,3.0,244,117,172,183
+Fri Jan 10 2025,Oklahoma City Thunder,101,New York Knicks,,126,101,january,2024-2025,2,3,40.0,1,4,20.0,0,2,2,2.0,2.0,201,157,177,175
+Fri Jan 10 2025,Washington Wizards,138,Chicago Bulls,,105,138,january,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,171,184,120,224
+Fri Jan 10 2025,Brooklyn Nets,124,Denver Nuggets,,105,124,january,2024-2025,1,4,20.0,2,3,40.0,2,0,2,2.0,2.0,231,130,178,178
+Sat Jan 11 2025,Utah Jazz,114,Phoenix Suns,,106,114,january,2024-2025,3,2,60.0,3,2,60.0,4,0,4,2.0,2.0,228,133,173,178
+Sat Jan 11 2025,Toronto Raptors,123,Detroit Pistons,,114,123,january,2024-2025,1,4,20.0,2,3,40.0,4,0,4,2.0,2.0,92,255,150,204
+Sat Jan 11 2025,Memphis Grizzlies,125,Minnesota Timberwolves,,127,125,january,2024-2025,3,2,60.0,3,2,60.0,1,2,3,2.0,2.0,193,172,196,162
+Sat Jan 11 2025,Miami Heat,98,Portland Trail Blazers,,119,98,january,2024-2025,5,0,100.0,3,2,60.0,1,1,2,2.0,2.0,129,217,207,157
+Sun Jan 12 2025,Denver Nuggets,101,Dallas Mavericks,,112,101,january,2024-2025,2,3,40.0,1,4,20.0,1,3,4,2.0,3.0,203,153,232,130
+Sun Jan 12 2025,Milwaukee Bucks,140,New York Knicks,,106,140,january,2024-2025,2,3,40.0,2,3,40.0,3,0,3,2.0,2.0,201,158,225,136
+Sun Jan 12 2025,Sacramento Kings,119,Chicago Bulls,,124,119,january,2024-2025,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,172,184,173,183
+Sun Jan 12 2025,New Orleans Pelicans,120,Boston Celtics,,119,120,january,2024-2025,4,1,80.0,2,3,40.0,2,0,2,2.0,2.0,244,118,168,195
+Sun Jan 12 2025,Indiana Pacers,93,Cleveland Cavaliers,,108,93,january,2024-2025,2,3,40.0,2,3,40.0,1,3,4,2.0,3.0,201,157,160,193
+Sun Jan 12 2025,Philadelphia 76ers,104,Orlando Magic,,99,104,january,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,146,208,220,141
+Sun Jan 12 2025,Oklahoma City Thunder,95,Washington Wizards,,136,95,january,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,2.0,120,225,178,175
+Sun Jan 12 2025,Brooklyn Nets,112,Utah Jazz,OT,111,112,january,2024-2025,3,2,60.0,2,3,40.0,2,0,2,2.0,1.0,173,179,178,179
+Sun Jan 12 2025,Charlotte Hornets,120,Phoenix Suns,,113,120,january,2024-2025,3,2,60.0,2,3,40.0,1,1,2,5.0,1.0,229,133,129,215
+Mon Jan 13 2025,Minnesota Timberwolves,106,Washington Wizards,,120,106,january,2024-2025,2,3,40.0,3,2,60.0,1,1,2,2.0,1.0,120,226,193,173
+Mon Jan 13 2025,Detroit Pistons,119,New York Knicks,,124,119,january,2024-2025,1,4,20.0,1,4,20.0,4,5,9,2.0,1.0,202,158,93,255
+Mon Jan 13 2025,Golden State Warriors,104,Toronto Raptors,,101,104,january,2024-2025,3,2,60.0,2,3,40.0,1,1,2,3.0,2.0,150,205,201,159
+Mon Jan 13 2025,Memphis Grizzlies,120,Houston Rockets,,118,120,january,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,4.0,124,222,197,162
+Mon Jan 13 2025,Miami Heat,109,Los Angeles Clippers,,98,109,january,2024-2025,4,1,80.0,4,1,80.0,2,0,2,2.0,5.0,203,155,208,157
+Mon Jan 13 2025,San Antonio Spurs,102,Los Angeles Lakers,,126,102,january,2024-2025,2,3,40.0,3,2,60.0,3,1,4,5.0,6.0,187,172,127,219
+Tue Jan 14 2025,Cleveland Cavaliers,117,Indiana Pacers,,127,117,january,2024-2025,2,3,40.0,1,4,20.0,3,1,4,2.0,2.0,161,193,201,158
+Tue Jan 14 2025,Oklahoma City Thunder,102,Philadelphia 76ers,,118,102,january,2024-2025,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,220,142,179,175
+Tue Jan 14 2025,Phoenix Suns,122,Atlanta Hawks,,117,122,january,2024-2025,5,0,100.0,2,3,40.0,1,1,2,2.0,5.0,179,184,230,133
+Tue Jan 14 2025,New Orleans Pelicans,113,Chicago Bulls,,119,113,january,2024-2025,1,4,20.0,3,2,60.0,0,2,2,2.0,2.0,172,185,168,196
+Tue Jan 14 2025,Sacramento Kings,130,Milwaukee Bucks,,115,130,january,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,225,137,174,183
+Tue Jan 14 2025,Denver Nuggets,99,Dallas Mavericks,,118,99,january,2024-2025,1,4,20.0,2,3,40.0,1,3,4,2.0,2.0,203,154,233,130
+Tue Jan 14 2025,Brooklyn Nets,114,Portland Trail Blazers,,132,114,january,2024-2025,4,1,80.0,2,3,40.0,1,1,2,2.0,3.0,129,218,178,180
+Wed Jan 15 2025,New York Knicks,119,Philadelphia 76ers,OT,125,119,january,2024-2025,1,4,20.0,0,5,0.0,0,4,4,2.0,1.0,220,143,202,159
+Wed Jan 15 2025,Boston Celtics,110,Toronto Raptors,,97,110,january,2024-2025,3,2,60.0,3,2,60.0,1,3,4,3.0,2.0,151,205,245,118
+Wed Jan 15 2025,Atlanta Hawks,94,Chicago Bulls,,110,94,january,2024-2025,1,4,20.0,4,1,80.0,2,2,4,1.0,1.0,172,186,180,184
+Wed Jan 15 2025,Orlando Magic,122,Milwaukee Bucks,,93,122,january,2024-2025,3,2,60.0,1,4,20.0,3,1,4,3.0,1.0,226,137,147,208
+Wed Jan 15 2025,Dallas Mavericks,119,New Orleans Pelicans,,116,119,january,2024-2025,3,2,60.0,1,4,20.0,1,3,4,1.0,1.0,169,196,203,155
+Wed Jan 15 2025,Memphis Grizzlies,115,San Antonio Spurs,,129,115,january,2024-2025,4,1,80.0,3,2,60.0,1,3,4,2.0,2.0,128,219,197,163
+Wed Jan 15 2025,Houston Rockets,108,Denver Nuggets,,128,108,january,2024-2025,2,3,40.0,2,3,40.0,2,1,3,2.0,1.0,234,130,125,222
+Wed Jan 15 2025,Charlotte Hornets,112,Utah Jazz,,117,112,january,2024-2025,2,3,40.0,3,2,60.0,0,2,2,3.0,3.0,174,179,129,216
+Wed Jan 15 2025,Golden State Warriors,115,Minnesota Timberwolves,,116,115,january,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,194,173,201,160
+Wed Jan 15 2025,Miami Heat,117,Los Angeles Lakers,,108,117,january,2024-2025,2,3,40.0,5,0,100.0,1,1,2,2.0,2.0,187,173,208,158
+Wed Jan 15 2025,Brooklyn Nets,126,Los Angeles Clippers,,67,126,january,2024-2025,3,2,60.0,3,2,60.0,2,0,2,1.0,2.0,204,155,179,180
+Thu Jan 16 2025,Indiana Pacers,100,Detroit Pistons,,111,100,january,2024-2025,2,3,40.0,2,3,40.0,1,3,4,2.0,3.0,94,255,161,194
+Thu Jan 16 2025,Phoenix Suns,123,Washington Wizards,,130,123,january,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,3.0,120,227,230,134
+Thu Jan 16 2025,Cleveland Cavaliers,134,Oklahoma City Thunder,,114,134,january,2024-2025,4,1,80.0,1,4,20.0,1,1,2,2.0,2.0,180,175,202,158
+Thu Jan 16 2025,Los Angeles Clippers,89,Portland Trail Blazers,,118,89,january,2024-2025,3,2,60.0,2,3,40.0,1,2,3,1.0,2.0,129,219,205,155
+Thu Jan 16 2025,Houston Rockets,132,Sacramento Kings,,127,132,january,2024-2025,4,1,80.0,3,2,60.0,3,0,3,1.0,2.0,174,184,126,222
+Fri Jan 17 2025,Orlando Magic,121,Boston Celtics,,94,121,january,2024-2025,3,2,60.0,2,3,40.0,5,3,8,2.0,2.0,245,119,147,209
+Fri Jan 17 2025,Minnesota Timberwolves,99,New York Knicks,,116,99,january,2024-2025,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,203,159,194,174
+Fri Jan 17 2025,Charlotte Hornets,123,Chicago Bulls,,125,123,january,2024-2025,1,4,20.0,4,1,80.0,3,1,4,2.0,2.0,172,187,130,216
+Fri Jan 17 2025,Denver Nuggets,113,Miami Heat,,133,113,january,2024-2025,5,0,100.0,2,3,40.0,0,2,2,2.0,2.0,208,159,234,131
+Fri Jan 17 2025,Toronto Raptors,130,Milwaukee Bucks,,112,130,january,2024-2025,2,3,40.0,3,2,60.0,3,0,3,2.0,2.0,227,137,152,205
+Fri Jan 17 2025,Utah Jazz,136,New Orleans Pelicans,,123,136,january,2024-2025,3,2,60.0,1,4,20.0,3,0,3,2.0,2.0,170,196,174,180
+Fri Jan 17 2025,Oklahoma City Thunder,106,Dallas Mavericks,,98,106,january,2024-2025,1,4,20.0,4,1,80.0,3,1,4,1.0,2.0,203,156,181,175
+Fri Jan 17 2025,Memphis Grizzlies,112,San Antonio Spurs,,140,112,january,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,128,220,198,163
+Fri Jan 17 2025,Brooklyn Nets,102,Los Angeles Lakers,,101,102,january,2024-2025,2,3,40.0,4,1,80.0,1,1,2,2.0,2.0,188,173,179,181
+Sat Jan 18 2025,Phoenix Suns,121,Detroit Pistons,,125,121,january,2024-2025,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,94,256,231,134
+Sat Jan 18 2025,Atlanta Hawks,115,Boston Celtics,OT,119,115,january,2024-2025,2,3,40.0,4,1,80.0,1,2,3,3.0,1.0,246,119,181,184
+Sat Jan 18 2025,Philadelphia 76ers,115,Indiana Pacers,,102,115,january,2024-2025,2,3,40.0,1,4,20.0,3,1,4,3.0,2.0,162,194,220,144
+Sat Jan 18 2025,Washington Wizards,122,Golden State Warriors,,114,122,january,2024-2025,4,1,80.0,2,3,40.0,2,0,2,2.0,3.0,202,160,120,228
+Sat Jan 18 2025,Cleveland Cavaliers,117,Minnesota Timberwolves,,124,117,january,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,1.0,195,174,202,159
+Sat Jan 18 2025,Houston Rockets,103,Portland Trail Blazers,,125,103,january,2024-2025,2,3,40.0,4,1,80.0,1,2,3,2.0,2.0,129,220,126,223
+Sun Jan 19 2025,San Antonio Spurs,128,Miami Heat,,107,128,january,2024-2025,4,1,80.0,3,2,60.0,2,0,2,2.0,2.0,208,160,128,221
+Sun Jan 19 2025,Denver Nuggets,100,Orlando Magic,,113,100,january,2024-2025,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,147,210,235,131
+Sun Jan 19 2025,Philadelphia 76ers,123,Milwaukee Bucks,,109,123,january,2024-2025,2,3,40.0,2,3,40.0,4,0,4,1.0,2.0,228,137,220,145
+Sun Jan 19 2025,Brooklyn Nets,127,Oklahoma City Thunder,,101,127,january,2024-2025,4,1,80.0,5,0,100.0,2,0,2,2.0,2.0,181,176,179,182
+Sun Jan 19 2025,Los Angeles Lakers,116,Los Angeles Clippers,,102,116,january,2024-2025,3,2,60.0,2,3,40.0,1,3,4,2.0,3.0,206,155,189,173
+Sun Jan 19 2025,Chicago Bulls,113,Portland Trail Blazers,,102,113,january,2024-2025,1,4,20.0,0,5,0.0,1,1,2,2.0,1.0,129,221,172,188
+Sun Jan 19 2025,Washington Wizards,123,Sacramento Kings,,100,123,january,2024-2025,3,2,60.0,2,3,40.0,1,1,2,1.0,3.0,175,184,120,229
+Mon Jan 20 2025,Dallas Mavericks,110,Charlotte Hornets,,105,110,january,2024-2025,4,1,80.0,1,4,20.0,1,1,2,3.0,3.0,131,216,204,156
+Mon Jan 20 2025,Detroit Pistons,96,Houston Rockets,,107,96,january,2024-2025,4,1,80.0,1,4,20.0,1,1,2,2.0,2.0,127,223,94,257
+Mon Jan 20 2025,Minnesota Timberwolves,108,Memphis Grizzlies,,106,108,january,2024-2025,4,1,80.0,2,3,40.0,2,1,3,2.0,3.0,199,163,195,175
+Mon Jan 20 2025,Atlanta Hawks,119,New York Knicks,,110,119,january,2024-2025,1,4,20.0,4,1,80.0,3,2,5,2.0,3.0,203,160,182,184
+Mon Jan 20 2025,Phoenix Suns,118,Cleveland Cavaliers,,92,118,january,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,203,159,232,134
+Mon Jan 20 2025,Boston Celtics,85,Golden State Warriors,,125,85,january,2024-2025,4,1,80.0,1,4,20.0,1,1,2,2.0,2.0,203,160,246,120
+Mon Jan 20 2025,Utah Jazz,123,New Orleans Pelicans,OT,119,123,january,2024-2025,3,2,60.0,2,3,40.0,3,0,3,3.0,3.0,171,196,174,181
+Mon Jan 20 2025,Chicago Bulls,99,Los Angeles Clippers,,112,99,january,2024-2025,2,3,40.0,1,4,20.0,1,1,2,1.0,1.0,207,155,172,189
+Tue Jan 21 2025,New York Knicks,95,Brooklyn Nets,,99,95,january,2024-2025,5,0,100.0,1,4,20.0,0,4,4,1.0,2.0,179,183,204,160
+Tue Jan 21 2025,Portland Trail Blazers,107,Miami Heat,,116,107,january,2024-2025,3,2,60.0,0,5,0.0,1,1,2,2.0,2.0,209,160,130,221
+Tue Jan 21 2025,Orlando Magic,109,Toronto Raptors,,93,109,january,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,4.0,152,206,147,211
+Tue Jan 21 2025,Philadelphia 76ers,144,Denver Nuggets,,109,144,january,2024-2025,4,1,80.0,3,2,60.0,2,0,2,2.0,2.0,236,131,220,146
+Tue Jan 21 2025,Washington Wizards,111,Los Angeles Lakers,,88,111,january,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,189,174,120,230
+Wed Jan 22 2025,Detroit Pistons,104,Atlanta Hawks,,114,104,january,2024-2025,4,1,80.0,2,3,40.0,1,3,4,2.0,2.0,182,185,95,257
+Wed Jan 22 2025,Phoenix Suns,84,Brooklyn Nets,,108,84,january,2024-2025,4,1,80.0,4,1,80.0,1,1,2,2.0,1.0,179,184,232,135
+Wed Jan 22 2025,Minnesota Timberwolves,114,Dallas Mavericks,,115,114,january,2024-2025,2,3,40.0,3,2,60.0,1,2,3,2.0,2.0,204,157,195,176
+Wed Jan 22 2025,Cleveland Cavaliers,109,Houston Rockets,,108,109,january,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,127,224,204,159
+Wed Jan 22 2025,Charlotte Hornets,132,Memphis Grizzlies,,120,132,january,2024-2025,4,1,80.0,3,2,60.0,2,0,2,2.0,2.0,200,163,132,216
+Wed Jan 22 2025,Utah Jazz,123,Oklahoma City Thunder,,114,123,january,2024-2025,3,2,60.0,3,2,60.0,4,0,4,2.0,3.0,182,176,174,182
+Wed Jan 22 2025,Golden State Warriors,123,Sacramento Kings,,117,123,january,2024-2025,3,2,60.0,3,2,60.0,2,2,4,2.0,3.0,176,184,203,161
+Wed Jan 22 2025,Boston Celtics,113,Los Angeles Clippers,OT,117,113,january,2024-2025,1,4,20.0,2,3,40.0,0,2,2,2.0,2.0,207,156,247,120
+Thu Jan 23 2025,San Antonio Spurs,110,Indiana Pacers,,140,110,january,2024-2025,2,3,40.0,3,2,60.0,1,1,2,4.0,5.0,163,194,128,222
+Thu Jan 23 2025,Portland Trail Blazers,79,Orlando Magic,,101,79,january,2024-2025,3,2,60.0,1,4,20.0,0,2,2,2.0,2.0,147,212,131,221
+Thu Jan 23 2025,Toronto Raptors,119,Atlanta Hawks,,122,119,january,2024-2025,3,2,60.0,2,3,40.0,1,2,3,2.0,1.0,182,186,153,206
+Thu Jan 23 2025,Dallas Mavericks,115,Oklahoma City Thunder,,121,115,january,2024-2025,2,3,40.0,2,3,40.0,1,3,4,1.0,1.0,183,176,204,158
+Thu Jan 23 2025,Miami Heat,125,Milwaukee Bucks,,96,125,january,2024-2025,1,4,20.0,2,3,40.0,4,0,4,2.0,4.0,229,137,209,161
+Thu Jan 23 2025,Sacramento Kings,132,Denver Nuggets,,123,132,january,2024-2025,3,2,60.0,2,3,40.0,4,0,4,1.0,2.0,237,131,177,184
+Thu Jan 23 2025,Chicago Bulls,131,Golden State Warriors,,106,131,january,2024-2025,3,2,60.0,2,3,40.0,2,0,2,3.0,1.0,203,162,173,189
+Thu Jan 23 2025,Boston Celtics,117,Los Angeles Lakers,,96,117,january,2024-2025,1,4,20.0,3,2,60.0,1,1,2,1.0,2.0,190,174,248,120
+Thu Jan 23 2025,Washington Wizards,110,Los Angeles Clippers,,93,110,january,2024-2025,1,4,20.0,3,2,60.0,2,0,2,2.0,1.0,207,157,120,231
+Fri Jan 24 2025,Portland Trail Blazers,97,Charlotte Hornets,,102,97,january,2024-2025,4,1,80.0,2,3,40.0,0,2,2,1.0,2.0,132,217,132,221
+Fri Jan 24 2025,Cleveland Cavaliers,132,Philadelphia 76ers,,129,132,january,2024-2025,3,2,60.0,4,1,80.0,1,2,3,2.0,3.0,220,147,204,160
+Fri Jan 24 2025,New Orleans Pelicans,139,Memphis Grizzlies,,126,139,january,2024-2025,3,2,60.0,2,3,40.0,4,0,4,4.0,2.0,201,163,172,196
+Sat Jan 25 2025,Indiana Pacers,98,San Antonio Spurs,,136,98,january,2024-2025,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,129,222,163,195
+Sat Jan 25 2025,Denver Nuggets,133,Minnesota Timberwolves,,104,133,january,2024-2025,3,2,60.0,2,3,40.0,4,0,4,2.0,3.0,196,176,238,131
+Sat Jan 25 2025,Boston Celtics,107,Dallas Mavericks,,122,107,january,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,205,158,248,121
+Sat Jan 25 2025,Miami Heat,97,Brooklyn Nets,,106,97,january,2024-2025,3,2,60.0,2,3,40.0,1,2,3,2.0,3.0,179,185,209,162
+Sat Jan 25 2025,New Orleans Pelicans,123,Charlotte Hornets,,92,123,january,2024-2025,3,2,60.0,2,3,40.0,1,1,2,1.0,1.0,132,218,172,197
+Sat Jan 25 2025,Detroit Pistons,121,Orlando Magic,,113,121,january,2024-2025,3,2,60.0,3,2,60.0,2,1,3,3.0,2.0,147,213,96,257
+Sat Jan 25 2025,Toronto Raptors,94,Atlanta Hawks,,117,94,january,2024-2025,3,2,60.0,2,3,40.0,1,2,3,2.0,2.0,182,187,154,206
+Sat Jan 25 2025,Houston Rockets,131,Cleveland Cavaliers,,135,131,january,2024-2025,4,1,80.0,3,2,60.0,0,2,2,3.0,1.0,204,161,128,224
+Sat Jan 25 2025,Sacramento Kings,143,New York Knicks,,120,143,january,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,4.0,205,160,177,185
+Sat Jan 25 2025,Philadelphia 76ers,97,Chicago Bulls,,109,97,january,2024-2025,3,2,60.0,3,2,60.0,2,2,4,1.0,2.0,173,190,221,147
+Sat Jan 25 2025,Utah Jazz,125,Memphis Grizzlies,,103,125,january,2024-2025,2,3,40.0,3,2,60.0,4,0,4,3.0,1.0,202,163,174,183
+Sat Jan 25 2025,Los Angeles Lakers,108,Golden State Warriors,,118,108,january,2024-2025,2,3,40.0,1,4,20.0,1,3,4,2.0,2.0,204,162,191,174
+Sat Jan 25 2025,Washington Wizards,119,Phoenix Suns,,109,119,january,2024-2025,5,0,100.0,4,1,80.0,2,0,2,2.0,3.0,233,135,120,232
+Sat Jan 25 2025,Milwaukee Bucks,127,Los Angeles Clippers,,117,127,january,2024-2025,1,4,20.0,0,5,0.0,1,1,2,2.0,2.0,208,157,230,137
+Sun Jan 26 2025,Oklahoma City Thunder,108,Portland Trail Blazers,,118,108,january,2024-2025,3,2,60.0,1,4,20.0,0,4,4,3.0,2.0,133,221,183,177
+Mon Jan 27 2025,Los Angeles Lakers,107,Charlotte Hornets,,112,107,january,2024-2025,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,133,218,192,174
+Mon Jan 27 2025,Detroit Pistons,110,Cleveland Cavaliers,,91,110,january,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,204,162,96,258
+Mon Jan 27 2025,Houston Rockets,112,Boston Celtics,,114,112,january,2024-2025,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,249,121,129,224
+Mon Jan 27 2025,Sacramento Kings,96,Brooklyn Nets,,110,96,january,2024-2025,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,179,186,177,186
+Mon Jan 27 2025,Orlando Magic,125,Miami Heat,2OT,119,125,january,2024-2025,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,210,162,148,213
+Mon Jan 27 2025,Memphis Grizzlies,143,New York Knicks,,106,143,january,2024-2025,2,3,40.0,1,4,20.0,2,0,2,2.0,2.0,206,160,203,163
+Mon Jan 27 2025,New Orleans Pelicans,113,Toronto Raptors,,104,113,january,2024-2025,3,2,60.0,2,3,40.0,2,0,2,2.0,2.0,155,206,172,198
+Mon Jan 27 2025,Denver Nuggets,129,Chicago Bulls,,121,129,january,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,173,191,238,132
+Mon Jan 27 2025,Atlanta Hawks,100,Minnesota Timberwolves,,92,100,january,2024-2025,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,197,176,182,188
+Mon Jan 27 2025,Washington Wizards,130,Dallas Mavericks,,108,130,january,2024-2025,2,3,40.0,5,0,100.0,2,0,2,2.0,2.0,205,159,120,233
+Mon Jan 27 2025,Milwaukee Bucks,110,Utah Jazz,,125,110,january,2024-2025,4,1,80.0,1,4,20.0,0,2,2,2.0,2.0,174,184,230,138
+Mon Jan 27 2025,Los Angeles Clippers,111,Phoenix Suns,,109,111,january,2024-2025,4,1,80.0,0,5,0.0,4,0,4,2.0,2.0,234,135,209,157
+Tue Jan 28 2025,Houston Rockets,96,Atlanta Hawks,,100,96,january,2024-2025,2,3,40.0,3,2,60.0,0,2,2,1.0,1.0,182,189,130,224
+Tue Jan 28 2025,Los Angeles Lakers,118,Philadelphia 76ers,,104,118,january,2024-2025,4,1,80.0,3,2,60.0,1,1,2,1.0,3.0,222,147,193,174
+Tue Jan 28 2025,Utah Jazz,114,Golden State Warriors,,103,114,january,2024-2025,1,4,20.0,4,1,80.0,2,1,3,1.0,3.0,204,163,174,185
+Tue Jan 28 2025,Milwaukee Bucks,125,Portland Trail Blazers,,112,125,january,2024-2025,3,2,60.0,2,3,40.0,2,0,2,1.0,2.0,133,222,231,138
+Wed Jan 29 2025,Brooklyn Nets,83,Charlotte Hornets,,104,83,january,2024-2025,1,4,20.0,1,4,20.0,1,3,4,2.0,2.0,133,219,179,187
+Wed Jan 29 2025,Detroit Pistons,133,Indiana Pacers,,119,133,january,2024-2025,2,3,40.0,4,1,80.0,3,1,4,2.0,4.0,164,195,96,259
+Wed Jan 29 2025,Toronto Raptors,82,Washington Wizards,,106,82,january,2024-2025,5,0,100.0,3,2,60.0,1,3,4,2.0,2.0,120,234,156,206
+Wed Jan 29 2025,Chicago Bulls,122,Boston Celtics,,100,122,january,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,249,122,174,191
+Wed Jan 29 2025,Cleveland Cavaliers,106,Miami Heat,,126,106,january,2024-2025,2,3,40.0,2,3,40.0,1,6,7,2.0,2.0,211,162,205,162
+Wed Jan 29 2025,Denver Nuggets,122,New York Knicks,,112,122,january,2024-2025,1,4,20.0,3,2,60.0,2,0,2,2.0,2.0,207,160,238,133
+Wed Jan 29 2025,Sacramento Kings,117,Philadelphia 76ers,,104,117,january,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,1.0,223,147,178,186
+Wed Jan 29 2025,Dallas Mavericks,136,New Orleans Pelicans,,137,136,january,2024-2025,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,172,199,206,159
+Wed Jan 29 2025,Los Angeles Clippers,116,San Antonio Spurs,,128,116,january,2024-2025,2,3,40.0,1,4,20.0,1,3,4,2.0,4.0,129,223,209,158
+Wed Jan 29 2025,Minnesota Timberwolves,113,Phoenix Suns,,121,113,january,2024-2025,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,235,135,198,176
+Wed Jan 29 2025,Oklahoma City Thunder,116,Golden State Warriors,,109,116,january,2024-2025,1,4,20.0,2,3,40.0,2,1,3,3.0,1.0,205,163,184,177
+Thu Jan 30 2025,Atlanta Hawks,137,Cleveland Cavaliers,,115,137,january,2024-2025,3,2,60.0,1,4,20.0,1,2,3,2.0,1.0,206,162,182,190
+Thu Jan 30 2025,Los Angeles Lakers,96,Washington Wizards,,134,96,january,2024-2025,4,1,80.0,3,2,60.0,0,2,2,2.0,1.0,120,235,193,175
+Thu Jan 30 2025,Minnesota Timberwolves,113,Utah Jazz,,138,113,january,2024-2025,4,1,80.0,3,2,60.0,1,3,4,1.0,2.0,174,186,199,176
+Thu Jan 30 2025,Houston Rockets,120,Memphis Grizzlies,,119,120,january,2024-2025,1,4,20.0,3,2,60.0,1,3,4,2.0,3.0,203,164,131,224
+Thu Jan 30 2025,Orlando Magic,119,Portland Trail Blazers,,90,119,january,2024-2025,3,2,60.0,2,3,40.0,2,0,2,3.0,2.0,134,222,148,214
+Fri Jan 31 2025,Los Angeles Clippers,104,Charlotte Hornets,,112,104,january,2024-2025,1,4,20.0,2,3,40.0,0,2,2,2.0,2.0,133,220,210,158
+Fri Jan 31 2025,Dallas Mavericks,117,Detroit Pistons,,102,117,january,2024-2025,5,0,100.0,2,3,40.0,1,1,2,2.0,2.0,96,260,207,159
+Fri Jan 31 2025,Denver Nuggets,134,Philadelphia 76ers,,137,134,january,2024-2025,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,224,147,238,134
+Fri Jan 31 2025,Chicago Bulls,106,Toronto Raptors,,122,106,january,2024-2025,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,157,206,174,192
+Fri Jan 31 2025,Boston Celtics,116,New Orleans Pelicans,,118,116,january,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,172,200,250,122
+Fri Jan 31 2025,Milwaukee Bucks,144,San Antonio Spurs,,118,144,january,2024-2025,2,3,40.0,3,2,60.0,1,1,2,3.0,2.0,129,224,231,139
+Fri Jan 31 2025,Phoenix Suns,105,Golden State Warriors,,130,105,january,2024-2025,1,4,20.0,2,3,40.0,2,2,4,2.0,2.0,206,163,235,136
+Sat Feb 1 2025,Atlanta Hawks,132,Indiana Pacers,,127,132,february,2024-2025,2,3,40.0,2,3,40.0,1,2,3,2.0,3.0,165,195,182,191
+Sat Feb 1 2025,Orlando Magic,113,Utah Jazz,,99,113,february,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,174,187,148,215
+Sat Feb 1 2025,Denver Nuggets,104,Charlotte Hornets,,107,104,february,2024-2025,0,5,0.0,4,1,80.0,0,2,2,1.0,1.0,133,221,239,134
+Sat Feb 1 2025,Brooklyn Nets,98,Houston Rockets,,110,98,february,2024-2025,4,1,80.0,1,4,20.0,0,2,2,3.0,2.0,131,225,180,187
+Sat Feb 1 2025,Washington Wizards,103,Minnesota Timberwolves,,105,103,february,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,200,176,120,236
+Sat Feb 1 2025,Sacramento Kings,144,Oklahoma City Thunder,,110,144,february,2024-2025,2,3,40.0,4,1,80.0,3,0,3,3.0,3.0,184,178,178,187
+Sat Feb 1 2025,Los Angeles Lakers,112,New York Knicks,,128,112,february,2024-2025,1,4,20.0,4,1,80.0,0,2,2,2.0,3.0,208,160,194,175
+Sat Feb 1 2025,Miami Heat,103,San Antonio Spurs,,105,103,february,2024-2025,2,3,40.0,2,3,40.0,0,2,2,3.0,1.0,130,224,211,163
+Sat Feb 1 2025,Phoenix Suns,127,Portland Trail Blazers,,108,127,february,2024-2025,2,3,40.0,2,3,40.0,2,2,4,1.0,2.0,135,222,236,136
+Sun Feb 2 2025,Chicago Bulls,127,Detroit Pistons,,119,127,february,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,97,260,175,192
+Sun Feb 2 2025,Dallas Mavericks,144,Cleveland Cavaliers,,101,144,february,2024-2025,2,3,40.0,3,2,60.0,2,0,2,2.0,3.0,207,162,207,160
+Sun Feb 2 2025,Los Angeles Clippers,115,Toronto Raptors,,108,115,february,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,157,207,211,158
+Sun Feb 2 2025,Boston Celtics,110,Philadelphia 76ers,,118,110,february,2024-2025,1,4,20.0,3,2,60.0,1,3,4,2.0,2.0,224,148,251,122
+Sun Feb 2 2025,Memphis Grizzlies,119,Milwaukee Bucks,,132,119,february,2024-2025,4,1,80.0,1,4,20.0,0,2,2,3.0,2.0,231,140,204,164
+Mon Feb 3 2025,Washington Wizards,114,Charlotte Hornets,,124,114,february,2024-2025,0,5,0.0,3,2,60.0,0,4,4,2.0,2.0,133,222,121,236
+Mon Feb 3 2025,Atlanta Hawks,130,Detroit Pistons,,132,130,february,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,1.0,98,260,182,192
+Mon Feb 3 2025,Houston Rockets,124,New York Knicks,,118,124,february,2024-2025,1,4,20.0,4,1,80.0,1,1,2,2.0,2.0,208,161,131,226
+Mon Feb 3 2025,San Antonio Spurs,128,Memphis Grizzlies,,109,128,february,2024-2025,2,3,40.0,1,4,20.0,3,1,4,2.0,1.0,205,164,130,225
+Mon Feb 3 2025,Sacramento Kings,114,Minnesota Timberwolves,,116,114,february,2024-2025,2,3,40.0,5,0,100.0,2,2,4,2.0,2.0,200,177,178,188
+Mon Feb 3 2025,Milwaukee Bucks,125,Oklahoma City Thunder,,96,125,february,2024-2025,2,3,40.0,4,1,80.0,2,1,3,1.0,2.0,185,178,231,141
+Mon Feb 3 2025,New Orleans Pelicans,125,Denver Nuggets,,113,125,february,2024-2025,5,0,100.0,3,2,60.0,3,1,4,3.0,2.0,240,134,172,201
+Mon Feb 3 2025,Indiana Pacers,111,Utah Jazz,,112,111,february,2024-2025,2,3,40.0,1,4,20.0,0,2,2,2.0,2.0,175,187,166,195
+Mon Feb 3 2025,Orlando Magic,104,Golden State Warriors,,99,104,february,2024-2025,0,5,0.0,3,2,60.0,2,0,2,2.0,3.0,206,164,148,216
+Mon Feb 3 2025,Phoenix Suns,121,Portland Trail Blazers,OT,119,121,february,2024-2025,1,4,20.0,2,3,40.0,2,2,4,2.0,2.0,136,222,236,137
+Tue Feb 4 2025,Dallas Mavericks,118,Philadelphia 76ers,,116,118,february,2024-2025,1,4,20.0,3,2,60.0,2,0,2,2.0,2.0,224,149,207,161
+Tue Feb 4 2025,Houston Rockets,99,Brooklyn Nets,,97,99,february,2024-2025,2,3,40.0,4,1,80.0,2,0,2,1.0,3.0,181,187,131,227
+Tue Feb 4 2025,Boston Celtics,105,Cleveland Cavaliers,,112,105,february,2024-2025,1,4,20.0,3,2,60.0,2,2,4,2.0,2.0,208,162,252,122
+Tue Feb 4 2025,New York Knicks,115,Toronto Raptors,,121,115,february,2024-2025,2,3,40.0,0,5,0.0,0,4,4,1.0,2.0,158,207,209,161
+Tue Feb 4 2025,Miami Heat,133,Chicago Bulls,,124,133,february,2024-2025,3,2,60.0,3,2,60.0,3,1,4,3.0,2.0,175,193,212,163
+Tue Feb 4 2025,Los Angeles Lakers,97,Los Angeles Clippers,,122,97,february,2024-2025,4,1,80.0,5,0,100.0,1,3,4,3.0,2.0,211,159,195,175
+Tue Feb 4 2025,Indiana Pacers,112,Portland Trail Blazers,,89,112,february,2024-2025,0,5,0.0,2,3,40.0,1,1,2,1.0,1.0,137,222,167,195
+Wed Feb 5 2025,San Antonio Spurs,125,Atlanta Hawks,,126,125,february,2024-2025,4,1,80.0,1,4,20.0,0,2,2,2.0,2.0,183,192,130,226
+Wed Feb 5 2025,Milwaukee Bucks,102,Charlotte Hornets,,112,102,february,2024-2025,0,5,0.0,4,1,80.0,1,2,3,2.0,2.0,133,223,231,142
+Wed Feb 5 2025,Cleveland Cavaliers,115,Detroit Pistons,,118,115,february,2024-2025,2,3,40.0,1,4,20.0,1,3,4,1.0,2.0,98,261,208,163
+Wed Feb 5 2025,Washington Wizards,102,Brooklyn Nets,,119,102,february,2024-2025,2,3,40.0,3,2,60.0,1,2,3,2.0,1.0,182,187,122,236
+Wed Feb 5 2025,Miami Heat,101,Philadelphia 76ers,,108,101,february,2024-2025,0,5,0.0,3,2,60.0,0,4,4,1.0,1.0,225,149,212,164
+Wed Feb 5 2025,Memphis Grizzlies,107,Toronto Raptors,,138,107,february,2024-2025,1,4,20.0,2,3,40.0,0,2,2,2.0,1.0,158,208,206,164
+Wed Feb 5 2025,Chicago Bulls,127,Minnesota Timberwolves,,108,127,february,2024-2025,2,3,40.0,3,2,60.0,2,0,2,1.0,2.0,200,178,176,193
+Wed Feb 5 2025,New Orleans Pelicans,144,Denver Nuggets,,119,144,february,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,241,134,172,202
+Wed Feb 5 2025,Golden State Warriors,131,Utah Jazz,,128,131,february,2024-2025,1,4,20.0,0,5,0.0,1,2,3,2.0,2.0,175,188,207,164
+Wed Feb 5 2025,Phoenix Suns,140,Oklahoma City Thunder,,109,140,february,2024-2025,2,3,40.0,3,2,60.0,3,0,3,2.0,2.0,186,178,236,138
+Wed Feb 5 2025,Orlando Magic,111,Sacramento Kings,,130,111,february,2024-2025,5,0,100.0,4,1,80.0,0,2,2,2.0,2.0,179,188,148,217
+Thu Feb 6 2025,Dallas Mavericks,120,Boston Celtics,,127,120,february,2024-2025,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,253,122,207,162
+Thu Feb 6 2025,Houston Rockets,127,Minnesota Timberwolves,,114,127,february,2024-2025,2,3,40.0,4,1,80.0,2,2,4,2.0,1.0,201,178,131,228
+Thu Feb 6 2025,Orlando Magic,112,Denver Nuggets,,90,112,february,2024-2025,3,2,60.0,5,0,100.0,2,0,2,1.0,1.0,242,134,149,217
+Thu Feb 6 2025,Golden State Warriors,120,Los Angeles Lakers,,112,120,february,2024-2025,5,0,100.0,1,4,20.0,3,1,4,1.0,2.0,196,175,207,165
+Thu Feb 6 2025,Sacramento Kings,108,Portland Trail Blazers,,102,108,february,2024-2025,0,5,0.0,4,1,80.0,2,2,4,1.0,2.0,138,222,179,189
+Thu Feb 6 2025,Indiana Pacers,112,Los Angeles Clippers,,119,112,february,2024-2025,4,1,80.0,3,2,60.0,0,2,2,2.0,2.0,211,160,167,196
+Fri Feb 7 2025,San Antonio Spurs,117,Charlotte Hornets,,116,117,february,2024-2025,0,5,0.0,2,3,40.0,2,0,2,2.0,2.0,133,224,131,226
+Fri Feb 7 2025,Cleveland Cavaliers,124,Washington Wizards,,134,124,february,2024-2025,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,123,236,209,163
+Fri Feb 7 2025,Milwaukee Bucks,115,Atlanta Hawks,,110,115,february,2024-2025,3,2,60.0,4,1,80.0,3,2,5,2.0,2.0,183,193,232,142
+Fri Feb 7 2025,Miami Heat,102,Brooklyn Nets,,86,102,february,2024-2025,2,3,40.0,3,2,60.0,1,2,3,2.0,2.0,182,188,213,164
+Fri Feb 7 2025,Philadelphia 76ers,125,Detroit Pistons,,112,125,february,2024-2025,1,4,20.0,0,5,0.0,2,1,3,2.0,2.0,98,262,225,150
+Fri Feb 7 2025,Toronto Raptors,121,Oklahoma City Thunder,,109,121,february,2024-2025,2,3,40.0,1,4,20.0,2,0,2,2.0,2.0,187,178,158,209
+Fri Feb 7 2025,Utah Jazz,135,Phoenix Suns,OT,127,135,february,2024-2025,4,1,80.0,1,4,20.0,4,0,4,2.0,2.0,236,139,176,188
+Sat Feb 8 2025,Houston Rockets,116,Dallas Mavericks,,105,116,february,2024-2025,5,0,100.0,4,1,80.0,1,3,4,2.0,2.0,208,162,131,229
+Sat Feb 8 2025,Indiana Pacers,124,Los Angeles Lakers,,117,124,february,2024-2025,4,1,80.0,3,2,60.0,2,0,2,2.0,2.0,197,175,168,196
+Sat Feb 8 2025,San Antonio Spurs,112,Orlando Magic,,111,112,february,2024-2025,5,0,100.0,3,2,60.0,2,0,2,1.0,2.0,149,218,131,227
+Sat Feb 8 2025,Atlanta Hawks,111,Washington Wizards,,125,111,february,2024-2025,3,2,60.0,3,2,60.0,2,2,4,1.0,1.0,123,237,184,193
+Sat Feb 8 2025,Golden State Warriors,111,Chicago Bulls,,132,111,february,2024-2025,4,1,80.0,2,3,40.0,0,2,2,2.0,3.0,176,194,207,166
+Sat Feb 8 2025,Oklahoma City Thunder,112,Memphis Grizzlies,,125,112,february,2024-2025,3,2,60.0,1,4,20.0,0,8,8,1.0,3.0,207,164,188,178
+Sat Feb 8 2025,Portland Trail Blazers,114,Minnesota Timberwolves,,98,114,february,2024-2025,1,4,20.0,0,5,0.0,2,2,4,2.0,2.0,202,178,139,222
+Sat Feb 8 2025,Boston Celtics,104,New York Knicks,,131,104,february,2024-2025,1,4,20.0,3,2,60.0,0,4,4,2.0,4.0,210,161,253,123
+Sat Feb 8 2025,Denver Nuggets,105,Phoenix Suns,,122,105,february,2024-2025,4,1,80.0,2,3,40.0,1,3,4,2.0,1.0,237,139,243,134
+Sat Feb 8 2025,New Orleans Pelicans,123,Sacramento Kings,,118,123,february,2024-2025,4,1,80.0,3,2,60.0,3,1,4,3.0,2.0,179,190,172,203
+Sat Feb 8 2025,Utah Jazz,130,Los Angeles Clippers,,110,130,february,2024-2025,3,2,60.0,1,4,20.0,4,0,4,1.0,2.0,211,161,176,189
+Sun Feb 9 2025,Charlotte Hornets,112,Detroit Pistons,,102,112,february,2024-2025,0,5,0.0,0,5,0.0,2,2,4,2.0,2.0,99,262,134,224
+Sun Feb 9 2025,Toronto Raptors,94,Houston Rockets,,87,94,february,2024-2025,4,1,80.0,1,4,20.0,2,0,2,2.0,1.0,131,230,158,210
+Sun Feb 9 2025,Philadelphia 76ers,135,Milwaukee Bucks,,127,135,february,2024-2025,4,1,80.0,1,4,20.0,4,0,4,2.0,2.0,232,143,225,151
+Mon Feb 10 2025,Minnesota Timberwolves,128,Cleveland Cavaliers,,107,128,february,2024-2025,2,3,40.0,0,5,0.0,2,0,2,2.0,3.0,210,163,203,178
+Mon Feb 10 2025,Atlanta Hawks,106,Orlando Magic,,112,106,february,2024-2025,4,1,80.0,3,2,60.0,3,2,5,2.0,2.0,150,218,185,193
+Mon Feb 10 2025,San Antonio Spurs,121,Washington Wizards,,131,121,february,2024-2025,3,2,60.0,4,1,80.0,0,2,2,2.0,2.0,123,238,131,228
+Mon Feb 10 2025,Charlotte Hornets,97,Brooklyn Nets,,89,97,february,2024-2025,2,3,40.0,1,4,20.0,3,1,4,1.0,3.0,183,188,134,225
+Mon Feb 10 2025,Boston Celtics,85,Miami Heat,,103,85,february,2024-2025,4,1,80.0,4,1,80.0,1,3,4,2.0,3.0,213,165,254,123
+Mon Feb 10 2025,Golden State Warriors,111,Milwaukee Bucks,,125,111,february,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,1.0,233,143,208,166
+Mon Feb 10 2025,New Orleans Pelicans,137,Oklahoma City Thunder,,101,137,february,2024-2025,1,4,20.0,3,2,60.0,4,0,4,2.0,2.0,189,178,172,204
+Mon Feb 10 2025,Sacramento Kings,128,Dallas Mavericks,OT,129,128,february,2024-2025,4,1,80.0,3,2,60.0,1,3,4,2.0,2.0,209,162,180,190
+Mon Feb 10 2025,Portland Trail Blazers,146,Denver Nuggets,,117,146,february,2024-2025,2,3,40.0,1,4,20.0,2,2,4,2.0,2.0,244,134,139,223
+Mon Feb 10 2025,Utah Jazz,132,Los Angeles Lakers,,113,132,february,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,198,175,176,190
+Tue Feb 11 2025,Toronto Raptors,103,Philadelphia 76ers,,106,103,february,2024-2025,2,3,40.0,2,3,40.0,0,4,4,2.0,2.0,225,152,158,211
+Tue Feb 11 2025,New York Knicks,115,Indiana Pacers,,128,115,february,2024-2025,4,1,80.0,1,4,20.0,1,2,3,3.0,3.0,168,197,210,162
+Tue Feb 11 2025,Detroit Pistons,92,Chicago Bulls,,132,92,february,2024-2025,3,2,60.0,0,5,0.0,1,3,4,2.0,3.0,176,195,100,262
+Tue Feb 11 2025,Memphis Grizzlies,112,Phoenix Suns,,119,112,february,2024-2025,3,2,60.0,2,3,40.0,0,4,4,3.0,3.0,237,140,207,165
+Wed Feb 12 2025,San Antonio Spurs,116,Boston Celtics,,103,116,february,2024-2025,4,1,80.0,5,0,100.0,2,0,2,2.0,2.0,255,123,132,228
+Wed Feb 12 2025,Charlotte Hornets,102,Orlando Magic,,86,102,february,2024-2025,3,2,60.0,2,3,40.0,4,0,4,2.0,2.0,150,219,134,226
+Wed Feb 12 2025,Indiana Pacers,130,Washington Wizards,OT,134,130,february,2024-2025,2,3,40.0,4,1,80.0,0,4,4,1.0,2.0,123,239,168,198
+Wed Feb 12 2025,Philadelphia 76ers,100,Brooklyn Nets,,96,100,february,2024-2025,1,4,20.0,2,3,40.0,2,2,4,1.0,2.0,184,188,225,153
+Wed Feb 12 2025,Atlanta Hawks,149,New York Knicks,OT,148,149,february,2024-2025,2,3,40.0,3,2,60.0,3,2,5,2.0,1.0,211,162,186,193
+Wed Feb 12 2025,Cleveland Cavaliers,108,Toronto Raptors,,131,108,february,2024-2025,3,2,60.0,2,3,40.0,0,4,4,2.0,1.0,159,211,211,163
+Wed Feb 12 2025,Detroit Pistons,110,Chicago Bulls,,128,110,february,2024-2025,2,3,40.0,1,4,20.0,1,3,4,1.0,1.0,176,196,101,262
+Wed Feb 12 2025,Milwaukee Bucks,101,Minnesota Timberwolves,,103,101,february,2024-2025,1,4,20.0,3,2,60.0,0,2,2,2.0,2.0,203,179,233,144
+Wed Feb 12 2025,Sacramento Kings,111,New Orleans Pelicans,,119,111,february,2024-2025,4,1,80.0,3,2,60.0,1,3,4,2.0,2.0,172,205,181,190
+Wed Feb 12 2025,Miami Heat,115,Oklahoma City Thunder,,101,115,february,2024-2025,1,4,20.0,4,1,80.0,2,0,2,2.0,2.0,190,178,213,166
+Wed Feb 12 2025,Phoenix Suns,119,Houston Rockets,,111,119,february,2024-2025,4,1,80.0,2,3,40.0,3,0,3,1.0,3.0,132,230,237,141
+Wed Feb 12 2025,Portland Trail Blazers,132,Denver Nuggets,,121,132,february,2024-2025,1,4,20.0,2,3,40.0,2,2,4,2.0,2.0,245,134,139,224
+Wed Feb 12 2025,Los Angeles Lakers,131,Utah Jazz,,119,131,february,2024-2025,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,176,191,199,175
+Wed Feb 12 2025,Golden State Warriors,111,Dallas Mavericks,,107,111,february,2024-2025,3,2,60.0,4,1,80.0,2,2,4,2.0,2.0,209,163,209,166
+Wed Feb 12 2025,Memphis Grizzlies,128,Los Angeles Clippers,,114,128,february,2024-2025,2,3,40.0,3,2,60.0,3,0,3,1.0,4.0,212,161,208,165
+Thu Feb 13 2025,Golden State Warriors,98,Houston Rockets,,105,98,february,2024-2025,3,2,60.0,5,0,100.0,4,6,10,1.0,1.0,133,230,209,167
+Thu Feb 13 2025,Sacramento Kings,140,New Orleans Pelicans,OT,133,140,february,2024-2025,4,1,80.0,3,2,60.0,1,3,4,1.0,1.0,172,206,182,190
+Thu Feb 13 2025,Miami Heat,118,Dallas Mavericks,,113,118,february,2024-2025,2,3,40.0,4,1,80.0,1,1,2,1.0,1.0,210,163,213,167
+Thu Feb 13 2025,Oklahoma City Thunder,116,Minnesota Timberwolves,,101,116,february,2024-2025,1,4,20.0,1,4,20.0,2,2,4,1.0,1.0,203,180,191,178
+Thu Feb 13 2025,Los Angeles Clippers,116,Utah Jazz,OT,120,116,february,2024-2025,3,2,60.0,1,4,20.0,0,4,4,1.0,1.0,177,191,213,161
+Wed Feb 19 2025,Charlotte Hornets,97,Los Angeles Lakers,,100,97,february,2024-2025,2,3,40.0,3,2,60.0,1,1,2,7.0,7.0,199,176,134,227
+Thu Feb 20 2025,Memphis Grizzlies,127,Indiana Pacers,,113,127,february,2024-2025,4,1,80.0,3,2,60.0,1,1,2,8.0,8.0,169,198,208,166
+Thu Feb 20 2025,Boston Celtics,104,Philadelphia 76ers,,124,104,february,2024-2025,3,2,60.0,3,2,60.0,1,3,4,8.0,8.0,225,154,256,123
+Thu Feb 20 2025,Orlando Magic,108,Atlanta Hawks,,114,108,february,2024-2025,3,2,60.0,2,3,40.0,2,3,5,8.0,8.0,186,194,151,219
+Thu Feb 20 2025,Cleveland Cavaliers,97,Brooklyn Nets,,110,97,february,2024-2025,0,5,0.0,3,2,60.0,0,4,4,8.0,8.0,185,188,212,163
+Thu Feb 20 2025,Chicago Bulls,113,New York Knicks,OT,111,113,february,2024-2025,2,3,40.0,1,4,20.0,1,2,3,8.0,8.0,212,162,176,197
+Thu Feb 20 2025,Los Angeles Clippers,116,Milwaukee Bucks,,110,116,february,2024-2025,3,2,60.0,1,4,20.0,1,1,2,7.0,8.0,234,144,214,161
+Thu Feb 20 2025,Charlotte Hornets,129,Denver Nuggets,,115,129,february,2024-2025,1,4,20.0,4,1,80.0,2,0,2,1.0,8.0,246,134,135,227
+Thu Feb 20 2025,Phoenix Suns,120,San Antonio Spurs,,109,120,february,2024-2025,5,0,100.0,2,3,40.0,1,2,3,8.0,8.0,132,229,237,142
+Thu Feb 20 2025,Los Angeles Lakers,102,Portland Trail Blazers,,110,102,february,2024-2025,3,2,60.0,1,4,20.0,1,3,4,1.0,8.0,139,225,199,177
+Fri Feb 21 2025,New York Knicks,142,Cleveland Cavaliers,,105,142,february,2024-2025,4,1,80.0,2,3,40.0,4,0,4,1.0,1.0,213,163,213,162
+Fri Feb 21 2025,Memphis Grizzlies,104,Orlando Magic,,105,104,february,2024-2025,2,3,40.0,4,1,80.0,0,2,2,1.0,1.0,152,219,208,167
+Fri Feb 21 2025,Milwaukee Bucks,101,Washington Wizards,,104,101,february,2024-2025,1,4,20.0,2,3,40.0,0,3,3,1.0,9.0,123,240,235,144
+Fri Feb 21 2025,Miami Heat,111,Toronto Raptors,OT,120,111,february,2024-2025,3,2,60.0,4,1,80.0,1,3,4,8.0,9.0,159,212,213,168
+Fri Feb 21 2025,New Orleans Pelicans,111,Dallas Mavericks,,103,111,february,2024-2025,1,4,20.0,3,2,60.0,3,1,4,8.0,8.0,211,163,173,206
+Fri Feb 21 2025,Detroit Pistons,110,San Antonio Spurs,,125,110,february,2024-2025,4,1,80.0,2,3,40.0,0,2,2,9.0,1.0,133,229,102,262
+Fri Feb 21 2025,Minnesota Timberwolves,121,Houston Rockets,,115,121,february,2024-2025,2,3,40.0,1,4,20.0,2,2,4,8.0,8.0,133,231,204,180
+Fri Feb 21 2025,Oklahoma City Thunder,107,Utah Jazz,,130,107,february,2024-2025,3,2,60.0,2,3,40.0,0,4,4,8.0,8.0,177,192,191,179
+Fri Feb 21 2025,Golden State Warriors,108,Sacramento Kings,,132,108,february,2024-2025,4,1,80.0,5,0,100.0,2,2,4,8.0,8.0,182,191,210,167
+Sat Feb 22 2025,Phoenix Suns,117,Chicago Bulls,,121,117,february,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,176,198,237,143
+Sat Feb 22 2025,Brooklyn Nets,103,Philadelphia 76ers,,105,103,february,2024-2025,3,2,60.0,0,5,0.0,2,2,4,2.0,2.0,225,155,185,189
+Sat Feb 22 2025,Los Angeles Lakers,100,Denver Nuggets,,123,100,february,2024-2025,1,4,20.0,2,3,40.0,2,2,4,2.0,2.0,247,134,200,177
+Sat Feb 22 2025,Houston Rockets,124,Utah Jazz,,115,124,february,2024-2025,2,3,40.0,1,4,20.0,1,2,3,1.0,1.0,177,193,134,231
+Sat Feb 22 2025,Charlotte Hornets,141,Portland Trail Blazers,,88,141,february,2024-2025,3,2,60.0,5,0,100.0,2,0,2,2.0,2.0,139,226,135,228
+Sun Feb 23 2025,New York Knicks,118,Boston Celtics,,105,118,february,2024-2025,3,2,60.0,2,3,40.0,4,0,4,2.0,3.0,257,123,213,163
+Sun Feb 23 2025,Dallas Mavericks,126,Golden State Warriors,,102,126,february,2024-2025,5,0,100.0,0,5,0.0,2,2,4,2.0,2.0,211,167,212,163
+Sun Feb 23 2025,Los Angeles Clippers,129,Indiana Pacers,,111,129,february,2024-2025,3,2,60.0,2,3,40.0,2,0,2,3.0,3.0,170,198,214,162
+Sun Feb 23 2025,Detroit Pistons,143,Atlanta Hawks,,148,143,february,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,3.0,186,195,103,262
+Sun Feb 23 2025,Miami Heat,120,Milwaukee Bucks,,113,120,february,2024-2025,2,3,40.0,4,1,80.0,4,0,4,2.0,2.0,236,144,214,168
+Sun Feb 23 2025,Washington Wizards,110,Orlando Magic,,90,110,february,2024-2025,1,4,20.0,0,5,0.0,4,0,4,2.0,2.0,152,220,123,241
+Sun Feb 23 2025,Phoenix Suns,127,Toronto Raptors,,109,127,february,2024-2025,3,2,60.0,3,2,60.0,1,1,2,1.0,2.0,159,213,238,143
+Sun Feb 23 2025,Memphis Grizzlies,129,Cleveland Cavaliers,,123,129,february,2024-2025,3,2,60.0,4,1,80.0,2,0,2,2.0,2.0,214,163,209,167
+Sun Feb 23 2025,San Antonio Spurs,114,New Orleans Pelicans,,96,114,february,2024-2025,3,2,60.0,3,2,60.0,2,2,4,2.0,2.0,173,207,133,230
+Sun Feb 23 2025,Oklahoma City Thunder,123,Minnesota Timberwolves,,130,123,february,2024-2025,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,204,181,192,179
+Mon Feb 24 2025,Los Angeles Clippers,106,Detroit Pistons,,97,106,february,2024-2025,4,1,80.0,3,2,60.0,1,1,2,1.0,1.0,104,262,214,163
+Mon Feb 24 2025,Denver Nuggets,116,Indiana Pacers,,125,116,february,2024-2025,2,3,40.0,1,4,20.0,1,1,2,2.0,1.0,171,198,247,135
+Mon Feb 24 2025,Chicago Bulls,110,Philadelphia 76ers,,142,110,february,2024-2025,2,3,40.0,1,4,20.0,2,2,4,2.0,2.0,225,156,176,199
+Mon Feb 24 2025,Brooklyn Nets,107,Washington Wizards,,99,107,february,2024-2025,1,4,20.0,1,4,20.0,2,1,3,2.0,1.0,123,242,186,189
+Mon Feb 24 2025,Miami Heat,98,Atlanta Hawks,,86,98,february,2024-2025,3,2,60.0,4,1,80.0,2,3,5,1.0,1.0,186,196,214,169
+Mon Feb 24 2025,Minnesota Timberwolves,128,Oklahoma City Thunder,OT,131,128,february,2024-2025,3,2,60.0,2,3,40.0,2,2,4,1.0,1.0,193,179,204,182
+Mon Feb 24 2025,Portland Trail Blazers,112,Utah Jazz,,114,112,february,2024-2025,1,4,20.0,3,2,60.0,2,2,4,2.0,2.0,178,193,140,226
+Mon Feb 24 2025,Charlotte Hornets,130,Sacramento Kings,,88,130,february,2024-2025,3,2,60.0,5,0,100.0,2,0,2,2.0,3.0,182,192,135,229
+Tue Feb 25 2025,Boston Celtics,101,Toronto Raptors,,111,101,february,2024-2025,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,160,213,258,123
+Tue Feb 25 2025,Cleveland Cavaliers,82,Orlando Magic,,122,82,february,2024-2025,1,4,20.0,2,3,40.0,1,2,3,2.0,2.0,153,220,215,163
+Tue Feb 25 2025,Milwaukee Bucks,100,Houston Rockets,,97,100,february,2024-2025,1,4,20.0,2,3,40.0,1,1,2,2.0,3.0,134,232,237,144
+Tue Feb 25 2025,Phoenix Suns,151,Memphis Grizzlies,OT,148,151,february,2024-2025,5,0,100.0,4,1,80.0,4,0,4,2.0,2.0,209,168,238,144
+Tue Feb 25 2025,San Antonio Spurs,109,New Orleans Pelicans,,103,109,february,2024-2025,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,174,207,133,231
+Tue Feb 25 2025,Charlotte Hornets,128,Golden State Warriors,,92,128,february,2024-2025,4,1,80.0,5,0,100.0,2,0,2,1.0,2.0,212,167,135,230
+Tue Feb 25 2025,Dallas Mavericks,107,Los Angeles Lakers,,99,107,february,2024-2025,3,2,60.0,1,4,20.0,2,1,3,2.0,3.0,201,177,212,164
+Wed Feb 26 2025,Boston Celtics,117,Detroit Pistons,,97,117,february,2024-2025,4,1,80.0,3,2,60.0,1,3,4,1.0,2.0,105,262,259,123
+Wed Feb 26 2025,Toronto Raptors,111,Indiana Pacers,,91,111,february,2024-2025,1,4,20.0,1,4,20.0,1,2,3,1.0,2.0,171,199,160,214
+Wed Feb 26 2025,Philadelphia 76ers,110,New York Knicks,,105,110,february,2024-2025,3,2,60.0,1,4,20.0,4,0,4,2.0,3.0,213,164,225,157
+Wed Feb 26 2025,Portland Trail Blazers,121,Washington Wizards,,129,121,february,2024-2025,1,4,20.0,3,2,60.0,0,2,2,2.0,2.0,124,242,141,226
+Wed Feb 26 2025,Oklahoma City Thunder,121,Brooklyn Nets,,129,121,february,2024-2025,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,186,190,193,180
+Wed Feb 26 2025,Atlanta Hawks,131,Miami Heat,,109,131,february,2024-2025,5,0,100.0,2,3,40.0,3,2,5,2.0,2.0,214,170,187,196
+Wed Feb 26 2025,Los Angeles Clippers,117,Chicago Bulls,,122,117,february,2024-2025,2,3,40.0,4,1,80.0,1,1,2,2.0,2.0,177,199,214,164
+Wed Feb 26 2025,Sacramento Kings,101,Utah Jazz,,118,101,february,2024-2025,0,5,0.0,3,2,60.0,0,4,4,2.0,2.0,178,194,183,192
+Wed Feb 26 2025,San Antonio Spurs,118,Houston Rockets,,106,118,february,2024-2025,1,4,20.0,3,2,60.0,3,1,4,1.0,1.0,135,232,133,232
+Thu Feb 27 2025,Golden State Warriors,115,Orlando Magic,,121,115,february,2024-2025,1,4,20.0,3,2,60.0,0,2,2,2.0,2.0,153,221,213,167
+Thu Feb 27 2025,Denver Nuggets,121,Milwaukee Bucks,,112,121,february,2024-2025,3,2,60.0,1,4,20.0,1,1,2,3.0,2.0,237,145,248,135
+Thu Feb 27 2025,Charlotte Hornets,103,Dallas Mavericks,,96,103,february,2024-2025,2,3,40.0,5,0,100.0,1,1,2,2.0,2.0,212,165,135,231
+Thu Feb 27 2025,New Orleans Pelicans,116,Phoenix Suns,,124,116,february,2024-2025,5,0,100.0,1,4,20.0,1,2,3,2.0,2.0,238,145,175,207
+Thu Feb 27 2025,Minnesota Timberwolves,111,Los Angeles Lakers,,102,111,february,2024-2025,3,2,60.0,2,3,40.0,3,6,9,3.0,2.0,202,177,205,182
+Fri Feb 28 2025,Denver Nuggets,119,Detroit Pistons,,134,119,february,2024-2025,3,2,60.0,2,3,40.0,0,2,2,1.0,2.0,106,262,248,136
+Fri Feb 28 2025,Oklahoma City Thunder,119,Atlanta Hawks,,135,119,february,2024-2025,2,3,40.0,4,1,80.0,0,2,2,2.0,2.0,187,197,194,180
+Fri Feb 28 2025,Cleveland Cavaliers,116,Boston Celtics,,123,116,february,2024-2025,3,2,60.0,3,2,60.0,2,2,4,3.0,2.0,259,124,216,163
+Fri Feb 28 2025,Portland Trail Blazers,102,Brooklyn Nets,,121,102,february,2024-2025,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,186,191,142,226
+Fri Feb 28 2025,Toronto Raptors,125,Chicago Bulls,OT,115,125,february,2024-2025,2,3,40.0,1,4,20.0,4,0,4,2.0,2.0,177,200,160,215
+Fri Feb 28 2025,New York Knicks,113,Memphis Grizzlies,,114,113,february,2024-2025,4,1,80.0,2,3,40.0,0,2,2,2.0,3.0,210,168,214,164
+Fri Feb 28 2025,Indiana Pacers,125,Miami Heat,,120,125,february,2024-2025,4,1,80.0,1,4,20.0,2,2,4,2.0,2.0,215,170,172,199
+Fri Feb 28 2025,New Orleans Pelicans,125,Phoenix Suns,,108,125,february,2024-2025,4,1,80.0,2,3,40.0,1,2,3,1.0,1.0,238,146,176,207
+Fri Feb 28 2025,Minnesota Timberwolves,117,Utah Jazz,,116,117,february,2024-2025,0,5,0.0,3,2,60.0,1,3,4,1.0,2.0,178,195,205,183
+Fri Feb 28 2025,Los Angeles Clippers,106,Los Angeles Lakers,,102,106,february,2024-2025,2,3,40.0,5,0,100.0,3,1,4,2.0,1.0,203,177,215,164
+Sat Mar 1 2025,Washington Wizards,100,Charlotte Hornets,,113,100,march,2024-2025,5,0,100.0,1,4,20.0,0,4,4,3.0,2.0,135,232,124,243
+Sat Mar 1 2025,Brooklyn Nets,115,Detroit Pistons,,94,115,march,2024-2025,2,3,40.0,2,3,40.0,3,0,3,1.0,1.0,106,263,186,192
+Sat Mar 1 2025,Sacramento Kings,103,Houston Rockets,,113,103,march,2024-2025,1,4,20.0,3,2,60.0,0,3,3,3.0,3.0,136,232,184,192
+Sat Mar 1 2025,San Antonio Spurs,128,Memphis Grizzlies,,130,128,march,2024-2025,3,2,60.0,3,2,60.0,3,1,4,3.0,1.0,210,169,133,233
+Sat Mar 1 2025,Milwaukee Bucks,117,Dallas Mavericks,,132,117,march,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,213,165,238,145
+Sat Mar 1 2025,Golden State Warriors,126,Philadelphia 76ers,,119,126,march,2024-2025,2,3,40.0,3,2,60.0,1,1,2,2.0,3.0,225,158,214,167
+Sun Mar 2 2025,Denver Nuggets,110,Boston Celtics,,103,110,march,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,259,125,249,136
+Sun Mar 2 2025,Portland Trail Blazers,133,Cleveland Cavaliers,OT,129,133,march,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,217,163,143,226
+Sun Mar 2 2025,Chicago Bulls,127,Indiana Pacers,,112,127,march,2024-2025,1,4,20.0,2,3,40.0,3,1,4,2.0,2.0,172,200,178,200
+Sun Mar 2 2025,New York Knicks,112,Miami Heat,OT,116,112,march,2024-2025,3,2,60.0,3,2,60.0,0,3,3,2.0,2.0,216,170,215,164
+Sun Mar 2 2025,Toronto Raptors,102,Orlando Magic,,104,102,march,2024-2025,1,4,20.0,2,3,40.0,1,3,4,2.0,3.0,153,222,160,216
+Sun Mar 2 2025,Oklahoma City Thunder,132,San Antonio Spurs,,146,132,march,2024-2025,4,1,80.0,4,1,80.0,1,2,3,2.0,1.0,134,233,195,180
+Sun Mar 2 2025,New Orleans Pelicans,121,Utah Jazz,,128,121,march,2024-2025,0,5,0.0,3,2,60.0,0,3,3,2.0,2.0,179,195,176,208
+Sun Mar 2 2025,Los Angeles Clippers,108,Los Angeles Lakers,,102,108,march,2024-2025,2,3,40.0,5,0,100.0,3,1,4,2.0,2.0,204,177,215,165
+Sun Mar 2 2025,Minnesota Timberwolves,98,Phoenix Suns,,116,98,march,2024-2025,3,2,60.0,4,1,80.0,0,4,4,2.0,2.0,239,146,205,184
+Mon Mar 3 2025,Golden State Warriors,101,Charlotte Hornets,,119,101,march,2024-2025,4,1,80.0,3,2,60.0,0,2,2,2.0,2.0,135,233,214,168
+Mon Mar 3 2025,Portland Trail Blazers,102,Philadelphia 76ers,,119,102,march,2024-2025,1,4,20.0,4,1,80.0,1,1,2,1.0,2.0,226,158,143,227
+Mon Mar 3 2025,Washington Wizards,106,Miami Heat,,90,106,march,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,1.0,216,171,125,243
+Mon Mar 3 2025,Atlanta Hawks,130,Memphis Grizzlies,,132,130,march,2024-2025,2,3,40.0,1,4,20.0,1,1,2,3.0,2.0,210,170,187,198
+Mon Mar 3 2025,Houston Rockets,137,Oklahoma City Thunder,,128,137,march,2024-2025,4,1,80.0,1,4,20.0,3,2,5,2.0,1.0,196,180,136,233
+Mon Mar 3 2025,Sacramento Kings,98,Dallas Mavericks,,122,98,march,2024-2025,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,213,166,185,192
+Mon Mar 3 2025,Detroit Pistons,106,Utah Jazz,,134,106,march,2024-2025,0,5,0.0,1,4,20.0,1,1,2,2.0,1.0,179,196,107,263
+Tue Mar 4 2025,Houston Rockets,115,Indiana Pacers,,102,115,march,2024-2025,1,4,20.0,2,3,40.0,1,1,2,1.0,2.0,173,200,136,234
+Tue Mar 4 2025,Toronto Raptors,113,Orlando Magic,,114,113,march,2024-2025,0,5,0.0,3,2,60.0,1,3,4,2.0,2.0,153,223,161,216
+Tue Mar 4 2025,Milwaukee Bucks,121,Atlanta Hawks,,127,121,march,2024-2025,2,3,40.0,3,2,60.0,3,2,5,3.0,1.0,188,198,239,145
+Tue Mar 4 2025,Golden State Warriors,102,New York Knicks,,114,102,march,2024-2025,4,1,80.0,3,2,60.0,0,2,2,1.0,2.0,216,164,215,168
+Tue Mar 4 2025,Cleveland Cavaliers,117,Chicago Bulls,,139,117,march,2024-2025,2,3,40.0,2,3,40.0,0,4,4,2.0,2.0,178,201,218,163
+Tue Mar 4 2025,Philadelphia 76ers,126,Minnesota Timberwolves,,112,126,march,2024-2025,4,1,80.0,1,4,20.0,2,0,2,1.0,2.0,206,184,226,159
+Tue Mar 4 2025,Brooklyn Nets,127,San Antonio Spurs,,113,127,march,2024-2025,4,1,80.0,3,2,60.0,2,0,2,3.0,2.0,134,234,186,193
+Tue Mar 4 2025,Los Angeles Clippers,119,Phoenix Suns,,117,119,march,2024-2025,2,3,40.0,5,0,100.0,4,0,4,2.0,2.0,239,147,215,166
+Tue Mar 4 2025,New Orleans Pelicans,136,Los Angeles Lakers,,115,136,march,2024-2025,1,4,20.0,3,2,60.0,3,0,3,2.0,2.0,205,177,177,208
+Wed Mar 5 2025,Portland Trail Blazers,128,Boston Celtics,,118,128,march,2024-2025,2,3,40.0,5,0,100.0,2,0,2,2.0,3.0,260,125,144,227
+Wed Mar 5 2025,Minnesota Timberwolves,110,Charlotte Hornets,,125,110,march,2024-2025,3,2,60.0,4,1,80.0,0,2,2,1.0,2.0,135,234,207,184
+Wed Mar 5 2025,Miami Heat,112,Cleveland Cavaliers,,107,112,march,2024-2025,3,2,60.0,1,4,20.0,6,1,7,2.0,1.0,219,163,217,171
+Wed Mar 5 2025,Utah Jazz,125,Washington Wizards,,122,125,march,2024-2025,3,2,60.0,0,5,0.0,1,1,2,2.0,2.0,125,244,179,197
+Wed Mar 5 2025,Dallas Mavericks,137,Milwaukee Bucks,,107,137,march,2024-2025,3,2,60.0,2,3,40.0,2,0,2,2.0,1.0,240,145,213,167
+Wed Mar 5 2025,Sacramento Kings,116,Denver Nuggets,,110,116,march,2024-2025,4,1,80.0,3,2,60.0,4,0,4,2.0,3.0,249,137,186,192
+Wed Mar 5 2025,Oklahoma City Thunder,103,Memphis Grizzlies,,120,103,march,2024-2025,1,4,20.0,3,2,60.0,0,8,8,2.0,2.0,210,171,197,180
+Wed Mar 5 2025,Detroit Pistons,123,Los Angeles Clippers,,115,123,march,2024-2025,5,0,100.0,1,4,20.0,1,1,2,2.0,1.0,215,167,108,263
+Thu Mar 6 2025,Chicago Bulls,123,Orlando Magic,,125,123,march,2024-2025,0,5,0.0,2,3,40.0,1,2,3,2.0,2.0,153,224,178,202
+Thu Mar 6 2025,Indiana Pacers,124,Atlanta Hawks,,118,124,march,2024-2025,2,3,40.0,1,4,20.0,2,1,3,2.0,2.0,188,199,174,200
+Thu Mar 6 2025,Philadelphia 76ers,123,Boston Celtics,,105,123,march,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,1.0,261,125,226,160
+Thu Mar 6 2025,Golden State Warriors,119,Brooklyn Nets,,121,119,march,2024-2025,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,186,194,216,168
+Thu Mar 6 2025,Houston Rockets,97,New Orleans Pelicans,,109,97,march,2024-2025,4,1,80.0,2,3,40.0,0,4,4,2.0,2.0,177,209,136,235
+Thu Mar 6 2025,New York Knicks,113,Los Angeles Lakers,OT,109,113,march,2024-2025,0,5,0.0,3,2,60.0,2,0,2,2.0,2.0,206,177,216,165
+Fri Mar 7 2025,Cleveland Cavaliers,117,Charlotte Hornets,,118,117,march,2024-2025,2,3,40.0,3,2,60.0,0,4,4,2.0,2.0,135,235,220,163
+Fri Mar 7 2025,Memphis Grizzlies,111,Dallas Mavericks,,122,111,march,2024-2025,2,3,40.0,0,5,0.0,1,4,5,2.0,2.0,213,168,210,172
+Fri Mar 7 2025,Utah Jazz,118,Toronto Raptors,,109,118,march,2024-2025,4,1,80.0,1,4,20.0,2,0,2,2.0,3.0,162,216,179,198
+Fri Mar 7 2025,Minnesota Timberwolves,104,Miami Heat,,106,104,march,2024-2025,1,4,20.0,4,1,80.0,1,1,2,2.0,2.0,217,172,208,184
+Fri Mar 7 2025,Portland Trail Blazers,107,Oklahoma City Thunder,,89,107,march,2024-2025,4,1,80.0,5,0,100.0,4,0,4,2.0,2.0,198,180,144,228
+Fri Mar 7 2025,Phoenix Suns,149,Denver Nuggets,OT,141,149,march,2024-2025,4,1,80.0,1,4,20.0,3,1,4,3.0,2.0,250,137,240,147
+Fri Mar 7 2025,San Antonio Spurs,127,Sacramento Kings,,109,127,march,2024-2025,4,1,80.0,3,2,60.0,2,2,4,3.0,2.0,186,193,135,234
+Fri Mar 7 2025,New York Knicks,105,Los Angeles Clippers,,95,105,march,2024-2025,4,1,80.0,3,2,60.0,2,0,2,1.0,2.0,216,167,216,166
+Sat Mar 8 2025,Brooklyn Nets,105,Charlotte Hornets,,102,105,march,2024-2025,1,4,20.0,2,3,40.0,1,3,4,2.0,1.0,135,236,186,195
+Sat Mar 8 2025,New Orleans Pelicans,146,Houston Rockets,,117,146,march,2024-2025,3,2,60.0,4,1,80.0,4,0,4,2.0,2.0,137,235,177,210
+Sat Mar 8 2025,Indiana Pacers,120,Atlanta Hawks,,118,120,march,2024-2025,2,3,40.0,2,3,40.0,2,1,3,2.0,2.0,189,199,174,201
+Sat Mar 8 2025,Washington Wizards,117,Toronto Raptors,,118,117,march,2024-2025,4,1,80.0,2,3,40.0,3,1,4,3.0,1.0,163,216,126,244
+Sat Mar 8 2025,Chicago Bulls,109,Miami Heat,,114,109,march,2024-2025,1,4,20.0,2,3,40.0,1,3,4,2.0,1.0,217,173,179,202
+Sat Mar 8 2025,Orlando Magic,109,Milwaukee Bucks,,111,109,march,2024-2025,3,2,60.0,0,5,0.0,3,1,4,2.0,3.0,241,145,153,225
+Sat Mar 8 2025,Los Angeles Lakers,111,Boston Celtics,,101,111,march,2024-2025,1,4,20.0,0,5,0.0,1,1,2,2.0,2.0,262,125,207,177
+Sat Mar 8 2025,Detroit Pistons,115,Golden State Warriors,,110,115,march,2024-2025,5,0,100.0,2,3,40.0,2,0,2,3.0,2.0,217,168,108,264
+Sun Mar 9 2025,Denver Nuggets,127,Oklahoma City Thunder,,103,127,march,2024-2025,3,2,60.0,3,2,60.0,2,2,4,2.0,2.0,199,180,251,137
+Sun Mar 9 2025,Phoenix Suns,116,Dallas Mavericks,,125,116,march,2024-2025,1,4,20.0,1,4,20.0,1,3,4,2.0,2.0,213,169,240,148
+Sun Mar 9 2025,Memphis Grizzlies,104,New Orleans Pelicans,,107,104,march,2024-2025,4,1,80.0,1,4,20.0,0,4,4,2.0,1.0,177,211,211,172
+Sun Mar 9 2025,Utah Jazz,126,Philadelphia 76ers,,122,126,march,2024-2025,3,2,60.0,2,3,40.0,2,0,2,2.0,3.0,226,161,179,199
+Sun Mar 9 2025,Cleveland Cavaliers,100,Milwaukee Bucks,,112,100,march,2024-2025,2,3,40.0,3,2,60.0,0,4,4,2.0,1.0,241,146,221,163
+Sun Mar 9 2025,San Antonio Spurs,141,Minnesota Timberwolves,,124,141,march,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,209,184,135,235
+Sun Mar 9 2025,Detroit Pistons,112,Portland Trail Blazers,,119,112,march,2024-2025,5,0,100.0,3,2,60.0,0,2,2,1.0,2.0,144,229,108,265
+Sun Mar 9 2025,Sacramento Kings,111,Los Angeles Clippers,OT,110,111,march,2024-2025,3,2,60.0,4,1,80.0,4,0,4,2.0,2.0,217,167,187,193
+Mon Mar 10 2025,Philadelphia 76ers,132,Atlanta Hawks,,123,132,march,2024-2025,1,4,20.0,2,3,40.0,3,0,3,1.0,2.0,190,199,227,161
+Mon Mar 10 2025,Utah Jazz,114,Boston Celtics,,108,114,march,2024-2025,0,5,0.0,3,2,60.0,2,0,2,1.0,2.0,263,125,179,200
+Mon Mar 10 2025,Los Angeles Lakers,111,Brooklyn Nets,,108,111,march,2024-2025,3,2,60.0,1,4,20.0,1,1,2,2.0,2.0,186,196,207,178
+Mon Mar 10 2025,Charlotte Hornets,102,Miami Heat,,105,102,march,2024-2025,1,4,20.0,0,5,0.0,3,1,4,2.0,2.0,217,174,136,236
+Mon Mar 10 2025,Washington Wizards,119,Toronto Raptors,,104,119,march,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,163,217,127,244
+Mon Mar 10 2025,Indiana Pacers,121,Chicago Bulls,,103,121,march,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,180,202,174,202
+Mon Mar 10 2025,Orlando Magic,97,Houston Rockets,,84,97,march,2024-2025,3,2,60.0,1,4,20.0,2,0,2,2.0,2.0,138,235,154,225
+Mon Mar 10 2025,Phoenix Suns,120,Memphis Grizzlies,,118,120,march,2024-2025,2,3,40.0,2,3,40.0,4,0,4,1.0,1.0,212,172,241,148
+Mon Mar 10 2025,Denver Nuggets,127,Oklahoma City Thunder,,140,127,march,2024-2025,2,3,40.0,3,2,60.0,2,2,4,1.0,1.0,200,180,251,138
+Mon Mar 10 2025,Dallas Mavericks,129,San Antonio Spurs,,133,129,march,2024-2025,3,2,60.0,1,4,20.0,1,3,4,1.0,1.0,135,236,213,170
+Mon Mar 10 2025,Portland Trail Blazers,130,Golden State Warriors,,120,130,march,2024-2025,4,1,80.0,4,1,80.0,3,0,3,1.0,2.0,218,168,144,230
+Mon Mar 10 2025,New York Knicks,104,Sacramento Kings,,133,104,march,2024-2025,4,1,80.0,4,1,80.0,0,2,2,3.0,1.0,187,194,216,167
+Tue Mar 11 2025,Brooklyn Nets,109,Cleveland Cavaliers,,104,109,march,2024-2025,3,2,60.0,3,2,60.0,4,0,4,1.0,2.0,222,163,187,196
+Tue Mar 11 2025,Washington Wizards,123,Detroit Pistons,,103,123,march,2024-2025,4,1,80.0,4,1,80.0,2,1,3,1.0,2.0,109,265,127,245
+Tue Mar 11 2025,Milwaukee Bucks,115,Indiana Pacers,,114,115,march,2024-2025,3,2,60.0,2,3,40.0,5,4,9,2.0,1.0,174,203,241,147
+Tue Mar 11 2025,Los Angeles Clippers,127,New Orleans Pelicans,,120,127,march,2024-2025,3,2,60.0,2,3,40.0,1,2,3,2.0,2.0,177,212,218,167
+Wed Mar 12 2025,Charlotte Hornets,123,Atlanta Hawks,,110,123,march,2024-2025,1,4,20.0,1,4,20.0,4,0,4,2.0,2.0,191,199,137,236
+Wed Mar 12 2025,Oklahoma City Thunder,112,Boston Celtics,,118,112,march,2024-2025,0,5,0.0,1,4,20.0,0,2,2,2.0,2.0,264,125,200,181
+Wed Mar 12 2025,Philadelphia 76ers,118,Toronto Raptors,,105,118,march,2024-2025,2,3,40.0,3,2,60.0,4,0,4,2.0,2.0,164,217,227,162
+Wed Mar 12 2025,Phoenix Suns,111,Houston Rockets,,104,111,march,2024-2025,3,2,60.0,3,2,60.0,3,0,3,2.0,2.0,139,235,241,149
+Wed Mar 12 2025,Utah Jazz,122,Memphis Grizzlies,,115,122,march,2024-2025,2,3,40.0,4,1,80.0,4,0,4,2.0,2.0,213,172,179,201
+Wed Mar 12 2025,Los Angeles Clippers,104,Miami Heat,,119,104,march,2024-2025,1,4,20.0,2,3,40.0,0,2,2,1.0,2.0,217,175,218,168
+Wed Mar 12 2025,Dallas Mavericks,126,San Antonio Spurs,,116,126,march,2024-2025,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,135,237,214,170
+Wed Mar 12 2025,Minnesota Timberwolves,95,Denver Nuggets,,115,95,march,2024-2025,3,2,60.0,3,2,60.0,0,4,4,3.0,2.0,252,138,210,184
+Wed Mar 12 2025,New York Knicks,113,Portland Trail Blazers,OT,114,113,march,2024-2025,4,1,80.0,4,1,80.0,0,2,2,2.0,2.0,144,231,217,167
+Thu Mar 13 2025,Washington Wizards,125,Detroit Pistons,,129,125,march,2024-2025,4,1,80.0,4,1,80.0,2,1,3,2.0,2.0,110,265,127,246
+Thu Mar 13 2025,Los Angeles Lakers,126,Milwaukee Bucks,,106,126,march,2024-2025,2,3,40.0,2,3,40.0,2,0,2,3.0,2.0,241,148,207,179
+Thu Mar 13 2025,Brooklyn Nets,116,Chicago Bulls,,110,116,march,2024-2025,3,2,60.0,3,2,60.0,2,1,3,2.0,3.0,181,202,187,197
+Thu Mar 13 2025,Orlando Magic,93,New Orleans Pelicans,,113,93,march,2024-2025,2,3,40.0,2,3,40.0,0,2,2,3.0,2.0,178,212,154,226
+Thu Mar 13 2025,Sacramento Kings,130,Golden State Warriors,,104,130,march,2024-2025,3,2,60.0,3,2,60.0,2,2,4,3.0,3.0,219,168,187,195
+Fri Mar 14 2025,Boston Celtics,91,Miami Heat,,103,91,march,2024-2025,1,4,20.0,0,5,0.0,1,3,4,2.0,2.0,217,176,264,126
+Fri Mar 14 2025,Indiana Pacers,100,Philadelphia 76ers,,112,100,march,2024-2025,4,1,80.0,3,2,60.0,1,3,4,3.0,2.0,227,163,175,203
+Fri Mar 14 2025,Los Angeles Clippers,98,Atlanta Hawks,,121,98,march,2024-2025,0,5,0.0,2,3,40.0,0,2,2,2.0,2.0,192,199,219,168
+Fri Mar 14 2025,Dallas Mavericks,133,Houston Rockets,,96,133,march,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,140,235,214,171
+Fri Mar 14 2025,Cleveland Cavaliers,124,Memphis Grizzlies,,133,124,march,2024-2025,2,3,40.0,3,2,60.0,0,2,2,3.0,2.0,214,172,223,163
+Fri Mar 14 2025,Orlando Magic,118,Minnesota Timberwolves,,111,118,march,2024-2025,3,2,60.0,3,2,60.0,2,0,2,1.0,2.0,211,184,155,226
+Fri Mar 14 2025,Charlotte Hornets,134,San Antonio Spurs,,145,134,march,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,136,237,137,237
+Fri Mar 14 2025,Los Angeles Lakers,131,Denver Nuggets,,126,131,march,2024-2025,2,3,40.0,3,2,60.0,2,2,4,1.0,2.0,252,139,207,180
+Fri Mar 14 2025,Toronto Raptors,118,Utah Jazz,,126,118,march,2024-2025,5,0,100.0,1,4,20.0,0,2,2,2.0,2.0,179,202,165,217
+Fri Mar 14 2025,Sacramento Kings,122,Phoenix Suns,,106,122,march,2024-2025,4,1,80.0,3,2,60.0,1,3,4,1.0,2.0,241,150,187,196
+Sat Mar 15 2025,Boston Celtics,113,Brooklyn Nets,,115,113,march,2024-2025,3,2,60.0,1,4,20.0,0,4,4,1.0,2.0,187,198,265,126
+Sat Mar 15 2025,Oklahoma City Thunder,107,Detroit Pistons,,113,107,march,2024-2025,3,2,60.0,2,3,40.0,0,2,2,3.0,2.0,110,266,201,181
+Sat Mar 15 2025,Chicago Bulls,117,Houston Rockets,,114,117,march,2024-2025,1,4,20.0,2,3,40.0,2,0,2,2.0,1.0,141,235,182,202
+Sat Mar 15 2025,Miami Heat,125,Memphis Grizzlies,,91,125,march,2024-2025,2,3,40.0,0,5,0.0,2,0,2,1.0,1.0,214,173,217,177
+Sat Mar 15 2025,Indiana Pacers,126,Milwaukee Bucks,,119,126,march,2024-2025,1,4,20.0,4,1,80.0,4,5,9,1.0,2.0,242,148,176,203
+Sat Mar 15 2025,New York Knicks,97,Golden State Warriors,,94,97,march,2024-2025,2,3,40.0,4,1,80.0,2,0,2,3.0,2.0,220,168,218,167
+Sat Mar 15 2025,New Orleans Pelicans,119,San Antonio Spurs,,115,119,march,2024-2025,2,3,40.0,1,4,20.0,2,2,4,2.0,1.0,136,238,178,213
+Sat Mar 15 2025,Washington Wizards,123,Denver Nuggets,,126,123,march,2024-2025,2,3,40.0,4,1,80.0,0,2,2,2.0,1.0,253,139,128,246
+Sun Mar 16 2025,Orlando Magic,103,Cleveland Cavaliers,,108,103,march,2024-2025,3,2,60.0,4,1,80.0,2,1,3,2.0,2.0,224,163,155,227
+Sun Mar 16 2025,Philadelphia 76ers,125,Dallas Mavericks,,130,125,march,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,214,172,227,164
+Sun Mar 16 2025,Phoenix Suns,107,Los Angeles Lakers,,96,107,march,2024-2025,4,1,80.0,4,1,80.0,2,2,4,2.0,2.0,207,181,242,150
+Sun Mar 16 2025,Atlanta Hawks,122,Brooklyn Nets,,114,122,march,2024-2025,3,2,60.0,0,5,0.0,1,2,3,2.0,1.0,187,199,192,200
+Sun Mar 16 2025,Toronto Raptors,105,Portland Trail Blazers,,102,105,march,2024-2025,3,2,60.0,1,4,20.0,2,0,2,2.0,4.0,144,232,166,217
+Sun Mar 16 2025,Charlotte Hornets,123,Los Angeles Clippers,,88,123,march,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,220,168,138,237
+Sun Mar 16 2025,Utah Jazz,128,Minnesota Timberwolves,,102,128,march,2024-2025,3,2,60.0,4,1,80.0,3,1,4,2.0,2.0,212,184,179,203
+Sun Mar 16 2025,Oklahoma City Thunder,105,Milwaukee Bucks,,121,105,march,2024-2025,1,4,20.0,2,3,40.0,1,2,3,1.0,1.0,243,148,202,181
+Mon Mar 17 2025,Miami Heat,116,New York Knicks,,95,116,march,2024-2025,5,0,100.0,1,4,20.0,3,0,3,2.0,2.0,218,168,217,178
+Mon Mar 17 2025,Philadelphia 76ers,144,Houston Rockets,OT,137,144,march,2024-2025,0,5,0.0,3,2,60.0,2,0,2,1.0,2.0,142,235,228,164
+Mon Mar 17 2025,Indiana Pacers,130,Minnesota Timberwolves,OT,132,130,march,2024-2025,2,3,40.0,4,1,80.0,0,2,2,2.0,1.0,213,184,176,204
+Mon Mar 17 2025,Detroit Pistons,81,New Orleans Pelicans,,127,81,march,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,178,214,110,267
+Mon Mar 17 2025,Chicago Bulls,97,Utah Jazz,,111,97,march,2024-2025,4,1,80.0,3,2,60.0,1,1,2,2.0,1.0,179,204,182,203
+Mon Mar 17 2025,Denver Nuggets,105,Golden State Warriors,,114,105,march,2024-2025,1,4,20.0,2,3,40.0,1,2,3,2.0,2.0,221,168,253,140
+Mon Mar 17 2025,Toronto Raptors,129,Phoenix Suns,,89,129,march,2024-2025,4,1,80.0,2,3,40.0,1,1,2,1.0,1.0,242,151,166,218
+Mon Mar 17 2025,Washington Wizards,112,Portland Trail Blazers,,97,112,march,2024-2025,2,3,40.0,5,0,100.0,2,0,2,2.0,1.0,145,232,129,246
+Mon Mar 17 2025,Memphis Grizzlies,132,Sacramento Kings,,122,132,march,2024-2025,3,2,60.0,1,4,20.0,2,1,3,2.0,3.0,187,197,215,173
+Mon Mar 17 2025,San Antonio Spurs,125,Los Angeles Lakers,,109,125,march,2024-2025,4,1,80.0,1,4,20.0,3,1,4,2.0,1.0,208,181,137,238
+Tue Mar 18 2025,Atlanta Hawks,102,Charlotte Hornets,,134,102,march,2024-2025,4,1,80.0,1,4,20.0,0,4,4,2.0,2.0,138,238,192,201
+Tue Mar 18 2025,Brooklyn Nets,104,Boston Celtics,,96,104,march,2024-2025,2,3,40.0,2,3,40.0,4,0,4,2.0,3.0,266,126,188,199
+Tue Mar 18 2025,Milwaukee Bucks,104,Golden State Warriors,,93,104,march,2024-2025,0,5,0.0,1,4,20.0,2,0,2,2.0,1.0,221,169,243,149
+Tue Mar 18 2025,Cleveland Cavaliers,132,Los Angeles Clippers,,119,132,march,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,221,168,224,164
+Wed Mar 19 2025,Dallas Mavericks,135,Indiana Pacers,,131,135,march,2024-2025,4,1,80.0,3,2,60.0,2,0,2,3.0,2.0,177,204,214,173
+Wed Mar 19 2025,Houston Rockets,108,Orlando Magic,,116,108,march,2024-2025,5,0,100.0,0,5,0.0,0,2,2,2.0,3.0,156,227,143,235
+Wed Mar 19 2025,Detroit Pistons,113,Miami Heat,,116,113,march,2024-2025,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,217,179,111,267
+Wed Mar 19 2025,New Orleans Pelicans,115,Minnesota Timberwolves,,119,115,march,2024-2025,1,4,20.0,1,4,20.0,2,1,3,2.0,2.0,213,185,178,215
+Wed Mar 19 2025,Philadelphia 76ers,133,Oklahoma City Thunder,,100,133,march,2024-2025,3,2,60.0,4,1,80.0,2,0,2,2.0,3.0,203,181,228,165
+Wed Mar 19 2025,New York Knicks,120,San Antonio Spurs,,105,120,march,2024-2025,1,4,20.0,4,1,80.0,1,1,2,2.0,2.0,137,239,219,168
+Wed Mar 19 2025,Washington Wizards,128,Utah Jazz,,112,128,march,2024-2025,3,2,60.0,5,0,100.0,1,1,2,2.0,2.0,179,205,129,247
+Wed Mar 19 2025,Denver Nuggets,120,Los Angeles Lakers,,108,120,march,2024-2025,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,209,181,254,140
+Wed Mar 19 2025,Chicago Bulls,127,Phoenix Suns,,121,127,march,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,243,151,183,203
+Wed Mar 19 2025,Memphis Grizzlies,115,Portland Trail Blazers,,99,115,march,2024-2025,1,4,20.0,1,4,20.0,1,2,3,2.0,2.0,146,232,215,174
+Wed Mar 19 2025,Cleveland Cavaliers,123,Sacramento Kings,,119,123,march,2024-2025,3,2,60.0,3,2,60.0,2,0,2,1.0,2.0,188,197,224,165
+Thu Mar 20 2025,New York Knicks,115,Charlotte Hornets,,98,115,march,2024-2025,4,1,80.0,4,1,80.0,1,2,3,1.0,2.0,138,239,219,169
+Thu Mar 20 2025,Brooklyn Nets,105,Indiana Pacers,OT,99,105,march,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,1.0,178,204,188,200
+Thu Mar 20 2025,Toronto Raptors,117,Golden State Warriors,,114,117,march,2024-2025,0,5,0.0,3,2,60.0,1,1,2,3.0,2.0,222,169,166,219
+Thu Mar 20 2025,Chicago Bulls,116,Sacramento Kings,,128,116,march,2024-2025,2,3,40.0,3,2,60.0,1,1,2,1.0,1.0,189,197,183,204
+Thu Mar 20 2025,Milwaukee Bucks,89,Los Angeles Lakers,,118,89,march,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,1.0,210,181,243,150
+Fri Mar 21 2025,Orlando Magic,105,Washington Wizards,,120,105,march,2024-2025,5,0,100.0,4,1,80.0,0,4,4,2.0,2.0,129,248,156,228
+Fri Mar 21 2025,Houston Rockets,98,Miami Heat,,102,98,march,2024-2025,2,3,40.0,1,4,20.0,1,1,2,2.0,2.0,217,180,144,235
+Fri Mar 21 2025,New Orleans Pelicans,134,Minnesota Timberwolves,,93,134,march,2024-2025,1,4,20.0,2,3,40.0,2,1,3,2.0,2.0,213,186,179,215
+Fri Mar 21 2025,Charlotte Hornets,141,Oklahoma City Thunder,,106,141,march,2024-2025,3,2,60.0,3,2,60.0,2,0,2,1.0,2.0,204,181,139,239
+Fri Mar 21 2025,Philadelphia 76ers,128,San Antonio Spurs,,120,128,march,2024-2025,1,4,20.0,4,1,80.0,1,1,2,2.0,2.0,138,239,228,166
+Fri Mar 21 2025,Detroit Pistons,123,Dallas Mavericks,,117,123,march,2024-2025,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,214,174,112,267
+Fri Mar 21 2025,Boston Celtics,99,Utah Jazz,,121,99,march,2024-2025,2,3,40.0,2,3,40.0,0,2,2,3.0,2.0,180,205,267,126
+Fri Mar 21 2025,Cleveland Cavaliers,123,Phoenix Suns,,112,123,march,2024-2025,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,244,151,224,166
+Fri Mar 21 2025,Denver Nuggets,128,Portland Trail Blazers,,109,128,march,2024-2025,1,4,20.0,2,3,40.0,2,2,4,2.0,2.0,147,232,254,141
+Fri Mar 21 2025,Memphis Grizzlies,128,Los Angeles Clippers,,108,128,march,2024-2025,3,2,60.0,2,3,40.0,3,0,3,2.0,3.0,222,168,215,175
+Sat Mar 22 2025,Brooklyn Nets,108,Indiana Pacers,,103,108,march,2024-2025,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,179,204,188,201
+Sat Mar 22 2025,Golden State Warriors,124,Atlanta Hawks,,115,124,march,2024-2025,2,3,40.0,0,5,0.0,1,1,2,2.0,4.0,193,201,223,169
+Sat Mar 22 2025,Washington Wizards,122,New York Knicks,,103,122,march,2024-2025,4,1,80.0,4,1,80.0,4,0,4,1.0,2.0,219,170,129,249
+Sat Mar 22 2025,Milwaukee Bucks,108,Sacramento Kings,,114,108,march,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,189,198,244,150
+Sat Mar 22 2025,Chicago Bulls,115,Los Angeles Lakers,,146,115,march,2024-2025,1,4,20.0,4,1,80.0,0,2,2,2.0,2.0,210,182,184,204
+Sun Mar 23 2025,New Orleans Pelicans,136,Detroit Pistons,,130,136,march,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,112,268,179,216
+Sun Mar 23 2025,Cleveland Cavaliers,91,Utah Jazz,,120,91,march,2024-2025,1,4,20.0,4,1,80.0,0,2,2,2.0,2.0,180,206,224,167
+Sun Mar 23 2025,Philadelphia 76ers,132,Atlanta Hawks,,119,132,march,2024-2025,2,3,40.0,4,1,80.0,3,0,3,2.0,1.0,194,201,228,167
+Sun Mar 23 2025,Charlotte Hornets,122,Miami Heat,,105,122,march,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,217,181,139,240
+Sun Mar 23 2025,Boston Celtics,116,Portland Trail Blazers,,129,116,march,2024-2025,0,5,0.0,3,2,60.0,0,2,2,2.0,2.0,148,232,268,126
+Sun Mar 23 2025,San Antonio Spurs,89,Toronto Raptors,,123,89,march,2024-2025,4,1,80.0,1,4,20.0,0,2,2,2.0,3.0,166,220,139,239
+Sun Mar 23 2025,Denver Nuggets,111,Houston Rockets,,116,111,march,2024-2025,2,3,40.0,3,2,60.0,1,2,3,2.0,2.0,145,235,254,142
+Sun Mar 23 2025,Oklahoma City Thunder,101,Los Angeles Clippers,,103,101,march,2024-2025,2,3,40.0,3,2,60.0,0,4,4,2.0,2.0,223,168,205,181
+Mon Mar 24 2025,Minnesota Timberwolves,119,Indiana Pacers,,103,119,march,2024-2025,2,3,40.0,0,5,0.0,2,0,2,3.0,2.0,180,204,214,186
+Mon Mar 24 2025,Los Angeles Lakers,118,Orlando Magic,,106,118,march,2024-2025,4,1,80.0,0,5,0.0,2,0,2,2.0,3.0,157,228,210,183
+Mon Mar 24 2025,Toronto Raptors,104,Washington Wizards,,112,104,march,2024-2025,4,1,80.0,4,1,80.0,1,3,4,1.0,2.0,129,250,166,221
+Mon Mar 24 2025,Dallas Mavericks,101,Brooklyn Nets,,120,101,march,2024-2025,3,2,60.0,3,2,60.0,1,1,2,3.0,2.0,188,202,215,174
+Mon Mar 24 2025,Philadelphia 76ers,112,New Orleans Pelicans,,99,112,march,2024-2025,4,1,80.0,5,0,100.0,2,0,2,1.0,1.0,179,217,228,168
+Mon Mar 24 2025,Chicago Bulls,119,Denver Nuggets,,129,119,march,2024-2025,4,1,80.0,5,0,100.0,0,2,2,2.0,1.0,255,142,185,204
+Mon Mar 24 2025,Milwaukee Bucks,108,Phoenix Suns,,106,108,march,2024-2025,1,4,20.0,3,2,60.0,1,1,2,2.0,3.0,245,151,245,150
+Mon Mar 24 2025,Boston Celtics,95,Sacramento Kings,,113,95,march,2024-2025,1,4,20.0,4,1,80.0,1,1,2,1.0,2.0,189,199,269,126
+Tue Mar 25 2025,Orlando Magic,104,Charlotte Hornets,,111,104,march,2024-2025,3,2,60.0,3,2,60.0,0,4,4,1.0,2.0,139,241,158,228
+Tue Mar 25 2025,San Antonio Spurs,122,Detroit Pistons,,96,122,march,2024-2025,3,2,60.0,2,3,40.0,2,0,2,2.0,2.0,113,268,140,239
+Tue Mar 25 2025,Golden State Warriors,112,Miami Heat,,86,112,march,2024-2025,2,3,40.0,1,4,20.0,2,0,2,3.0,2.0,218,181,223,170
+Tue Mar 25 2025,Dallas Mavericks,128,New York Knicks,,113,128,march,2024-2025,3,2,60.0,3,2,60.0,1,1,2,1.0,3.0,220,170,216,174
+Tue Mar 25 2025,Atlanta Hawks,121,Houston Rockets,,114,121,march,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,145,236,195,201
+Tue Mar 25 2025,Memphis Grizzlies,103,Utah Jazz,,140,103,march,2024-2025,1,4,20.0,3,2,60.0,0,4,4,4.0,2.0,180,207,215,176
+Tue Mar 25 2025,Cleveland Cavaliers,111,Portland Trail Blazers,,122,111,march,2024-2025,0,5,0.0,4,1,80.0,0,2,2,2.0,2.0,148,233,225,167
+Tue Mar 25 2025,Oklahoma City Thunder,105,Sacramento Kings,,121,105,march,2024-2025,0,5,0.0,3,2,60.0,0,3,3,2.0,1.0,189,200,206,181
+Wed Mar 26 2025,Washington Wizards,114,Philadelphia 76ers,,119,114,march,2024-2025,5,0,100.0,3,2,60.0,2,1,3,2.0,2.0,228,169,129,251
+Wed Mar 26 2025,Toronto Raptors,86,Brooklyn Nets,,116,86,march,2024-2025,3,2,60.0,4,1,80.0,1,3,4,2.0,2.0,188,203,167,221
+Wed Mar 26 2025,Los Angeles Lakers,119,Indiana Pacers,,120,119,march,2024-2025,1,4,20.0,1,4,20.0,0,2,2,2.0,2.0,181,204,210,184
+Wed Mar 26 2025,Los Angeles Clippers,113,New York Knicks,,126,113,march,2024-2025,2,3,40.0,1,4,20.0,0,2,2,3.0,1.0,221,170,223,169
+Wed Mar 26 2025,Milwaukee Bucks,127,Denver Nuggets,,117,127,march,2024-2025,4,1,80.0,4,1,80.0,1,1,2,2.0,2.0,255,143,245,151
+Wed Mar 26 2025,Boston Celtics,102,Phoenix Suns,,132,102,march,2024-2025,1,4,20.0,4,1,80.0,0,2,2,2.0,2.0,246,151,270,126
+Thu Mar 27 2025,San Antonio Spurs,124,Cleveland Cavaliers,,116,124,march,2024-2025,5,0,100.0,3,2,60.0,2,0,2,2.0,2.0,226,167,140,240
+Thu Mar 27 2025,Dallas Mavericks,92,Orlando Magic,,101,92,march,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,159,228,216,175
+Thu Mar 27 2025,Indiana Pacers,109,Washington Wizards,,162,109,march,2024-2025,3,2,60.0,0,5,0.0,0,4,4,1.0,1.0,130,251,181,205
+Thu Mar 27 2025,Atlanta Hawks,122,Miami Heat,,112,122,march,2024-2025,1,4,20.0,3,2,60.0,3,2,5,2.0,2.0,219,181,195,202
+Thu Mar 27 2025,Los Angeles Lakers,119,Chicago Bulls,,117,119,march,2024-2025,5,0,100.0,2,3,40.0,2,0,2,1.0,3.0,186,204,211,184
+Thu Mar 27 2025,Memphis Grizzlies,125,Oklahoma City Thunder,,104,125,march,2024-2025,3,2,60.0,4,1,80.0,8,0,8,2.0,2.0,207,181,216,176
+Thu Mar 27 2025,Houston Rockets,110,Utah Jazz,,121,110,march,2024-2025,0,5,0.0,2,3,40.0,1,2,3,2.0,2.0,180,208,146,236
+Thu Mar 27 2025,Portland Trail Blazers,128,Sacramento Kings,,107,128,march,2024-2025,0,5,0.0,0,5,0.0,2,2,4,2.0,2.0,189,201,148,234
+Fri Mar 28 2025,Cleveland Cavaliers,133,Detroit Pistons,,122,133,march,2024-2025,3,2,60.0,4,1,80.0,1,3,4,1.0,3.0,114,268,227,167
+Fri Mar 28 2025,Los Angeles Clippers,100,Brooklyn Nets,,132,100,march,2024-2025,3,2,60.0,1,4,20.0,0,2,2,2.0,2.0,188,204,224,169
+Fri Mar 28 2025,Charlotte Hornets,108,Toronto Raptors,,97,108,march,2024-2025,4,1,80.0,2,3,40.0,2,1,3,3.0,2.0,168,221,139,242
+Fri Mar 28 2025,New York Knicks,107,Milwaukee Bucks,,116,107,march,2024-2025,5,0,100.0,2,3,40.0,0,3,3,2.0,2.0,245,152,221,171
+Fri Mar 28 2025,Phoenix Suns,124,Minnesota Timberwolves,,109,124,march,2024-2025,1,4,20.0,0,5,0.0,4,0,4,2.0,4.0,214,187,246,152
+Fri Mar 28 2025,Golden State Warriors,95,New Orleans Pelicans,,111,95,march,2024-2025,3,2,60.0,2,3,40.0,0,4,4,3.0,4.0,180,217,223,171
+Fri Mar 28 2025,Utah Jazz,129,Denver Nuggets,,93,129,march,2024-2025,3,2,60.0,0,5,0.0,4,0,4,1.0,2.0,256,143,180,209
+Sat Mar 29 2025,Sacramento Kings,121,Orlando Magic,,91,121,march,2024-2025,2,3,40.0,0,5,0.0,2,0,2,2.0,2.0,159,229,190,201
+Sat Mar 29 2025,Brooklyn Nets,112,Washington Wizards,,115,112,march,2024-2025,2,3,40.0,2,3,40.0,2,1,3,1.0,2.0,130,252,188,205
+Sat Mar 29 2025,Miami Heat,95,Philadelphia 76ers,,118,95,march,2024-2025,4,1,80.0,0,5,0.0,0,4,4,2.0,3.0,228,170,220,181
+Sat Mar 29 2025,Dallas Mavericks,119,Chicago Bulls,,120,119,march,2024-2025,4,1,80.0,4,1,80.0,0,2,2,2.0,2.0,187,204,217,175
+Sat Mar 29 2025,Los Angeles Lakers,127,Memphis Grizzlies,,134,127,march,2024-2025,5,0,100.0,3,2,60.0,1,3,4,2.0,2.0,216,177,211,185
+Sat Mar 29 2025,Indiana Pacers,132,Oklahoma City Thunder,,111,132,march,2024-2025,2,3,40.0,1,4,20.0,2,0,2,2.0,2.0,208,181,182,205
+Sat Mar 29 2025,Boston Celtics,111,San Antonio Spurs,,121,111,march,2024-2025,3,2,60.0,4,1,80.0,0,2,2,3.0,2.0,140,241,271,126
+Sun Mar 30 2025,Los Angeles Clippers,127,Cleveland Cavaliers,,122,127,march,2024-2025,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,227,168,225,169
+Sun Mar 30 2025,Portland Trail Blazers,110,New York Knicks,,93,110,march,2024-2025,2,3,40.0,1,4,20.0,2,0,2,3.0,2.0,222,171,148,235
+Sun Mar 30 2025,Atlanta Hawks,124,Milwaukee Bucks,,145,124,march,2024-2025,4,1,80.0,3,2,60.0,2,3,5,3.0,2.0,245,153,195,203
+Sun Mar 30 2025,Detroit Pistons,123,Minnesota Timberwolves,,104,123,march,2024-2025,1,4,20.0,2,3,40.0,1,1,2,2.0,2.0,215,187,115,268
+Sun Mar 30 2025,Charlotte Hornets,98,New Orleans Pelicans,,94,98,march,2024-2025,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,180,218,139,243
+Sun Mar 30 2025,Golden State Warriors,106,San Antonio Spurs,,148,106,march,2024-2025,3,2,60.0,3,2,60.0,2,1,3,2.0,1.0,140,242,224,171
+Sun Mar 30 2025,Toronto Raptors,109,Philadelphia 76ers,,127,109,march,2024-2025,3,2,60.0,3,2,60.0,0,4,4,2.0,1.0,228,171,169,221
+Sun Mar 30 2025,Houston Rockets,109,Phoenix Suns,,148,109,march,2024-2025,1,4,20.0,3,2,60.0,0,3,3,3.0,2.0,246,153,147,236
+Mon Mar 31 2025,Utah Jazz,110,Charlotte Hornets,,106,110,march,2024-2025,4,1,80.0,1,4,20.0,2,0,2,3.0,1.0,139,244,180,210
+Mon Mar 31 2025,Sacramento Kings,111,Indiana Pacers,,109,111,march,2024-2025,2,3,40.0,1,4,20.0,2,0,2,2.0,2.0,182,206,190,202
+Mon Mar 31 2025,Los Angeles Clippers,87,Orlando Magic,,96,87,march,2024-2025,2,3,40.0,3,2,60.0,0,2,2,1.0,2.0,160,229,225,170
+Mon Mar 31 2025,Miami Heat,94,Washington Wizards,,120,94,march,2024-2025,2,3,40.0,1,4,20.0,1,3,4,2.0,2.0,130,253,221,181
+Mon Mar 31 2025,Boston Celtics,103,Memphis Grizzlies,,117,103,march,2024-2025,4,1,80.0,5,0,100.0,1,1,2,2.0,2.0,216,178,272,126
+Mon Mar 31 2025,Chicago Bulls,145,Oklahoma City Thunder,,117,145,march,2024-2025,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,209,181,187,205
+Mon Mar 31 2025,Brooklyn Nets,109,Dallas Mavericks,,113,109,march,2024-2025,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,218,175,189,205
+Mon Mar 31 2025,Houston Rockets,104,Los Angeles Lakers,,98,104,march,2024-2025,4,1,80.0,3,2,60.0,2,1,3,1.0,2.0,212,185,148,236
+Tue Apr 1 2025,Portland Trail Blazers,113,Atlanta Hawks,,127,113,april,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,2.0,196,203,148,236
+Tue Apr 1 2025,Phoenix Suns,133,Milwaukee Bucks,,123,133,april,2024-2025,3,2,60.0,1,4,20.0,1,1,2,2.0,2.0,245,154,246,154
+Tue Apr 1 2025,Philadelphia 76ers,105,New York Knicks,,91,105,april,2024-2025,1,4,20.0,2,3,40.0,4,0,4,2.0,2.0,223,171,228,172
+Tue Apr 1 2025,Toronto Raptors,137,Chicago Bulls,,118,137,april,2024-2025,3,2,60.0,3,2,60.0,4,0,4,2.0,1.0,187,206,170,221
+Tue Apr 1 2025,Golden State Warriors,125,Memphis Grizzlies,,134,125,april,2024-2025,3,2,60.0,4,1,80.0,1,4,5,2.0,1.0,216,179,225,171
+Tue Apr 1 2025,Orlando Magic,105,San Antonio Spurs,,116,105,april,2024-2025,3,2,60.0,1,4,20.0,0,2,2,1.0,2.0,140,243,160,230
+Tue Apr 1 2025,Minnesota Timberwolves,139,Denver Nuggets,2OT,140,139,april,2024-2025,2,3,40.0,1,4,20.0,0,4,4,2.0,4.0,257,143,216,187
+Wed Apr 2 2025,New York Knicks,124,Cleveland Cavaliers,,105,124,april,2024-2025,3,2,60.0,1,4,20.0,4,0,4,1.0,3.0,228,168,224,171
+Wed Apr 2 2025,Charlotte Hornets,119,Indiana Pacers,,105,119,april,2024-2025,2,3,40.0,3,2,60.0,1,2,3,2.0,2.0,183,206,140,244
+Wed Apr 2 2025,Sacramento Kings,116,Washington Wizards,,111,116,april,2024-2025,1,4,20.0,2,3,40.0,1,1,2,2.0,2.0,130,254,190,203
+Wed Apr 2 2025,Miami Heat,103,Boston Celtics,,124,103,april,2024-2025,5,0,100.0,2,3,40.0,3,1,4,2.0,2.0,273,126,222,181
+Wed Apr 2 2025,Utah Jazz,143,Houston Rockets,,105,143,april,2024-2025,3,2,60.0,2,3,40.0,2,1,3,2.0,2.0,148,237,180,211
+Wed Apr 2 2025,Atlanta Hawks,120,Dallas Mavericks,,118,120,april,2024-2025,4,1,80.0,3,2,60.0,2,0,2,1.0,2.0,218,176,196,204
+Wed Apr 2 2025,San Antonio Spurs,106,Denver Nuggets,,113,106,april,2024-2025,1,4,20.0,2,3,40.0,1,2,3,1.0,1.0,257,144,140,244
+Wed Apr 2 2025,Detroit Pistons,119,Oklahoma City Thunder,,103,119,april,2024-2025,2,3,40.0,2,3,40.0,2,0,2,3.0,2.0,210,181,115,269
+Wed Apr 2 2025,New Orleans Pelicans,114,Los Angeles Clippers,,98,114,april,2024-2025,4,1,80.0,2,3,40.0,2,1,3,3.0,2.0,226,170,181,218
+Thu Apr 3 2025,Milwaukee Bucks,113,Philadelphia 76ers,,126,113,april,2024-2025,2,3,40.0,2,3,40.0,0,4,4,2.0,2.0,228,173,246,154
+Thu Apr 3 2025,Orlando Magic,97,Washington Wizards,,109,97,april,2024-2025,1,4,20.0,2,3,40.0,0,4,4,2.0,1.0,131,254,161,230
+Thu Apr 3 2025,Minnesota Timberwolves,90,Brooklyn Nets,,105,90,april,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,3.0,190,205,217,187
+Thu Apr 3 2025,Memphis Grizzlies,108,Miami Heat,,110,108,april,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,1.0,223,181,216,180
+Thu Apr 3 2025,Portland Trail Blazers,103,Toronto Raptors,,112,103,april,2024-2025,4,1,80.0,3,2,60.0,0,2,2,2.0,2.0,170,222,149,236
+Thu Apr 3 2025,Golden State Warriors,116,Los Angeles Lakers,,123,116,april,2024-2025,4,1,80.0,5,0,100.0,3,1,4,2.0,3.0,213,185,226,171
+Fri Apr 4 2025,Sacramento Kings,102,Charlotte Hornets,,125,102,april,2024-2025,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,140,245,190,204
+Fri Apr 4 2025,Utah Jazz,140,Indiana Pacers,,112,140,april,2024-2025,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,184,206,180,212
+Fri Apr 4 2025,Phoenix Suns,123,Boston Celtics,,103,123,april,2024-2025,4,1,80.0,2,3,40.0,2,0,2,3.0,2.0,273,127,246,155
+Fri Apr 4 2025,Detroit Pistons,105,Toronto Raptors,,117,105,april,2024-2025,3,2,60.0,2,3,40.0,0,4,4,2.0,1.0,170,223,115,270
+Fri Apr 4 2025,Portland Trail Blazers,118,Chicago Bulls,,113,118,april,2024-2025,2,3,40.0,4,1,80.0,1,1,2,1.0,3.0,188,206,150,236
+Fri Apr 4 2025,Oklahoma City Thunder,125,Houston Rockets,,111,125,april,2024-2025,3,2,60.0,1,4,20.0,2,3,5,2.0,2.0,149,237,211,181
+Fri Apr 4 2025,Cleveland Cavaliers,113,San Antonio Spurs,,114,113,april,2024-2025,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,141,244,229,168
+Fri Apr 4 2025,Denver Nuggets,118,Golden State Warriors,,104,118,april,2024-2025,5,0,100.0,0,5,0.0,1,2,3,2.0,1.0,227,171,257,145
+Fri Apr 4 2025,Dallas Mavericks,114,Los Angeles Clippers,,91,114,april,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,227,170,219,176
+Fri Apr 4 2025,New Orleans Pelicans,124,Los Angeles Lakers,,108,124,april,2024-2025,3,2,60.0,2,3,40.0,3,0,3,2.0,1.0,213,186,181,219
+Sat Apr 5 2025,New York Knicks,105,Atlanta Hawks,,121,105,april,2024-2025,4,1,80.0,2,3,40.0,2,3,5,3.0,3.0,196,205,224,172
+Sat Apr 5 2025,Memphis Grizzlies,103,Detroit Pistons,,109,103,april,2024-2025,3,2,60.0,2,3,40.0,0,2,2,2.0,1.0,116,270,217,180
+Sat Apr 5 2025,Minnesota Timberwolves,109,Philadelphia 76ers,,114,109,april,2024-2025,1,4,20.0,3,2,60.0,0,2,2,2.0,2.0,228,174,218,187
+Sat Apr 5 2025,Milwaukee Bucks,115,Miami Heat,OT,121,115,april,2024-2025,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,223,182,247,154
+Sat Apr 5 2025,Dallas Mavericks,135,Los Angeles Clippers,,104,135,april,2024-2025,3,2,60.0,3,2,60.0,3,1,4,1.0,1.0,228,170,219,177
+Sun Apr 6 2025,Chicago Bulls,117,Charlotte Hornets,,131,117,april,2024-2025,3,2,60.0,1,4,20.0,1,3,4,2.0,2.0,140,246,189,206
+Sun Apr 6 2025,Toronto Raptors,109,Brooklyn Nets,,120,109,april,2024-2025,2,3,40.0,2,3,40.0,1,3,4,2.0,3.0,190,206,170,224
+Sun Apr 6 2025,Los Angeles Lakers,99,Oklahoma City Thunder,,126,99,april,2024-2025,1,4,20.0,2,3,40.0,2,1,3,2.0,2.0,211,182,214,186
+Sun Apr 6 2025,Utah Jazz,147,Atlanta Hawks,,134,147,april,2024-2025,3,2,60.0,4,1,80.0,2,0,2,2.0,1.0,196,206,180,213
+Sun Apr 6 2025,Washington Wizards,124,Boston Celtics,,90,124,april,2024-2025,3,2,60.0,0,5,0.0,4,0,4,3.0,2.0,274,127,131,255
+Sun Apr 6 2025,Sacramento Kings,113,Cleveland Cavaliers,,120,113,april,2024-2025,2,3,40.0,4,1,80.0,0,2,2,2.0,2.0,230,168,191,204
+Sun Apr 6 2025,San Antonio Spurs,120,Portland Trail Blazers,,109,120,april,2024-2025,5,0,100.0,1,4,20.0,1,3,4,2.0,2.0,150,237,141,245
+Sun Apr 6 2025,Phoenix Suns,112,New York Knicks,,98,112,april,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,1.0,225,172,246,156
+Sun Apr 6 2025,Indiana Pacers,120,Denver Nuggets,,125,120,april,2024-2025,1,4,20.0,2,3,40.0,1,1,2,2.0,2.0,257,146,185,206
+Sun Apr 6 2025,Houston Rockets,96,Golden State Warriors,,106,96,april,2024-2025,4,1,80.0,3,2,60.0,6,4,10,2.0,2.0,228,171,150,237
+Sun Apr 6 2025,Milwaukee Bucks,107,New Orleans Pelicans,,111,107,april,2024-2025,2,3,40.0,2,3,40.0,0,2,2,1.0,2.0,181,220,248,154
+Mon Apr 7 2025,Sacramento Kings,117,Detroit Pistons,,127,117,april,2024-2025,3,2,60.0,5,0,100.0,1,1,2,1.0,2.0,116,271,192,204
+Mon Apr 7 2025,Philadelphia 76ers,117,Miami Heat,,105,117,april,2024-2025,3,2,60.0,1,4,20.0,4,0,4,2.0,2.0,223,183,228,175
+Tue Apr 8 2025,Memphis Grizzlies,100,Charlotte Hornets,,124,100,april,2024-2025,2,3,40.0,2,3,40.0,0,2,2,3.0,2.0,140,247,218,180
+Tue Apr 8 2025,Chicago Bulls,135,Cleveland Cavaliers,,113,135,april,2024-2025,2,3,40.0,2,3,40.0,4,0,4,2.0,2.0,230,169,190,206
+Tue Apr 8 2025,Washington Wizards,104,Indiana Pacers,,98,104,april,2024-2025,2,3,40.0,1,4,20.0,4,0,4,2.0,2.0,186,206,131,256
+Tue Apr 8 2025,Atlanta Hawks,119,Orlando Magic,,112,119,april,2024-2025,2,3,40.0,2,3,40.0,3,2,5,2.0,5.0,162,230,197,206
+Tue Apr 8 2025,New Orleans Pelicans,119,Brooklyn Nets,,114,119,april,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,190,207,181,221
+Tue Apr 8 2025,Boston Celtics,117,New York Knicks,OT,119,117,april,2024-2025,2,3,40.0,2,3,40.0,0,4,4,2.0,2.0,226,172,275,127
+Tue Apr 8 2025,Minnesota Timberwolves,110,Milwaukee Bucks,,103,110,april,2024-2025,3,2,60.0,3,2,60.0,2,0,2,3.0,2.0,249,154,219,187
+Tue Apr 8 2025,Los Angeles Lakers,136,Oklahoma City Thunder,,120,136,april,2024-2025,1,4,20.0,2,3,40.0,2,1,3,2.0,2.0,211,183,215,186
+Tue Apr 8 2025,Golden State Warriors,95,Phoenix Suns,,133,95,april,2024-2025,4,1,80.0,3,2,60.0,2,2,4,2.0,2.0,246,157,228,172
+Tue Apr 8 2025,San Antonio Spurs,122,Los Angeles Clippers,,117,122,april,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,3.0,229,170,141,246
+Wed Apr 9 2025,Boston Celtics,96,Orlando Magic,,76,96,april,2024-2025,2,3,40.0,2,3,40.0,3,5,8,1.0,1.0,163,230,276,127
+Wed Apr 9 2025,Philadelphia 76ers,103,Washington Wizards,,122,103,april,2024-2025,2,3,40.0,2,3,40.0,1,2,3,2.0,1.0,131,257,228,176
+Wed Apr 9 2025,Los Angeles Lakers,97,Dallas Mavericks,,112,97,april,2024-2025,3,2,60.0,2,3,40.0,1,2,3,1.0,4.0,219,178,215,187
+Wed Apr 9 2025,Charlotte Hornets,126,Toronto Raptors,,96,126,april,2024-2025,3,2,60.0,1,4,20.0,2,1,3,1.0,3.0,171,224,140,248
+Wed Apr 9 2025,Miami Heat,119,Chicago Bulls,,111,119,april,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,1.0,190,207,224,183
+Wed Apr 9 2025,Portland Trail Blazers,133,Utah Jazz,OT,126,133,april,2024-2025,5,0,100.0,4,1,80.0,2,2,4,3.0,3.0,180,214,151,237
+Wed Apr 9 2025,San Antonio Spurs,111,Golden State Warriors,,114,111,april,2024-2025,3,2,60.0,3,2,60.0,1,2,3,1.0,1.0,229,172,141,247
+Wed Apr 9 2025,Oklahoma City Thunder,112,Phoenix Suns,,125,112,april,2024-2025,3,2,60.0,1,4,20.0,0,3,3,1.0,1.0,246,158,212,183
+Wed Apr 9 2025,Denver Nuggets,116,Sacramento Kings,,124,116,april,2024-2025,5,0,100.0,1,4,20.0,0,4,4,3.0,2.0,193,204,257,147
+Wed Apr 9 2025,Houston Rockets,134,Los Angeles Clippers,,117,134,april,2024-2025,1,4,20.0,3,2,60.0,1,3,4,3.0,1.0,230,170,151,237
+Thu Apr 10 2025,New York Knicks,115,Detroit Pistons,,106,115,april,2024-2025,3,2,60.0,2,3,40.0,5,4,9,2.0,3.0,116,272,226,173
+Thu Apr 10 2025,Cleveland Cavaliers,114,Indiana Pacers,,112,114,april,2024-2025,1,4,20.0,1,4,20.0,3,1,4,2.0,2.0,187,206,231,169
+Thu Apr 10 2025,Atlanta Hawks,109,Brooklyn Nets,,133,109,april,2024-2025,2,3,40.0,2,3,40.0,1,2,3,2.0,2.0,191,207,197,207
+Thu Apr 10 2025,New Orleans Pelicans,136,Milwaukee Bucks,,111,136,april,2024-2025,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,250,154,181,222
+Thu Apr 10 2025,Minnesota Timberwolves,125,Memphis Grizzlies,,141,125,april,2024-2025,3,2,60.0,4,1,80.0,2,1,3,2.0,2.0,219,180,219,188
+Fri Apr 11 2025,Milwaukee Bucks,119,Detroit Pistons,,125,119,april,2024-2025,2,3,40.0,3,2,60.0,0,4,4,1.0,1.0,117,272,251,154
+Fri Apr 11 2025,Orlando Magic,115,Indiana Pacers,,129,115,april,2024-2025,1,4,20.0,2,3,40.0,1,3,4,2.0,1.0,188,206,164,230
+Fri Apr 11 2025,Atlanta Hawks,110,Philadelphia 76ers,,124,110,april,2024-2025,3,2,60.0,3,2,60.0,0,3,3,1.0,2.0,229,176,198,207
+Fri Apr 11 2025,Charlotte Hornets,130,Boston Celtics,,94,130,april,2024-2025,2,3,40.0,2,3,40.0,4,0,4,2.0,2.0,276,128,140,249
+Fri Apr 11 2025,Cleveland Cavaliers,102,New York Knicks,,108,102,april,2024-2025,3,2,60.0,2,3,40.0,0,4,4,1.0,1.0,226,174,231,170
+Fri Apr 11 2025,Washington Wizards,119,Chicago Bulls,,89,119,april,2024-2025,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,191,207,131,258
+Fri Apr 11 2025,Miami Heat,104,New Orleans Pelicans,,153,104,april,2024-2025,4,1,80.0,2,3,40.0,0,2,2,2.0,1.0,181,223,224,184
+Fri Apr 11 2025,Toronto Raptors,124,Dallas Mavericks,,102,124,april,2024-2025,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,219,179,172,224
+Fri Apr 11 2025,Memphis Grizzlies,117,Denver Nuggets,,109,117,april,2024-2025,2,3,40.0,3,2,60.0,2,1,3,1.0,2.0,258,147,219,181
+Fri Apr 11 2025,Brooklyn Nets,117,Minnesota Timberwolves,,91,117,april,2024-2025,5,0,100.0,1,4,20.0,2,0,2,1.0,1.0,220,188,191,208
+Fri Apr 11 2025,Oklahoma City Thunder,111,Utah Jazz,,145,111,april,2024-2025,4,1,80.0,2,3,40.0,0,4,4,2.0,2.0,181,214,213,183
+Fri Apr 11 2025,San Antonio Spurs,117,Phoenix Suns,,98,117,april,2024-2025,3,2,60.0,4,1,80.0,2,1,3,2.0,2.0,246,159,142,247
+Fri Apr 11 2025,Golden State Warriors,86,Portland Trail Blazers,,103,86,april,2024-2025,4,1,80.0,2,3,40.0,0,3,3,2.0,2.0,151,238,229,173
+Fri Apr 11 2025,Los Angeles Clippers,100,Sacramento Kings,,101,100,april,2024-2025,4,1,80.0,0,5,0.0,0,4,4,2.0,2.0,193,205,231,170
+Fri Apr 11 2025,Houston Rockets,140,Los Angeles Lakers,,109,140,april,2024-2025,3,2,60.0,3,2,60.0,2,1,3,2.0,2.0,216,187,151,238
+Sun Apr 13 2025,Orlando Magic,117,Atlanta Hawks,,105,117,april,2024-2025,3,2,60.0,3,2,60.0,2,3,5,2.0,2.0,199,207,165,230
+Sun Apr 13 2025,Charlotte Hornets,93,Boston Celtics,,86,93,april,2024-2025,2,3,40.0,2,3,40.0,4,0,4,2.0,2.0,277,128,140,250
+Sun Apr 13 2025,New York Knicks,105,Brooklyn Nets,,113,105,april,2024-2025,1,4,20.0,2,3,40.0,0,4,4,2.0,2.0,191,209,226,175
+Sun Apr 13 2025,Indiana Pacers,118,Cleveland Cavaliers,2OT,126,118,april,2024-2025,3,2,60.0,1,4,20.0,1,3,4,2.0,2.0,232,170,188,207
+Sun Apr 13 2025,Washington Wizards,118,Miami Heat,,119,118,april,2024-2025,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,225,184,131,259
+Sun Apr 13 2025,Detroit Pistons,140,Milwaukee Bucks,OT,133,140,april,2024-2025,3,2,60.0,1,4,20.0,4,0,4,2.0,2.0,252,154,117,273
+Sun Apr 13 2025,Chicago Bulls,102,Philadelphia 76ers,,122,102,april,2024-2025,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,229,177,192,207
+Sun Apr 13 2025,Los Angeles Clippers,119,Golden State Warriors,OT,124,119,april,2024-2025,2,3,40.0,1,4,20.0,0,4,4,2.0,2.0,230,173,232,170
+Sun Apr 13 2025,Denver Nuggets,111,Houston Rockets,,126,111,april,2024-2025,3,2,60.0,2,3,40.0,1,2,3,2.0,2.0,151,239,259,147
+Sun Apr 13 2025,Dallas Mavericks,132,Memphis Grizzlies,,97,132,april,2024-2025,4,1,80.0,2,3,40.0,4,1,5,2.0,2.0,219,182,220,179
+Sun Apr 13 2025,Utah Jazz,116,Minnesota Timberwolves,,105,116,april,2024-2025,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,221,188,181,215
+Sun Apr 13 2025,Oklahoma City Thunder,100,New Orleans Pelicans,,115,100,april,2024-2025,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,181,224,214,183
+Sun Apr 13 2025,Los Angeles Lakers,109,Portland Trail Blazers,,81,109,april,2024-2025,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,151,239,217,187
+Sun Apr 13 2025,Phoenix Suns,109,Sacramento Kings,,98,109,april,2024-2025,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,193,206,247,159
+Sun Apr 13 2025,Toronto Raptors,125,San Antonio Spurs,,118,125,april,2024-2025,4,1,80.0,2,3,40.0,2,0,2,2.0,2.0,142,248,172,225
+Tue Apr 15 2025,Atlanta Hawks,120,Orlando Magic,,95,120,april,2024-2025,3,2,60.0,3,2,60.0,3,2,5,2.0,2.0,165,231,200,207
+Tue Apr 15 2025,Memphis Grizzlies,121,Golden State Warriors,,116,121,april,2024-2025,2,3,40.0,3,2,60.0,4,1,5,2.0,2.0,230,174,220,182
+Wed Apr 16 2025,Miami Heat,90,Chicago Bulls,,109,90,april,2024-2025,3,2,60.0,2,3,40.0,3,1,4,3.0,3.0,193,207,225,185
+Wed Apr 16 2025,Dallas Mavericks,106,Sacramento Kings,,120,106,april,2024-2025,2,3,40.0,3,2,60.0,3,1,4,3.0,3.0,194,206,220,180
+Fri Apr 18 2025,Miami Heat,114,Atlanta Hawks,OT,123,114,april,2024-2025,4,1,80.0,3,2,60.0,2,3,5,2.0,3.0,200,208,226,185
+Fri Apr 18 2025,Dallas Mavericks,120,Memphis Grizzlies,,106,120,april,2024-2025,3,2,60.0,3,2,60.0,4,1,5,2.0,3.0,220,183,221,180
+Sat Apr 19 2025,Milwaukee Bucks,117,Indiana Pacers,,98,117,april,2024-2025,2,3,40.0,2,3,40.0,5,4,9,6.0,6.0,189,207,253,154
+Sat Apr 19 2025,Los Angeles Clippers,112,Denver Nuggets,OT,110,112,april,2024-2025,3,2,60.0,2,3,40.0,5,4,9,6.0,6.0,260,147,233,170
+Sat Apr 19 2025,Detroit Pistons,123,New York Knicks,,112,123,april,2024-2025,2,3,40.0,1,4,20.0,4,5,9,6.0,6.0,227,175,117,274
+Sat Apr 19 2025,Minnesota Timberwolves,95,Los Angeles Lakers,,117,95,april,2024-2025,4,1,80.0,3,2,60.0,3,6,9,6.0,6.0,217,188,222,188
+Sun Apr 20 2025,Memphis Grizzlies,131,Oklahoma City Thunder,,80,131,april,2024-2025,3,2,60.0,2,3,40.0,8,0,8,2.0,7.0,215,183,221,183
+Sun Apr 20 2025,Orlando Magic,103,Boston Celtics,,86,103,april,2024-2025,2,3,40.0,2,3,40.0,5,3,8,5.0,7.0,278,128,166,231
+Sun Apr 20 2025,Miami Heat,121,Cleveland Cavaliers,,100,121,april,2024-2025,2,3,40.0,4,1,80.0,6,1,7,2.0,7.0,232,171,227,185
+Sun Apr 20 2025,Golden State Warriors,85,Houston Rockets,,95,85,april,2024-2025,3,2,60.0,2,3,40.0,4,6,10,5.0,7.0,151,240,231,174
+Mon Apr 21 2025,Detroit Pistons,94,New York Knicks,,100,94,april,2024-2025,2,3,40.0,2,3,40.0,4,5,9,2.0,2.0,228,175,117,275
+Mon Apr 21 2025,Los Angeles Clippers,102,Denver Nuggets,,105,102,april,2024-2025,2,3,40.0,3,2,60.0,5,4,9,2.0,2.0,261,147,233,171
+Tue Apr 22 2025,Milwaukee Bucks,123,Indiana Pacers,,115,123,april,2024-2025,1,4,20.0,2,3,40.0,5,4,9,3.0,3.0,190,207,253,155
+Tue Apr 22 2025,Memphis Grizzlies,118,Oklahoma City Thunder,,99,118,april,2024-2025,3,2,60.0,3,2,60.0,8,0,8,2.0,2.0,216,183,221,184
+Tue Apr 22 2025,Minnesota Timberwolves,94,Los Angeles Lakers,,85,94,april,2024-2025,3,2,60.0,3,2,60.0,3,6,9,3.0,3.0,217,189,223,188
+Wed Apr 23 2025,Orlando Magic,109,Boston Celtics,,100,109,april,2024-2025,2,3,40.0,3,2,60.0,5,3,8,3.0,3.0,279,128,166,232
+Wed Apr 23 2025,Miami Heat,121,Cleveland Cavaliers,,112,121,april,2024-2025,2,3,40.0,4,1,80.0,6,1,7,3.0,3.0,233,171,227,186
+Wed Apr 23 2025,Golden State Warriors,109,Houston Rockets,,94,109,april,2024-2025,3,2,60.0,2,3,40.0,4,6,10,3.0,3.0,151,241,232,174
+Thu Apr 24 2025,New York Knicks,116,Detroit Pistons,,118,116,april,2024-2025,3,2,60.0,2,3,40.0,5,4,9,3.0,3.0,118,275,228,176
+Thu Apr 24 2025,Oklahoma City Thunder,108,Memphis Grizzlies,,114,108,april,2024-2025,3,2,60.0,3,2,60.0,0,8,8,2.0,2.0,221,185,217,183
+Thu Apr 24 2025,Denver Nuggets,117,Los Angeles Clippers,,83,117,april,2024-2025,4,1,80.0,2,3,40.0,4,5,9,3.0,3.0,234,171,261,148
+Fri Apr 25 2025,Boston Celtics,95,Orlando Magic,,93,95,april,2024-2025,4,1,80.0,1,4,20.0,3,5,8,2.0,2.0,166,233,280,128
+Fri Apr 25 2025,Indiana Pacers,117,Milwaukee Bucks,,101,117,april,2024-2025,3,2,60.0,1,4,20.0,4,5,9,3.0,3.0,253,156,191,207
+Fri Apr 25 2025,Los Angeles Lakers,116,Minnesota Timberwolves,,104,116,april,2024-2025,3,2,60.0,2,3,40.0,6,3,9,3.0,3.0,223,189,218,189
+Sat Apr 26 2025,Cleveland Cavaliers,87,Miami Heat,,124,87,april,2024-2025,4,1,80.0,2,3,40.0,1,6,7,3.0,3.0,227,187,234,171
+Sat Apr 26 2025,Oklahoma City Thunder,115,Memphis Grizzlies,,117,115,april,2024-2025,3,2,60.0,3,2,60.0,0,8,8,2.0,2.0,221,186,218,183
+Sat Apr 26 2025,Denver Nuggets,99,Los Angeles Clippers,,101,99,april,2024-2025,4,1,80.0,2,3,40.0,4,5,9,2.0,2.0,235,171,261,149
+Sat Apr 26 2025,Houston Rockets,104,Golden State Warriors,,93,104,april,2024-2025,3,2,60.0,2,3,40.0,6,4,10,3.0,3.0,232,175,152,241
+Sun Apr 27 2025,New York Knicks,93,Detroit Pistons,,94,93,april,2024-2025,3,2,60.0,2,3,40.0,5,4,9,3.0,3.0,118,276,229,176
+Sun Apr 27 2025,Los Angeles Lakers,116,Minnesota Timberwolves,,113,116,april,2024-2025,2,3,40.0,2,3,40.0,6,3,9,2.0,2.0,224,189,218,190
+Sun Apr 27 2025,Boston Celtics,98,Orlando Magic,,107,98,april,2024-2025,3,2,60.0,1,4,20.0,3,5,8,2.0,2.0,167,233,280,129
+Sun Apr 27 2025,Indiana Pacers,103,Milwaukee Bucks,,129,103,april,2024-2025,3,2,60.0,2,3,40.0,4,5,9,2.0,2.0,254,156,191,208
+Mon Apr 28 2025,Cleveland Cavaliers,83,Miami Heat,,138,83,april,2024-2025,4,1,80.0,2,3,40.0,1,6,7,2.0,2.0,227,188,235,171
+Mon Apr 28 2025,Houston Rockets,109,Golden State Warriors,,106,109,april,2024-2025,2,3,40.0,2,3,40.0,6,4,10,2.0,2.0,233,175,152,242
+Tue Apr 29 2025,Milwaukee Bucks,119,Indiana Pacers,OT,118,119,april,2024-2025,3,2,60.0,2,3,40.0,5,4,9,2.0,2.0,192,208,254,157
+Tue Apr 29 2025,Detroit Pistons,103,New York Knicks,,106,103,april,2024-2025,3,2,60.0,3,2,60.0,4,5,9,2.0,2.0,230,176,118,277
+Tue Apr 29 2025,Orlando Magic,120,Boston Celtics,,89,120,april,2024-2025,2,3,40.0,2,3,40.0,5,3,8,2.0,2.0,281,129,167,234
+Tue Apr 29 2025,Los Angeles Clippers,131,Denver Nuggets,,115,131,april,2024-2025,3,2,60.0,3,2,60.0,5,4,9,3.0,3.0,262,149,235,172
+Wed Apr 30 2025,Golden State Warriors,131,Houston Rockets,,116,131,april,2024-2025,2,3,40.0,2,3,40.0,4,6,10,2.0,2.0,152,243,234,175
+Wed Apr 30 2025,Minnesota Timberwolves,96,Los Angeles Lakers,,103,96,april,2024-2025,3,2,60.0,2,3,40.0,3,6,9,3.0,3.0,218,191,225,189

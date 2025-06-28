@@ -1,0 +1,1280 @@
+Date,Visitor/Neutral,PTS,Home/Neutral,,Visitor_PTS,Home_PTS,Month,Season,Recent Wins (Home),Recent Losses (Home),Recent Win % (Home),Recent Wins (Visitor),Recent Losses (Visitor),Recent Win % (Visitor),Matchup Wins (Home),Matchup Wins (Visitor),Total Matchups,DSLG (Visitor),DSLG (Home),Wins (Home),Losses (Home),Wins (Visitor),Losses (Visitor)
+Tue Oct 19 2021,Brooklyn Nets,127,Milwaukee Bucks,,104,127,october,2021-2022,4,1,80.0,2,3,40.0,3,1,4,172.0,172.0,39,24,43,21
+Tue Oct 19 2021,Golden State Warriors,114,Los Angeles Lakers,,121,114,october,2021-2022,4,1,80.0,2,3,40.0,1,3,4,173.0,172.0,36,27,31,32
+Wed Oct 20 2021,Indiana Pacers,123,Charlotte Hornets,,122,123,october,2021-2022,2,3,40.0,1,4,20.0,4,0,4,174.0,175.0,30,32,29,33
+Wed Oct 20 2021,Chicago Bulls,88,Detroit Pistons,,94,88,october,2021-2022,3,2,60.0,3,2,60.0,0,4,4,173.0,174.0,19,44,26,37
+Wed Oct 20 2021,Boston Celtics,138,New York Knicks,2OT,134,138,october,2021-2022,0,5,0.0,2,3,40.0,2,2,4,173.0,175.0,35,28,34,30
+Wed Oct 20 2021,Washington Wizards,83,Toronto Raptors,,98,83,october,2021-2022,2,3,40.0,2,3,40.0,3,1,4,173.0,174.0,26,37,29,34
+Wed Oct 20 2021,Cleveland Cavaliers,132,Memphis Grizzlies,,121,132,october,2021-2022,3,2,60.0,3,2,60.0,2,0,2,173.0,173.0,32,30,21,42
+Wed Oct 20 2021,Houston Rockets,124,Minnesota Timberwolves,,106,124,october,2021-2022,3,2,60.0,1,4,20.0,3,0,3,174.0,174.0,20,44,16,47
+Wed Oct 20 2021,Philadelphia 76ers,97,New Orleans Pelicans,,117,97,october,2021-2022,3,2,60.0,2,3,40.0,0,2,2,173.0,174.0,28,35,42,21
+Wed Oct 20 2021,Orlando Magic,123,San Antonio Spurs,,97,123,october,2021-2022,4,1,80.0,2,3,40.0,2,0,2,173.0,173.0,31,31,19,44
+Wed Oct 20 2021,Oklahoma City Thunder,107,Utah Jazz,,86,107,october,2021-2022,4,1,80.0,3,2,60.0,4,0,4,174.0,173.0,45,18,21,42
+Wed Oct 20 2021,Sacramento Kings,121,Portland Trail Blazers,,124,121,october,2021-2022,3,2,60.0,2,3,40.0,1,2,3,173.0,173.0,35,28,26,37
+Wed Oct 20 2021,Denver Nuggets,98,Phoenix Suns,,110,98,october,2021-2022,3,2,60.0,1,4,20.0,2,1,3,174.0,173.0,45,18,42,21
+Thu Oct 21 2021,Dallas Mavericks,113,Atlanta Hawks,,87,113,october,2021-2022,3,2,60.0,3,2,60.0,1,1,2,175.0,174.0,34,30,35,27
+Thu Oct 21 2021,Milwaukee Bucks,137,Miami Heat,,95,137,october,2021-2022,2,3,40.0,4,1,80.0,2,2,4,2.0,176.0,33,30,40,24
+Thu Oct 21 2021,Los Angeles Clippers,115,Golden State Warriors,,113,115,october,2021-2022,2,3,40.0,4,1,80.0,3,1,4,176.0,2.0,32,32,43,21
+Fri Oct 22 2021,New York Knicks,96,Orlando Magic,,121,96,october,2021-2022,3,2,60.0,0,5,0.0,2,2,4,2.0,2.0,19,45,36,28
+Fri Oct 22 2021,Indiana Pacers,135,Washington Wizards,OT,134,135,october,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,30,34,29,34
+Fri Oct 22 2021,Charlotte Hornets,112,Cleveland Cavaliers,,123,112,october,2021-2022,3,2,60.0,1,4,20.0,2,2,4,2.0,2.0,21,43,31,32
+Fri Oct 22 2021,Toronto Raptors,83,Boston Celtics,,115,83,october,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,34,31,26,38
+Fri Oct 22 2021,Brooklyn Nets,109,Philadelphia 76ers,,114,109,october,2021-2022,2,3,40.0,3,2,60.0,1,3,4,3.0,2.0,43,21,43,22
+Fri Oct 22 2021,Oklahoma City Thunder,124,Houston Rockets,,91,124,october,2021-2022,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,16,48,21,43
+Fri Oct 22 2021,New Orleans Pelicans,128,Chicago Bulls,,112,128,october,2021-2022,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,27,37,28,36
+Fri Oct 22 2021,San Antonio Spurs,102,Denver Nuggets,,96,102,october,2021-2022,1,4,20.0,4,1,80.0,2,2,4,2.0,2.0,43,21,32,31
+Fri Oct 22 2021,Phoenix Suns,105,Los Angeles Lakers,,115,105,october,2021-2022,3,2,60.0,2,3,40.0,0,4,4,2.0,3.0,36,28,45,19
+Fri Oct 22 2021,Utah Jazz,101,Sacramento Kings,,110,101,october,2021-2022,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,27,37,46,18
+Sat Oct 23 2021,Atlanta Hawks,101,Cleveland Cavaliers,,95,101,october,2021-2022,2,3,40.0,3,2,60.0,1,4,5,2.0,1.0,21,44,35,30
+Sat Oct 23 2021,Miami Heat,102,Indiana Pacers,OT,91,102,october,2021-2022,3,2,60.0,1,4,20.0,1,2,3,2.0,1.0,29,35,34,30
+Sat Oct 23 2021,Dallas Mavericks,95,Toronto Raptors,,103,95,october,2021-2022,2,3,40.0,4,1,80.0,0,2,2,2.0,1.0,27,38,35,28
+Sat Oct 23 2021,Detroit Pistons,97,Chicago Bulls,,82,97,october,2021-2022,3,2,60.0,2,3,40.0,4,0,4,3.0,1.0,28,37,19,45
+Sat Oct 23 2021,New Orleans Pelicans,96,Minnesota Timberwolves,,89,96,october,2021-2022,2,3,40.0,3,2,60.0,2,2,4,1.0,3.0,21,44,28,37
+Sat Oct 23 2021,Milwaukee Bucks,111,San Antonio Spurs,,121,111,october,2021-2022,4,1,80.0,4,1,80.0,1,1,2,2.0,1.0,32,32,40,25
+Sat Oct 23 2021,Phoenix Suns,134,Portland Trail Blazers,,105,134,october,2021-2022,3,2,60.0,2,3,40.0,1,3,4,1.0,3.0,35,29,46,19
+Sat Oct 23 2021,Memphis Grizzlies,114,Los Angeles Clippers,,120,114,october,2021-2022,4,1,80.0,2,3,40.0,0,4,4,3.0,2.0,43,22,33,30
+Sun Oct 24 2021,Charlotte Hornets,95,Brooklyn Nets,,111,95,october,2021-2022,4,1,80.0,2,3,40.0,1,2,3,2.0,2.0,44,22,32,32
+Sun Oct 24 2021,Boston Celtics,97,Houston Rockets,,107,97,october,2021-2022,2,3,40.0,1,4,20.0,0,2,2,2.0,2.0,17,48,34,32
+Sun Oct 24 2021,Orlando Magic,104,New York Knicks,,110,104,october,2021-2022,1,4,20.0,3,2,60.0,2,2,4,2.0,2.0,37,28,19,46
+Sun Oct 24 2021,Philadelphia 76ers,103,Oklahoma City Thunder,,115,103,october,2021-2022,4,1,80.0,1,4,20.0,0,2,2,2.0,2.0,21,44,43,22
+Sun Oct 24 2021,Golden State Warriors,107,Sacramento Kings,,119,107,october,2021-2022,2,3,40.0,2,3,40.0,0,4,4,3.0,2.0,27,38,33,32
+Sun Oct 24 2021,Memphis Grizzlies,121,Los Angeles Lakers,,118,121,october,2021-2022,2,3,40.0,2,3,40.0,1,3,4,1.0,2.0,36,29,34,30
+Mon Oct 25 2021,Boston Celtics,129,Charlotte Hornets,OT,140,129,october,2021-2022,3,2,60.0,2,3,40.0,1,3,4,1.0,1.0,33,32,35,32
+Mon Oct 25 2021,Milwaukee Bucks,109,Indiana Pacers,,119,109,october,2021-2022,2,3,40.0,4,1,80.0,0,4,4,2.0,2.0,30,35,41,25
+Mon Oct 25 2021,Chicago Bulls,108,Toronto Raptors,,111,108,october,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,27,39,29,37
+Mon Oct 25 2021,Orlando Magic,107,Miami Heat,,90,107,october,2021-2022,1,4,20.0,4,1,80.0,3,1,4,1.0,2.0,34,31,20,46
+Mon Oct 25 2021,Washington Wizards,104,Brooklyn Nets,,90,104,october,2021-2022,3,2,60.0,2,3,40.0,2,2,4,3.0,1.0,44,23,31,34
+Mon Oct 25 2021,Detroit Pistons,122,Atlanta Hawks,,104,122,october,2021-2022,4,1,80.0,2,3,40.0,1,2,3,2.0,2.0,35,31,19,46
+Mon Oct 25 2021,New Orleans Pelicans,98,Minnesota Timberwolves,,107,98,october,2021-2022,1,4,20.0,4,1,80.0,2,2,4,2.0,2.0,22,44,28,38
+Mon Oct 25 2021,Cleveland Cavaliers,87,Denver Nuggets,,99,87,october,2021-2022,1,4,20.0,1,4,20.0,0,2,2,2.0,3.0,44,21,22,44
+Mon Oct 25 2021,Portland Trail Blazers,116,Los Angeles Clippers,,86,116,october,2021-2022,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,43,23,36,29
+Tue Oct 26 2021,Philadelphia 76ers,112,New York Knicks,,99,112,october,2021-2022,1,4,20.0,2,3,40.0,2,2,4,2.0,2.0,37,29,44,22
+Tue Oct 26 2021,Golden State Warriors,98,Oklahoma City Thunder,,106,98,october,2021-2022,3,2,60.0,3,2,60.0,0,3,3,2.0,2.0,21,45,34,32
+Tue Oct 26 2021,Los Angeles Lakers,121,San Antonio Spurs,OT,125,121,october,2021-2022,3,2,60.0,1,4,20.0,2,2,4,2.0,3.0,32,33,37,29
+Tue Oct 26 2021,Houston Rockets,116,Dallas Mavericks,,106,116,october,2021-2022,5,0,100.0,1,4,20.0,4,0,4,2.0,3.0,36,28,17,49
+Tue Oct 26 2021,Denver Nuggets,122,Utah Jazz,,110,122,october,2021-2022,4,1,80.0,1,4,20.0,4,0,4,1.0,4.0,47,18,44,22
+Wed Oct 27 2021,Charlotte Hornets,111,Orlando Magic,,120,111,october,2021-2022,4,1,80.0,3,2,60.0,1,3,4,2.0,2.0,20,47,33,33
+Wed Oct 27 2021,Washington Wizards,107,Boston Celtics,,116,107,october,2021-2022,3,2,60.0,3,2,60.0,2,2,4,2.0,2.0,36,32,31,35
+Wed Oct 27 2021,Miami Heat,93,Brooklyn Nets,,106,93,october,2021-2022,2,3,40.0,1,4,20.0,1,3,4,2.0,2.0,45,23,35,31
+Wed Oct 27 2021,Indiana Pacers,118,Toronto Raptors,,100,118,october,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,27,40,30,36
+Wed Oct 27 2021,Atlanta Hawks,99,New Orleans Pelicans,,102,99,october,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,29,38,36,31
+Wed Oct 27 2021,Minnesota Timberwolves,108,Milwaukee Bucks,,113,108,october,2021-2022,4,1,80.0,1,4,20.0,0,2,2,2.0,2.0,42,25,22,45
+Wed Oct 27 2021,Los Angeles Lakers,123,Oklahoma City Thunder,,115,123,october,2021-2022,2,3,40.0,1,4,20.0,2,2,4,1.0,1.0,21,46,38,29
+Wed Oct 27 2021,Sacramento Kings,107,Phoenix Suns,,110,107,october,2021-2022,2,3,40.0,2,3,40.0,2,2,4,3.0,4.0,46,20,27,39
+Wed Oct 27 2021,Memphis Grizzlies,116,Portland Trail Blazers,,96,116,october,2021-2022,3,2,60.0,2,3,40.0,3,1,4,3.0,2.0,36,30,34,31
+Wed Oct 27 2021,Cleveland Cavaliers,79,Los Angeles Clippers,,92,79,october,2021-2022,3,2,60.0,2,3,40.0,0,2,2,2.0,2.0,44,23,23,44
+Thu Oct 28 2021,Atlanta Hawks,122,Washington Wizards,,111,122,october,2021-2022,4,1,80.0,3,2,60.0,1,3,4,1.0,1.0,32,35,37,31
+Thu Oct 28 2021,Detroit Pistons,110,Philadelphia 76ers,,102,110,october,2021-2022,3,2,60.0,2,3,40.0,3,1,4,3.0,2.0,44,23,19,47
+Thu Oct 28 2021,Utah Jazz,91,Houston Rockets,,122,91,october,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,17,50,48,18
+Thu Oct 28 2021,New York Knicks,103,Chicago Bulls,,104,103,october,2021-2022,2,3,40.0,1,4,20.0,2,2,4,2.0,3.0,30,37,38,29
+Thu Oct 28 2021,San Antonio Spurs,104,Dallas Mavericks,,99,104,october,2021-2022,4,1,80.0,2,3,40.0,4,0,4,2.0,2.0,37,28,32,34
+Thu Oct 28 2021,Memphis Grizzlies,101,Golden State Warriors,OT,104,101,october,2021-2022,4,1,80.0,3,2,60.0,1,3,4,1.0,2.0,35,32,34,32
+Fri Oct 29 2021,Orlando Magic,110,Toronto Raptors,,109,110,october,2021-2022,1,4,20.0,3,2,60.0,2,1,3,2.0,2.0,28,40,20,48
+Fri Oct 29 2021,Charlotte Hornets,114,Miami Heat,,99,114,october,2021-2022,2,3,40.0,3,2,60.0,4,0,4,2.0,2.0,36,31,34,33
+Fri Oct 29 2021,Indiana Pacers,105,Brooklyn Nets,,98,105,october,2021-2022,2,3,40.0,3,2,60.0,3,0,3,2.0,2.0,45,24,30,37
+Fri Oct 29 2021,Sacramento Kings,109,New Orleans Pelicans,,113,109,october,2021-2022,3,2,60.0,3,2,60.0,2,2,4,2.0,2.0,29,39,28,39
+Fri Oct 29 2021,Dallas Mavericks,106,Denver Nuggets,,75,106,october,2021-2022,2,3,40.0,3,2,60.0,1,2,3,1.0,3.0,44,23,38,28
+Fri Oct 29 2021,Los Angeles Clippers,111,Portland Trail Blazers,,92,111,october,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,37,30,44,24
+Fri Oct 29 2021,Cleveland Cavaliers,113,Los Angeles Lakers,,101,113,october,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,38,30,24,44
+Sat Oct 30 2021,Boston Celtics,115,Washington Wizards,2OT,112,115,october,2021-2022,3,2,60.0,3,2,60.0,2,2,4,3.0,2.0,33,35,36,33
+Sat Oct 30 2021,Orlando Magic,110,Detroit Pistons,,103,110,october,2021-2022,3,2,60.0,3,2,60.0,3,1,4,1.0,2.0,19,48,20,49
+Sat Oct 30 2021,New York Knicks,117,New Orleans Pelicans,,123,117,october,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,1.0,29,40,39,29
+Sat Oct 30 2021,Toronto Raptors,94,Indiana Pacers,,97,94,october,2021-2022,3,2,60.0,1,4,20.0,1,3,4,1.0,1.0,30,38,29,40
+Sat Oct 30 2021,Atlanta Hawks,122,Philadelphia 76ers,,94,122,october,2021-2022,3,2,60.0,3,2,60.0,2,1,3,2.0,2.0,45,23,37,32
+Sat Oct 30 2021,Utah Jazz,107,Chicago Bulls,,99,107,october,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,30,38,49,18
+Sat Oct 30 2021,Miami Heat,103,Memphis Grizzlies,,129,103,october,2021-2022,4,1,80.0,2,3,40.0,1,1,2,1.0,2.0,35,32,37,31
+Sat Oct 30 2021,San Antonio Spurs,93,Milwaukee Bucks,,102,93,october,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,3.0,42,26,32,35
+Sat Oct 30 2021,Oklahoma City Thunder,103,Golden State Warriors,,82,103,october,2021-2022,3,2,60.0,2,3,40.0,3,0,3,3.0,2.0,35,33,22,46
+Sat Oct 30 2021,Denver Nuggets,91,Minnesota Timberwolves,,93,91,october,2021-2022,1,4,20.0,2,3,40.0,3,1,4,1.0,3.0,23,45,45,23
+Sat Oct 30 2021,Cleveland Cavaliers,101,Phoenix Suns,,92,101,october,2021-2022,2,3,40.0,3,2,60.0,2,0,2,1.0,3.0,46,21,24,45
+Sun Oct 31 2021,Sacramento Kings,105,Dallas Mavericks,,99,105,october,2021-2022,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,38,29,29,39
+Sun Oct 31 2021,Portland Trail Blazers,125,Charlotte Hornets,,113,125,october,2021-2022,4,1,80.0,1,4,20.0,1,1,2,2.0,2.0,34,34,38,30
+Sun Oct 31 2021,Utah Jazz,95,Milwaukee Bucks,,107,95,october,2021-2022,3,2,60.0,3,2,60.0,1,1,2,1.0,1.0,42,27,49,19
+Sun Oct 31 2021,Detroit Pistons,117,Brooklyn Nets,,91,117,october,2021-2022,1,4,20.0,3,2,60.0,4,0,4,1.0,2.0,46,24,20,48
+Sun Oct 31 2021,Houston Rockets,95,Los Angeles Lakers,,85,95,october,2021-2022,2,3,40.0,2,3,40.0,3,1,4,3.0,2.0,39,30,17,51
+Mon Nov 1 2021,Cleveland Cavaliers,110,Charlotte Hornets,,113,110,november,2021-2022,3,2,60.0,4,1,80.0,2,2,4,2.0,1.0,35,34,24,46
+Mon Nov 1 2021,San Antonio Spurs,131,Indiana Pacers,,118,131,november,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,30,39,33,35
+Mon Nov 1 2021,Portland Trail Blazers,113,Philadelphia 76ers,,103,113,november,2021-2022,2,3,40.0,2,3,40.0,1,1,2,1.0,2.0,46,23,38,31
+Mon Nov 1 2021,Washington Wizards,118,Atlanta Hawks,,111,118,november,2021-2022,4,1,80.0,2,3,40.0,3,1,4,2.0,2.0,37,33,34,35
+Mon Nov 1 2021,Chicago Bulls,114,Boston Celtics,,128,114,november,2021-2022,3,2,60.0,1,4,20.0,2,1,3,2.0,2.0,36,34,31,38
+Mon Nov 1 2021,Toronto Raptors,104,New York Knicks,,113,104,november,2021-2022,3,2,60.0,1,4,20.0,1,3,4,2.0,2.0,40,29,30,40
+Mon Nov 1 2021,Denver Nuggets,106,Memphis Grizzlies,,97,106,november,2021-2022,4,1,80.0,2,3,40.0,3,1,4,2.0,2.0,35,33,46,23
+Mon Nov 1 2021,Orlando Magic,97,Minnesota Timberwolves,,115,97,november,2021-2022,1,4,20.0,4,1,80.0,0,2,2,2.0,2.0,23,46,20,50
+Mon Nov 1 2021,Oklahoma City Thunder,99,Los Angeles Clippers,,94,99,november,2021-2022,2,3,40.0,2,3,40.0,2,1,3,2.0,3.0,44,25,22,47
+Tue Nov 2 2021,Milwaukee Bucks,89,Detroit Pistons,,117,89,november,2021-2022,4,1,80.0,2,3,40.0,1,3,4,2.0,2.0,20,49,42,28
+Tue Nov 2 2021,Miami Heat,110,Dallas Mavericks,,125,110,november,2021-2022,2,3,40.0,3,2,60.0,1,1,2,3.0,2.0,39,29,38,31
+Tue Nov 2 2021,Sacramento Kings,119,Utah Jazz,,113,119,november,2021-2022,4,1,80.0,3,2,60.0,4,0,4,2.0,2.0,50,19,29,40
+Tue Nov 2 2021,New Orleans Pelicans,112,Phoenix Suns,,100,112,november,2021-2022,2,3,40.0,2,3,40.0,7,3,10,3.0,3.0,47,21,29,41
+Tue Nov 2 2021,Houston Rockets,119,Los Angeles Lakers,,117,119,november,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,40,30,17,52
+Wed Nov 3 2021,Portland Trail Blazers,107,Cleveland Cavaliers,,104,107,november,2021-2022,5,0,100.0,3,2,60.0,2,0,2,2.0,2.0,25,46,38,32
+Wed Nov 3 2021,New York Knicks,111,Indiana Pacers,,98,111,november,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,31,39,40,30
+Wed Nov 3 2021,Boston Celtics,79,Orlando Magic,,92,79,november,2021-2022,4,1,80.0,3,2,60.0,0,3,3,2.0,2.0,21,50,36,35
+Wed Nov 3 2021,Chicago Bulls,103,Philadelphia 76ers,,98,103,november,2021-2022,2,3,40.0,2,3,40.0,4,0,4,2.0,2.0,47,23,32,38
+Wed Nov 3 2021,Toronto Raptors,100,Washington Wizards,,109,100,november,2021-2022,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,34,36,31,40
+Wed Nov 3 2021,Atlanta Hawks,117,Brooklyn Nets,,108,117,november,2021-2022,0,5,0.0,3,2,60.0,2,1,3,2.0,3.0,47,24,38,33
+Wed Nov 3 2021,Denver Nuggets,108,Memphis Grizzlies,,106,108,november,2021-2022,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,36,33,46,24
+Wed Nov 3 2021,Los Angeles Clippers,115,Minnesota Timberwolves,,126,115,november,2021-2022,1,4,20.0,1,4,20.0,2,3,5,2.0,2.0,23,47,45,25
+Wed Nov 3 2021,Dallas Mavericks,108,San Antonio Spurs,,109,108,november,2021-2022,3,2,60.0,1,4,20.0,0,4,4,1.0,2.0,33,36,39,30
+Wed Nov 3 2021,Charlotte Hornets,114,Golden State Warriors,,92,114,november,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,4.0,36,33,35,35
+Wed Nov 3 2021,New Orleans Pelicans,112,Sacramento Kings,,99,112,november,2021-2022,4,1,80.0,2,3,40.0,2,2,4,1.0,1.0,29,41,29,42
+Thu Nov 4 2021,Philadelphia 76ers,98,Detroit Pistons,,109,98,november,2021-2022,3,2,60.0,1,4,20.0,1,3,4,1.0,2.0,20,50,48,23
+Thu Nov 4 2021,Utah Jazz,98,Atlanta Hawks,,116,98,november,2021-2022,4,1,80.0,3,2,60.0,0,2,2,2.0,1.0,38,34,51,19
+Thu Nov 4 2021,Boston Celtics,78,Miami Heat,,95,78,november,2021-2022,3,2,60.0,3,2,60.0,1,2,3,1.0,2.0,39,31,37,35
+Thu Nov 4 2021,Houston Rockets,123,Phoenix Suns,,111,123,november,2021-2022,2,3,40.0,3,2,60.0,4,0,4,2.0,2.0,48,21,17,53
+Thu Nov 4 2021,Oklahoma City Thunder,104,Los Angeles Lakers,,107,104,november,2021-2022,2,3,40.0,2,3,40.0,2,2,4,3.0,2.0,41,30,22,48
+Fri Nov 5 2021,Brooklyn Nets,90,Detroit Pistons,,96,90,november,2021-2022,2,3,40.0,0,5,0.0,0,4,4,2.0,1.0,20,51,48,24
+Fri Nov 5 2021,San Antonio Spurs,89,Orlando Magic,,102,89,november,2021-2022,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,21,51,33,37
+Fri Nov 5 2021,Memphis Grizzlies,115,Washington Wizards,,87,115,november,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,34,37,37,33
+Fri Nov 5 2021,New York Knicks,98,Milwaukee Bucks,,113,98,november,2021-2022,2,3,40.0,3,2,60.0,3,1,4,2.0,3.0,43,28,40,31
+Fri Nov 5 2021,Cleveland Cavaliers,101,Toronto Raptors,,102,101,november,2021-2022,3,2,60.0,4,1,80.0,1,3,4,2.0,2.0,32,40,26,46
+Fri Nov 5 2021,Los Angeles Clippers,84,Minnesota Timberwolves,,104,84,november,2021-2022,1,4,20.0,2,3,40.0,2,3,5,2.0,2.0,23,48,46,25
+Fri Nov 5 2021,New Orleans Pelicans,126,Golden State Warriors,,85,126,november,2021-2022,2,3,40.0,2,3,40.0,2,1,3,2.0,2.0,37,33,29,43
+Fri Nov 5 2021,Indiana Pacers,110,Portland Trail Blazers,,106,110,november,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,38,33,32,39
+Fri Nov 5 2021,Charlotte Hornets,140,Sacramento Kings,,110,140,november,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,30,41,35,36
+Sat Nov 6 2021,Houston Rockets,95,Denver Nuggets,,94,95,november,2021-2022,4,1,80.0,4,1,80.0,3,0,3,2.0,3.0,46,25,17,54
+Sat Nov 6 2021,Utah Jazz,118,Miami Heat,,115,118,november,2021-2022,3,2,60.0,4,1,80.0,2,0,2,2.0,2.0,39,32,52,19
+Sat Nov 6 2021,Philadelphia 76ers,105,Chicago Bulls,,114,105,november,2021-2022,3,2,60.0,1,4,20.0,0,4,4,2.0,3.0,32,39,49,23
+Sat Nov 6 2021,Boston Celtics,107,Dallas Mavericks,,104,107,november,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,3.0,40,30,38,35
+Sat Nov 6 2021,Atlanta Hawks,121,Phoenix Suns,,117,121,november,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,49,21,38,35
+Sat Nov 6 2021,Los Angeles Lakers,105,Portland Trail Blazers,,90,105,november,2021-2022,3,2,60.0,1,4,20.0,2,2,4,2.0,1.0,39,33,41,31
+Sun Nov 7 2021,Brooklyn Nets,103,Toronto Raptors,,116,103,november,2021-2022,3,2,60.0,1,4,20.0,2,2,4,2.0,2.0,32,41,49,24
+Sun Nov 7 2021,Cleveland Cavaliers,109,New York Knicks,,126,109,november,2021-2022,4,1,80.0,4,1,80.0,0,3,3,2.0,2.0,41,31,27,46
+Sun Nov 7 2021,Utah Jazz,107,Orlando Magic,,100,107,november,2021-2022,3,2,60.0,4,1,80.0,1,1,2,1.0,2.0,21,52,52,20
+Sun Nov 7 2021,Indiana Pacers,91,Sacramento Kings,,94,91,november,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,31,41,32,40
+Sun Nov 7 2021,Milwaukee Bucks,101,Washington Wizards,,94,101,november,2021-2022,1,4,20.0,1,4,20.0,1,2,3,2.0,2.0,35,37,43,29
+Sun Nov 7 2021,San Antonio Spurs,99,Oklahoma City Thunder,,94,99,november,2021-2022,3,2,60.0,4,1,80.0,1,3,4,2.0,3.0,23,48,34,37
+Sun Nov 7 2021,Houston Rockets,120,Golden State Warriors,,107,120,november,2021-2022,1,4,20.0,4,1,80.0,3,0,3,1.0,2.0,38,33,17,55
+Sun Nov 7 2021,Charlotte Hornets,120,Los Angeles Clippers,,106,120,november,2021-2022,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,47,25,35,37
+Mon Nov 8 2021,New York Knicks,96,Philadelphia 76ers,,103,96,november,2021-2022,2,3,40.0,3,2,60.0,2,2,4,1.0,2.0,50,23,41,32
+Mon Nov 8 2021,Brooklyn Nets,118,Chicago Bulls,,95,118,november,2021-2022,2,3,40.0,2,3,40.0,2,1,3,1.0,2.0,32,40,50,24
+Mon Nov 8 2021,Minnesota Timberwolves,125,Memphis Grizzlies,OT,118,125,november,2021-2022,2,3,40.0,1,4,20.0,6,4,10,3.0,3.0,37,34,23,49
+Mon Nov 8 2021,New Orleans Pelicans,108,Dallas Mavericks,,92,108,november,2021-2022,2,3,40.0,3,2,60.0,3,1,4,3.0,2.0,41,30,29,44
+Mon Nov 8 2021,Miami Heat,113,Denver Nuggets,,96,113,november,2021-2022,3,2,60.0,2,3,40.0,2,0,2,2.0,2.0,47,25,40,32
+Mon Nov 8 2021,Atlanta Hawks,127,Golden State Warriors,,113,127,november,2021-2022,0,5,0.0,3,2,60.0,1,1,2,2.0,1.0,39,33,38,36
+Mon Nov 8 2021,Phoenix Suns,104,Sacramento Kings,,109,104,november,2021-2022,2,3,40.0,0,5,0.0,2,2,4,2.0,1.0,31,42,50,21
+Mon Nov 8 2021,Charlotte Hornets,126,Los Angeles Lakers,OT,123,126,november,2021-2022,1,4,20.0,3,2,60.0,1,1,2,1.0,2.0,41,32,35,38
+Tue Nov 9 2021,Milwaukee Bucks,109,Philadelphia 76ers,,118,109,november,2021-2022,2,3,40.0,2,3,40.0,1,2,3,2.0,1.0,50,24,43,30
+Tue Nov 9 2021,Atlanta Hawks,110,Utah Jazz,,98,110,november,2021-2022,4,1,80.0,3,2,60.0,2,0,2,1.0,2.0,52,21,38,37
+Tue Nov 9 2021,Portland Trail Blazers,117,Los Angeles Clippers,,109,117,november,2021-2022,3,2,60.0,3,2,60.0,3,1,4,3.0,2.0,48,25,40,33
+Wed Nov 10 2021,Washington Wizards,94,Cleveland Cavaliers,,97,94,november,2021-2022,4,1,80.0,1,4,20.0,2,2,4,3.0,3.0,28,46,36,37
+Wed Nov 10 2021,Brooklyn Nets,90,Orlando Magic,,123,90,november,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,3.0,22,52,50,25
+Wed Nov 10 2021,Toronto Raptors,104,Boston Celtics,,88,104,november,2021-2022,4,1,80.0,3,2,60.0,2,2,4,3.0,4.0,38,36,32,42
+Wed Nov 10 2021,Detroit Pistons,104,Houston Rockets,,112,104,november,2021-2022,5,0,100.0,1,4,20.0,1,1,2,5.0,3.0,17,56,20,52
+Wed Nov 10 2021,Milwaukee Bucks,100,New York Knicks,,112,100,november,2021-2022,3,2,60.0,3,2,60.0,1,3,4,1.0,2.0,42,32,44,30
+Wed Nov 10 2021,Dallas Mavericks,117,Chicago Bulls,,107,117,november,2021-2022,2,3,40.0,1,4,20.0,1,1,2,2.0,2.0,33,40,42,30
+Wed Nov 10 2021,Charlotte Hornets,108,Memphis Grizzlies,,118,108,november,2021-2022,1,4,20.0,4,1,80.0,1,1,2,2.0,2.0,38,34,35,39
+Wed Nov 10 2021,Oklahoma City Thunder,100,New Orleans Pelicans,,108,100,november,2021-2022,4,1,80.0,3,2,60.0,1,2,3,3.0,2.0,29,45,24,48
+Wed Nov 10 2021,Sacramento Kings,136,San Antonio Spurs,,117,136,november,2021-2022,4,1,80.0,1,4,20.0,1,2,3,2.0,3.0,34,38,31,43
+Wed Nov 10 2021,Indiana Pacers,101,Denver Nuggets,,98,101,november,2021-2022,3,2,60.0,2,3,40.0,2,0,2,3.0,2.0,48,25,33,40
+Wed Nov 10 2021,Portland Trail Blazers,119,Phoenix Suns,,109,119,november,2021-2022,1,4,20.0,3,2,60.0,3,1,4,1.0,2.0,51,21,40,34
+Wed Nov 10 2021,Minnesota Timberwolves,123,Golden State Warriors,,110,123,november,2021-2022,0,5,0.0,1,4,20.0,2,2,4,2.0,2.0,40,33,23,50
+Wed Nov 10 2021,Miami Heat,120,Los Angeles Lakers,OT,117,120,november,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,42,32,40,33
+Thu Nov 11 2021,Toronto Raptors,109,Philadelphia 76ers,,115,109,november,2021-2022,2,3,40.0,3,2,60.0,5,5,10,1.0,2.0,50,25,32,43
+Thu Nov 11 2021,Indiana Pacers,100,Utah Jazz,,111,100,november,2021-2022,3,2,60.0,3,2,60.0,0,2,2,1.0,2.0,53,21,33,41
+Thu Nov 11 2021,Miami Heat,112,Los Angeles Clippers,,109,112,november,2021-2022,2,3,40.0,3,2,60.0,1,1,2,1.0,2.0,49,25,40,34
+Fri Nov 12 2021,New York Knicks,104,Charlotte Hornets,,96,104,november,2021-2022,5,0,100.0,3,2,60.0,3,1,4,2.0,2.0,36,39,42,33
+Fri Nov 12 2021,Milwaukee Bucks,122,Boston Celtics,OT,113,122,november,2021-2022,3,2,60.0,4,1,80.0,2,2,4,2.0,2.0,39,36,45,30
+Fri Nov 12 2021,Detroit Pistons,98,Cleveland Cavaliers,,78,98,november,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,28,47,21,52
+Fri Nov 12 2021,Portland Trail Blazers,92,Houston Rockets,,104,92,november,2021-2022,4,1,80.0,3,2,60.0,2,2,4,2.0,2.0,17,57,40,35
+Fri Nov 12 2021,Phoenix Suns,94,Memphis Grizzlies,,119,94,november,2021-2022,1,4,20.0,1,4,20.0,2,1,3,2.0,2.0,38,35,52,21
+Fri Nov 12 2021,Brooklyn Nets,112,New Orleans Pelicans,,120,112,november,2021-2022,4,1,80.0,4,1,80.0,0,2,2,2.0,2.0,29,46,51,25
+Fri Nov 12 2021,Sacramento Kings,105,Oklahoma City Thunder,,103,105,november,2021-2022,4,1,80.0,1,4,20.0,1,3,4,2.0,2.0,25,48,31,44
+Fri Nov 12 2021,Dallas Mavericks,109,San Antonio Spurs,,123,109,november,2021-2022,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,35,38,42,31
+Fri Nov 12 2021,Atlanta Hawks,105,Denver Nuggets,,96,105,november,2021-2022,2,3,40.0,4,1,80.0,2,0,2,3.0,2.0,49,25,38,38
+Fri Nov 12 2021,Chicago Bulls,119,Golden State Warriors,,93,119,november,2021-2022,0,5,0.0,2,3,40.0,2,0,2,2.0,2.0,41,33,34,40
+Fri Nov 12 2021,Minnesota Timberwolves,83,Los Angeles Lakers,,107,83,november,2021-2022,1,4,20.0,2,3,40.0,1,3,4,2.0,2.0,43,32,23,51
+Sat Nov 13 2021,Miami Heat,105,Utah Jazz,,111,105,november,2021-2022,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,53,22,40,35
+Sat Nov 13 2021,Philadelphia 76ers,118,Indiana Pacers,,113,118,november,2021-2022,4,1,80.0,2,3,40.0,1,2,3,2.0,2.0,34,41,50,26
+Sat Nov 13 2021,Memphis Grizzlies,112,New Orleans Pelicans,,101,112,november,2021-2022,3,2,60.0,1,4,20.0,1,3,4,1.0,1.0,29,47,38,36
+Sat Nov 13 2021,Washington Wizards,92,Orlando Magic,,104,92,november,2021-2022,1,4,20.0,2,3,40.0,0,4,4,3.0,3.0,22,53,37,37
+Sat Nov 13 2021,Detroit Pistons,121,Toronto Raptors,,127,121,november,2021-2022,3,2,60.0,2,3,40.0,0,3,3,1.0,2.0,33,43,21,53
+Sat Nov 13 2021,Boston Celtics,91,Cleveland Cavaliers,,89,91,november,2021-2022,2,3,40.0,3,2,60.0,1,2,3,1.0,1.0,29,47,40,36
+Sat Nov 13 2021,Minnesota Timberwolves,129,Los Angeles Clippers,,102,129,november,2021-2022,2,3,40.0,3,2,60.0,3,2,5,1.0,2.0,50,25,24,51
+Sun Nov 14 2021,San Antonio Spurs,114,Los Angeles Lakers,,106,114,november,2021-2022,1,4,20.0,2,3,40.0,2,2,4,2.0,2.0,43,33,35,39
+Sun Nov 14 2021,Milwaukee Bucks,120,Atlanta Hawks,,100,120,november,2021-2022,4,1,80.0,4,1,80.0,2,1,3,2.0,2.0,38,39,45,31
+Sun Nov 14 2021,Golden State Warriors,106,Charlotte Hornets,,102,106,november,2021-2022,4,1,80.0,0,5,0.0,1,1,2,2.0,2.0,37,39,42,33
+Sun Nov 14 2021,Phoenix Suns,89,Houston Rockets,,115,89,november,2021-2022,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,17,58,53,21
+Sun Nov 14 2021,Brooklyn Nets,96,Oklahoma City Thunder,,120,96,november,2021-2022,3,2,60.0,5,0,100.0,1,1,2,2.0,2.0,26,48,52,25
+Sun Nov 14 2021,Portland Trail Blazers,124,Denver Nuggets,,95,124,november,2021-2022,1,4,20.0,3,2,60.0,3,1,4,2.0,2.0,50,25,41,35
+Sun Nov 14 2021,Chicago Bulls,90,Los Angeles Clippers,,100,90,november,2021-2022,1,4,20.0,2,3,40.0,0,2,2,2.0,1.0,51,25,34,41
+Mon Nov 15 2021,Boston Celtics,92,Cleveland Cavaliers,,98,92,november,2021-2022,2,3,40.0,3,2,60.0,1,2,3,2.0,2.0,30,47,40,37
+Mon Nov 15 2021,Sacramento Kings,107,Detroit Pistons,,129,107,november,2021-2022,3,2,60.0,2,3,40.0,1,1,2,3.0,2.0,22,53,31,45
+Mon Nov 15 2021,New Orleans Pelicans,105,Washington Wizards,,100,105,november,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,38,37,30,47
+Mon Nov 15 2021,Orlando Magic,129,Atlanta Hawks,,111,129,november,2021-2022,4,1,80.0,0,5,0.0,3,1,4,2.0,1.0,39,39,22,54
+Mon Nov 15 2021,Indiana Pacers,92,New York Knicks,,84,92,november,2021-2022,3,2,60.0,4,1,80.0,2,2,4,2.0,3.0,42,34,35,41
+Mon Nov 15 2021,Denver Nuggets,111,Dallas Mavericks,,101,111,november,2021-2022,3,2,60.0,0,5,0.0,2,1,3,1.0,3.0,43,31,51,25
+Mon Nov 15 2021,Houston Rockets,136,Memphis Grizzlies,,102,136,november,2021-2022,2,3,40.0,2,3,40.0,3,1,4,1.0,2.0,38,37,17,59
+Mon Nov 15 2021,Phoenix Suns,96,Minnesota Timberwolves,,99,96,november,2021-2022,4,1,80.0,3,2,60.0,0,3,3,1.0,2.0,24,52,54,21
+Mon Nov 15 2021,Miami Heat,90,Oklahoma City Thunder,,103,90,november,2021-2022,2,3,40.0,4,1,80.0,0,2,2,2.0,1.0,26,49,41,35
+Mon Nov 15 2021,Toronto Raptors,118,Portland Trail Blazers,,113,118,november,2021-2022,4,1,80.0,2,3,40.0,2,0,2,2.0,1.0,41,36,33,44
+Mon Nov 15 2021,Chicago Bulls,103,Los Angeles Lakers,,121,103,november,2021-2022,1,4,20.0,2,3,40.0,0,2,2,1.0,1.0,44,33,35,41
+Tue Nov 16 2021,Golden State Warriors,99,Brooklyn Nets,,117,99,november,2021-2022,5,0,100.0,1,4,20.0,0,2,2,2.0,2.0,53,25,42,34
+Tue Nov 16 2021,Philadelphia 76ers,120,Utah Jazz,,85,120,november,2021-2022,2,3,40.0,2,3,40.0,2,0,2,3.0,3.0,53,23,50,27
+Tue Nov 16 2021,San Antonio Spurs,106,Los Angeles Clippers,,92,106,november,2021-2022,0,5,0.0,3,2,60.0,1,2,3,2.0,2.0,51,26,35,40
+Wed Nov 17 2021,Washington Wizards,97,Charlotte Hornets,,87,97,november,2021-2022,3,2,60.0,2,3,40.0,3,1,4,2.0,3.0,38,39,39,37
+Wed Nov 17 2021,Indiana Pacers,97,Detroit Pistons,,89,97,november,2021-2022,3,2,60.0,4,1,80.0,3,1,4,2.0,2.0,22,54,35,42
+Wed Nov 17 2021,Boston Celtics,110,Atlanta Hawks,,99,110,november,2021-2022,3,2,60.0,3,2,60.0,2,2,4,2.0,2.0,40,39,41,37
+Wed Nov 17 2021,Cleveland Cavaliers,109,Brooklyn Nets,,99,109,november,2021-2022,4,1,80.0,1,4,20.0,4,1,5,2.0,1.0,53,26,30,48
+Wed Nov 17 2021,New Orleans Pelicans,113,Miami Heat,,98,113,november,2021-2022,5,0,100.0,2,3,40.0,2,0,2,2.0,2.0,42,35,30,48
+Wed Nov 17 2021,Los Angeles Lakers,109,Milwaukee Bucks,,102,109,november,2021-2022,5,0,100.0,0,5,0.0,2,0,2,2.0,3.0,45,32,44,34
+Wed Nov 17 2021,Orlando Magic,98,New York Knicks,,104,98,november,2021-2022,2,3,40.0,1,4,20.0,2,2,4,2.0,2.0,43,34,22,55
+Wed Nov 17 2021,Sacramento Kings,107,Minnesota Timberwolves,,97,107,november,2021-2022,4,1,80.0,3,2,60.0,2,1,3,2.0,2.0,24,53,32,45
+Wed Nov 17 2021,Houston Rockets,101,Oklahoma City Thunder,,89,101,november,2021-2022,1,4,20.0,2,3,40.0,1,3,4,2.0,2.0,26,50,17,60
+Wed Nov 17 2021,Dallas Mavericks,105,Phoenix Suns,,98,105,november,2021-2022,4,1,80.0,2,3,40.0,3,0,3,2.0,2.0,55,21,44,31
+Wed Nov 17 2021,Chicago Bulls,112,Portland Trail Blazers,,107,112,november,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,42,36,36,41
+Thu Nov 18 2021,Golden State Warriors,89,Cleveland Cavaliers,,104,89,november,2021-2022,1,4,20.0,2,3,40.0,0,2,2,2.0,1.0,30,49,43,34
+Thu Nov 18 2021,Washington Wizards,112,Miami Heat,,97,112,november,2021-2022,4,1,80.0,3,2,60.0,3,1,4,1.0,1.0,43,35,39,38
+Thu Nov 18 2021,Los Angeles Clippers,120,Memphis Grizzlies,,108,120,november,2021-2022,1,4,20.0,0,5,0.0,4,0,4,2.0,3.0,39,37,52,26
+Thu Nov 18 2021,San Antonio Spurs,115,Minnesota Timberwolves,,90,115,november,2021-2022,3,2,60.0,3,2,60.0,3,0,3,2.0,1.0,25,53,35,41
+Thu Nov 18 2021,Philadelphia 76ers,89,Denver Nuggets,,103,89,november,2021-2022,1,4,20.0,2,3,40.0,1,1,2,2.0,3.0,51,26,50,28
+Thu Nov 18 2021,Toronto Raptors,119,Utah Jazz,,103,119,november,2021-2022,1,4,20.0,3,2,60.0,1,1,2,3.0,2.0,54,23,33,45
+Fri Nov 19 2021,Indiana Pacers,121,Charlotte Hornets,,118,121,november,2021-2022,2,3,40.0,4,1,80.0,4,0,4,2.0,2.0,39,39,35,43
+Fri Nov 19 2021,Golden State Warriors,102,Detroit Pistons,,105,102,november,2021-2022,3,2,60.0,3,2,60.0,0,2,2,1.0,2.0,23,54,44,34
+Fri Nov 19 2021,Los Angeles Lakers,130,Boston Celtics,,108,130,november,2021-2022,3,2,60.0,1,4,20.0,1,1,2,2.0,2.0,41,38,44,35
+Fri Nov 19 2021,Orlando Magic,115,Brooklyn Nets,,113,115,november,2021-2022,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,54,26,23,55
+Fri Nov 19 2021,Oklahoma City Thunder,96,Milwaukee Bucks,,89,96,november,2021-2022,4,1,80.0,1,4,20.0,2,0,2,2.0,2.0,46,32,27,50
+Fri Nov 19 2021,Los Angeles Clippers,94,New Orleans Pelicans,,81,94,november,2021-2022,2,3,40.0,1,4,20.0,4,1,5,1.0,2.0,30,49,52,27
+Fri Nov 19 2021,Chicago Bulls,108,Denver Nuggets,,114,108,november,2021-2022,1,4,20.0,4,1,80.0,0,2,2,2.0,1.0,51,27,36,42
+Fri Nov 19 2021,Dallas Mavericks,112,Phoenix Suns,,104,112,november,2021-2022,3,2,60.0,3,2,60.0,3,0,3,2.0,2.0,56,21,44,32
+Fri Nov 19 2021,Toronto Raptors,89,Sacramento Kings,,108,89,november,2021-2022,4,1,80.0,4,1,80.0,0,2,2,1.0,2.0,32,46,33,46
+Sat Nov 20 2021,Houston Rockets,106,New York Knicks,,99,106,november,2021-2022,2,3,40.0,2,3,40.0,2,0,2,3.0,3.0,43,35,17,61
+Sat Nov 20 2021,New Orleans Pelicans,111,Indiana Pacers,,94,111,november,2021-2022,4,1,80.0,2,3,40.0,1,1,2,1.0,1.0,35,44,31,49
+Sat Nov 20 2021,Miami Heat,103,Washington Wizards,,100,103,november,2021-2022,4,1,80.0,3,2,60.0,1,3,4,2.0,2.0,39,39,44,35
+Sat Nov 20 2021,Charlotte Hornets,115,Atlanta Hawks,,105,115,november,2021-2022,2,3,40.0,1,4,20.0,3,2,5,1.0,3.0,41,39,40,39
+Sat Nov 20 2021,Oklahoma City Thunder,111,Boston Celtics,,105,111,november,2021-2022,3,2,60.0,1,4,20.0,2,0,2,1.0,1.0,42,38,27,51
+Sat Nov 20 2021,Orlando Magic,117,Milwaukee Bucks,,108,117,november,2021-2022,3,2,60.0,3,2,60.0,4,0,4,1.0,1.0,47,32,23,56
+Sat Nov 20 2021,Memphis Grizzlies,138,Minnesota Timberwolves,,95,138,november,2021-2022,2,3,40.0,1,4,20.0,4,6,10,2.0,2.0,26,53,40,37
+Sat Nov 20 2021,Philadelphia 76ers,118,Portland Trail Blazers,,111,118,november,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,3.0,43,36,51,28
+Sat Nov 20 2021,Utah Jazz,105,Sacramento Kings,,123,105,november,2021-2022,4,1,80.0,0,5,0.0,0,4,4,2.0,1.0,32,47,55,23
+Sun Nov 21 2021,Dallas Mavericks,97,Los Angeles Clippers,,91,97,november,2021-2022,2,3,40.0,4,1,80.0,2,2,4,2.0,2.0,52,28,44,33
+Sun Nov 21 2021,Los Angeles Lakers,116,Detroit Pistons,,121,116,november,2021-2022,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,23,55,44,36
+Sun Nov 21 2021,New York Knicks,109,Chicago Bulls,,103,109,november,2021-2022,5,0,100.0,1,4,20.0,2,2,4,1.0,2.0,37,42,44,35
+Sun Nov 21 2021,Denver Nuggets,126,Phoenix Suns,,97,126,november,2021-2022,3,2,60.0,1,4,20.0,2,1,3,2.0,2.0,57,21,51,28
+Sun Nov 21 2021,Toronto Raptors,119,Golden State Warriors,,104,119,november,2021-2022,4,1,80.0,4,1,80.0,1,1,2,2.0,2.0,45,34,34,46
+Mon Nov 22 2021,Brooklyn Nets,112,Cleveland Cavaliers,,117,112,november,2021-2022,1,4,20.0,2,3,40.0,1,4,5,3.0,4.0,30,50,55,26
+Mon Nov 22 2021,Charlotte Hornets,103,Washington Wizards,,109,103,november,2021-2022,3,2,60.0,1,4,20.0,1,3,4,2.0,2.0,40,39,40,40
+Mon Nov 22 2021,Oklahoma City Thunder,113,Atlanta Hawks,,101,113,november,2021-2022,1,4,20.0,2,3,40.0,2,0,2,2.0,2.0,42,39,27,52
+Mon Nov 22 2021,Houston Rockets,108,Boston Celtics,,90,108,november,2021-2022,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,43,38,17,62
+Mon Nov 22 2021,Indiana Pacers,77,Chicago Bulls,,109,77,november,2021-2022,4,1,80.0,3,2,60.0,3,1,4,2.0,1.0,38,42,36,44
+Mon Nov 22 2021,Orlando Magic,123,Milwaukee Bucks,,92,123,november,2021-2022,2,3,40.0,4,1,80.0,4,0,4,2.0,2.0,48,32,23,57
+Mon Nov 22 2021,Minnesota Timberwolves,96,New Orleans Pelicans,,110,96,november,2021-2022,3,2,60.0,1,4,20.0,2,2,4,2.0,2.0,31,50,27,53
+Mon Nov 22 2021,Phoenix Suns,111,San Antonio Spurs,,115,111,november,2021-2022,3,2,60.0,2,3,40.0,0,4,4,1.0,4.0,35,42,58,21
+Mon Nov 22 2021,Memphis Grizzlies,118,Utah Jazz,,119,118,november,2021-2022,1,4,20.0,2,3,40.0,1,2,3,2.0,2.0,56,23,40,38
+Mon Nov 22 2021,Philadelphia 76ers,94,Sacramento Kings,,102,94,november,2021-2022,3,2,60.0,4,1,80.0,0,2,2,2.0,2.0,32,48,51,29
+Tue Nov 23 2021,Miami Heat,92,Detroit Pistons,,100,92,november,2021-2022,1,4,20.0,3,2,60.0,1,3,4,3.0,2.0,23,56,44,36
+Tue Nov 23 2021,Los Angeles Lakers,106,New York Knicks,,100,106,november,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,44,36,45,36
+Tue Nov 23 2021,Denver Nuggets,119,Portland Trail Blazers,,100,119,november,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,3.0,44,36,51,29
+Tue Nov 23 2021,Dallas Mavericks,104,Los Angeles Clippers,OT,112,104,november,2021-2022,2,3,40.0,4,1,80.0,2,2,4,2.0,2.0,53,28,44,34
+Wed Nov 24 2021,Phoenix Suns,115,Cleveland Cavaliers,,120,115,november,2021-2022,1,4,20.0,2,3,40.0,0,2,2,2.0,2.0,30,51,59,21
+Wed Nov 24 2021,Los Angeles Lakers,116,Indiana Pacers,OT,124,116,november,2021-2022,4,1,80.0,4,1,80.0,1,1,2,1.0,2.0,37,44,45,37
+Wed Nov 24 2021,Charlotte Hornets,99,Orlando Magic,,106,99,november,2021-2022,5,0,100.0,2,3,40.0,1,3,4,2.0,2.0,23,58,41,40
+Wed Nov 24 2021,Brooklyn Nets,104,Boston Celtics,,123,104,november,2021-2022,2,3,40.0,2,3,40.0,7,1,8,2.0,2.0,44,38,56,26
+Wed Nov 24 2021,Chicago Bulls,118,Houston Rockets,,113,118,november,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,17,63,38,43
+Wed Nov 24 2021,Toronto Raptors,113,Memphis Grizzlies,,126,113,november,2021-2022,3,2,60.0,4,1,80.0,1,1,2,3.0,2.0,41,38,34,47
+Wed Nov 24 2021,Detroit Pistons,114,Milwaukee Bucks,,93,114,november,2021-2022,1,4,20.0,0,5,0.0,3,1,4,1.0,2.0,49,32,23,57
+Wed Nov 24 2021,Miami Heat,113,Minnesota Timberwolves,,101,113,november,2021-2022,1,4,20.0,3,2,60.0,2,0,2,1.0,2.0,28,53,45,36
+Wed Nov 24 2021,Washington Wizards,127,New Orleans Pelicans,,102,127,november,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,31,51,40,40
+Wed Nov 24 2021,Utah Jazz,104,Oklahoma City Thunder,,110,104,november,2021-2022,3,2,60.0,1,4,20.0,0,4,4,2.0,2.0,27,53,56,24
+Wed Nov 24 2021,Atlanta Hawks,106,San Antonio Spurs,,124,106,november,2021-2022,3,2,60.0,0,5,0.0,1,1,2,2.0,2.0,35,43,43,39
+Wed Nov 24 2021,Philadelphia 76ers,116,Golden State Warriors,,96,116,november,2021-2022,4,1,80.0,5,0,100.0,1,1,2,2.0,3.0,46,34,52,29
+Wed Nov 24 2021,Portland Trail Blazers,125,Sacramento Kings,,121,125,november,2021-2022,2,3,40.0,1,4,20.0,2,1,3,1.0,2.0,32,49,45,36
+Fri Nov 26 2021,Detroit Pistons,107,Los Angeles Clippers,,96,107,november,2021-2022,2,3,40.0,1,4,20.0,2,0,2,2.0,3.0,53,29,23,58
+Fri Nov 26 2021,Minnesota Timberwolves,133,Charlotte Hornets,,115,133,november,2021-2022,3,2,60.0,1,4,20.0,1,1,2,2.0,2.0,42,40,29,53
+Fri Nov 26 2021,Phoenix Suns,97,New York Knicks,,118,97,november,2021-2022,1,4,20.0,2,3,40.0,0,2,2,2.0,3.0,45,36,60,21
+Fri Nov 26 2021,Chicago Bulls,88,Orlando Magic,,123,88,november,2021-2022,4,1,80.0,3,2,60.0,1,3,4,2.0,2.0,23,59,38,44
+Fri Nov 26 2021,Toronto Raptors,114,Indiana Pacers,,97,114,november,2021-2022,3,2,60.0,5,0,100.0,1,3,4,2.0,2.0,37,45,35,47
+Fri Nov 26 2021,Atlanta Hawks,100,Memphis Grizzlies,,132,100,november,2021-2022,2,3,40.0,1,4,20.0,0,2,2,2.0,2.0,41,39,44,39
+Fri Nov 26 2021,Washington Wizards,99,Oklahoma City Thunder,,101,99,november,2021-2022,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,27,54,40,41
+Fri Nov 26 2021,Boston Celtics,96,San Antonio Spurs,,88,96,november,2021-2022,3,2,60.0,1,4,20.0,2,0,2,2.0,2.0,35,44,44,39
+Fri Nov 26 2021,Milwaukee Bucks,109,Denver Nuggets,,120,109,november,2021-2022,3,2,60.0,0,5,0.0,1,1,2,2.0,3.0,51,30,50,32
+Fri Nov 26 2021,New Orleans Pelicans,97,Utah Jazz,,98,97,november,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,57,24,32,51
+Fri Nov 26 2021,Portland Trail Blazers,118,Golden State Warriors,,103,118,november,2021-2022,3,2,60.0,1,4,20.0,3,0,3,2.0,2.0,47,34,45,37
+Fri Nov 26 2021,Sacramento Kings,137,Los Angeles Lakers,3OT,141,137,november,2021-2022,5,0,100.0,1,4,20.0,2,2,4,2.0,2.0,46,37,33,49
+Sat Nov 27 2021,Minnesota Timberwolves,120,Philadelphia 76ers,2OT,121,120,november,2021-2022,5,0,100.0,2,3,40.0,1,1,2,1.0,3.0,52,30,29,54
+Sat Nov 27 2021,New York Knicks,90,Atlanta Hawks,,99,90,november,2021-2022,2,3,40.0,1,4,20.0,1,3,4,1.0,1.0,45,39,45,37
+Sat Nov 27 2021,Phoenix Suns,107,Brooklyn Nets,,113,107,november,2021-2022,2,3,40.0,3,2,60.0,0,2,2,1.0,3.0,57,26,61,21
+Sat Nov 27 2021,Miami Heat,104,Chicago Bulls,,107,104,november,2021-2022,3,2,60.0,3,2,60.0,0,4,4,3.0,1.0,39,44,45,37
+Sat Nov 27 2021,Orlando Magic,105,Cleveland Cavaliers,,92,105,november,2021-2022,1,4,20.0,3,2,60.0,2,1,3,1.0,3.0,30,52,23,60
+Sat Nov 27 2021,Charlotte Hornets,146,Houston Rockets,OT,143,146,november,2021-2022,4,1,80.0,3,2,60.0,1,1,2,1.0,3.0,18,63,43,40
+Sat Nov 27 2021,Washington Wizards,114,Dallas Mavericks,,120,114,november,2021-2022,4,1,80.0,3,2,60.0,0,2,2,1.0,4.0,45,34,41,41
+Sat Nov 27 2021,New Orleans Pelicans,127,Utah Jazz,,105,127,november,2021-2022,2,3,40.0,2,3,40.0,2,2,4,1.0,1.0,57,25,33,51
+Sun Nov 28 2021,Golden State Warriors,90,Los Angeles Clippers,,105,90,november,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,54,29,48,34
+Sun Nov 28 2021,Milwaukee Bucks,100,Indiana Pacers,,118,100,november,2021-2022,2,3,40.0,1,4,20.0,0,4,4,2.0,2.0,38,45,51,32
+Sun Nov 28 2021,Sacramento Kings,128,Memphis Grizzlies,,101,128,november,2021-2022,2,3,40.0,1,4,20.0,3,0,3,2.0,2.0,41,40,34,49
+Sun Nov 28 2021,Boston Celtics,97,Toronto Raptors,,109,97,november,2021-2022,5,0,100.0,1,4,20.0,2,2,4,2.0,2.0,35,48,44,40
+Sun Nov 28 2021,Detroit Pistons,110,Los Angeles Lakers,,106,110,november,2021-2022,4,1,80.0,2,3,40.0,2,0,2,2.0,2.0,46,38,23,59
+Mon Nov 29 2021,Orlando Magic,101,Philadelphia 76ers,,96,101,november,2021-2022,4,1,80.0,3,2,60.0,4,0,4,2.0,2.0,52,31,23,61
+Mon Nov 29 2021,Denver Nuggets,111,Miami Heat,,120,111,november,2021-2022,4,1,80.0,2,3,40.0,0,2,2,3.0,2.0,46,37,51,31
+Mon Nov 29 2021,Charlotte Hornets,133,Chicago Bulls,,119,133,november,2021-2022,2,3,40.0,4,1,80.0,2,1,3,2.0,2.0,39,45,43,41
+Mon Nov 29 2021,Oklahoma City Thunder,102,Houston Rockets,,89,102,november,2021-2022,3,2,60.0,3,2,60.0,3,1,4,3.0,2.0,19,63,27,55
+Mon Nov 29 2021,Indiana Pacers,100,Minnesota Timberwolves,,98,100,november,2021-2022,3,2,60.0,1,4,20.0,2,0,2,1.0,2.0,30,54,38,46
+Mon Nov 29 2021,Cleveland Cavaliers,96,Dallas Mavericks,,114,96,november,2021-2022,4,1,80.0,1,4,20.0,1,1,2,2.0,2.0,45,35,31,52
+Mon Nov 29 2021,Washington Wizards,116,San Antonio Spurs,,99,116,november,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,3.0,36,44,42,41
+Mon Nov 29 2021,Portland Trail Blazers,129,Utah Jazz,,107,129,november,2021-2022,2,3,40.0,2,3,40.0,4,0,4,3.0,2.0,58,25,45,38
+Mon Nov 29 2021,New Orleans Pelicans,104,Los Angeles Clippers,,123,104,november,2021-2022,1,4,20.0,3,2,60.0,1,4,5,2.0,1.0,54,30,33,52
+Tue Nov 30 2021,New York Knicks,112,Brooklyn Nets,,110,112,november,2021-2022,2,3,40.0,2,3,40.0,4,0,4,3.0,3.0,57,27,46,37
+Tue Nov 30 2021,Memphis Grizzlies,91,Toronto Raptors,,98,91,november,2021-2022,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,35,49,42,40
+Tue Nov 30 2021,Golden State Warriors,104,Phoenix Suns,,96,104,november,2021-2022,4,1,80.0,2,3,40.0,2,2,4,2.0,3.0,62,21,49,34
+Tue Nov 30 2021,Detroit Pistons,110,Portland Trail Blazers,,92,110,november,2021-2022,3,2,60.0,3,2,60.0,2,0,2,2.0,1.0,45,39,23,60
+Tue Nov 30 2021,Los Angeles Lakers,92,Sacramento Kings,,117,92,november,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,34,50,47,38
+Wed Dec 1 2021,Atlanta Hawks,111,Indiana Pacers,,114,111,december,2021-2022,2,3,40.0,2,3,40.0,0,4,4,4.0,2.0,38,47,45,40
+Wed Dec 1 2021,Denver Nuggets,108,Orlando Magic,,103,108,december,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,23,62,52,31
+Wed Dec 1 2021,Minnesota Timberwolves,115,Washington Wizards,,107,115,december,2021-2022,4,1,80.0,3,2,60.0,2,0,2,2.0,2.0,42,42,31,54
+Wed Dec 1 2021,Philadelphia 76ers,88,Boston Celtics,,87,88,december,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,3.0,45,40,53,31
+Wed Dec 1 2021,Cleveland Cavaliers,85,Miami Heat,,111,85,december,2021-2022,4,1,80.0,1,4,20.0,1,2,3,2.0,2.0,46,38,32,52
+Wed Dec 1 2021,Charlotte Hornets,127,Milwaukee Bucks,,125,127,december,2021-2022,2,3,40.0,4,1,80.0,2,2,4,2.0,3.0,52,32,43,42
+Wed Dec 1 2021,Dallas Mavericks,107,New Orleans Pelicans,,139,107,december,2021-2022,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,34,52,45,36
+Wed Dec 1 2021,Houston Rockets,110,Oklahoma City Thunder,,114,110,december,2021-2022,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,27,56,20,63
+Wed Dec 1 2021,Sacramento Kings,115,Los Angeles Clippers,,124,115,december,2021-2022,0,5,0.0,2,3,40.0,2,2,4,1.0,2.0,54,31,34,51
+Thu Dec 2 2021,Chicago Bulls,115,New York Knicks,,119,115,december,2021-2022,3,2,60.0,2,3,40.0,2,2,4,3.0,2.0,46,38,40,45
+Thu Dec 2 2021,Milwaukee Bucks,97,Toronto Raptors,,93,97,december,2021-2022,3,2,60.0,2,3,40.0,3,0,3,1.0,2.0,35,50,53,32
+Thu Dec 2 2021,Oklahoma City Thunder,152,Memphis Grizzlies,,79,152,december,2021-2022,2,3,40.0,2,3,40.0,2,1,3,1.0,2.0,43,40,27,57
+Thu Dec 2 2021,Detroit Pistons,114,Phoenix Suns,,103,114,december,2021-2022,4,1,80.0,4,1,80.0,2,0,2,2.0,2.0,63,21,23,61
+Thu Dec 2 2021,San Antonio Spurs,83,Portland Trail Blazers,,114,83,december,2021-2022,3,2,60.0,1,4,20.0,0,4,4,3.0,2.0,46,39,37,44
+Fri Dec 3 2021,Miami Heat,104,Indiana Pacers,,113,104,december,2021-2022,1,4,20.0,3,2,60.0,1,2,3,2.0,2.0,38,48,46,39
+Fri Dec 3 2021,Cleveland Cavaliers,101,Washington Wizards,,116,101,december,2021-2022,4,1,80.0,2,3,40.0,2,2,4,2.0,2.0,43,42,33,52
+Fri Dec 3 2021,Philadelphia 76ers,96,Atlanta Hawks,,98,96,december,2021-2022,3,2,60.0,3,2,60.0,1,2,3,2.0,2.0,46,40,53,32
+Fri Dec 3 2021,Minnesota Timberwolves,110,Brooklyn Nets,,105,110,december,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,3.0,58,27,31,55
+Fri Dec 3 2021,Orlando Magic,118,Houston Rockets,,116,118,december,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,21,63,24,62
+Fri Dec 3 2021,New Orleans Pelicans,91,Dallas Mavericks,,107,91,december,2021-2022,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,46,36,34,53
+Fri Dec 3 2021,Boston Celtics,137,Utah Jazz,,130,137,december,2021-2022,1,4,20.0,2,3,40.0,1,1,2,2.0,4.0,59,25,46,40
+Fri Dec 3 2021,Phoenix Suns,118,Golden State Warriors,,96,118,december,2021-2022,2,3,40.0,3,2,60.0,2,2,4,1.0,3.0,49,35,64,21
+Fri Dec 3 2021,Los Angeles Clippers,115,Los Angeles Lakers,,119,115,december,2021-2022,3,2,60.0,0,5,0.0,0,4,4,2.0,3.0,48,38,54,32
+Sat Dec 4 2021,Denver Nuggets,99,New York Knicks,,113,99,december,2021-2022,2,3,40.0,4,1,80.0,0,2,2,3.0,2.0,46,39,52,32
+Sat Dec 4 2021,Chicago Bulls,107,Brooklyn Nets,,111,107,december,2021-2022,2,3,40.0,3,2,60.0,1,2,3,2.0,1.0,59,27,41,45
+Sat Dec 4 2021,Miami Heat,124,Milwaukee Bucks,,102,124,december,2021-2022,3,2,60.0,3,2,60.0,2,2,4,1.0,2.0,53,33,47,39
+Sat Dec 4 2021,Memphis Grizzlies,90,Dallas Mavericks,,97,90,december,2021-2022,2,3,40.0,1,4,20.0,3,1,4,2.0,1.0,46,37,44,40
+Sat Dec 4 2021,San Antonio Spurs,107,Golden State Warriors,,112,107,december,2021-2022,2,3,40.0,1,4,20.0,2,2,4,2.0,1.0,50,35,38,44
+Sat Dec 4 2021,Boston Celtics,117,Portland Trail Blazers,,145,117,december,2021-2022,3,2,60.0,3,2,60.0,1,1,2,1.0,2.0,46,40,46,41
+Sat Dec 4 2021,Los Angeles Clippers,104,Sacramento Kings,,99,104,december,2021-2022,3,2,60.0,1,4,20.0,2,2,4,1.0,3.0,35,51,55,32
+Sun Dec 5 2021,Utah Jazz,108,Cleveland Cavaliers,,109,108,december,2021-2022,3,2,60.0,1,4,20.0,1,1,2,2.0,2.0,34,52,60,25
+Sun Dec 5 2021,Charlotte Hornets,127,Atlanta Hawks,,130,127,december,2021-2022,3,2,60.0,4,1,80.0,3,2,5,4.0,2.0,46,41,43,43
+Sun Dec 5 2021,Washington Wizards,102,Toronto Raptors,,90,102,december,2021-2022,2,3,40.0,3,2,60.0,3,1,4,2.0,3.0,36,50,43,43
+Sun Dec 5 2021,New Orleans Pelicans,118,Houston Rockets,,108,118,december,2021-2022,1,4,20.0,4,1,80.0,1,3,4,2.0,2.0,22,63,35,53
+Mon Dec 6 2021,Philadelphia 76ers,124,Charlotte Hornets,OT,127,124,december,2021-2022,4,1,80.0,3,2,60.0,1,3,4,3.0,1.0,44,43,54,32
+Mon Dec 6 2021,Oklahoma City Thunder,103,Detroit Pistons,,114,103,december,2021-2022,5,0,100.0,2,3,40.0,1,1,2,4.0,4.0,23,62,27,58
+Mon Dec 6 2021,Washington Wizards,116,Indiana Pacers,,110,116,december,2021-2022,1,4,20.0,3,2,60.0,2,2,4,1.0,3.0,38,49,43,44
+Mon Dec 6 2021,Memphis Grizzlies,90,Miami Heat,,105,90,december,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,47,40,45,40
+Mon Dec 6 2021,Denver Nuggets,109,Chicago Bulls,,97,109,december,2021-2022,3,2,60.0,4,1,80.0,2,0,2,2.0,2.0,42,45,53,32
+Mon Dec 6 2021,Cleveland Cavaliers,112,Milwaukee Bucks,,104,112,december,2021-2022,3,2,60.0,3,2,60.0,1,3,4,1.0,2.0,54,33,34,53
+Mon Dec 6 2021,Atlanta Hawks,110,Minnesota Timberwolves,,121,110,december,2021-2022,4,1,80.0,2,3,40.0,0,2,2,1.0,3.0,31,56,46,42
+Mon Dec 6 2021,San Antonio Spurs,108,Phoenix Suns,,104,108,december,2021-2022,3,2,60.0,2,3,40.0,4,0,4,2.0,3.0,64,22,39,44
+Mon Dec 6 2021,Orlando Magic,126,Golden State Warriors,,95,126,december,2021-2022,2,3,40.0,3,2,60.0,1,1,2,3.0,2.0,50,36,24,63
+Mon Dec 6 2021,Los Angeles Clippers,90,Portland Trail Blazers,,102,90,december,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,46,41,55,33
+Tue Dec 7 2021,Brooklyn Nets,99,Dallas Mavericks,,102,99,december,2021-2022,1,4,20.0,1,4,20.0,1,1,2,3.0,3.0,46,38,59,28
+Tue Dec 7 2021,New York Knicks,109,San Antonio Spurs,,121,109,december,2021-2022,3,2,60.0,2,3,40.0,0,2,2,3.0,1.0,39,45,46,40
+Tue Dec 7 2021,Boston Celtics,117,Los Angeles Lakers,,102,117,december,2021-2022,2,3,40.0,4,1,80.0,1,1,2,3.0,4.0,48,39,47,41
+Wed Dec 8 2021,Philadelphia 76ers,106,Charlotte Hornets,,110,106,december,2021-2022,4,1,80.0,3,2,60.0,1,3,4,2.0,2.0,44,44,55,32
+Wed Dec 8 2021,Chicago Bulls,115,Cleveland Cavaliers,,92,115,december,2021-2022,4,1,80.0,2,3,40.0,1,3,4,2.0,2.0,34,54,43,45
+Wed Dec 8 2021,Washington Wizards,116,Detroit Pistons,OT,119,116,december,2021-2022,4,1,80.0,3,2,60.0,0,4,4,2.0,2.0,23,63,43,45
+Wed Dec 8 2021,New York Knicks,122,Indiana Pacers,,102,122,december,2021-2022,1,4,20.0,3,2,60.0,2,2,4,1.0,2.0,39,49,47,40
+Wed Dec 8 2021,Milwaukee Bucks,113,Miami Heat,,104,113,december,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,47,41,55,33
+Wed Dec 8 2021,Oklahoma City Thunder,109,Toronto Raptors,,110,109,december,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,3.0,37,50,28,58
+Wed Dec 8 2021,Brooklyn Nets,114,Houston Rockets,,104,114,december,2021-2022,1,4,20.0,1,4,20.0,1,1,2,1.0,3.0,23,63,60,28
+Wed Dec 8 2021,Dallas Mavericks,96,Memphis Grizzlies,,104,96,december,2021-2022,3,2,60.0,1,4,20.0,1,3,4,1.0,2.0,46,40,46,39
+Wed Dec 8 2021,Utah Jazz,104,Minnesota Timberwolves,,136,104,december,2021-2022,3,2,60.0,1,4,20.0,1,3,4,3.0,2.0,31,57,61,25
+Wed Dec 8 2021,Denver Nuggets,114,New Orleans Pelicans,OT,120,114,december,2021-2022,4,1,80.0,4,1,80.0,1,3,4,2.0,3.0,35,54,53,33
+Wed Dec 8 2021,Portland Trail Blazers,104,Golden State Warriors,,94,104,december,2021-2022,2,3,40.0,1,4,20.0,3,0,3,2.0,2.0,51,36,46,42
+Wed Dec 8 2021,Orlando Magic,142,Sacramento Kings,,130,142,december,2021-2022,3,2,60.0,4,1,80.0,2,0,2,2.0,4.0,36,51,24,64
+Wed Dec 8 2021,Boston Celtics,114,Los Angeles Clippers,,111,114,december,2021-2022,3,2,60.0,4,1,80.0,2,0,2,1.0,2.0,56,33,47,42
+Thu Dec 9 2021,Utah Jazz,96,Philadelphia 76ers,,118,96,december,2021-2022,4,1,80.0,2,3,40.0,0,2,2,1.0,1.0,56,32,62,25
+Thu Dec 9 2021,Los Angeles Lakers,108,Memphis Grizzlies,,95,108,december,2021-2022,3,2,60.0,1,4,20.0,3,1,4,2.0,1.0,46,41,49,39
+Thu Dec 9 2021,Denver Nuggets,123,San Antonio Spurs,,111,123,december,2021-2022,3,2,60.0,5,0,100.0,2,2,4,1.0,2.0,39,46,54,33
+Fri Dec 10 2021,Sacramento Kings,124,Charlotte Hornets,,123,124,december,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,44,45,37,51
+Fri Dec 10 2021,Dallas Mavericks,106,Indiana Pacers,,93,106,december,2021-2022,1,4,20.0,2,3,40.0,1,1,2,2.0,2.0,40,49,47,39
+Fri Dec 10 2021,Brooklyn Nets,105,Atlanta Hawks,,113,105,december,2021-2022,2,3,40.0,2,3,40.0,1,2,3,2.0,4.0,47,42,60,29
+Fri Dec 10 2021,New York Knicks,90,Toronto Raptors,,87,90,december,2021-2022,0,5,0.0,3,2,60.0,3,1,4,2.0,2.0,37,51,47,41
+Fri Dec 10 2021,Milwaukee Bucks,114,Houston Rockets,,123,114,december,2021-2022,1,4,20.0,2,3,40.0,0,2,2,2.0,2.0,24,63,55,34
+Fri Dec 10 2021,Cleveland Cavaliers,106,Minnesota Timberwolves,,123,106,december,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,31,58,35,54
+Fri Dec 10 2021,Detroit Pistons,109,New Orleans Pelicans,,93,109,december,2021-2022,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,35,55,23,64
+Fri Dec 10 2021,Los Angeles Lakers,95,Oklahoma City Thunder,,116,95,december,2021-2022,4,1,80.0,2,3,40.0,2,2,4,1.0,2.0,29,58,49,40
+Fri Dec 10 2021,Boston Celtics,111,Phoenix Suns,,90,111,december,2021-2022,2,3,40.0,4,1,80.0,1,1,2,2.0,4.0,65,22,47,43
+Sat Dec 11 2021,Orlando Magic,106,Los Angeles Clippers,,104,106,december,2021-2022,3,2,60.0,4,1,80.0,2,0,2,3.0,3.0,57,33,24,65
+Sat Dec 11 2021,Utah Jazz,98,Washington Wizards,,123,98,december,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,3.0,44,45,63,25
+Sat Dec 11 2021,Sacramento Kings,117,Cleveland Cavaliers,,103,117,december,2021-2022,3,2,60.0,2,3,40.0,2,0,2,1.0,1.0,36,54,37,52
+Sat Dec 11 2021,Houston Rockets,113,Memphis Grizzlies,,106,113,december,2021-2022,2,3,40.0,1,4,20.0,3,1,4,1.0,2.0,47,41,24,64
+Sat Dec 11 2021,Chicago Bulls,118,Miami Heat,,92,118,december,2021-2022,2,3,40.0,3,2,60.0,4,0,4,3.0,3.0,48,41,43,46
+Sat Dec 11 2021,Golden State Warriors,102,Philadelphia 76ers,,93,102,december,2021-2022,4,1,80.0,1,4,20.0,1,1,2,3.0,2.0,56,33,52,36
+Sat Dec 11 2021,Denver Nuggets,112,San Antonio Spurs,,127,112,december,2021-2022,3,2,60.0,5,0,100.0,2,2,4,2.0,2.0,40,46,54,34
+Sun Dec 12 2021,Milwaukee Bucks,97,New York Knicks,,112,97,december,2021-2022,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,47,42,56,34
+Sun Dec 12 2021,Brooklyn Nets,104,Detroit Pistons,,116,104,december,2021-2022,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,23,65,61,29
+Sun Dec 12 2021,Dallas Mavericks,84,Oklahoma City Thunder,,103,84,december,2021-2022,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,29,59,47,40
+Sun Dec 12 2021,New Orleans Pelicans,112,San Antonio Spurs,,97,112,december,2021-2022,2,3,40.0,2,3,40.0,3,2,5,2.0,1.0,40,47,36,55
+Sun Dec 12 2021,Minnesota Timberwolves,111,Portland Trail Blazers,,116,111,december,2021-2022,1,4,20.0,2,3,40.0,0,4,4,2.0,4.0,46,43,31,59
+Sun Dec 12 2021,Orlando Magic,106,Los Angeles Lakers,,94,106,december,2021-2022,3,2,60.0,4,1,80.0,2,0,2,1.0,2.0,50,40,24,66
+Mon Dec 13 2021,Miami Heat,105,Cleveland Cavaliers,,94,105,december,2021-2022,2,3,40.0,2,3,40.0,2,1,3,2.0,2.0,37,54,49,41
+Mon Dec 13 2021,Golden State Warriors,100,Indiana Pacers,,102,100,december,2021-2022,0,5,0.0,1,4,20.0,1,1,2,2.0,3.0,41,49,52,37
+Mon Dec 13 2021,Sacramento Kings,124,Toronto Raptors,,101,124,december,2021-2022,0,5,0.0,3,2,60.0,2,0,2,2.0,3.0,38,51,37,53
+Mon Dec 13 2021,Houston Rockets,126,Atlanta Hawks,,132,126,december,2021-2022,2,3,40.0,1,4,20.0,1,1,2,2.0,3.0,47,43,24,65
+Mon Dec 13 2021,Milwaukee Bucks,117,Boston Celtics,,103,117,december,2021-2022,5,0,100.0,3,2,60.0,2,2,4,1.0,3.0,47,44,57,34
+Mon Dec 13 2021,Philadelphia 76ers,126,Memphis Grizzlies,,91,126,december,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,48,41,57,33
+Mon Dec 13 2021,Charlotte Hornets,120,Dallas Mavericks,,96,120,december,2021-2022,3,2,60.0,2,3,40.0,1,1,2,3.0,1.0,48,40,45,45
+Mon Dec 13 2021,Washington Wizards,113,Denver Nuggets,,107,113,december,2021-2022,5,0,100.0,3,2,60.0,2,0,2,2.0,2.0,55,34,44,46
+Mon Dec 13 2021,Phoenix Suns,111,Los Angeles Clippers,,95,111,december,2021-2022,3,2,60.0,1,4,20.0,2,2,4,3.0,2.0,58,33,66,22
+Tue Dec 14 2021,Toronto Raptors,131,Brooklyn Nets,OT,129,131,december,2021-2022,4,1,80.0,0,5,0.0,2,2,4,1.0,2.0,62,29,39,51
+Tue Dec 14 2021,Golden State Warriors,96,New York Knicks,,105,96,december,2021-2022,3,2,60.0,2,3,40.0,1,1,2,1.0,2.0,47,43,53,37
+Tue Dec 14 2021,Phoenix Suns,107,Portland Trail Blazers,OT,111,107,december,2021-2022,1,4,20.0,2,3,40.0,1,3,4,1.0,2.0,46,44,66,23
+Wed Dec 15 2021,Houston Rockets,124,Cleveland Cavaliers,,89,124,december,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,38,54,25,65
+Wed Dec 15 2021,Atlanta Hawks,99,Orlando Magic,,111,99,december,2021-2022,5,0,100.0,1,4,20.0,1,3,4,2.0,3.0,24,67,47,44
+Wed Dec 15 2021,Miami Heat,96,Philadelphia 76ers,,101,96,december,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,57,34,49,42
+Wed Dec 15 2021,Los Angeles Lakers,104,Dallas Mavericks,OT,107,104,december,2021-2022,3,2,60.0,2,3,40.0,2,1,3,3.0,2.0,49,40,51,40
+Wed Dec 15 2021,Indiana Pacers,114,Milwaukee Bucks,,99,114,december,2021-2022,4,1,80.0,0,5,0.0,4,0,4,2.0,2.0,57,35,41,50
+Wed Dec 15 2021,New Orleans Pelicans,110,Oklahoma City Thunder,,113,110,december,2021-2022,3,2,60.0,3,2,60.0,2,1,3,3.0,3.0,29,60,36,56
+Wed Dec 15 2021,Charlotte Hornets,115,San Antonio Spurs,,131,115,december,2021-2022,1,4,20.0,2,3,40.0,0,2,2,2.0,3.0,41,47,45,46
+Wed Dec 15 2021,Minnesota Timberwolves,107,Denver Nuggets,,124,107,december,2021-2022,4,1,80.0,2,3,40.0,1,3,4,3.0,2.0,56,34,32,59
+Wed Dec 15 2021,Memphis Grizzlies,103,Portland Trail Blazers,,113,103,december,2021-2022,1,4,20.0,1,4,20.0,3,1,4,2.0,1.0,46,45,49,41
+Wed Dec 15 2021,Washington Wizards,119,Sacramento Kings,,105,119,december,2021-2022,3,2,60.0,4,1,80.0,2,0,2,2.0,2.0,37,54,44,47
+Wed Dec 15 2021,Los Angeles Clippers,124,Utah Jazz,,103,124,december,2021-2022,4,1,80.0,2,3,40.0,2,1,3,2.0,4.0,64,25,59,33
+Thu Dec 16 2021,Detroit Pistons,122,Indiana Pacers,,113,122,december,2021-2022,1,4,20.0,2,3,40.0,1,3,4,4.0,1.0,41,51,23,66
+Thu Dec 16 2021,Philadelphia 76ers,114,Brooklyn Nets,,105,114,december,2021-2022,4,1,80.0,2,3,40.0,3,1,4,1.0,2.0,63,29,57,35
+Thu Dec 16 2021,New York Knicks,103,Houston Rockets,,116,103,december,2021-2022,3,2,60.0,3,2,60.0,0,2,2,2.0,1.0,25,66,47,44
+Thu Dec 16 2021,Washington Wizards,118,Phoenix Suns,,98,118,december,2021-2022,3,2,60.0,4,1,80.0,2,0,2,1.0,2.0,67,23,44,48
+Fri Dec 17 2021,Miami Heat,105,Orlando Magic,,115,105,december,2021-2022,4,1,80.0,2,3,40.0,1,3,4,2.0,2.0,24,68,50,42
+Fri Dec 17 2021,Denver Nuggets,115,Atlanta Hawks,,133,115,december,2021-2022,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,48,44,56,35
+Fri Dec 17 2021,Golden State Warriors,107,Boston Celtics,,111,107,december,2021-2022,4,1,80.0,3,2,60.0,1,1,2,3.0,4.0,48,44,54,37
+Fri Dec 17 2021,Milwaukee Bucks,116,New Orleans Pelicans,OT,112,116,december,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,37,56,58,35
+Fri Dec 17 2021,San Antonio Spurs,126,Utah Jazz,,128,126,december,2021-2022,4,1,80.0,0,5,0.0,1,2,3,2.0,2.0,65,25,41,48
+Fri Dec 17 2021,Los Angeles Lakers,110,Minnesota Timberwolves,,92,110,december,2021-2022,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,33,59,52,40
+Fri Dec 17 2021,Charlotte Hornets,125,Portland Trail Blazers,,116,125,december,2021-2022,1,4,20.0,2,3,40.0,1,1,2,2.0,2.0,46,46,46,46
+Fri Dec 17 2021,Memphis Grizzlies,105,Sacramento Kings,,124,105,december,2021-2022,3,2,60.0,1,4,20.0,0,3,3,2.0,2.0,38,54,50,41
+Sat Dec 18 2021,Houston Rockets,107,Detroit Pistons,,116,107,december,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,23,67,25,67
+Sat Dec 18 2021,New York Knicks,114,Boston Celtics,,107,114,december,2021-2022,3,2,60.0,3,2,60.0,2,2,4,2.0,1.0,48,45,48,44
+Sat Dec 18 2021,Orlando Magic,93,Brooklyn Nets,,100,93,december,2021-2022,3,2,60.0,3,2,60.0,3,1,4,1.0,2.0,64,29,24,69
+Sat Dec 18 2021,Golden State Warriors,119,Toronto Raptors,,100,119,december,2021-2022,1,4,20.0,4,1,80.0,1,1,2,1.0,4.0,39,52,55,37
+Sat Dec 18 2021,Los Angeles Clippers,104,Oklahoma City Thunder,,103,104,december,2021-2022,2,3,40.0,2,3,40.0,1,2,3,3.0,3.0,29,61,59,34
+Sat Dec 18 2021,Cleveland Cavaliers,90,Milwaukee Bucks,,119,90,december,2021-2022,4,1,80.0,1,4,20.0,1,3,4,3.0,1.0,58,36,39,54
+Sat Dec 18 2021,Washington Wizards,103,Utah Jazz,,109,103,december,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,1.0,65,26,44,49
+Sun Dec 19 2021,Miami Heat,100,Detroit Pistons,,90,100,december,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,1.0,23,68,51,42
+Sun Dec 19 2021,Portland Trail Blazers,100,Memphis Grizzlies,,105,100,december,2021-2022,2,3,40.0,1,4,20.0,1,3,4,2.0,2.0,51,41,47,46
+Sun Dec 19 2021,San Antonio Spurs,121,Sacramento Kings,,114,121,december,2021-2022,3,2,60.0,1,4,20.0,2,1,3,2.0,2.0,38,55,42,48
+Sun Dec 19 2021,Los Angeles Lakers,115,Chicago Bulls,,110,115,december,2021-2022,4,1,80.0,4,1,80.0,2,0,2,2.0,8.0,43,47,52,41
+Sun Dec 19 2021,Dallas Mavericks,111,Minnesota Timberwolves,,105,111,december,2021-2022,2,3,40.0,3,2,60.0,2,2,4,4.0,2.0,34,59,49,41
+Sun Dec 19 2021,Charlotte Hornets,137,Phoenix Suns,,106,137,december,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,3.0,68,23,46,47
+Mon Dec 20 2021,Philadelphia 76ers,103,Boston Celtics,,108,103,december,2021-2022,2,3,40.0,2,3,40.0,2,2,4,4.0,2.0,49,45,57,36
+Mon Dec 20 2021,Houston Rockets,133,Chicago Bulls,,118,133,december,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,1.0,44,47,26,67
+Mon Dec 20 2021,Oklahoma City Thunder,99,Memphis Grizzlies,,102,99,december,2021-2022,2,3,40.0,1,4,20.0,2,1,3,2.0,1.0,51,42,30,61
+Mon Dec 20 2021,Charlotte Hornets,112,Utah Jazz,,102,112,december,2021-2022,2,3,40.0,4,1,80.0,1,1,2,1.0,2.0,65,27,46,48
+Mon Dec 20 2021,Sacramento Kings,113,Golden State Warriors,,98,113,december,2021-2022,5,0,100.0,2,3,40.0,4,0,4,1.0,2.0,55,38,39,55
+Mon Dec 20 2021,San Antonio Spurs,92,Los Angeles Clippers,,116,92,december,2021-2022,2,3,40.0,2,3,40.0,1,2,3,1.0,2.0,59,35,42,49
+Tue Dec 21 2021,Indiana Pacers,125,Miami Heat,,96,125,december,2021-2022,4,1,80.0,1,4,20.0,2,1,3,5.0,2.0,51,43,42,51
+Tue Dec 21 2021,Detroit Pistons,105,New York Knicks,,91,105,december,2021-2022,3,2,60.0,2,3,40.0,3,0,3,2.0,3.0,48,45,24,68
+Tue Dec 21 2021,Portland Trail Blazers,111,New Orleans Pelicans,,97,111,december,2021-2022,2,3,40.0,1,4,20.0,3,0,3,2.0,4.0,38,56,48,46
+Tue Dec 21 2021,Minnesota Timberwolves,114,Dallas Mavericks,,102,114,december,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,49,42,35,59
+Tue Dec 21 2021,Phoenix Suns,90,Los Angeles Lakers,,108,90,december,2021-2022,4,1,80.0,2,3,40.0,0,4,4,2.0,2.0,52,42,69,23
+Wed Dec 22 2021,Orlando Magic,98,Atlanta Hawks,,104,98,december,2021-2022,2,3,40.0,3,2,60.0,3,1,4,4.0,5.0,48,45,25,69
+Wed Dec 22 2021,Cleveland Cavaliers,111,Boston Celtics,,101,111,december,2021-2022,1,4,20.0,2,3,40.0,2,1,3,4.0,2.0,49,46,40,54
+Wed Dec 22 2021,Houston Rockets,126,Milwaukee Bucks,,106,126,december,2021-2022,3,2,60.0,4,1,80.0,2,0,2,2.0,4.0,58,37,26,68
+Wed Dec 22 2021,Denver Nuggets,108,Oklahoma City Thunder,,94,108,december,2021-2022,1,4,20.0,3,2,60.0,2,2,4,5.0,2.0,31,61,57,35
+Wed Dec 22 2021,Los Angeles Clippers,89,Sacramento Kings,,105,89,december,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,39,56,59,36
+Thu Dec 23 2021,Houston Rockets,118,Indiana Pacers,,106,118,december,2021-2022,2,3,40.0,4,1,80.0,2,0,2,1.0,2.0,42,52,26,69
+Thu Dec 23 2021,New Orleans Pelicans,104,Orlando Magic,,110,104,december,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,1.0,26,69,39,56
+Thu Dec 23 2021,Atlanta Hawks,96,Philadelphia 76ers,,98,96,december,2021-2022,3,2,60.0,1,4,20.0,2,1,3,1.0,3.0,58,36,48,46
+Thu Dec 23 2021,Detroit Pistons,115,Miami Heat,,112,115,december,2021-2022,4,1,80.0,2,3,40.0,3,1,4,2.0,2.0,52,43,24,69
+Thu Dec 23 2021,Washington Wizards,117,New York Knicks,,124,117,december,2021-2022,2,3,40.0,4,1,80.0,2,1,3,5.0,2.0,49,45,45,49
+Thu Dec 23 2021,Milwaukee Bucks,95,Dallas Mavericks,,102,95,december,2021-2022,2,3,40.0,2,3,40.0,1,1,2,1.0,2.0,50,42,59,37
+Thu Dec 23 2021,Charlotte Hornets,107,Denver Nuggets,,115,107,december,2021-2022,3,2,60.0,5,0,100.0,1,1,2,3.0,1.0,57,36,46,49
+Thu Dec 23 2021,Oklahoma City Thunder,113,Phoenix Suns,,101,113,december,2021-2022,3,2,60.0,1,4,20.0,3,1,4,1.0,2.0,70,23,32,61
+Thu Dec 23 2021,Minnesota Timberwolves,128,Utah Jazz,,116,128,december,2021-2022,1,4,20.0,3,2,60.0,3,1,4,2.0,3.0,66,27,35,60
+Thu Dec 23 2021,Memphis Grizzlies,113,Golden State Warriors,,104,113,december,2021-2022,4,1,80.0,2,3,40.0,1,3,4,3.0,3.0,56,38,51,43
+Thu Dec 23 2021,San Antonio Spurs,110,Los Angeles Lakers,,138,110,december,2021-2022,3,2,60.0,3,2,60.0,2,2,4,3.0,2.0,52,43,43,49
+Sat Dec 25 2021,Atlanta Hawks,101,New York Knicks,,87,101,december,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,49,46,49,46
+Sat Dec 25 2021,Boston Celtics,117,Milwaukee Bucks,,113,117,december,2021-2022,2,3,40.0,0,5,0.0,2,2,4,3.0,2.0,60,37,50,46
+Sat Dec 25 2021,Golden State Warriors,107,Phoenix Suns,,116,107,december,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,71,23,57,38
+Sat Dec 25 2021,Brooklyn Nets,115,Los Angeles Lakers,,122,115,december,2021-2022,3,2,60.0,2,3,40.0,1,1,2,7.0,2.0,52,44,64,30
+Sat Dec 25 2021,Dallas Mavericks,120,Utah Jazz,,116,120,december,2021-2022,0,5,0.0,1,4,20.0,4,6,10,2.0,2.0,67,27,50,43
+Sun Dec 26 2021,Orlando Magic,93,Miami Heat,,83,93,december,2021-2022,3,2,60.0,2,3,40.0,3,1,4,3.0,3.0,53,43,26,70
+Sun Dec 26 2021,Toronto Raptors,144,Cleveland Cavaliers,,99,144,december,2021-2022,2,3,40.0,1,4,20.0,3,1,4,8.0,4.0,40,55,40,52
+Sun Dec 26 2021,Memphis Grizzlies,102,Sacramento Kings,,127,102,december,2021-2022,1,4,20.0,3,2,60.0,0,3,3,3.0,4.0,39,57,51,44
+Sun Dec 26 2021,Philadelphia 76ers,96,Washington Wizards,,117,96,december,2021-2022,5,0,100.0,3,2,60.0,2,1,3,3.0,3.0,46,49,58,37
+Sun Dec 26 2021,New Orleans Pelicans,117,Oklahoma City Thunder,,112,117,december,2021-2022,2,3,40.0,3,2,60.0,2,1,3,3.0,3.0,32,62,40,56
+Sun Dec 26 2021,Detroit Pistons,144,San Antonio Spurs,,109,144,december,2021-2022,4,1,80.0,3,2,60.0,1,1,2,3.0,3.0,44,49,24,70
+Sun Dec 26 2021,Indiana Pacers,113,Chicago Bulls,,105,113,december,2021-2022,2,3,40.0,2,3,40.0,3,1,4,3.0,6.0,45,47,43,52
+Sun Dec 26 2021,Denver Nuggets,100,Los Angeles Clippers,,103,100,december,2021-2022,3,2,60.0,2,3,40.0,1,3,4,3.0,4.0,60,36,57,37
+Mon Dec 27 2021,Houston Rockets,123,Charlotte Hornets,,99,123,december,2021-2022,5,0,100.0,4,1,80.0,1,1,2,4.0,4.0,47,49,26,70
+Mon Dec 27 2021,Chicago Bulls,118,Atlanta Hawks,,130,118,december,2021-2022,3,2,60.0,2,3,40.0,1,3,4,1.0,2.0,49,47,46,47
+Mon Dec 27 2021,Boston Celtics,108,Minnesota Timberwolves,,103,108,december,2021-2022,3,2,60.0,1,4,20.0,1,1,2,2.0,4.0,35,61,50,47
+Mon Dec 27 2021,Utah Jazz,104,San Antonio Spurs,,110,104,december,2021-2022,4,1,80.0,0,5,0.0,2,1,3,2.0,1.0,45,49,68,27
+Mon Dec 27 2021,Memphis Grizzlies,113,Phoenix Suns,,114,113,december,2021-2022,1,4,20.0,3,2,60.0,1,2,3,1.0,2.0,71,24,52,44
+Mon Dec 27 2021,Dallas Mavericks,117,Portland Trail Blazers,,132,117,december,2021-2022,2,3,40.0,2,3,40.0,0,3,3,2.0,6.0,48,47,50,44
+Mon Dec 27 2021,Brooklyn Nets,108,Los Angeles Clippers,,124,108,december,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,1.0,60,37,65,30
+Tue Dec 28 2021,Milwaukee Bucks,110,Orlando Magic,,127,110,december,2021-2022,3,2,60.0,2,3,40.0,0,4,4,3.0,2.0,26,71,61,37
+Tue Dec 28 2021,Washington Wizards,119,Miami Heat,,112,119,december,2021-2022,2,3,40.0,4,1,80.0,3,1,4,2.0,2.0,54,43,46,50
+Tue Dec 28 2021,Philadelphia 76ers,109,Toronto Raptors,,114,109,december,2021-2022,2,3,40.0,3,2,60.0,5,5,10,2.0,2.0,40,53,59,37
+Tue Dec 28 2021,Los Angeles Lakers,123,Houston Rockets,,132,123,december,2021-2022,5,0,100.0,2,3,40.0,1,3,4,3.0,1.0,26,71,52,45
+Tue Dec 28 2021,New York Knicks,88,Minnesota Timberwolves,,96,88,december,2021-2022,2,3,40.0,2,3,40.0,1,1,2,3.0,1.0,36,61,50,46
+Tue Dec 28 2021,Cleveland Cavaliers,108,New Orleans Pelicans,,104,108,december,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,40,57,41,55
+Tue Dec 28 2021,Denver Nuggets,86,Golden State Warriors,,89,86,december,2021-2022,3,2,60.0,3,2,60.0,5,4,9,2.0,3.0,58,38,58,37
+Tue Dec 28 2021,Oklahoma City Thunder,117,Sacramento Kings,,111,117,december,2021-2022,1,4,20.0,2,3,40.0,3,1,4,2.0,2.0,39,58,33,62
+Wed Dec 29 2021,New York Knicks,85,Detroit Pistons,,94,85,december,2021-2022,3,2,60.0,2,3,40.0,0,3,3,1.0,3.0,24,71,51,46
+Wed Dec 29 2021,Charlotte Hornets,108,Indiana Pacers,,116,108,december,2021-2022,3,2,60.0,4,1,80.0,0,4,4,2.0,3.0,43,53,48,49
+Wed Dec 29 2021,Los Angeles Clippers,82,Boston Celtics,,91,82,december,2021-2022,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,50,48,60,38
+Wed Dec 29 2021,Atlanta Hawks,131,Chicago Bulls,,117,131,december,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,47,47,49,48
+Wed Dec 29 2021,Los Angeles Lakers,104,Memphis Grizzlies,,99,104,december,2021-2022,3,2,60.0,2,3,40.0,3,1,4,1.0,2.0,53,44,53,45
+Wed Dec 29 2021,Oklahoma City Thunder,115,Phoenix Suns,,97,115,december,2021-2022,1,4,20.0,3,2,60.0,3,1,4,1.0,2.0,71,25,33,63
+Wed Dec 29 2021,Utah Jazz,105,Portland Trail Blazers,,120,105,december,2021-2022,2,3,40.0,1,4,20.0,0,4,4,2.0,2.0,48,48,69,27
+Wed Dec 29 2021,Dallas Mavericks,95,Sacramento Kings,,94,95,december,2021-2022,1,4,20.0,3,2,60.0,1,3,4,2.0,1.0,40,58,51,44
+Thu Dec 30 2021,Philadelphia 76ers,102,Brooklyn Nets,,110,102,december,2021-2022,2,3,40.0,4,1,80.0,3,1,4,2.0,3.0,66,30,60,37
+Thu Dec 30 2021,Milwaukee Bucks,118,Orlando Magic,,136,118,december,2021-2022,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,26,72,62,37
+Thu Dec 30 2021,Cleveland Cavaliers,110,Washington Wizards,,93,110,december,2021-2022,4,1,80.0,3,2,60.0,2,2,4,2.0,2.0,46,51,41,56
+Fri Dec 31 2021,Phoenix Suns,123,Boston Celtics,,108,123,december,2021-2022,2,3,40.0,1,4,20.0,1,1,2,2.0,2.0,50,49,72,25
+Fri Dec 31 2021,Chicago Bulls,106,Indiana Pacers,,108,106,december,2021-2022,2,3,40.0,1,4,20.0,1,3,4,2.0,2.0,43,54,48,47
+Fri Dec 31 2021,Dallas Mavericks,96,Sacramento Kings,,112,96,december,2021-2022,1,4,20.0,3,2,60.0,1,3,4,2.0,2.0,41,58,51,45
+Fri Dec 31 2021,Miami Heat,110,Houston Rockets,,120,110,december,2021-2022,4,1,80.0,1,4,20.0,0,2,2,3.0,3.0,26,72,55,43
+Fri Dec 31 2021,Atlanta Hawks,118,Cleveland Cavaliers,,121,118,december,2021-2022,4,1,80.0,3,2,60.0,1,4,5,2.0,1.0,41,57,49,49
+Fri Dec 31 2021,Los Angeles Clippers,116,Toronto Raptors,,108,116,december,2021-2022,2,3,40.0,2,3,40.0,2,0,2,2.0,3.0,40,54,61,38
+Fri Dec 31 2021,San Antonio Spurs,118,Memphis Grizzlies,,105,118,december,2021-2022,3,2,60.0,3,2,60.0,4,0,4,4.0,2.0,54,44,45,50
+Fri Dec 31 2021,New York Knicks,95,Oklahoma City Thunder,,80,95,december,2021-2022,3,2,60.0,2,3,40.0,2,0,2,2.0,2.0,33,64,52,46
+Fri Dec 31 2021,Minnesota Timberwolves,120,Utah Jazz,,108,120,december,2021-2022,2,3,40.0,2,3,40.0,3,1,4,3.0,2.0,70,27,36,62
+Fri Dec 31 2021,Portland Trail Blazers,139,Los Angeles Lakers,,106,139,december,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,53,46,48,49
+Sat Jan 1 2022,New Orleans Pelicans,136,Milwaukee Bucks,,113,136,january,2021-2022,3,2,60.0,2,3,40.0,1,1,2,4.0,2.0,63,37,41,57
+Sat Jan 1 2022,San Antonio Spurs,117,Detroit Pistons,OT,116,117,january,2021-2022,3,2,60.0,3,2,60.0,1,1,2,1.0,3.0,24,72,45,51
+Sat Jan 1 2022,Chicago Bulls,119,Washington Wizards,,120,119,january,2021-2022,3,2,60.0,2,3,40.0,0,3,3,1.0,2.0,47,51,49,47
+Sat Jan 1 2022,Los Angeles Clippers,116,Brooklyn Nets,,120,116,january,2021-2022,2,3,40.0,3,2,60.0,1,1,2,1.0,2.0,66,31,61,39
+Sat Jan 1 2022,Denver Nuggets,111,Houston Rockets,,124,111,january,2021-2022,3,2,60.0,4,1,80.0,0,3,3,4.0,1.0,26,73,59,37
+Sat Jan 1 2022,Golden State Warriors,116,Utah Jazz,,123,116,january,2021-2022,2,3,40.0,2,3,40.0,1,3,4,4.0,1.0,71,27,58,39
+Sun Jan 2 2022,New York Knicks,120,Toronto Raptors,,105,120,january,2021-2022,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,41,54,52,47
+Sun Jan 2 2022,Orlando Magic,116,Boston Celtics,OT,111,116,january,2021-2022,2,3,40.0,2,3,40.0,3,0,3,3.0,2.0,51,49,26,73
+Sun Jan 2 2022,Indiana Pacers,108,Cleveland Cavaliers,,104,108,january,2021-2022,3,2,60.0,2,3,40.0,4,0,4,2.0,2.0,41,58,43,55
+Sun Jan 2 2022,Miami Heat,115,Sacramento Kings,,113,115,january,2021-2022,0,5,0.0,1,4,20.0,1,1,2,2.0,2.0,41,59,56,43
+Sun Jan 2 2022,Phoenix Suns,99,Charlotte Hornets,,133,99,january,2021-2022,4,1,80.0,1,4,20.0,0,2,2,2.0,4.0,49,49,72,26
+Sun Jan 2 2022,Dallas Mavericks,86,Oklahoma City Thunder,,95,86,january,2021-2022,3,2,60.0,4,1,80.0,1,3,4,2.0,2.0,34,64,52,45
+Sun Jan 2 2022,Minnesota Timberwolves,108,Los Angeles Lakers,,103,108,january,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,54,46,36,63
+Mon Jan 3 2022,Houston Rockets,133,Philadelphia 76ers,,113,133,january,2021-2022,4,1,80.0,2,3,40.0,2,0,2,2.0,4.0,61,37,26,74
+Mon Jan 3 2022,Charlotte Hornets,124,Washington Wizards,,121,124,january,2021-2022,2,3,40.0,3,2,60.0,1,3,4,1.0,2.0,47,52,49,50
+Mon Jan 3 2022,Memphis Grizzlies,104,Brooklyn Nets,,118,104,january,2021-2022,2,3,40.0,3,2,60.0,0,2,2,3.0,2.0,66,32,55,44
+Mon Jan 3 2022,Orlando Magic,102,Chicago Bulls,,98,102,january,2021-2022,3,2,60.0,2,3,40.0,3,1,4,1.0,2.0,50,47,26,74
+Mon Jan 3 2022,Detroit Pistons,106,Milwaukee Bucks,,115,106,january,2021-2022,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,64,37,25,72
+Mon Jan 3 2022,Utah Jazz,104,New Orleans Pelicans,,115,104,january,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,41,58,71,28
+Mon Jan 3 2022,Denver Nuggets,103,Dallas Mavericks,,89,103,january,2021-2022,5,0,100.0,4,1,80.0,2,1,3,2.0,1.0,53,45,60,37
+Mon Jan 3 2022,Miami Heat,115,Golden State Warriors,,108,115,january,2021-2022,2,3,40.0,2,3,40.0,2,0,2,1.0,2.0,59,39,56,44
+Mon Jan 3 2022,Atlanta Hawks,136,Portland Trail Blazers,,131,136,january,2021-2022,3,2,60.0,4,1,80.0,1,1,2,3.0,3.0,48,50,50,49
+Mon Jan 3 2022,Minnesota Timberwolves,104,Los Angeles Clippers,,122,104,january,2021-2022,3,2,60.0,3,2,60.0,3,2,5,1.0,2.0,62,39,36,64
+Tue Jan 4 2022,Memphis Grizzlies,106,Cleveland Cavaliers,,110,106,january,2021-2022,2,3,40.0,3,2,60.0,0,2,2,1.0,2.0,42,58,56,44
+Tue Jan 4 2022,San Antonio Spurs,129,Toronto Raptors,,104,129,january,2021-2022,1,4,20.0,3,2,60.0,2,0,2,3.0,2.0,42,54,45,52
+Tue Jan 4 2022,Indiana Pacers,104,New York Knicks,,94,104,january,2021-2022,4,1,80.0,2,3,40.0,2,2,4,2.0,2.0,52,48,43,56
+Tue Jan 4 2022,Phoenix Suns,110,New Orleans Pelicans,,123,110,january,2021-2022,3,2,60.0,2,3,40.0,3,7,10,2.0,1.0,41,59,73,26
+Tue Jan 4 2022,Sacramento Kings,122,Los Angeles Lakers,,114,122,january,2021-2022,2,3,40.0,0,5,0.0,2,2,4,2.0,2.0,55,46,42,59
+Wed Jan 5 2022,Detroit Pistons,140,Charlotte Hornets,,111,140,january,2021-2022,3,2,60.0,3,2,60.0,2,1,3,2.0,2.0,49,51,26,72
+Wed Jan 5 2022,Philadelphia 76ers,106,Orlando Magic,,116,106,january,2021-2022,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,26,75,62,37
+Wed Jan 5 2022,Houston Rockets,111,Washington Wizards,,114,111,january,2021-2022,1,4,20.0,2,3,40.0,0,2,2,2.0,2.0,48,52,26,75
+Wed Jan 5 2022,San Antonio Spurs,97,Boston Celtics,,99,97,january,2021-2022,2,3,40.0,3,2,60.0,0,2,2,1.0,3.0,52,49,45,53
+Wed Jan 5 2022,Golden State Warriors,99,Dallas Mavericks,,82,99,january,2021-2022,4,1,80.0,2,3,40.0,3,1,4,2.0,2.0,54,45,60,39
+Wed Jan 5 2022,Brooklyn Nets,121,Indiana Pacers,,129,121,january,2021-2022,3,2,60.0,2,3,40.0,0,3,3,2.0,1.0,43,57,66,33
+Wed Jan 5 2022,Toronto Raptors,111,Milwaukee Bucks,,117,111,january,2021-2022,2,3,40.0,1,4,20.0,0,3,3,1.0,2.0,64,38,43,54
+Wed Jan 5 2022,Oklahoma City Thunder,98,Minnesota Timberwolves,,90,98,january,2021-2022,3,2,60.0,2,3,40.0,4,0,4,3.0,2.0,37,64,34,65
+Wed Jan 5 2022,Utah Jazz,109,Denver Nuggets,,115,109,january,2021-2022,4,1,80.0,3,2,60.0,0,4,4,2.0,2.0,60,38,72,28
+Wed Jan 5 2022,Miami Heat,109,Portland Trail Blazers,,115,109,january,2021-2022,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,49,50,56,45
+Wed Jan 5 2022,Atlanta Hawks,102,Sacramento Kings,,108,102,january,2021-2022,1,4,20.0,4,1,80.0,0,2,2,2.0,1.0,42,60,50,50
+Thu Jan 6 2022,Boston Celtics,108,New York Knicks,,105,108,january,2021-2022,4,1,80.0,1,4,20.0,2,2,4,1.0,2.0,53,48,52,50
+Thu Jan 6 2022,Detroit Pistons,118,Memphis Grizzlies,,88,118,january,2021-2022,3,2,60.0,3,2,60.0,2,0,2,1.0,2.0,57,44,26,73
+Thu Jan 6 2022,Golden State Warriors,101,New Orleans Pelicans,,96,101,january,2021-2022,2,3,40.0,3,2,60.0,1,2,3,1.0,2.0,41,60,60,40
+Thu Jan 6 2022,Los Angeles Clippers,106,Phoenix Suns,,89,106,january,2021-2022,3,2,60.0,3,2,60.0,2,2,4,3.0,2.0,74,26,62,40
+Fri Jan 7 2022,San Antonio Spurs,119,Philadelphia 76ers,,100,119,january,2021-2022,4,1,80.0,4,1,80.0,2,0,2,2.0,2.0,63,37,46,53
+Fri Jan 7 2022,Milwaukee Bucks,109,Brooklyn Nets,,121,109,january,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,67,33,64,39
+Fri Jan 7 2022,Utah Jazz,122,Toronto Raptors,,108,122,january,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,44,54,73,28
+Fri Jan 7 2022,Washington Wizards,130,Chicago Bulls,,122,130,january,2021-2022,3,2,60.0,1,4,20.0,3,0,3,2.0,4.0,51,47,48,53
+Fri Jan 7 2022,Dallas Mavericks,106,Houston Rockets,,130,106,january,2021-2022,2,3,40.0,3,2,60.0,0,4,4,2.0,2.0,27,75,55,45
+Fri Jan 7 2022,Minnesota Timberwolves,105,Oklahoma City Thunder,,135,105,january,2021-2022,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,34,66,38,64
+Fri Jan 7 2022,Sacramento Kings,121,Denver Nuggets,,111,121,january,2021-2022,4,1,80.0,1,4,20.0,4,0,4,2.0,2.0,60,39,42,61
+Fri Jan 7 2022,Atlanta Hawks,134,Los Angeles Lakers,,118,134,january,2021-2022,2,3,40.0,4,1,80.0,1,1,2,2.0,3.0,56,46,51,50
+Fri Jan 7 2022,Cleveland Cavaliers,101,Portland Trail Blazers,,114,101,january,2021-2022,1,4,20.0,2,3,40.0,0,2,2,3.0,2.0,49,51,42,59
+Sat Jan 8 2022,Memphis Grizzlies,108,Los Angeles Clippers,,123,108,january,2021-2022,4,1,80.0,2,3,40.0,0,4,4,2.0,2.0,62,41,58,44
+Sat Jan 8 2022,Milwaukee Bucks,114,Charlotte Hornets,,106,114,january,2021-2022,2,3,40.0,2,3,40.0,2,2,4,1.0,3.0,50,51,65,39
+Sat Jan 8 2022,Orlando Magic,97,Detroit Pistons,,92,97,january,2021-2022,3,2,60.0,2,3,40.0,3,1,4,3.0,2.0,26,74,26,76
+Sat Jan 8 2022,Utah Jazz,125,Indiana Pacers,,113,125,january,2021-2022,2,3,40.0,3,2,60.0,2,0,2,1.0,3.0,43,58,73,29
+Sat Jan 8 2022,New York Knicks,99,Boston Celtics,,75,99,january,2021-2022,1,4,20.0,3,2,60.0,2,2,4,2.0,2.0,52,51,54,48
+Sat Jan 8 2022,Miami Heat,100,Phoenix Suns,,123,100,january,2021-2022,3,2,60.0,4,1,80.0,1,1,2,3.0,2.0,75,26,57,45
+Sun Jan 9 2022,San Antonio Spurs,121,Brooklyn Nets,OT,119,121,january,2021-2022,1,4,20.0,5,0,100.0,2,0,2,2.0,2.0,67,34,46,54
+Sun Jan 9 2022,Atlanta Hawks,106,Los Angeles Clippers,,93,106,january,2021-2022,3,2,60.0,5,0,100.0,1,1,2,2.0,1.0,62,42,51,51
+Sun Jan 9 2022,Washington Wizards,100,Orlando Magic,,102,100,january,2021-2022,3,2,60.0,1,4,20.0,0,4,4,2.0,1.0,26,77,48,54
+Sun Jan 9 2022,New Orleans Pelicans,105,Toronto Raptors,,101,105,january,2021-2022,1,4,20.0,1,4,20.0,1,1,2,3.0,2.0,45,54,42,60
+Sun Jan 9 2022,Minnesota Timberwolves,123,Houston Rockets,,141,123,january,2021-2022,2,3,40.0,4,1,80.0,0,3,3,2.0,2.0,27,76,39,64
+Sun Jan 9 2022,Denver Nuggets,95,Oklahoma City Thunder,,99,95,january,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,34,67,61,39
+Sun Jan 9 2022,Chicago Bulls,113,Dallas Mavericks,,99,113,january,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,56,45,52,47
+Sun Jan 9 2022,Cleveland Cavaliers,96,Golden State Warriors,,82,96,january,2021-2022,3,2,60.0,2,3,40.0,2,0,2,2.0,3.0,60,41,43,59
+Sun Jan 9 2022,Sacramento Kings,103,Portland Trail Blazers,,88,103,january,2021-2022,1,4,20.0,2,3,40.0,1,2,3,2.0,2.0,49,52,42,62
+Sun Jan 9 2022,Memphis Grizzlies,119,Los Angeles Lakers,,127,119,january,2021-2022,1,4,20.0,3,2,60.0,1,3,4,1.0,2.0,57,46,59,44
+Mon Jan 10 2022,Milwaukee Bucks,103,Charlotte Hornets,,99,103,january,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,51,51,65,40
+Mon Jan 10 2022,Utah Jazz,126,Detroit Pistons,,116,126,january,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,27,74,73,30
+Mon Jan 10 2022,Indiana Pacers,101,Boston Celtics,OT,98,101,january,2021-2022,1,4,20.0,2,3,40.0,3,1,4,2.0,2.0,53,51,44,58
+Mon Jan 10 2022,San Antonio Spurs,111,New York Knicks,,96,111,january,2021-2022,3,2,60.0,5,0,100.0,2,0,2,1.0,2.0,54,49,46,55
+Mon Jan 10 2022,Philadelphia 76ers,91,Houston Rockets,,111,91,january,2021-2022,2,3,40.0,3,2,60.0,0,2,2,3.0,1.0,27,77,64,37
+Mon Jan 10 2022,Brooklyn Nets,114,Portland Trail Blazers,,108,114,january,2021-2022,1,4,20.0,1,4,20.0,1,1,2,1.0,1.0,50,52,68,34
+Mon Jan 10 2022,Cleveland Cavaliers,108,Sacramento Kings,,109,108,january,2021-2022,3,2,60.0,2,3,40.0,0,2,2,1.0,1.0,42,63,43,60
+Tue Jan 11 2022,Oklahoma City Thunder,122,Washington Wizards,,118,122,january,2021-2022,2,3,40.0,1,4,20.0,2,0,2,2.0,2.0,49,54,34,68
+Tue Jan 11 2022,Phoenix Suns,95,Toronto Raptors,,99,95,january,2021-2022,1,4,20.0,3,2,60.0,1,1,2,3.0,2.0,46,54,75,27
+Tue Jan 11 2022,Detroit Pistons,133,Chicago Bulls,,87,133,january,2021-2022,3,2,60.0,3,2,60.0,4,0,4,1.0,2.0,52,48,28,74
+Tue Jan 11 2022,Golden State Warriors,116,Memphis Grizzlies,,108,116,january,2021-2022,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,60,44,61,41
+Tue Jan 11 2022,Minnesota Timberwolves,128,New Orleans Pelicans,,125,128,january,2021-2022,2,3,40.0,4,1,80.0,2,2,4,2.0,2.0,42,61,40,64
+Tue Jan 11 2022,Denver Nuggets,87,Los Angeles Clippers,,85,87,january,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,63,42,62,39
+Wed Jan 12 2022,Boston Celtics,100,Indiana Pacers,,119,100,january,2021-2022,3,2,60.0,1,4,20.0,1,3,4,2.0,2.0,44,59,54,51
+Wed Jan 12 2022,Charlotte Hornets,98,Philadelphia 76ers,,109,98,january,2021-2022,3,2,60.0,1,4,20.0,3,1,4,2.0,2.0,65,37,52,51
+Wed Jan 12 2022,Orlando Magic,112,Washington Wizards,,106,112,january,2021-2022,2,3,40.0,3,2,60.0,4,0,4,3.0,1.0,50,54,26,78
+Wed Jan 12 2022,Miami Heat,91,Atlanta Hawks,,115,91,january,2021-2022,5,0,100.0,5,0,100.0,2,7,9,4.0,3.0,51,52,58,45
+Wed Jan 12 2022,Dallas Mavericks,108,New York Knicks,,85,108,january,2021-2022,2,3,40.0,2,3,40.0,2,0,2,3.0,2.0,55,49,57,45
+Wed Jan 12 2022,Houston Rockets,124,San Antonio Spurs,,128,124,january,2021-2022,5,0,100.0,2,3,40.0,3,1,4,2.0,2.0,46,56,27,78
+Wed Jan 12 2022,Cleveland Cavaliers,91,Utah Jazz,,111,91,january,2021-2022,5,0,100.0,3,2,60.0,1,1,2,2.0,2.0,73,31,44,60
+Wed Jan 12 2022,Brooklyn Nets,112,Chicago Bulls,,138,112,january,2021-2022,2,3,40.0,2,3,40.0,2,1,3,2.0,1.0,53,48,68,35
+Wed Jan 12 2022,Los Angeles Lakers,125,Sacramento Kings,,116,125,january,2021-2022,3,2,60.0,0,5,0.0,2,2,4,3.0,2.0,42,64,57,47
+Thu Jan 13 2022,Golden State Warriors,118,Milwaukee Bucks,,99,118,january,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,3.0,65,41,61,42
+Thu Jan 13 2022,Minnesota Timberwolves,116,Memphis Grizzlies,,108,116,january,2021-2022,3,2,60.0,4,1,80.0,6,4,10,2.0,2.0,61,44,40,65
+Thu Jan 13 2022,Los Angeles Clippers,113,New Orleans Pelicans,,89,113,january,2021-2022,1,4,20.0,1,4,20.0,4,1,5,2.0,2.0,43,61,64,42
+Thu Jan 13 2022,Oklahoma City Thunder,109,Brooklyn Nets,,130,109,january,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,1.0,69,35,34,69
+Thu Jan 13 2022,Portland Trail Blazers,140,Denver Nuggets,,108,140,january,2021-2022,3,2,60.0,0,5,0.0,3,1,4,3.0,2.0,62,40,51,52
+Fri Jan 14 2022,Orlando Magic,109,Charlotte Hornets,,116,109,january,2021-2022,2,3,40.0,3,2,60.0,3,1,4,2.0,2.0,53,51,26,79
+Fri Jan 14 2022,Toronto Raptors,103,Detroit Pistons,,87,103,january,2021-2022,3,2,60.0,1,4,20.0,3,0,3,3.0,3.0,28,75,46,55
+Fri Jan 14 2022,Phoenix Suns,94,Indiana Pacers,,112,94,january,2021-2022,2,3,40.0,3,2,60.0,0,2,2,3.0,2.0,44,60,76,27
+Fri Jan 14 2022,Boston Celtics,111,Philadelphia 76ers,,99,111,january,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,65,38,55,51
+Fri Jan 14 2022,Golden State Warriors,96,Chicago Bulls,,138,96,january,2021-2022,1,4,20.0,4,1,80.0,0,2,2,1.0,2.0,53,49,61,43
+Fri Jan 14 2022,Atlanta Hawks,124,Miami Heat,,118,124,january,2021-2022,5,0,100.0,4,1,80.0,7,2,9,2.0,2.0,59,45,51,53
+Fri Jan 14 2022,Cleveland Cavaliers,109,San Antonio Spurs,,114,109,january,2021-2022,4,1,80.0,4,1,80.0,0,2,2,2.0,2.0,46,57,45,60
+Fri Jan 14 2022,Dallas Mavericks,85,Memphis Grizzlies,,112,85,january,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,1.0,62,44,57,46
+Fri Jan 14 2022,Houston Rockets,126,Sacramento Kings,,114,126,january,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,43,64,28,78
+Sat Jan 15 2022,Toronto Raptors,96,Milwaukee Bucks,,103,96,january,2021-2022,3,2,60.0,2,3,40.0,0,3,3,1.0,2.0,66,41,46,56
+Sat Jan 15 2022,Portland Trail Blazers,110,Washington Wizards,,115,110,january,2021-2022,2,3,40.0,1,4,20.0,0,2,2,2.0,3.0,51,54,51,53
+Sat Jan 15 2022,New York Knicks,108,Atlanta Hawks,,117,108,january,2021-2022,4,1,80.0,1,4,20.0,1,3,4,3.0,1.0,51,54,56,49
+Sat Jan 15 2022,New Orleans Pelicans,120,Brooklyn Nets,,105,120,january,2021-2022,2,3,40.0,1,4,20.0,2,0,2,2.0,2.0,69,36,44,61
+Sat Jan 15 2022,Philadelphia 76ers,98,Miami Heat,,109,98,january,2021-2022,4,1,80.0,2,3,40.0,2,2,4,1.0,1.0,60,45,66,38
+Sat Jan 15 2022,Cleveland Cavaliers,102,Oklahoma City Thunder,,107,102,january,2021-2022,3,2,60.0,5,0,100.0,0,2,2,1.0,2.0,35,69,46,60
+Sat Jan 15 2022,Chicago Bulls,114,Boston Celtics,,112,114,january,2021-2022,3,2,60.0,1,4,20.0,2,1,3,1.0,1.0,55,52,53,50
+Sat Jan 15 2022,Los Angeles Clippers,101,San Antonio Spurs,,94,101,january,2021-2022,3,2,60.0,2,3,40.0,2,1,3,2.0,1.0,46,58,64,43
+Sat Jan 15 2022,Los Angeles Lakers,133,Denver Nuggets,,96,133,january,2021-2022,2,3,40.0,1,4,20.0,2,1,3,3.0,2.0,63,40,57,48
+Sat Jan 15 2022,Orlando Magic,108,Dallas Mavericks,,92,108,january,2021-2022,3,2,60.0,3,2,60.0,1,1,2,1.0,1.0,58,46,27,79
+Sun Jan 16 2022,Phoenix Suns,108,Detroit Pistons,,135,108,january,2021-2022,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,29,75,77,27
+Sun Jan 16 2022,Houston Rockets,112,Sacramento Kings,,118,112,january,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,44,64,28,79
+Sun Jan 16 2022,Utah Jazz,102,Denver Nuggets,,125,102,january,2021-2022,2,3,40.0,4,1,80.0,0,4,4,4.0,1.0,64,40,73,32
+Sun Jan 16 2022,Golden State Warriors,119,Minnesota Timberwolves,,99,119,january,2021-2022,4,1,80.0,4,1,80.0,2,2,4,2.0,3.0,40,66,62,43
+Mon Jan 17 2022,New Orleans Pelicans,104,Boston Celtics,,92,104,january,2021-2022,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,56,52,44,62
+Mon Jan 17 2022,Charlotte Hornets,87,New York Knicks,,97,87,january,2021-2022,2,3,40.0,1,4,20.0,1,3,4,3.0,2.0,57,49,53,52
+Mon Jan 17 2022,Philadelphia 76ers,117,Washington Wizards,,98,117,january,2021-2022,2,3,40.0,2,3,40.0,2,1,3,2.0,2.0,51,55,67,38
+Mon Jan 17 2022,Brooklyn Nets,114,Cleveland Cavaliers,,107,114,january,2021-2022,5,0,100.0,2,3,40.0,1,4,5,2.0,2.0,47,60,70,36
+Mon Jan 17 2022,Indiana Pacers,139,Los Angeles Clippers,,133,139,january,2021-2022,2,3,40.0,1,4,20.0,1,1,2,3.0,2.0,64,44,44,61
+Mon Jan 17 2022,Chicago Bulls,119,Memphis Grizzlies,,106,119,january,2021-2022,2,3,40.0,2,3,40.0,2,0,2,2.0,3.0,62,45,53,51
+Mon Jan 17 2022,Milwaukee Bucks,121,Atlanta Hawks,,114,121,january,2021-2022,3,2,60.0,3,2,60.0,2,1,3,2.0,2.0,51,55,66,42
+Mon Jan 17 2022,Portland Trail Blazers,88,Orlando Magic,,98,88,january,2021-2022,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,27,80,52,53
+Mon Jan 17 2022,Toronto Raptors,104,Miami Heat,,99,104,january,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,60,46,47,56
+Mon Jan 17 2022,Oklahoma City Thunder,104,Dallas Mavericks,,102,104,january,2021-2022,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,59,46,35,70
+Mon Jan 17 2022,Phoenix Suns,107,San Antonio Spurs,,121,107,january,2021-2022,2,3,40.0,3,2,60.0,0,4,4,1.0,2.0,47,58,78,27
+Mon Jan 17 2022,Utah Jazz,101,Los Angeles Lakers,,95,101,january,2021-2022,2,3,40.0,4,1,80.0,2,1,3,1.0,2.0,57,49,74,32
+Tue Jan 18 2022,Minnesota Timberwolves,110,New York Knicks,,112,110,january,2021-2022,2,3,40.0,4,1,80.0,1,1,2,2.0,1.0,57,50,41,66
+Tue Jan 18 2022,Detroit Pistons,102,Golden State Warriors,,86,102,january,2021-2022,4,1,80.0,1,4,20.0,2,0,2,2.0,2.0,62,44,29,76
+Wed Jan 19 2022,Orlando Magic,123,Philadelphia 76ers,,110,123,january,2021-2022,3,2,60.0,3,2,60.0,4,0,4,2.0,2.0,67,39,27,81
+Wed Jan 19 2022,Brooklyn Nets,118,Washington Wizards,,119,118,january,2021-2022,1,4,20.0,3,2,60.0,2,2,4,2.0,2.0,52,55,70,37
+Wed Jan 19 2022,Minnesota Timberwolves,134,Atlanta Hawks,,122,134,january,2021-2022,2,3,40.0,4,1,80.0,2,0,2,1.0,2.0,52,55,42,66
+Wed Jan 19 2022,Charlotte Hornets,102,Boston Celtics,,111,102,january,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,57,52,54,52
+Wed Jan 19 2022,Portland Trail Blazers,104,Miami Heat,,92,104,january,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,61,46,53,53
+Wed Jan 19 2022,Cleveland Cavaliers,117,Chicago Bulls,,104,117,january,2021-2022,2,3,40.0,4,1,80.0,3,1,4,2.0,2.0,53,52,48,60
+Wed Jan 19 2022,Memphis Grizzlies,126,Milwaukee Bucks,,114,126,january,2021-2022,3,2,60.0,1,4,20.0,1,1,2,2.0,2.0,66,43,63,45
+Wed Jan 19 2022,Toronto Raptors,102,Dallas Mavericks,,98,102,january,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,60,46,47,57
+Wed Jan 19 2022,Oklahoma City Thunder,118,San Antonio Spurs,,96,118,january,2021-2022,1,4,20.0,3,2,60.0,3,1,4,2.0,2.0,47,59,35,71
+Wed Jan 19 2022,Houston Rockets,111,Utah Jazz,,116,111,january,2021-2022,4,1,80.0,3,2,60.0,3,1,4,3.0,2.0,74,33,29,79
+Wed Jan 19 2022,Los Angeles Clippers,130,Denver Nuggets,OT,128,130,january,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,3.0,64,41,65,44
+Wed Jan 19 2022,Detroit Pistons,131,Sacramento Kings,,133,131,january,2021-2022,1,4,20.0,2,3,40.0,1,1,2,1.0,3.0,44,65,29,77
+Wed Jan 19 2022,Indiana Pacers,104,Los Angeles Lakers,,111,104,january,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,58,49,44,62
+Thu Jan 20 2022,Phoenix Suns,101,Dallas Mavericks,,109,101,january,2021-2022,2,3,40.0,4,1,80.0,0,3,3,3.0,1.0,61,46,79,27
+Thu Jan 20 2022,New Orleans Pelicans,91,New York Knicks,,102,91,january,2021-2022,1,4,20.0,3,2,60.0,1,1,2,3.0,2.0,57,51,44,63
+Thu Jan 20 2022,Indiana Pacers,117,Golden State Warriors,OT,121,117,january,2021-2022,4,1,80.0,3,2,60.0,1,1,2,1.0,2.0,63,44,45,62
+Fri Jan 21 2022,Oklahoma City Thunder,121,Charlotte Hornets,,98,121,january,2021-2022,3,2,60.0,4,1,80.0,2,0,2,2.0,2.0,55,52,35,72
+Fri Jan 21 2022,Los Angeles Lakers,105,Orlando Magic,,116,105,january,2021-2022,4,1,80.0,2,3,40.0,0,2,2,2.0,2.0,27,82,58,50
+Fri Jan 21 2022,Los Angeles Clippers,101,Philadelphia 76ers,,102,101,january,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,68,39,65,45
+Fri Jan 21 2022,Miami Heat,110,Atlanta Hawks,,108,110,january,2021-2022,1,4,20.0,1,4,20.0,2,7,9,2.0,2.0,53,55,62,46
+Fri Jan 21 2022,Portland Trail Blazers,105,Boston Celtics,,109,105,january,2021-2022,2,3,40.0,4,1,80.0,1,1,2,2.0,2.0,57,53,53,54
+Fri Jan 21 2022,Chicago Bulls,94,Milwaukee Bucks,,90,94,january,2021-2022,2,3,40.0,2,3,40.0,8,1,9,2.0,2.0,67,43,54,52
+Fri Jan 21 2022,Toronto Raptors,105,Washington Wizards,,109,105,january,2021-2022,0,5,0.0,4,1,80.0,1,3,4,2.0,2.0,52,56,47,58
+Fri Jan 21 2022,Brooklyn Nets,102,San Antonio Spurs,,117,102,january,2021-2022,0,5,0.0,3,2,60.0,0,2,2,2.0,2.0,48,59,71,37
+Fri Jan 21 2022,Memphis Grizzlies,118,Denver Nuggets,,122,118,january,2021-2022,1,4,20.0,1,4,20.0,1,3,4,2.0,2.0,65,41,63,46
+Fri Jan 21 2022,Detroit Pistons,111,Utah Jazz,,101,111,january,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,74,34,30,77
+Fri Jan 21 2022,Houston Rockets,105,Golden State Warriors,,103,105,january,2021-2022,3,2,60.0,4,1,80.0,3,0,3,2.0,1.0,63,45,30,79
+Sat Jan 22 2022,Sacramento Kings,133,Milwaukee Bucks,,127,133,january,2021-2022,1,4,20.0,0,5,0.0,2,0,2,3.0,1.0,68,43,44,66
+Sat Jan 22 2022,Oklahoma City Thunder,94,Cleveland Cavaliers,,87,94,january,2021-2022,4,1,80.0,4,1,80.0,2,0,2,1.0,3.0,48,61,35,73
+Sat Jan 22 2022,Indiana Pacers,113,Phoenix Suns,,103,113,january,2021-2022,5,0,100.0,3,2,60.0,2,0,2,2.0,2.0,80,27,46,62
+Sun Jan 23 2022,Los Angeles Clippers,110,New York Knicks,,102,110,january,2021-2022,1,4,20.0,4,1,80.0,2,0,2,2.0,3.0,57,52,66,45
+Sun Jan 23 2022,Boston Celtics,87,Washington Wizards,,116,87,january,2021-2022,0,5,0.0,1,4,20.0,2,2,4,2.0,2.0,52,57,57,54
+Sun Jan 23 2022,Los Angeles Lakers,113,Miami Heat,,107,113,january,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,62,47,59,50
+Sun Jan 23 2022,Chicago Bulls,114,Orlando Magic,,95,114,january,2021-2022,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,27,83,54,53
+Sun Jan 23 2022,Portland Trail Blazers,105,Toronto Raptors,,114,105,january,2021-2022,5,0,100.0,5,0,100.0,0,2,2,2.0,2.0,48,58,54,54
+Sun Jan 23 2022,Atlanta Hawks,91,Charlotte Hornets,,113,91,january,2021-2022,3,2,60.0,1,4,20.0,2,3,5,2.0,2.0,56,52,54,55
+Sun Jan 23 2022,Philadelphia 76ers,109,San Antonio Spurs,,115,109,january,2021-2022,0,5,0.0,2,3,40.0,0,2,2,2.0,2.0,48,60,68,40
+Sun Jan 23 2022,Memphis Grizzlies,104,Dallas Mavericks,,91,104,january,2021-2022,1,4,20.0,2,3,40.0,3,1,4,2.0,3.0,61,47,64,46
+Sun Jan 23 2022,Detroit Pistons,117,Denver Nuggets,,111,117,january,2021-2022,0,5,0.0,3,2,60.0,2,0,2,2.0,2.0,65,42,30,78
+Sun Jan 23 2022,Brooklyn Nets,136,Minnesota Timberwolves,,125,136,january,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,4.0,42,67,72,37
+Sun Jan 23 2022,Utah Jazz,94,Golden State Warriors,,92,94,january,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,64,45,75,34
+Mon Jan 24 2022,New York Knicks,95,Cleveland Cavaliers,,93,95,january,2021-2022,3,2,60.0,1,4,20.0,3,0,3,1.0,2.0,49,61,58,52
+Mon Jan 24 2022,Indiana Pacers,117,New Orleans Pelicans,,113,117,january,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,4.0,45,63,46,63
+Mon Jan 24 2022,Chicago Bulls,110,Oklahoma City Thunder,,111,110,january,2021-2022,4,1,80.0,4,1,80.0,0,2,2,1.0,2.0,35,74,54,54
+Mon Jan 24 2022,Utah Jazz,115,Phoenix Suns,,109,115,january,2021-2022,4,1,80.0,3,2,60.0,3,1,4,1.0,2.0,81,27,75,35
+Tue Jan 25 2022,Denver Nuggets,105,Detroit Pistons,,110,105,january,2021-2022,4,1,80.0,0,5,0.0,0,2,2,2.0,2.0,30,79,66,42
+Tue Jan 25 2022,New Orleans Pelicans,117,Philadelphia 76ers,,107,117,january,2021-2022,3,2,60.0,3,2,60.0,2,0,2,1.0,2.0,69,40,46,63
+Tue Jan 25 2022,Charlotte Hornets,125,Toronto Raptors,,113,125,january,2021-2022,4,1,80.0,2,3,40.0,2,1,3,2.0,2.0,48,59,56,53
+Tue Jan 25 2022,Los Angeles Clippers,115,Washington Wizards,,116,115,january,2021-2022,0,5,0.0,4,1,80.0,0,2,2,2.0,2.0,52,58,66,46
+Tue Jan 25 2022,Sacramento Kings,128,Boston Celtics,,75,128,january,2021-2022,1,4,20.0,1,4,20.0,2,0,2,3.0,2.0,58,54,44,67
+Tue Jan 25 2022,Los Angeles Lakers,96,Brooklyn Nets,,106,96,january,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,72,38,59,51
+Tue Jan 25 2022,San Antonio Spurs,104,Houston Rockets,,134,104,january,2021-2022,5,0,100.0,0,5,0.0,1,3,4,2.0,4.0,30,80,48,61
+Tue Jan 25 2022,Dallas Mavericks,130,Golden State Warriors,,92,130,january,2021-2022,1,4,20.0,0,5,0.0,1,3,4,2.0,2.0,65,45,62,47
+Tue Jan 25 2022,Minnesota Timberwolves,107,Portland Trail Blazers,,109,107,january,2021-2022,5,0,100.0,3,2,60.0,0,4,4,2.0,2.0,55,54,43,67
+Wed Jan 26 2022,Milwaukee Bucks,115,Cleveland Cavaliers,,99,115,january,2021-2022,2,3,40.0,1,4,20.0,3,1,4,4.0,2.0,50,61,69,43
+Wed Jan 26 2022,Charlotte Hornets,126,Indiana Pacers,,158,126,january,2021-2022,5,0,100.0,3,2,60.0,0,4,4,1.0,2.0,46,64,56,54
+Wed Jan 26 2022,Los Angeles Clippers,102,Orlando Magic,,111,102,january,2021-2022,2,3,40.0,4,1,80.0,0,2,2,1.0,3.0,28,83,67,46
+Wed Jan 26 2022,Sacramento Kings,121,Atlanta Hawks,,104,121,january,2021-2022,1,4,20.0,2,3,40.0,2,0,2,1.0,3.0,55,55,44,68
+Wed Jan 26 2022,New York Knicks,110,Miami Heat,,96,110,january,2021-2022,1,4,20.0,1,4,20.0,2,1,3,2.0,3.0,63,47,58,53
+Wed Jan 26 2022,Denver Nuggets,118,Brooklyn Nets,,124,118,january,2021-2022,4,1,80.0,1,4,20.0,0,2,2,1.0,1.0,72,39,67,42
+Wed Jan 26 2022,Toronto Raptors,111,Chicago Bulls,,105,111,january,2021-2022,4,1,80.0,3,2,60.0,3,1,4,1.0,2.0,55,54,49,59
+Wed Jan 26 2022,Memphis Grizzlies,110,San Antonio Spurs,,118,110,january,2021-2022,1,4,20.0,3,2,60.0,0,4,4,3.0,1.0,49,61,64,47
+Wed Jan 26 2022,Dallas Mavericks,112,Portland Trail Blazers,,132,112,january,2021-2022,4,1,80.0,1,4,20.0,0,3,3,1.0,1.0,55,55,62,48
+Wed Jan 26 2022,Phoenix Suns,97,Utah Jazz,,105,97,january,2021-2022,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,75,36,82,27
+Thu Jan 27 2022,Los Angeles Lakers,105,Philadelphia 76ers,,87,105,january,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,2.0,70,40,60,51
+Thu Jan 27 2022,Minnesota Timberwolves,124,Golden State Warriors,,115,124,january,2021-2022,0,5,0.0,3,2,60.0,2,2,4,2.0,2.0,66,45,44,67
+Fri Jan 28 2022,Detroit Pistons,119,Orlando Magic,,103,119,january,2021-2022,1,4,20.0,4,1,80.0,1,3,4,3.0,2.0,28,84,30,80
+Fri Jan 28 2022,Boston Celtics,108,Atlanta Hawks,,92,108,january,2021-2022,1,4,20.0,1,4,20.0,2,2,4,3.0,2.0,56,55,59,54
+Fri Jan 28 2022,Los Angeles Lakers,117,Charlotte Hornets,,114,117,january,2021-2022,3,2,60.0,4,1,80.0,1,1,2,1.0,2.0,57,54,60,52
+Fri Jan 28 2022,Portland Trail Blazers,110,Houston Rockets,,125,110,january,2021-2022,4,1,80.0,3,2,60.0,2,2,4,2.0,3.0,30,81,55,56
+Fri Jan 28 2022,Utah Jazz,119,Memphis Grizzlies,,109,119,january,2021-2022,4,1,80.0,2,3,40.0,2,1,3,2.0,2.0,65,47,75,37
+Fri Jan 28 2022,Los Angeles Clippers,121,Miami Heat,,114,121,january,2021-2022,1,4,20.0,5,0,100.0,1,1,2,2.0,2.0,64,47,68,46
+Fri Jan 28 2022,Denver Nuggets,105,New Orleans Pelicans,,116,105,january,2021-2022,4,1,80.0,2,3,40.0,1,3,4,2.0,3.0,46,64,68,42
+Fri Jan 28 2022,Indiana Pacers,110,Oklahoma City Thunder,OT,113,110,january,2021-2022,4,1,80.0,4,1,80.0,1,1,2,2.0,4.0,35,75,46,65
+Fri Jan 28 2022,Chicago Bulls,131,San Antonio Spurs,,122,131,january,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,49,62,56,54
+Fri Jan 28 2022,Minnesota Timberwolves,134,Phoenix Suns,,124,134,january,2021-2022,3,2,60.0,4,1,80.0,3,0,3,1.0,2.0,83,27,44,68
+Fri Jan 28 2022,New York Knicks,123,Milwaukee Bucks,,108,123,january,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,69,44,58,54
+Sat Jan 29 2022,Indiana Pacers,132,Dallas Mavericks,,105,132,january,2021-2022,2,3,40.0,4,1,80.0,1,1,2,1.0,3.0,63,48,47,65
+Sat Jan 29 2022,Boston Celtics,97,New Orleans Pelicans,,107,97,january,2021-2022,3,2,60.0,2,3,40.0,0,2,2,1.0,1.0,46,65,59,55
+Sat Jan 29 2022,Sacramento Kings,103,Philadelphia 76ers,,101,103,january,2021-2022,1,4,20.0,3,2,60.0,2,0,2,3.0,2.0,71,40,44,69
+Sat Jan 29 2022,Washington Wizards,115,Memphis Grizzlies,,95,115,january,2021-2022,4,1,80.0,0,5,0.0,1,1,2,4.0,1.0,66,47,52,59
+Sat Jan 29 2022,Toronto Raptors,120,Miami Heat,3OT,124,120,january,2021-2022,1,4,20.0,3,2,60.0,2,2,4,3.0,1.0,65,47,49,60
+Sat Jan 29 2022,Brooklyn Nets,110,Golden State Warriors,,106,110,january,2021-2022,0,5,0.0,3,2,60.0,2,0,2,3.0,2.0,67,45,72,40
+Sun Jan 30 2022,Los Angeles Lakers,129,Atlanta Hawks,,121,129,january,2021-2022,1,4,20.0,5,0,100.0,1,1,2,2.0,2.0,57,55,60,53
+Sun Jan 30 2022,Los Angeles Clippers,90,Charlotte Hornets,,115,90,january,2021-2022,2,3,40.0,5,0,100.0,0,2,2,2.0,2.0,58,54,68,47
+Sun Jan 30 2022,Portland Trail Blazers,130,Chicago Bulls,,116,130,january,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,56,55,56,56
+Sun Jan 30 2022,Cleveland Cavaliers,115,Detroit Pistons,,105,115,january,2021-2022,4,1,80.0,1,4,20.0,2,2,4,4.0,2.0,30,81,51,61
+Sun Jan 30 2022,Denver Nuggets,100,Milwaukee Bucks,,136,100,january,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,70,44,69,42
+Sun Jan 30 2022,Dallas Mavericks,110,Orlando Magic,,108,110,january,2021-2022,1,4,20.0,2,3,40.0,1,1,2,1.0,2.0,29,84,64,48
+Sun Jan 30 2022,Utah Jazz,126,Minnesota Timberwolves,,106,126,january,2021-2022,4,1,80.0,3,2,60.0,1,3,4,2.0,2.0,44,69,75,38
+Sun Jan 30 2022,San Antonio Spurs,115,Phoenix Suns,,110,115,january,2021-2022,2,3,40.0,1,4,20.0,4,0,4,2.0,2.0,84,27,50,62
+Mon Jan 31 2022,New Orleans Pelicans,93,Cleveland Cavaliers,,90,93,january,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,1.0,51,62,46,66
+Mon Jan 31 2022,Los Angeles Clippers,122,Indiana Pacers,,116,122,january,2021-2022,4,1,80.0,5,0,100.0,1,1,2,1.0,2.0,47,66,69,47
+Mon Jan 31 2022,Memphis Grizzlies,122,Philadelphia 76ers,OT,119,122,january,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,72,40,67,47
+Mon Jan 31 2022,Toronto Raptors,100,Atlanta Hawks,,106,100,january,2021-2022,1,4,20.0,3,2,60.0,1,3,4,2.0,1.0,58,55,50,60
+Mon Jan 31 2022,Miami Heat,122,Boston Celtics,,92,122,january,2021-2022,3,2,60.0,1,4,20.0,2,1,3,2.0,2.0,60,55,65,48
+Mon Jan 31 2022,Sacramento Kings,116,New York Knicks,,96,116,january,2021-2022,3,2,60.0,4,1,80.0,2,0,2,2.0,3.0,58,55,44,70
+Mon Jan 31 2022,Golden State Warriors,108,Houston Rockets,,122,108,january,2021-2022,3,2,60.0,0,5,0.0,0,3,3,2.0,3.0,30,82,68,45
+Mon Jan 31 2022,Portland Trail Blazers,98,Oklahoma City Thunder,,81,98,january,2021-2022,3,2,60.0,3,2,60.0,4,0,4,1.0,3.0,35,76,56,57
+Tue Feb 1 2022,New Orleans Pelicans,101,Detroit Pistons,,111,101,february,2021-2022,3,2,60.0,2,3,40.0,0,2,2,1.0,2.0,31,81,46,67
+Tue Feb 1 2022,Washington Wizards,112,Milwaukee Bucks,,98,112,february,2021-2022,1,4,20.0,1,4,20.0,2,1,3,3.0,2.0,70,45,52,60
+Tue Feb 1 2022,Miami Heat,110,Toronto Raptors,,106,110,february,2021-2022,3,2,60.0,1,4,20.0,2,2,4,1.0,1.0,51,60,65,49
+Tue Feb 1 2022,Orlando Magic,126,Chicago Bulls,,115,126,february,2021-2022,3,2,60.0,0,5,0.0,3,1,4,2.0,2.0,57,55,30,84
+Tue Feb 1 2022,Denver Nuggets,130,Minnesota Timberwolves,,115,130,february,2021-2022,3,2,60.0,4,1,80.0,3,1,4,2.0,2.0,45,69,70,42
+Tue Feb 1 2022,Golden State Warriors,120,San Antonio Spurs,,124,120,february,2021-2022,2,3,40.0,1,4,20.0,2,2,4,1.0,2.0,50,63,69,45
+Tue Feb 1 2022,Brooklyn Nets,121,Phoenix Suns,,111,121,february,2021-2022,1,4,20.0,3,2,60.0,2,0,2,3.0,2.0,85,27,72,41
+Wed Feb 2 2022,Orlando Magic,118,Indiana Pacers,,119,118,february,2021-2022,3,2,60.0,1,4,20.0,1,2,3,1.0,2.0,48,66,30,85
+Wed Feb 2 2022,Washington Wizards,103,Philadelphia 76ers,,106,103,february,2021-2022,1,4,20.0,2,3,40.0,1,2,3,1.0,2.0,73,40,52,61
+Wed Feb 2 2022,Charlotte Hornets,113,Boston Celtics,,107,113,february,2021-2022,3,2,60.0,2,3,40.0,3,1,4,3.0,2.0,61,55,58,55
+Wed Feb 2 2022,Memphis Grizzlies,108,New York Knicks,,120,108,february,2021-2022,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,59,55,67,48
+Wed Feb 2 2022,Cleveland Cavaliers,115,Houston Rockets,,104,115,february,2021-2022,2,3,40.0,1,4,20.0,1,1,2,2.0,2.0,30,83,52,62
+Wed Feb 2 2022,Oklahoma City Thunder,114,Dallas Mavericks,OT,120,114,february,2021-2022,3,2,60.0,2,3,40.0,3,1,4,2.0,3.0,64,49,36,76
+Wed Feb 2 2022,Brooklyn Nets,112,Sacramento Kings,,101,112,february,2021-2022,5,0,100.0,3,2,60.0,1,1,2,1.0,2.0,44,71,72,42
+Wed Feb 2 2022,Denver Nuggets,108,Utah Jazz,,104,108,february,2021-2022,4,1,80.0,5,0,100.0,4,0,4,1.0,3.0,75,39,70,43
+Wed Feb 2 2022,Portland Trail Blazers,99,Los Angeles Lakers,,94,99,february,2021-2022,5,0,100.0,3,2,60.0,2,2,4,2.0,3.0,60,54,56,58
+Thu Feb 3 2022,Minnesota Timberwolves,117,Detroit Pistons,,128,117,february,2021-2022,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,31,82,46,69
+Thu Feb 3 2022,Miami Heat,95,San Antonio Spurs,,112,95,february,2021-2022,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,50,64,65,50
+Thu Feb 3 2022,Phoenix Suns,124,Atlanta Hawks,,115,124,february,2021-2022,1,4,20.0,1,4,20.0,1,1,2,2.0,3.0,58,56,86,27
+Thu Feb 3 2022,Chicago Bulls,127,Toronto Raptors,OT,120,127,february,2021-2022,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,52,60,58,55
+Thu Feb 3 2022,Sacramento Kings,126,Golden State Warriors,,114,126,february,2021-2022,2,3,40.0,4,1,80.0,4,0,4,1.0,2.0,70,45,45,71
+Thu Feb 3 2022,Los Angeles Lakers,111,Los Angeles Clippers,,110,111,february,2021-2022,5,0,100.0,4,1,80.0,4,0,4,1.0,3.0,69,48,61,54
+Fri Feb 4 2022,Cleveland Cavaliers,101,Charlotte Hornets,,102,101,february,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,58,56,52,63
+Fri Feb 4 2022,Boston Celtics,93,Detroit Pistons,,102,93,february,2021-2022,1,4,20.0,2,3,40.0,1,3,4,2.0,1.0,31,83,62,55
+Fri Feb 4 2022,Chicago Bulls,115,Indiana Pacers,,122,115,february,2021-2022,2,3,40.0,2,3,40.0,1,3,4,1.0,2.0,48,67,58,56
+Fri Feb 4 2022,Atlanta Hawks,125,Toronto Raptors,,114,125,february,2021-2022,3,2,60.0,0,5,0.0,3,1,4,1.0,1.0,53,60,59,56
+Fri Feb 4 2022,Houston Rockets,131,San Antonio Spurs,,106,131,february,2021-2022,1,4,20.0,1,4,20.0,3,1,4,2.0,1.0,50,65,31,83
+Fri Feb 4 2022,New Orleans Pelicans,105,Denver Nuggets,,113,105,february,2021-2022,5,0,100.0,3,2,60.0,3,1,4,3.0,2.0,70,44,47,67
+Fri Feb 4 2022,Brooklyn Nets,125,Utah Jazz,,102,125,february,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,76,39,72,43
+Fri Feb 4 2022,Philadelphia 76ers,107,Dallas Mavericks,,98,107,february,2021-2022,3,2,60.0,0,5,0.0,1,1,2,2.0,2.0,64,50,73,41
+Fri Feb 4 2022,Oklahoma City Thunder,93,Portland Trail Blazers,,96,93,february,2021-2022,4,1,80.0,2,3,40.0,0,4,4,2.0,2.0,56,59,37,76
+Sat Feb 5 2022,Memphis Grizzlies,115,Orlando Magic,,135,115,february,2021-2022,2,3,40.0,3,2,60.0,0,2,2,3.0,3.0,31,85,68,48
+Sat Feb 5 2022,Miami Heat,86,Charlotte Hornets,,104,86,february,2021-2022,2,3,40.0,3,2,60.0,0,4,4,2.0,1.0,58,57,66,50
+Sat Feb 5 2022,Phoenix Suns,80,Washington Wizards,,95,80,february,2021-2022,3,2,60.0,2,3,40.0,0,2,2,2.0,3.0,53,61,86,28
+Sat Feb 5 2022,New York Knicks,122,Los Angeles Lakers,OT,115,122,february,2021-2022,4,1,80.0,3,2,60.0,1,1,2,3.0,2.0,61,55,59,56
+Sat Feb 5 2022,Milwaukee Bucks,108,Portland Trail Blazers,,137,108,february,2021-2022,4,1,80.0,1,4,20.0,1,1,2,4.0,1.0,56,60,71,45
+Sat Feb 5 2022,Oklahoma City Thunder,113,Sacramento Kings,,103,113,february,2021-2022,4,1,80.0,2,3,40.0,3,1,4,1.0,2.0,45,72,38,76
+Sun Feb 6 2022,Philadelphia 76ers,108,Chicago Bulls,,119,108,february,2021-2022,3,2,60.0,1,4,20.0,0,4,4,2.0,2.0,59,56,73,42
+Sun Feb 6 2022,Brooklyn Nets,124,Denver Nuggets,,104,124,february,2021-2022,4,1,80.0,4,1,80.0,2,0,2,2.0,2.0,70,45,72,44
+Sun Feb 6 2022,Detroit Pistons,118,Minnesota Timberwolves,,105,118,february,2021-2022,3,2,60.0,1,4,20.0,2,0,2,2.0,3.0,47,69,31,84
+Sun Feb 6 2022,Indiana Pacers,98,Cleveland Cavaliers,,85,98,february,2021-2022,3,2,60.0,2,3,40.0,4,0,4,2.0,2.0,53,63,48,68
+Sun Feb 6 2022,Atlanta Hawks,103,Dallas Mavericks,,94,103,february,2021-2022,2,3,40.0,1,4,20.0,1,1,2,2.0,2.0,65,50,59,57
+Sun Feb 6 2022,Boston Celtics,83,Orlando Magic,,116,83,february,2021-2022,2,3,40.0,3,2,60.0,0,3,3,2.0,1.0,31,86,63,55
+Sun Feb 6 2022,New Orleans Pelicans,107,Houston Rockets,,120,107,february,2021-2022,1,4,20.0,3,2,60.0,1,3,4,2.0,2.0,31,84,48,67
+Sun Feb 6 2022,Milwaukee Bucks,113,Los Angeles Clippers,,137,113,february,2021-2022,4,1,80.0,2,3,40.0,1,1,2,1.0,3.0,70,48,72,45
+Mon Feb 7 2022,Toronto Raptors,101,Charlotte Hornets,,116,101,february,2021-2022,1,4,20.0,2,3,40.0,1,2,3,3.0,2.0,58,58,54,60
+Mon Feb 7 2022,Miami Heat,100,Washington Wizards,,121,100,february,2021-2022,3,2,60.0,4,1,80.0,1,3,4,2.0,2.0,53,62,67,50
+Mon Feb 7 2022,Phoenix Suns,124,Chicago Bulls,,127,124,february,2021-2022,2,3,40.0,2,3,40.0,0,2,2,2.0,1.0,59,57,87,28
+Mon Feb 7 2022,Golden State Warriors,98,Oklahoma City Thunder,,110,98,february,2021-2022,3,2,60.0,2,3,40.0,0,3,3,4.0,2.0,38,77,71,45
+Mon Feb 7 2022,New York Knicks,113,Utah Jazz,,104,113,february,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,3.0,77,39,59,57
+Tue Feb 8 2022,Phoenix Suns,109,Philadelphia 76ers,,114,109,february,2021-2022,2,3,40.0,3,2,60.0,0,2,2,1.0,2.0,74,42,88,28
+Tue Feb 8 2022,Indiana Pacers,133,Atlanta Hawks,,112,133,february,2021-2022,2,3,40.0,2,3,40.0,4,0,4,2.0,2.0,59,58,48,69
+Tue Feb 8 2022,Boston Celtics,91,Brooklyn Nets,,126,91,february,2021-2022,5,0,100.0,3,2,60.0,1,7,8,2.0,2.0,72,45,64,55
+Tue Feb 8 2022,Los Angeles Clippers,135,Memphis Grizzlies,,109,135,february,2021-2022,3,2,60.0,3,2,60.0,4,0,4,2.0,3.0,69,48,70,49
+Tue Feb 8 2022,Houston Rockets,110,New Orleans Pelicans,,97,110,february,2021-2022,4,1,80.0,1,4,20.0,3,1,4,2.0,2.0,49,67,31,85
+Tue Feb 8 2022,Detroit Pistons,116,Dallas Mavericks,,86,116,february,2021-2022,1,4,20.0,1,4,20.0,2,0,2,2.0,2.0,66,50,31,85
+Tue Feb 8 2022,New York Knicks,132,Denver Nuggets,,115,132,february,2021-2022,3,2,60.0,3,2,60.0,2,0,2,1.0,2.0,71,45,59,58
+Tue Feb 8 2022,Milwaukee Bucks,116,Los Angeles Lakers,,131,116,february,2021-2022,3,2,60.0,2,3,40.0,0,2,2,2.0,3.0,62,55,73,45
+Tue Feb 8 2022,Orlando Magic,95,Portland Trail Blazers,,113,95,february,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,3.0,56,61,31,87
+Tue Feb 8 2022,Minnesota Timberwolves,114,Sacramento Kings,,134,114,february,2021-2022,3,2,60.0,2,3,40.0,1,2,3,2.0,3.0,46,72,48,69
+Wed Feb 9 2022,San Antonio Spurs,105,Cleveland Cavaliers,,92,105,february,2021-2022,3,2,60.0,1,4,20.0,2,0,2,5.0,3.0,54,63,51,65
+Wed Feb 9 2022,Chicago Bulls,109,Charlotte Hornets,,121,109,february,2021-2022,1,4,20.0,2,3,40.0,1,2,3,2.0,2.0,58,59,59,58
+Wed Feb 9 2022,Toronto Raptors,98,Oklahoma City Thunder,,117,98,february,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,38,78,55,60
+Wed Feb 9 2022,Los Angeles Lakers,107,Portland Trail Blazers,,105,107,february,2021-2022,2,3,40.0,2,3,40.0,2,2,4,1.0,1.0,56,62,62,56
+Wed Feb 9 2022,Minnesota Timberwolves,132,Sacramento Kings,,119,132,february,2021-2022,2,3,40.0,2,3,40.0,1,2,3,1.0,1.0,46,73,49,69
+Wed Feb 9 2022,Golden State Warriors,111,Utah Jazz,,85,111,february,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,78,39,72,45
+Thu Feb 10 2022,Memphis Grizzlies,107,Detroit Pistons,,132,107,february,2021-2022,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,31,86,70,48
+Thu Feb 10 2022,Miami Heat,97,New Orleans Pelicans,,112,97,february,2021-2022,4,1,80.0,5,0,100.0,0,2,2,3.0,2.0,50,67,68,50
+Thu Feb 10 2022,Brooklyn Nets,113,Washington Wizards,,112,113,february,2021-2022,3,2,60.0,4,1,80.0,2,2,4,2.0,3.0,53,63,72,46
+Thu Feb 10 2022,Toronto Raptors,120,Houston Rockets,,139,120,february,2021-2022,2,3,40.0,2,3,40.0,0,2,2,1.0,2.0,31,86,56,60
+Thu Feb 10 2022,Los Angeles Clippers,112,Dallas Mavericks,,105,112,february,2021-2022,1,4,20.0,3,2,60.0,2,2,4,2.0,2.0,67,50,70,50
+Thu Feb 10 2022,New York Knicks,114,Golden State Warriors,,116,114,february,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,1.0,72,46,59,59
+Thu Feb 10 2022,Milwaukee Bucks,131,Phoenix Suns,,107,131,february,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,89,28,74,45
+Fri Feb 11 2022,Charlotte Hornets,119,Detroit Pistons,,141,119,february,2021-2022,2,3,40.0,1,4,20.0,1,2,3,2.0,1.0,31,87,58,60
+Fri Feb 11 2022,Cleveland Cavaliers,113,Indiana Pacers,,120,113,february,2021-2022,2,3,40.0,2,3,40.0,0,4,4,2.0,3.0,48,70,55,63
+Fri Feb 11 2022,Oklahoma City Thunder,100,Philadelphia 76ers,,87,100,february,2021-2022,2,3,40.0,3,2,60.0,2,0,2,2.0,3.0,74,43,38,79
+Fri Feb 11 2022,San Antonio Spurs,121,Atlanta Hawks,,136,121,february,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,3.0,60,58,51,66
+Fri Feb 11 2022,Denver Nuggets,108,Boston Celtics,,102,108,february,2021-2022,3,2,60.0,2,3,40.0,2,0,2,3.0,3.0,65,55,72,45
+Fri Feb 11 2022,Minnesota Timberwolves,134,Chicago Bulls,,122,134,february,2021-2022,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,60,58,49,70
+Fri Feb 11 2022,Orlando Magic,114,Utah Jazz,,99,114,february,2021-2022,1,4,20.0,3,2,60.0,1,1,2,3.0,2.0,79,39,32,87
+Sat Feb 12 2022,New York Knicks,112,Portland Trail Blazers,,103,112,february,2021-2022,1,4,20.0,4,1,80.0,1,1,2,2.0,3.0,57,62,60,59
+Sat Feb 12 2022,Memphis Grizzlies,118,Charlotte Hornets,,125,118,february,2021-2022,1,4,20.0,4,1,80.0,1,1,2,2.0,1.0,59,60,71,48
+Sat Feb 12 2022,San Antonio Spurs,114,New Orleans Pelicans,,124,114,february,2021-2022,3,2,60.0,2,3,40.0,2,3,5,1.0,2.0,50,68,52,66
+Sat Feb 12 2022,Sacramento Kings,110,Washington Wizards,,123,110,february,2021-2022,2,3,40.0,1,4,20.0,0,2,2,3.0,2.0,54,63,47,73
+Sat Feb 12 2022,Cleveland Cavaliers,103,Philadelphia 76ers,,93,103,february,2021-2022,2,3,40.0,3,2,60.0,4,0,4,1.0,1.0,75,43,56,63
+Sat Feb 12 2022,Denver Nuggets,109,Toronto Raptors,,110,109,february,2021-2022,3,2,60.0,2,3,40.0,1,1,2,1.0,2.0,57,60,72,46
+Sat Feb 12 2022,Oklahoma City Thunder,106,Chicago Bulls,,101,106,february,2021-2022,2,3,40.0,3,2,60.0,2,0,2,1.0,1.0,61,58,38,80
+Sat Feb 12 2022,Brooklyn Nets,115,Miami Heat,,111,115,february,2021-2022,5,0,100.0,4,1,80.0,3,1,4,2.0,2.0,69,50,72,47
+Sat Feb 12 2022,Los Angeles Clippers,97,Dallas Mavericks,,99,97,february,2021-2022,0,5,0.0,3,2,60.0,2,2,4,2.0,2.0,68,50,70,51
+Sat Feb 12 2022,Los Angeles Lakers,117,Golden State Warriors,,115,117,february,2021-2022,3,2,60.0,2,3,40.0,3,1,4,3.0,2.0,72,47,62,57
+Sat Feb 12 2022,Orlando Magic,132,Phoenix Suns,,105,132,february,2021-2022,4,1,80.0,3,2,60.0,2,0,2,1.0,2.0,90,28,32,88
+Sun Feb 13 2022,Atlanta Hawks,105,Boston Celtics,,95,105,february,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,66,55,60,59
+Sun Feb 13 2022,Minnesota Timberwolves,120,Indiana Pacers,,129,120,february,2021-2022,2,3,40.0,4,1,80.0,0,2,2,2.0,2.0,48,71,49,71
+Mon Feb 14 2022,Detroit Pistons,103,Washington Wizards,,94,103,february,2021-2022,1,4,20.0,2,3,40.0,4,0,4,3.0,2.0,54,64,31,88
+Mon Feb 14 2022,Sacramento Kings,109,Brooklyn Nets,,85,109,february,2021-2022,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,72,48,48,73
+Mon Feb 14 2022,Oklahoma City Thunder,123,New York Knicks,OT,127,123,february,2021-2022,5,0,100.0,3,2,60.0,0,2,2,2.0,2.0,60,60,38,81
+Mon Feb 14 2022,San Antonio Spurs,120,Chicago Bulls,,109,120,february,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,62,58,53,66
+Mon Feb 14 2022,Portland Trail Blazers,107,Milwaukee Bucks,,122,107,february,2021-2022,4,1,80.0,0,5,0.0,1,1,2,2.0,4.0,74,46,58,62
+Mon Feb 14 2022,Toronto Raptors,120,New Orleans Pelicans,,90,120,february,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,50,69,57,61
+Mon Feb 14 2022,Orlando Magic,121,Denver Nuggets,,111,121,february,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,73,46,32,89
+Mon Feb 14 2022,Houston Rockets,135,Utah Jazz,,101,135,february,2021-2022,0,5,0.0,2,3,40.0,3,1,4,4.0,3.0,80,39,31,87
+Mon Feb 14 2022,Golden State Warriors,119,Los Angeles Clippers,,104,119,february,2021-2022,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,71,51,73,47
+Tue Feb 15 2022,Cleveland Cavaliers,124,Atlanta Hawks,,116,124,february,2021-2022,3,2,60.0,3,2,60.0,4,1,5,3.0,2.0,60,60,56,64
+Tue Feb 15 2022,Dallas Mavericks,99,Miami Heat,,107,99,february,2021-2022,4,1,80.0,0,5,0.0,1,1,2,3.0,3.0,70,50,68,51
+Tue Feb 15 2022,Boston Celtics,87,Philadelphia 76ers,,135,87,february,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,3.0,76,43,67,55
+Tue Feb 15 2022,Indiana Pacers,128,Milwaukee Bucks,,119,128,february,2021-2022,4,1,80.0,2,3,40.0,4,0,4,2.0,1.0,74,47,48,72
+Tue Feb 15 2022,Charlotte Hornets,126,Minnesota Timberwolves,OT,120,126,february,2021-2022,4,1,80.0,1,4,20.0,1,1,2,3.0,2.0,50,71,59,61
+Tue Feb 15 2022,Memphis Grizzlies,109,New Orleans Pelicans,,121,109,february,2021-2022,1,4,20.0,4,1,80.0,1,3,4,3.0,1.0,51,69,72,48
+Tue Feb 15 2022,Los Angeles Clippers,103,Phoenix Suns,,96,103,february,2021-2022,3,2,60.0,3,2,60.0,2,2,4,1.0,3.0,91,28,72,51
+Wed Feb 16 2022,Atlanta Hawks,109,Orlando Magic,,130,109,february,2021-2022,4,1,80.0,2,3,40.0,1,3,4,1.0,2.0,32,90,61,60
+Wed Feb 16 2022,Detroit Pistons,111,Boston Celtics,,112,111,february,2021-2022,3,2,60.0,3,2,60.0,3,1,4,2.0,1.0,68,55,31,89
+Wed Feb 16 2022,Washington Wizards,113,Indiana Pacers,,108,113,february,2021-2022,3,2,60.0,0,5,0.0,2,2,4,2.0,1.0,48,73,55,64
+Wed Feb 16 2022,Brooklyn Nets,106,New York Knicks,,111,106,february,2021-2022,4,1,80.0,3,2,60.0,0,4,4,2.0,2.0,60,61,73,48
+Wed Feb 16 2022,Sacramento Kings,125,Chicago Bulls,,118,125,february,2021-2022,1,4,20.0,2,3,40.0,1,1,2,2.0,2.0,63,58,48,74
+Wed Feb 16 2022,Portland Trail Blazers,119,Memphis Grizzlies,,123,119,february,2021-2022,4,1,80.0,1,4,20.0,1,3,4,2.0,1.0,73,48,59,62
+Wed Feb 16 2022,Toronto Raptors,91,Minnesota Timberwolves,,103,91,february,2021-2022,4,1,80.0,4,1,80.0,0,2,2,2.0,1.0,51,71,57,62
+Wed Feb 16 2022,San Antonio Spurs,106,Oklahoma City Thunder,,114,106,february,2021-2022,3,2,60.0,4,1,80.0,1,3,4,2.0,2.0,39,81,53,67
+Wed Feb 16 2022,Houston Rockets,124,Phoenix Suns,,121,124,february,2021-2022,2,3,40.0,3,2,60.0,4,0,4,2.0,1.0,92,28,31,88
+Wed Feb 16 2022,Denver Nuggets,116,Golden State Warriors,,117,116,february,2021-2022,3,2,60.0,2,3,40.0,5,4,9,2.0,2.0,73,48,74,46
+Wed Feb 16 2022,Utah Jazz,106,Los Angeles Lakers,,101,106,february,2021-2022,3,2,60.0,0,5,0.0,2,1,3,2.0,4.0,62,58,81,39
+Thu Feb 17 2022,Miami Heat,107,Charlotte Hornets,2OT,111,107,february,2021-2022,2,3,40.0,3,2,60.0,0,4,4,2.0,2.0,59,62,70,51
+Thu Feb 17 2022,Washington Wizards,103,Brooklyn Nets,,117,103,february,2021-2022,3,2,60.0,1,4,20.0,2,2,4,1.0,1.0,74,48,55,65
+Thu Feb 17 2022,Dallas Mavericks,118,New Orleans Pelicans,,125,118,february,2021-2022,0,5,0.0,1,4,20.0,1,3,4,2.0,2.0,51,70,69,51
+Thu Feb 17 2022,Philadelphia 76ers,120,Milwaukee Bucks,,123,120,february,2021-2022,3,2,60.0,1,4,20.0,2,1,3,2.0,2.0,75,47,76,44
+Thu Feb 17 2022,Houston Rockets,142,Los Angeles Clippers,,111,142,february,2021-2022,4,1,80.0,3,2,60.0,3,0,3,1.0,2.0,72,52,31,89
+Thu Feb 24 2022,Cleveland Cavaliers,106,Detroit Pistons,,103,106,february,2021-2022,3,2,60.0,3,2,60.0,2,2,4,9.0,8.0,32,89,56,65
+Thu Feb 24 2022,Boston Celtics,106,Brooklyn Nets,,129,106,february,2021-2022,3,2,60.0,2,3,40.0,1,7,8,8.0,7.0,74,49,68,56
+Thu Feb 24 2022,Atlanta Hawks,112,Chicago Bulls,,108,112,february,2021-2022,1,4,20.0,2,3,40.0,3,1,4,8.0,8.0,64,58,62,60
+Thu Feb 24 2022,Memphis Grizzlies,119,Minnesota Timberwolves,,114,119,february,2021-2022,3,2,60.0,3,2,60.0,4,6,10,8.0,8.0,51,72,73,49
+Thu Feb 24 2022,Phoenix Suns,104,Oklahoma City Thunder,,124,104,february,2021-2022,3,2,60.0,1,4,20.0,1,3,4,8.0,8.0,39,82,93,28
+Thu Feb 24 2022,Golden State Warriors,95,Portland Trail Blazers,,132,95,february,2021-2022,2,3,40.0,2,3,40.0,0,3,3,8.0,8.0,60,62,73,49
+Thu Feb 24 2022,Denver Nuggets,110,Sacramento Kings,,128,110,february,2021-2022,3,2,60.0,3,2,60.0,0,4,4,8.0,8.0,48,75,75,46
+Fri Feb 25 2022,Toronto Raptors,125,Charlotte Hornets,,93,125,february,2021-2022,2,3,40.0,4,1,80.0,1,2,3,9.0,8.0,59,63,58,62
+Fri Feb 25 2022,Oklahoma City Thunder,125,Indiana Pacers,OT,129,125,february,2021-2022,2,3,40.0,3,2,60.0,1,1,2,1.0,9.0,49,73,39,83
+Fri Feb 25 2022,Houston Rockets,119,Orlando Magic,,111,119,february,2021-2022,4,1,80.0,4,1,80.0,1,1,2,8.0,9.0,32,91,31,90
+Fri Feb 25 2022,San Antonio Spurs,153,Washington Wizards,2OT,157,153,february,2021-2022,2,3,40.0,5,0,100.0,0,2,2,9.0,8.0,56,65,54,67
+Fri Feb 25 2022,Miami Heat,100,New York Knicks,,115,100,february,2021-2022,3,2,60.0,3,2,60.0,1,2,3,8.0,9.0,60,62,71,51
+Fri Feb 25 2022,Philadelphia 76ers,102,Minnesota Timberwolves,,133,102,february,2021-2022,2,3,40.0,1,4,20.0,1,1,2,8.0,1.0,52,72,77,44
+Fri Feb 25 2022,New Orleans Pelicans,102,Phoenix Suns,,117,102,february,2021-2022,1,4,20.0,0,5,0.0,7,3,10,8.0,1.0,94,28,51,71
+Fri Feb 25 2022,Dallas Mavericks,114,Utah Jazz,,109,114,february,2021-2022,1,4,20.0,2,3,40.0,4,6,10,8.0,9.0,81,40,70,51
+Fri Feb 25 2022,Los Angeles Clippers,102,Los Angeles Lakers,,105,102,february,2021-2022,2,3,40.0,3,2,60.0,0,4,4,8.0,9.0,63,58,73,52
+Sat Feb 26 2022,Boston Celtics,104,Detroit Pistons,,113,104,february,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,33,89,69,56
+Sat Feb 26 2022,Toronto Raptors,127,Atlanta Hawks,,100,127,february,2021-2022,3,2,60.0,4,1,80.0,1,3,4,1.0,2.0,62,61,58,63
+Sat Feb 26 2022,Memphis Grizzlies,110,Chicago Bulls,,116,110,february,2021-2022,0,5,0.0,4,1,80.0,0,2,2,2.0,2.0,65,58,73,50
+Sat Feb 26 2022,Washington Wizards,92,Cleveland Cavaliers,,86,92,february,2021-2022,4,1,80.0,2,3,40.0,2,2,4,1.0,2.0,56,66,56,66
+Sat Feb 26 2022,San Antonio Spurs,133,Miami Heat,,129,133,february,2021-2022,3,2,60.0,5,0,100.0,2,0,2,1.0,1.0,72,51,55,67
+Sat Feb 26 2022,Brooklyn Nets,123,Milwaukee Bucks,,126,123,february,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,9.0,75,48,74,50
+Sat Feb 26 2022,Sacramento Kings,115,Denver Nuggets,,110,115,february,2021-2022,4,1,80.0,3,2,60.0,4,0,4,2.0,2.0,76,46,48,76
+Sun Feb 27 2022,Philadelphia 76ers,109,New York Knicks,,125,109,february,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,60,63,78,44
+Sun Feb 27 2022,Utah Jazz,114,Phoenix Suns,,118,114,february,2021-2022,1,4,20.0,1,4,20.0,3,1,4,2.0,2.0,94,29,82,40
+Sun Feb 27 2022,Boston Celtics,128,Indiana Pacers,,107,128,february,2021-2022,1,4,20.0,3,2,60.0,1,3,4,1.0,2.0,49,74,70,56
+Sun Feb 27 2022,Detroit Pistons,126,Charlotte Hornets,OT,127,126,february,2021-2022,2,3,40.0,2,3,40.0,2,1,3,1.0,2.0,60,63,33,90
+Sun Feb 27 2022,Los Angeles Clippers,98,Houston Rockets,,99,98,february,2021-2022,4,1,80.0,3,2,60.0,0,3,3,2.0,2.0,31,91,74,52
+Sun Feb 27 2022,Dallas Mavericks,101,Golden State Warriors,,107,101,february,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,3.0,74,49,70,52
+Sun Feb 27 2022,Denver Nuggets,92,Portland Trail Blazers,,124,92,february,2021-2022,2,3,40.0,3,2,60.0,1,3,4,1.0,3.0,60,63,77,46
+Sun Feb 27 2022,New Orleans Pelicans,95,Los Angeles Lakers,,123,95,february,2021-2022,2,3,40.0,1,4,20.0,0,3,3,2.0,2.0,63,59,52,71
+Mon Feb 28 2022,Minnesota Timberwolves,122,Cleveland Cavaliers,,127,122,february,2021-2022,4,1,80.0,1,4,20.0,1,1,2,3.0,2.0,57,66,52,73
+Mon Feb 28 2022,Indiana Pacers,119,Orlando Magic,,103,119,february,2021-2022,3,2,60.0,1,4,20.0,2,1,3,1.0,3.0,33,91,50,74
+Mon Feb 28 2022,Toronto Raptors,97,Brooklyn Nets,,133,97,february,2021-2022,2,3,40.0,4,1,80.0,2,2,4,2.0,2.0,75,50,58,64
+Mon Feb 28 2022,Chicago Bulls,112,Miami Heat,,99,112,february,2021-2022,2,3,40.0,0,5,0.0,4,0,4,2.0,2.0,73,51,65,59
+Mon Feb 28 2022,San Antonio Spurs,118,Memphis Grizzlies,,105,118,february,2021-2022,4,1,80.0,5,0,100.0,4,0,4,2.0,2.0,74,50,55,68
+Mon Feb 28 2022,Charlotte Hornets,130,Milwaukee Bucks,,106,130,february,2021-2022,1,4,20.0,1,4,20.0,2,2,4,1.0,2.0,75,49,60,64
+Mon Feb 28 2022,Sacramento Kings,110,Oklahoma City Thunder,,131,110,february,2021-2022,3,2,60.0,4,1,80.0,1,3,4,2.0,3.0,40,83,48,77
+Tue Mar 1 2022,Detroit Pistons,116,Washington Wizards,,113,116,march,2021-2022,3,2,60.0,3,2,60.0,4,0,4,2.0,3.0,56,67,34,90
+Tue Mar 1 2022,Atlanta Hawks,107,Boston Celtics,,98,107,march,2021-2022,4,1,80.0,3,2,60.0,2,2,4,3.0,2.0,70,57,63,61
+Tue Mar 1 2022,Brooklyn Nets,109,Toronto Raptors,,108,109,march,2021-2022,5,0,100.0,2,3,40.0,2,2,4,1.0,1.0,59,64,75,51
+Tue Mar 1 2022,Los Angeles Clippers,100,Houston Rockets,,113,100,march,2021-2022,4,1,80.0,3,2,60.0,0,3,3,2.0,2.0,31,92,75,52
+Tue Mar 1 2022,Golden State Warriors,129,Minnesota Timberwolves,,114,129,march,2021-2022,1,4,20.0,2,3,40.0,2,2,4,2.0,1.0,53,73,74,50
+Tue Mar 1 2022,Dallas Mavericks,104,Los Angeles Lakers,,109,104,march,2021-2022,2,3,40.0,4,1,80.0,1,2,3,2.0,2.0,63,60,71,52
+Wed Mar 2 2022,Charlotte Hornets,98,Cleveland Cavaliers,,119,98,march,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,57,67,60,65
+Wed Mar 2 2022,Indiana Pacers,114,Orlando Magic,OT,122,114,march,2021-2022,2,3,40.0,2,3,40.0,2,1,3,2.0,2.0,34,91,50,75
+Wed Mar 2 2022,New York Knicks,123,Philadelphia 76ers,,108,123,march,2021-2022,3,2,60.0,1,4,20.0,2,2,4,3.0,3.0,79,44,60,64
+Wed Mar 2 2022,Utah Jazz,127,Houston Rockets,OT,132,127,march,2021-2022,3,2,60.0,2,3,40.0,1,3,4,3.0,1.0,31,93,83,40
+Wed Mar 2 2022,Miami Heat,120,Milwaukee Bucks,,119,120,march,2021-2022,0,5,0.0,2,3,40.0,2,2,4,2.0,2.0,76,49,74,51
+Wed Mar 2 2022,Sacramento Kings,125,New Orleans Pelicans,,95,125,march,2021-2022,2,3,40.0,4,1,80.0,2,2,4,2.0,3.0,53,71,49,77
+Wed Mar 2 2022,Oklahoma City Thunder,107,Denver Nuggets,,119,107,march,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,3.0,78,46,40,84
+Wed Mar 2 2022,Portland Trail Blazers,120,Phoenix Suns,,90,120,march,2021-2022,1,4,20.0,2,3,40.0,3,1,4,3.0,3.0,94,30,60,64
+Thu Mar 3 2022,Chicago Bulls,130,Atlanta Hawks,,124,130,march,2021-2022,3,2,60.0,1,4,20.0,1,3,4,3.0,2.0,63,62,65,60
+Thu Mar 3 2022,Memphis Grizzlies,120,Boston Celtics,,107,120,march,2021-2022,3,2,60.0,3,2,60.0,2,0,2,3.0,2.0,71,57,75,50
+Thu Mar 3 2022,Miami Heat,107,Brooklyn Nets,,113,107,march,2021-2022,2,3,40.0,3,2,60.0,1,3,4,1.0,2.0,75,52,74,52
+Thu Mar 3 2022,Detroit Pistons,106,Toronto Raptors,,108,106,march,2021-2022,4,1,80.0,3,2,60.0,0,3,3,2.0,2.0,60,64,34,91
+Thu Mar 3 2022,Golden State Warriors,122,Dallas Mavericks,,113,122,march,2021-2022,5,0,100.0,3,2,60.0,3,1,4,2.0,2.0,72,52,74,51
+Thu Mar 3 2022,Sacramento Kings,112,San Antonio Spurs,,115,112,march,2021-2022,5,0,100.0,4,1,80.0,1,2,3,1.0,3.0,55,69,49,78
+Thu Mar 3 2022,Los Angeles Lakers,132,Los Angeles Clippers,,111,132,march,2021-2022,4,1,80.0,1,4,20.0,4,0,4,2.0,2.0,76,52,63,61
+Fri Mar 4 2022,Indiana Pacers,111,Detroit Pistons,,106,111,march,2021-2022,3,2,60.0,2,3,40.0,3,1,4,2.0,1.0,35,91,51,75
+Fri Mar 4 2022,Cleveland Cavaliers,125,Philadelphia 76ers,,119,125,march,2021-2022,3,2,60.0,2,3,40.0,4,0,4,2.0,2.0,80,44,57,68
+Fri Mar 4 2022,Atlanta Hawks,114,Washington Wizards,,117,114,march,2021-2022,3,2,60.0,3,2,60.0,1,3,4,1.0,3.0,57,67,64,62
+Fri Mar 4 2022,Milwaukee Bucks,112,Chicago Bulls,,118,112,march,2021-2022,2,3,40.0,0,5,0.0,1,8,9,2.0,1.0,65,61,77,49
+Fri Mar 4 2022,Orlando Magic,97,Toronto Raptors,,103,97,march,2021-2022,3,2,60.0,1,4,20.0,2,1,3,2.0,1.0,60,65,34,92
+Fri Mar 4 2022,Utah Jazz,124,New Orleans Pelicans,,90,124,march,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,54,71,84,40
+Fri Mar 4 2022,Minnesota Timberwolves,101,Oklahoma City Thunder,,138,101,march,2021-2022,2,3,40.0,1,4,20.0,0,4,4,3.0,2.0,41,84,54,73
+Fri Mar 4 2022,Houston Rockets,116,Denver Nuggets,,101,116,march,2021-2022,3,2,60.0,2,3,40.0,3,0,3,2.0,2.0,78,47,31,94
+Fri Mar 4 2022,New York Knicks,115,Phoenix Suns,,114,115,march,2021-2022,1,4,20.0,1,4,20.0,2,0,2,2.0,2.0,95,30,60,65
+Sat Mar 5 2022,Sacramento Kings,114,Dallas Mavericks,,113,114,march,2021-2022,4,1,80.0,4,1,80.0,3,1,4,2.0,2.0,73,52,50,78
+Sat Mar 5 2022,San Antonio Spurs,123,Charlotte Hornets,,117,123,march,2021-2022,2,3,40.0,4,1,80.0,2,0,2,2.0,3.0,61,65,55,70
+Sat Mar 5 2022,Orlando Magic,124,Memphis Grizzlies,,96,124,march,2021-2022,3,2,60.0,1,4,20.0,2,0,2,1.0,2.0,75,51,35,92
+Sat Mar 5 2022,Philadelphia 76ers,99,Miami Heat,,82,99,march,2021-2022,3,2,60.0,3,2,60.0,2,2,4,1.0,2.0,75,52,81,44
+Sat Mar 5 2022,Portland Trail Blazers,135,Minnesota Timberwolves,,121,135,march,2021-2022,2,3,40.0,3,2,60.0,4,0,4,3.0,1.0,55,73,60,65
+Sat Mar 5 2022,Golden State Warriors,124,Los Angeles Lakers,,116,124,march,2021-2022,1,4,20.0,3,2,60.0,1,3,4,2.0,2.0,63,62,74,52
+Sun Mar 6 2022,Brooklyn Nets,126,Boston Celtics,,120,126,march,2021-2022,3,2,60.0,2,3,40.0,7,1,8,3.0,3.0,72,57,75,53
+Sun Mar 6 2022,Phoenix Suns,132,Milwaukee Bucks,,122,132,march,2021-2022,1,4,20.0,1,4,20.0,1,1,2,2.0,2.0,78,49,96,30
+Sun Mar 6 2022,Indiana Pacers,133,Washington Wizards,,123,133,march,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,57,68,51,76
+Sun Mar 6 2022,Memphis Grizzlies,123,Houston Rockets,,112,123,march,2021-2022,2,3,40.0,3,2,60.0,1,3,4,1.0,2.0,31,95,76,51
+Sun Mar 6 2022,Utah Jazz,103,Oklahoma City Thunder,,116,103,march,2021-2022,2,3,40.0,4,1,80.0,0,4,4,2.0,2.0,41,85,84,41
+Sun Mar 6 2022,Toronto Raptors,104,Cleveland Cavaliers,,96,104,march,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,57,69,60,66
+Sun Mar 6 2022,New Orleans Pelicans,138,Denver Nuggets,OT,130,138,march,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,79,47,55,71
+Sun Mar 6 2022,New York Knicks,93,Los Angeles Clippers,,116,93,march,2021-2022,3,2,60.0,2,3,40.0,0,2,2,2.0,3.0,77,52,60,66
+Mon Mar 7 2022,Atlanta Hawks,113,Detroit Pistons,OT,110,113,march,2021-2022,3,2,60.0,3,2,60.0,2,1,3,3.0,3.0,36,91,65,62
+Mon Mar 7 2022,Chicago Bulls,121,Philadelphia 76ers,,106,121,march,2021-2022,3,2,60.0,2,3,40.0,4,0,4,3.0,2.0,81,45,65,62
+Mon Mar 7 2022,Houston Rockets,123,Miami Heat,,106,123,march,2021-2022,2,3,40.0,1,4,20.0,2,0,2,1.0,2.0,76,52,32,95
+Mon Mar 7 2022,Portland Trail Blazers,124,Minnesota Timberwolves,,81,124,march,2021-2022,2,3,40.0,3,2,60.0,4,0,4,2.0,2.0,56,73,60,66
+Mon Mar 7 2022,Utah Jazz,111,Dallas Mavericks,,103,111,march,2021-2022,3,2,60.0,4,1,80.0,6,4,10,1.0,2.0,74,52,85,41
+Mon Mar 7 2022,Los Angeles Lakers,117,San Antonio Spurs,,110,117,march,2021-2022,4,1,80.0,1,4,20.0,2,2,4,2.0,2.0,55,71,64,62
+Mon Mar 7 2022,Golden State Warriors,131,Denver Nuggets,,124,131,march,2021-2022,1,4,20.0,4,1,80.0,4,5,9,2.0,1.0,80,47,74,53
+Mon Mar 7 2022,New York Knicks,115,Sacramento Kings,,131,115,march,2021-2022,5,0,100.0,3,2,60.0,0,2,2,1.0,2.0,50,79,61,66
+Tue Mar 8 2022,Brooklyn Nets,121,Charlotte Hornets,,132,121,march,2021-2022,2,3,40.0,3,2,60.0,2,1,3,2.0,3.0,62,65,75,54
+Tue Mar 8 2022,Cleveland Cavaliers,124,Indiana Pacers,,127,124,march,2021-2022,4,1,80.0,1,4,20.0,0,4,4,2.0,2.0,51,77,58,69
+Tue Mar 8 2022,Phoenix Suns,99,Orlando Magic,,102,99,march,2021-2022,2,3,40.0,1,4,20.0,0,2,2,2.0,3.0,35,93,96,31
+Tue Mar 8 2022,New Orleans Pelicans,132,Memphis Grizzlies,,111,132,march,2021-2022,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,76,52,55,72
+Tue Mar 8 2022,Milwaukee Bucks,115,Oklahoma City Thunder,,142,115,march,2021-2022,2,3,40.0,1,4,20.0,0,2,2,2.0,2.0,41,86,79,49
+Tue Mar 8 2022,Los Angeles Clippers,112,Golden State Warriors,,97,112,march,2021-2022,4,1,80.0,3,2,60.0,3,1,4,2.0,1.0,74,54,77,53
+Wed Mar 9 2022,Boston Celtics,101,Charlotte Hornets,,115,101,march,2021-2022,2,3,40.0,2,3,40.0,1,3,4,3.0,1.0,62,66,73,57
+Wed Mar 9 2022,Chicago Bulls,108,Detroit Pistons,,114,108,march,2021-2022,3,2,60.0,3,2,60.0,0,4,4,2.0,2.0,37,91,65,63
+Wed Mar 9 2022,Phoenix Suns,90,Miami Heat,,111,90,march,2021-2022,2,3,40.0,2,3,40.0,1,1,2,1.0,2.0,77,52,97,31
+Wed Mar 9 2022,Los Angeles Lakers,139,Houston Rockets,OT,130,139,march,2021-2022,2,3,40.0,2,3,40.0,1,3,4,2.0,2.0,32,96,64,63
+Wed Mar 9 2022,Atlanta Hawks,124,Milwaukee Bucks,,115,124,march,2021-2022,2,3,40.0,3,2,60.0,1,2,3,2.0,1.0,80,49,65,63
+Wed Mar 9 2022,Oklahoma City Thunder,132,Minnesota Timberwolves,,102,132,march,2021-2022,2,3,40.0,1,4,20.0,4,0,4,1.0,2.0,57,73,41,87
+Wed Mar 9 2022,Orlando Magic,102,New Orleans Pelicans,,108,102,march,2021-2022,3,2,60.0,2,3,40.0,1,1,2,1.0,1.0,55,73,35,94
+Wed Mar 9 2022,New York Knicks,77,Dallas Mavericks,,107,77,march,2021-2022,2,3,40.0,4,1,80.0,0,2,2,2.0,2.0,75,52,62,66
+Wed Mar 9 2022,Toronto Raptors,104,San Antonio Spurs,,119,104,march,2021-2022,3,2,60.0,2,3,40.0,0,2,2,3.0,2.0,56,71,60,67
+Wed Mar 9 2022,Denver Nuggets,100,Sacramento Kings,,106,100,march,2021-2022,4,1,80.0,1,4,20.0,0,4,4,2.0,2.0,50,80,81,47
+Wed Mar 9 2022,Portland Trail Blazers,123,Utah Jazz,,85,123,march,2021-2022,5,0,100.0,3,2,60.0,4,0,4,2.0,2.0,85,42,60,67
+Wed Mar 9 2022,Washington Wizards,115,Los Angeles Clippers,,109,115,march,2021-2022,3,2,60.0,1,4,20.0,2,0,2,3.0,1.0,77,54,58,68
+Thu Mar 10 2022,Brooklyn Nets,100,Philadelphia 76ers,,129,100,march,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,3.0,82,45,76,54
+Thu Mar 10 2022,Golden State Warriors,102,Denver Nuggets,,113,102,march,2021-2022,1,4,20.0,4,1,80.0,4,5,9,2.0,1.0,82,47,75,54
+Fri Mar 11 2022,Minnesota Timberwolves,118,Orlando Magic,,110,118,march,2021-2022,3,2,60.0,1,4,20.0,2,0,2,2.0,2.0,36,94,58,73
+Fri Mar 11 2022,Los Angeles Clippers,112,Atlanta Hawks,,106,112,march,2021-2022,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,65,64,78,54
+Fri Mar 11 2022,Detroit Pistons,114,Boston Celtics,,103,114,march,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,74,57,37,92
+Fri Mar 11 2022,Dallas Mavericks,100,Houston Rockets,,113,100,march,2021-2022,2,3,40.0,1,4,20.0,0,4,4,2.0,2.0,33,96,75,53
+Fri Mar 11 2022,New York Knicks,118,Memphis Grizzlies,,114,118,march,2021-2022,2,3,40.0,5,0,100.0,2,0,2,2.0,3.0,77,52,63,66
+Fri Mar 11 2022,Cleveland Cavaliers,117,Miami Heat,,105,117,march,2021-2022,2,3,40.0,2,3,40.0,1,2,3,3.0,2.0,77,53,59,69
+Fri Mar 11 2022,Charlotte Hornets,120,New Orleans Pelicans,,142,120,march,2021-2022,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,55,74,62,67
+Fri Mar 11 2022,Utah Jazz,104,San Antonio Spurs,,102,104,march,2021-2022,2,3,40.0,4,1,80.0,2,1,3,2.0,2.0,56,72,86,42
+Fri Mar 11 2022,Toronto Raptors,112,Phoenix Suns,,117,112,march,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,98,31,61,67
+Fri Mar 11 2022,Washington Wizards,122,Los Angeles Lakers,,109,122,march,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,64,64,58,69
+Sat Mar 12 2022,Cleveland Cavaliers,101,Chicago Bulls,,91,101,march,2021-2022,4,1,80.0,3,2,60.0,3,1,4,1.0,3.0,66,63,59,70
+Sat Mar 12 2022,Minnesota Timberwolves,104,Miami Heat,,113,104,march,2021-2022,1,4,20.0,2,3,40.0,0,2,2,1.0,1.0,78,53,58,74
+Sat Mar 12 2022,Indiana Pacers,108,San Antonio Spurs,,119,108,march,2021-2022,1,4,20.0,4,1,80.0,0,2,2,4.0,1.0,57,72,51,78
+Sat Mar 12 2022,Milwaukee Bucks,122,Golden State Warriors,,109,122,march,2021-2022,4,1,80.0,2,3,40.0,1,1,2,3.0,2.0,76,54,81,49
+Sat Mar 12 2022,Toronto Raptors,115,Denver Nuggets,,127,115,march,2021-2022,1,4,20.0,3,2,60.0,1,1,2,1.0,2.0,82,48,62,67
+Sat Mar 12 2022,Sacramento Kings,134,Utah Jazz,,125,134,march,2021-2022,4,1,80.0,3,2,60.0,4,0,4,3.0,1.0,86,43,50,81
+Sat Mar 12 2022,Washington Wizards,127,Portland Trail Blazers,,118,127,march,2021-2022,4,1,80.0,2,3,40.0,2,0,2,1.0,3.0,60,68,58,70
+Sun Mar 13 2022,New York Knicks,110,Brooklyn Nets,,107,110,march,2021-2022,4,1,80.0,5,0,100.0,4,0,4,2.0,3.0,77,54,63,67
+Sun Mar 13 2022,Los Angeles Clippers,102,Detroit Pistons,,106,102,march,2021-2022,2,3,40.0,2,3,40.0,0,2,2,2.0,2.0,37,93,78,55
+Sun Mar 13 2022,Dallas Mavericks,92,Boston Celtics,,95,92,march,2021-2022,1,4,20.0,1,4,20.0,0,2,2,2.0,2.0,75,57,76,53
+Sun Mar 13 2022,Philadelphia 76ers,114,Orlando Magic,OT,116,114,march,2021-2022,3,2,60.0,1,4,20.0,0,4,4,3.0,2.0,37,94,82,46
+Sun Mar 13 2022,Indiana Pacers,131,Atlanta Hawks,,128,131,march,2021-2022,3,2,60.0,4,1,80.0,4,0,4,1.0,2.0,66,64,52,78
+Sun Mar 13 2022,Houston Rockets,130,New Orleans Pelicans,,105,130,march,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,55,75,33,97
+Sun Mar 13 2022,Memphis Grizzlies,118,Oklahoma City Thunder,,125,118,march,2021-2022,2,3,40.0,2,3,40.0,1,2,3,2.0,4.0,41,88,78,52
+Sun Mar 13 2022,Los Angeles Lakers,140,Phoenix Suns,,111,140,march,2021-2022,3,2,60.0,3,2,60.0,4,0,4,2.0,2.0,98,32,65,64
+Mon Mar 14 2022,Los Angeles Clippers,120,Cleveland Cavaliers,OT,111,120,march,2021-2022,4,1,80.0,3,2,60.0,2,0,2,1.0,2.0,59,71,79,55
+Mon Mar 14 2022,Portland Trail Blazers,122,Atlanta Hawks,,113,122,march,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,1.0,67,64,61,68
+Mon Mar 14 2022,Denver Nuggets,110,Philadelphia 76ers,,114,110,march,2021-2022,2,3,40.0,1,4,20.0,1,1,2,2.0,1.0,83,46,82,49
+Mon Mar 14 2022,Charlotte Hornets,116,Oklahoma City Thunder,,134,116,march,2021-2022,1,4,20.0,2,3,40.0,0,2,2,3.0,1.0,41,89,63,67
+Mon Mar 14 2022,Minnesota Timberwolves,139,San Antonio Spurs,,149,139,march,2021-2022,1,4,20.0,2,3,40.0,0,3,3,2.0,2.0,57,73,59,74
+Mon Mar 14 2022,Washington Wizards,126,Golden State Warriors,,112,126,march,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,77,54,58,71
+Mon Mar 14 2022,Chicago Bulls,112,Sacramento Kings,,103,112,march,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,50,82,67,63
+Mon Mar 14 2022,Milwaukee Bucks,111,Utah Jazz,,117,111,march,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,87,43,81,50
+Mon Mar 14 2022,Toronto Raptors,103,Los Angeles Lakers,,114,103,march,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,1.0,65,65,63,67
+Tue Mar 15 2022,Memphis Grizzlies,102,Indiana Pacers,,135,102,march,2021-2022,4,1,80.0,2,3,40.0,0,2,2,2.0,2.0,52,79,79,52
+Tue Mar 15 2022,Brooklyn Nets,108,Orlando Magic,,150,108,march,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,37,95,78,54
+Tue Mar 15 2022,Detroit Pistons,105,Miami Heat,,98,105,march,2021-2022,0,5,0.0,1,4,20.0,3,1,4,2.0,3.0,78,54,37,94
+Tue Mar 15 2022,Phoenix Suns,115,New Orleans Pelicans,,131,115,march,2021-2022,2,3,40.0,3,2,60.0,3,7,10,2.0,2.0,56,75,99,32
+Wed Mar 16 2022,Atlanta Hawks,116,Charlotte Hornets,,106,116,march,2021-2022,2,3,40.0,2,3,40.0,2,3,5,2.0,2.0,64,67,68,64
+Wed Mar 16 2022,Philadelphia 76ers,114,Cleveland Cavaliers,,118,114,march,2021-2022,3,2,60.0,2,3,40.0,0,4,4,2.0,2.0,60,71,83,47
+Wed Mar 16 2022,Denver Nuggets,109,Washington Wizards,,127,109,march,2021-2022,4,1,80.0,2,3,40.0,0,2,2,2.0,2.0,58,72,83,49
+Wed Mar 16 2022,Dallas Mavericks,111,Brooklyn Nets,,113,111,march,2021-2022,4,1,80.0,2,3,40.0,1,1,2,3.0,1.0,79,54,77,53
+Wed Mar 16 2022,Portland Trail Blazers,128,New York Knicks,,98,128,march,2021-2022,5,0,100.0,4,1,80.0,1,1,2,2.0,3.0,63,68,61,69
+Wed Mar 16 2022,Phoenix Suns,112,Houston Rockets,,129,112,march,2021-2022,2,3,40.0,3,2,60.0,0,4,4,1.0,3.0,33,98,100,32
+Wed Mar 16 2022,Los Angeles Lakers,124,Minnesota Timberwolves,,104,124,march,2021-2022,3,2,60.0,3,2,60.0,3,1,4,2.0,2.0,60,74,65,66
+Wed Mar 16 2022,Oklahoma City Thunder,122,San Antonio Spurs,,120,122,march,2021-2022,0,5,0.0,1,4,20.0,3,1,4,2.0,2.0,57,74,41,90
+Wed Mar 16 2022,Chicago Bulls,125,Utah Jazz,,110,125,march,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,87,44,67,64
+Wed Mar 16 2022,Boston Celtics,88,Golden State Warriors,,110,88,march,2021-2022,2,3,40.0,1,4,20.0,1,1,2,3.0,2.0,78,54,75,58
+Wed Mar 16 2022,Milwaukee Bucks,126,Sacramento Kings,,135,126,march,2021-2022,2,3,40.0,3,2,60.0,0,2,2,2.0,2.0,51,82,82,50
+Wed Mar 16 2022,Toronto Raptors,100,Los Angeles Clippers,,103,100,march,2021-2022,4,1,80.0,5,0,100.0,0,2,2,2.0,2.0,79,56,64,67
+Thu Mar 17 2022,Detroit Pistons,120,Orlando Magic,,134,120,march,2021-2022,1,4,20.0,2,3,40.0,1,3,4,2.0,2.0,37,96,37,95
+Fri Mar 18 2022,Dallas Mavericks,111,Philadelphia 76ers,,101,111,march,2021-2022,2,3,40.0,3,2,60.0,1,1,2,2.0,2.0,84,47,78,53
+Fri Mar 18 2022,Memphis Grizzlies,120,Atlanta Hawks,,105,120,march,2021-2022,2,3,40.0,3,2,60.0,2,0,2,3.0,2.0,68,65,80,52
+Fri Mar 18 2022,Portland Trail Blazers,128,Brooklyn Nets,,123,128,march,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,79,55,61,70
+Fri Mar 18 2022,Denver Nuggets,119,Cleveland Cavaliers,OT,116,119,march,2021-2022,3,2,60.0,3,2,60.0,2,0,2,2.0,2.0,60,72,84,49
+Fri Mar 18 2022,Washington Wizards,100,New York Knicks,,97,100,march,2021-2022,4,1,80.0,4,1,80.0,2,1,3,2.0,2.0,64,68,58,73
+Fri Mar 18 2022,Los Angeles Lakers,123,Toronto Raptors,OT,128,123,march,2021-2022,5,0,100.0,3,2,60.0,1,1,2,2.0,2.0,65,67,65,67
+Fri Mar 18 2022,Indiana Pacers,118,Houston Rockets,,121,118,march,2021-2022,2,3,40.0,3,2,60.0,0,2,2,3.0,2.0,33,99,52,80
+Fri Mar 18 2022,Oklahoma City Thunder,120,Miami Heat,,108,120,march,2021-2022,0,5,0.0,2,3,40.0,2,0,2,2.0,3.0,79,54,41,91
+Fri Mar 18 2022,New Orleans Pelicans,91,San Antonio Spurs,,124,91,march,2021-2022,0,5,0.0,1,4,20.0,3,2,5,3.0,2.0,58,74,56,76
+Fri Mar 18 2022,Los Angeles Clippers,121,Utah Jazz,,92,121,march,2021-2022,1,4,20.0,3,2,60.0,2,1,3,2.0,2.0,88,44,79,57
+Fri Mar 18 2022,Chicago Bulls,129,Phoenix Suns,,102,129,march,2021-2022,3,2,60.0,4,1,80.0,2,0,2,2.0,2.0,101,32,67,65
+Fri Mar 18 2022,Boston Celtics,97,Sacramento Kings,,126,97,march,2021-2022,1,4,20.0,2,3,40.0,0,2,2,2.0,2.0,51,83,76,58
+Sat Mar 19 2022,Milwaukee Bucks,138,Minnesota Timberwolves,,119,138,march,2021-2022,3,2,60.0,4,1,80.0,2,0,2,3.0,3.0,61,74,83,50
+Sat Mar 19 2022,Dallas Mavericks,129,Charlotte Hornets,,108,129,march,2021-2022,2,3,40.0,4,1,80.0,1,1,2,1.0,3.0,65,67,78,54
+Sat Mar 19 2022,Detroit Pistons,113,Cleveland Cavaliers,,109,113,march,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,1.0,61,72,38,95
+Sat Mar 19 2022,Los Angeles Lakers,127,Washington Wizards,,119,127,march,2021-2022,4,1,80.0,3,2,60.0,1,1,2,1.0,1.0,58,74,66,67
+Sun Mar 20 2022,Memphis Grizzlies,98,Houston Rockets,,122,98,march,2021-2022,1,4,20.0,3,2,60.0,1,3,4,2.0,2.0,33,100,80,53
+Sun Mar 20 2022,Portland Trail Blazers,129,Indiana Pacers,,98,129,march,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,2.0,53,80,61,71
+Sun Mar 20 2022,New Orleans Pelicans,112,Atlanta Hawks,,117,112,march,2021-2022,1,4,20.0,1,4,20.0,1,1,2,2.0,2.0,69,65,57,76
+Sun Mar 20 2022,Oklahoma City Thunder,90,Orlando Magic,,85,90,march,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,3.0,37,97,41,92
+Sun Mar 20 2022,Phoenix Suns,124,Sacramento Kings,OT,127,124,march,2021-2022,1,4,20.0,2,3,40.0,2,2,4,2.0,2.0,51,84,102,32
+Sun Mar 20 2022,Utah Jazz,93,New York Knicks,,108,93,march,2021-2022,3,2,60.0,1,4,20.0,0,2,2,2.0,2.0,65,68,89,44
+Sun Mar 20 2022,Boston Celtics,104,Denver Nuggets,,124,104,march,2021-2022,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,84,50,77,58
+Sun Mar 20 2022,San Antonio Spurs,108,Golden State Warriors,,110,108,march,2021-2022,1,4,20.0,0,5,0.0,2,2,4,2.0,4.0,78,55,58,75
+Sun Mar 20 2022,Toronto Raptors,88,Philadelphia 76ers,,93,88,march,2021-2022,2,3,40.0,4,1,80.0,5,5,10,2.0,2.0,85,47,65,68
+Mon Mar 21 2022,New Orleans Pelicans,106,Charlotte Hornets,,103,106,march,2021-2022,2,3,40.0,2,3,40.0,2,0,2,1.0,2.0,66,67,58,76
+Mon Mar 21 2022,Los Angeles Lakers,120,Cleveland Cavaliers,,131,120,march,2021-2022,1,4,20.0,4,1,80.0,0,2,2,2.0,2.0,62,72,66,68
+Mon Mar 21 2022,Portland Trail Blazers,115,Detroit Pistons,,119,115,march,2021-2022,4,1,80.0,4,1,80.0,0,2,2,1.0,2.0,38,96,61,72
+Mon Mar 21 2022,Utah Jazz,114,Brooklyn Nets,,106,114,march,2021-2022,2,3,40.0,1,4,20.0,1,1,2,1.0,3.0,80,55,90,44
+Mon Mar 21 2022,Miami Heat,113,Philadelphia 76ers,,106,113,march,2021-2022,2,3,40.0,0,5,0.0,2,2,4,3.0,1.0,85,48,80,54
+Mon Mar 21 2022,Toronto Raptors,113,Chicago Bulls,,99,113,march,2021-2022,4,1,80.0,4,1,80.0,3,1,4,1.0,3.0,67,66,66,68
+Mon Mar 21 2022,Washington Wizards,115,Houston Rockets,,97,115,march,2021-2022,1,4,20.0,3,2,60.0,2,0,2,2.0,1.0,33,101,59,74
+Mon Mar 21 2022,Boston Celtics,123,Oklahoma City Thunder,,132,123,march,2021-2022,3,2,60.0,3,2,60.0,0,2,2,1.0,1.0,41,93,78,58
+Mon Mar 21 2022,Minnesota Timberwolves,110,Dallas Mavericks,,108,110,march,2021-2022,5,0,100.0,3,2,60.0,2,2,4,2.0,2.0,78,55,62,74
+Tue Mar 22 2022,Golden State Warriors,94,Orlando Magic,,90,94,march,2021-2022,0,5,0.0,1,4,20.0,1,1,2,2.0,2.0,38,97,78,56
+Tue Mar 22 2022,Atlanta Hawks,111,New York Knicks,,117,111,march,2021-2022,2,3,40.0,1,4,20.0,3,1,4,2.0,2.0,65,69,69,66
+Tue Mar 22 2022,Chicago Bulls,126,Milwaukee Bucks,,98,126,march,2021-2022,4,1,80.0,3,2,60.0,8,1,9,1.0,3.0,83,51,68,66
+Tue Mar 22 2022,Los Angeles Clippers,127,Denver Nuggets,,115,127,march,2021-2022,3,2,60.0,4,1,80.0,3,1,4,4.0,2.0,84,51,79,58
+Wed Mar 23 2022,New York Knicks,106,Charlotte Hornets,,121,106,march,2021-2022,2,3,40.0,1,4,20.0,3,1,4,1.0,2.0,67,67,65,70
+Wed Mar 23 2022,Atlanta Hawks,122,Detroit Pistons,,101,122,march,2021-2022,3,2,60.0,2,3,40.0,2,1,3,1.0,2.0,38,97,70,66
+Wed Mar 23 2022,Sacramento Kings,109,Indiana Pacers,,110,109,march,2021-2022,3,2,60.0,1,4,20.0,1,1,2,3.0,3.0,54,80,51,85
+Wed Mar 23 2022,Utah Jazz,125,Boston Celtics,,97,125,march,2021-2022,4,1,80.0,2,3,40.0,1,1,2,2.0,2.0,79,58,90,45
+Wed Mar 23 2022,Brooklyn Nets,132,Memphis Grizzlies,,120,132,march,2021-2022,4,1,80.0,1,4,20.0,2,0,2,2.0,3.0,81,53,81,55
+Wed Mar 23 2022,Golden State Warriors,104,Miami Heat,,118,104,march,2021-2022,1,4,20.0,1,4,20.0,0,2,2,1.0,2.0,80,55,78,57
+Wed Mar 23 2022,Phoenix Suns,116,Minnesota Timberwolves,,125,116,march,2021-2022,3,2,60.0,3,2,60.0,0,3,3,3.0,2.0,62,75,103,32
+Wed Mar 23 2022,Orlando Magic,118,Oklahoma City Thunder,,102,118,march,2021-2022,3,2,60.0,0,5,0.0,1,1,2,1.0,2.0,41,94,39,97
+Wed Mar 23 2022,Houston Rockets,110,Dallas Mavericks,,91,110,march,2021-2022,4,1,80.0,1,4,20.0,4,0,4,2.0,2.0,79,55,34,101
+Wed Mar 23 2022,Philadelphia 76ers,121,Los Angeles Lakers,,126,121,march,2021-2022,4,1,80.0,1,4,20.0,0,2,2,2.0,2.0,67,68,86,48
+Wed Mar 23 2022,San Antonio Spurs,96,Portland Trail Blazers,,133,96,march,2021-2022,5,0,100.0,1,4,20.0,0,4,4,3.0,2.0,62,72,59,75
+Thu Mar 24 2022,Cleveland Cavaliers,117,Toronto Raptors,,104,117,march,2021-2022,4,1,80.0,0,5,0.0,1,3,4,3.0,3.0,66,69,62,73
+Thu Mar 24 2022,Indiana Pacers,133,Memphis Grizzlies,,103,133,march,2021-2022,4,1,80.0,2,3,40.0,2,0,2,1.0,1.0,82,53,54,81
+Thu Mar 24 2022,Washington Wizards,114,Milwaukee Bucks,,102,114,march,2021-2022,4,1,80.0,3,2,60.0,2,1,3,3.0,2.0,84,51,59,75
+Thu Mar 24 2022,Chicago Bulls,126,New Orleans Pelicans,,109,126,march,2021-2022,3,2,60.0,4,1,80.0,1,1,2,2.0,3.0,58,77,68,67
+Thu Mar 24 2022,Phoenix Suns,130,Denver Nuggets,,140,130,march,2021-2022,3,2,60.0,4,1,80.0,1,2,3,1.0,2.0,85,51,104,32
+Fri Mar 25 2022,Utah Jazz,107,Charlotte Hornets,,101,107,march,2021-2022,1,4,20.0,3,2,60.0,1,1,2,2.0,2.0,67,68,90,46
+Fri Mar 25 2022,Washington Wizards,97,Detroit Pistons,,100,97,march,2021-2022,3,2,60.0,3,2,60.0,0,4,4,1.0,2.0,39,97,59,76
+Fri Mar 25 2022,Golden State Warriors,121,Atlanta Hawks,,110,121,march,2021-2022,3,2,60.0,2,3,40.0,1,1,2,2.0,2.0,70,67,79,57
+Fri Mar 25 2022,New York Knicks,103,Miami Heat,,111,103,march,2021-2022,1,4,20.0,1,4,20.0,2,1,3,2.0,2.0,80,56,66,70
+Fri Mar 25 2022,Dallas Mavericks,116,Minnesota Timberwolves,,95,116,march,2021-2022,2,3,40.0,3,2,60.0,2,2,4,2.0,2.0,62,76,80,55
+Fri Mar 25 2022,Houston Rockets,106,Portland Trail Blazers,,125,106,march,2021-2022,4,1,80.0,1,4,20.0,2,2,4,2.0,2.0,62,73,34,102
+Fri Mar 25 2022,Philadelphia 76ers,97,Los Angeles Clippers,,122,97,march,2021-2022,4,1,80.0,2,3,40.0,1,1,2,2.0,3.0,79,59,87,48
+Sat Mar 26 2022,San Antonio Spurs,103,New Orleans Pelicans,,107,103,march,2021-2022,3,2,60.0,2,3,40.0,2,3,5,3.0,2.0,59,77,60,75
+Sat Mar 26 2022,Sacramento Kings,110,Orlando Magic,OT,114,110,march,2021-2022,1,4,20.0,1,4,20.0,0,2,2,3.0,3.0,39,98,52,85
+Sat Mar 26 2022,Indiana Pacers,131,Toronto Raptors,,91,131,march,2021-2022,3,2,60.0,2,3,40.0,3,1,4,2.0,2.0,67,69,54,82
+Sat Mar 26 2022,Chicago Bulls,94,Cleveland Cavaliers,,98,94,march,2021-2022,1,4,20.0,4,1,80.0,1,3,4,2.0,2.0,62,74,68,68
+Sat Mar 26 2022,Milwaukee Bucks,127,Memphis Grizzlies,,102,127,march,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,83,53,85,51
+Sat Mar 26 2022,Brooklyn Nets,95,Miami Heat,,110,95,march,2021-2022,1,4,20.0,2,3,40.0,3,1,4,3.0,1.0,80,57,81,56
+Sat Mar 26 2022,Oklahoma City Thunder,113,Denver Nuggets,,107,113,march,2021-2022,2,3,40.0,3,2,60.0,2,2,4,3.0,2.0,85,52,42,94
+Sat Mar 26 2022,Houston Rockets,98,Portland Trail Blazers,,115,98,march,2021-2022,3,2,60.0,2,3,40.0,2,2,4,1.0,1.0,62,74,35,102
+Sun Mar 27 2022,New York Knicks,102,Detroit Pistons,,104,102,march,2021-2022,2,3,40.0,2,3,40.0,0,3,3,2.0,2.0,39,98,67,70
+Sun Mar 27 2022,Minnesota Timberwolves,134,Boston Celtics,,112,134,march,2021-2022,4,1,80.0,1,4,20.0,1,1,2,2.0,4.0,80,58,63,76
+Sun Mar 27 2022,Philadelphia 76ers,114,Phoenix Suns,,104,114,march,2021-2022,4,1,80.0,2,3,40.0,2,0,2,2.0,3.0,105,32,88,48
+Sun Mar 27 2022,Golden State Warriors,123,Washington Wizards,,115,123,march,2021-2022,4,1,80.0,3,2,60.0,1,1,2,2.0,2.0,60,76,79,58
+Sun Mar 27 2022,Los Angeles Lakers,116,New Orleans Pelicans,,108,116,march,2021-2022,3,2,60.0,4,1,80.0,3,0,3,4.0,1.0,59,78,67,69
+Sun Mar 27 2022,Charlotte Hornets,110,Brooklyn Nets,,119,110,march,2021-2022,2,3,40.0,0,5,0.0,1,2,3,2.0,1.0,82,56,68,68
+Sun Mar 27 2022,Utah Jazz,114,Dallas Mavericks,,100,114,march,2021-2022,3,2,60.0,4,1,80.0,6,4,10,2.0,2.0,80,56,90,47
+Mon Mar 28 2022,Denver Nuggets,109,Charlotte Hornets,,113,109,march,2021-2022,1,4,20.0,1,4,20.0,1,1,2,2.0,1.0,69,68,86,52
+Mon Mar 28 2022,Orlando Magic,107,Cleveland Cavaliers,,101,107,march,2021-2022,1,4,20.0,1,4,20.0,2,1,3,2.0,2.0,62,75,39,99
+Mon Mar 28 2022,Atlanta Hawks,123,Indiana Pacers,,132,123,march,2021-2022,3,2,60.0,2,3,40.0,0,4,4,3.0,2.0,54,83,71,67
+Mon Mar 28 2022,Sacramento Kings,123,Miami Heat,,100,123,march,2021-2022,1,4,20.0,2,3,40.0,1,1,2,2.0,2.0,80,58,53,85
+Mon Mar 28 2022,Chicago Bulls,109,New York Knicks,,104,109,march,2021-2022,3,2,60.0,4,1,80.0,2,2,4,2.0,1.0,68,70,69,68
+Mon Mar 28 2022,Boston Celtics,115,Toronto Raptors,OT,112,115,march,2021-2022,2,3,40.0,3,2,60.0,2,2,4,1.0,2.0,68,69,81,58
+Mon Mar 28 2022,San Antonio Spurs,120,Houston Rockets,,123,120,march,2021-2022,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,36,102,61,75
+Mon Mar 28 2022,Golden State Warriors,123,Memphis Grizzlies,,95,123,march,2021-2022,2,3,40.0,4,1,80.0,3,1,4,1.0,2.0,84,53,79,59
+Mon Mar 28 2022,Oklahoma City Thunder,131,Portland Trail Blazers,OT,134,131,march,2021-2022,2,3,40.0,3,2,60.0,0,4,4,2.0,2.0,62,75,42,95
+Tue Mar 29 2022,Milwaukee Bucks,116,Philadelphia 76ers,,118,116,march,2021-2022,3,2,60.0,3,2,60.0,1,2,3,3.0,2.0,88,49,85,52
+Tue Mar 29 2022,Chicago Bulls,94,Washington Wizards,,107,94,march,2021-2022,3,2,60.0,4,1,80.0,0,3,3,1.0,2.0,61,76,69,69
+Tue Mar 29 2022,Detroit Pistons,130,Brooklyn Nets,,123,130,march,2021-2022,2,3,40.0,1,4,20.0,4,0,4,2.0,2.0,82,57,39,99
+Tue Mar 29 2022,Los Angeles Lakers,128,Dallas Mavericks,,110,128,march,2021-2022,2,3,40.0,4,1,80.0,2,1,3,2.0,2.0,81,56,67,70
+Tue Mar 29 2022,Utah Jazz,121,Los Angeles Clippers,,115,121,march,2021-2022,3,2,60.0,5,0,100.0,1,2,3,2.0,4.0,79,60,90,48
+Wed Mar 30 2022,Dallas Mavericks,112,Cleveland Cavaliers,,120,112,march,2021-2022,1,4,20.0,1,4,20.0,1,1,2,1.0,2.0,63,75,82,56
+Wed Mar 30 2022,Denver Nuggets,118,Indiana Pacers,,125,118,march,2021-2022,2,3,40.0,1,4,20.0,0,2,2,2.0,2.0,54,84,87,52
+Wed Mar 30 2022,Orlando Magic,127,Washington Wizards,,110,127,march,2021-2022,3,2,60.0,2,3,40.0,4,0,4,2.0,1.0,61,77,39,100
+Wed Mar 30 2022,Miami Heat,98,Boston Celtics,,106,98,march,2021-2022,3,2,60.0,1,4,20.0,2,1,3,2.0,2.0,81,59,81,58
+Wed Mar 30 2022,Charlotte Hornets,114,New York Knicks,,125,114,march,2021-2022,3,2,60.0,1,4,20.0,1,3,4,2.0,2.0,69,70,69,69
+Wed Mar 30 2022,Minnesota Timberwolves,125,Toronto Raptors,,102,125,march,2021-2022,2,3,40.0,2,3,40.0,2,0,2,3.0,2.0,69,69,63,77
+Wed Mar 30 2022,Sacramento Kings,118,Houston Rockets,,121,118,march,2021-2022,3,2,60.0,3,2,60.0,1,3,4,2.0,2.0,36,103,53,86
+Wed Mar 30 2022,Atlanta Hawks,118,Oklahoma City Thunder,,136,118,march,2021-2022,3,2,60.0,3,2,60.0,0,2,2,2.0,2.0,43,95,72,67
+Wed Mar 30 2022,Memphis Grizzlies,111,San Antonio Spurs,,112,111,march,2021-2022,4,1,80.0,1,4,20.0,0,4,4,2.0,2.0,62,75,85,53
+Wed Mar 30 2022,Phoenix Suns,103,Golden State Warriors,,107,103,march,2021-2022,5,0,100.0,3,2,60.0,2,2,4,3.0,2.0,79,60,106,32
+Wed Mar 30 2022,New Orleans Pelicans,107,Portland Trail Blazers,,117,107,march,2021-2022,1,4,20.0,2,3,40.0,0,3,3,3.0,2.0,62,76,60,78
+Thu Mar 31 2022,Philadelphia 76ers,102,Detroit Pistons,,94,102,march,2021-2022,1,4,20.0,3,2,60.0,1,3,4,2.0,2.0,39,100,88,50
+Thu Mar 31 2022,Cleveland Cavaliers,131,Atlanta Hawks,,107,131,march,2021-2022,4,1,80.0,1,4,20.0,4,1,5,1.0,1.0,73,67,63,76
+Thu Mar 31 2022,Milwaukee Bucks,119,Brooklyn Nets,OT,120,119,march,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,83,57,86,52
+Thu Mar 31 2022,Los Angeles Clippers,135,Chicago Bulls,OT,130,135,march,2021-2022,5,0,100.0,2,3,40.0,2,0,2,2.0,2.0,70,69,80,60
+Thu Mar 31 2022,Los Angeles Lakers,122,Utah Jazz,,109,122,march,2021-2022,5,0,100.0,4,1,80.0,1,2,3,2.0,2.0,90,49,67,71
+Fri Apr 1 2022,Toronto Raptors,89,Orlando Magic,,102,89,april,2021-2022,3,2,60.0,1,4,20.0,1,2,3,2.0,2.0,39,101,70,69
+Fri Apr 1 2022,Dallas Mavericks,135,Washington Wizards,,103,135,april,2021-2022,2,3,40.0,2,3,40.0,2,0,2,2.0,2.0,62,77,83,56
+Fri Apr 1 2022,Indiana Pacers,128,Boston Celtics,,123,128,april,2021-2022,2,3,40.0,2,3,40.0,3,1,4,2.0,2.0,81,60,54,85
+Fri Apr 1 2022,Sacramento Kings,117,Houston Rockets,,122,117,april,2021-2022,3,2,60.0,4,1,80.0,1,3,4,2.0,2.0,36,104,54,86
+Fri Apr 1 2022,Phoenix Suns,122,Memphis Grizzlies,,114,122,april,2021-2022,1,4,20.0,4,1,80.0,2,1,3,2.0,2.0,86,53,107,32
+Fri Apr 1 2022,Los Angeles Clippers,119,Milwaukee Bucks,,153,119,april,2021-2022,3,2,60.0,3,2,60.0,1,1,2,1.0,1.0,87,52,80,61
+Fri Apr 1 2022,Detroit Pistons,101,Oklahoma City Thunder,,110,101,april,2021-2022,2,3,40.0,1,4,20.0,1,1,2,1.0,2.0,43,96,40,100
+Fri Apr 1 2022,Portland Trail Blazers,130,San Antonio Spurs,,111,130,april,2021-2022,4,1,80.0,0,5,0.0,4,0,4,2.0,2.0,62,76,62,77
+Fri Apr 1 2022,Minnesota Timberwolves,130,Denver Nuggets,,136,130,april,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,2.0,88,52,63,78
+Fri Apr 1 2022,New Orleans Pelicans,111,Los Angeles Lakers,,114,111,april,2021-2022,4,1,80.0,2,3,40.0,0,3,3,2.0,1.0,67,72,61,78
+Sat Apr 2 2022,Charlotte Hornets,144,Philadelphia 76ers,,114,144,april,2021-2022,4,1,80.0,2,3,40.0,3,1,4,3.0,2.0,88,51,70,69
+Sat Apr 2 2022,Cleveland Cavaliers,101,New York Knicks,,119,101,april,2021-2022,3,2,60.0,2,3,40.0,0,3,3,2.0,3.0,69,71,63,77
+Sat Apr 2 2022,Brooklyn Nets,122,Atlanta Hawks,,115,122,april,2021-2022,3,2,60.0,2,3,40.0,1,2,3,2.0,2.0,74,67,83,58
+Sat Apr 2 2022,Miami Heat,109,Chicago Bulls,,127,109,april,2021-2022,4,1,80.0,1,4,20.0,0,4,4,3.0,2.0,71,69,82,58
+Sat Apr 2 2022,Utah Jazz,111,Golden State Warriors,,107,111,april,2021-2022,4,1,80.0,4,1,80.0,3,1,4,2.0,3.0,79,61,91,49
+Sun Apr 3 2022,Washington Wizards,144,Boston Celtics,,102,144,april,2021-2022,1,4,20.0,1,4,20.0,2,2,4,2.0,2.0,82,60,63,77
+Sun Apr 3 2022,Dallas Mavericks,112,Milwaukee Bucks,,118,112,april,2021-2022,3,2,60.0,3,2,60.0,1,1,2,2.0,2.0,87,53,83,57
+Sun Apr 3 2022,Denver Nuggets,118,Los Angeles Lakers,,129,118,april,2021-2022,3,2,60.0,2,3,40.0,1,2,3,2.0,2.0,67,73,88,53
+Sun Apr 3 2022,Detroit Pistons,117,Indiana Pacers,,121,117,april,2021-2022,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,54,86,41,100
+Sun Apr 3 2022,Philadelphia 76ers,108,Cleveland Cavaliers,,112,108,april,2021-2022,2,3,40.0,3,2,60.0,0,4,4,1.0,1.0,64,77,89,51
+Sun Apr 3 2022,New York Knicks,88,Orlando Magic,,118,88,april,2021-2022,3,2,60.0,2,3,40.0,2,2,4,1.0,2.0,39,102,69,72
+Sun Apr 3 2022,Minnesota Timberwolves,132,Houston Rockets,,139,132,april,2021-2022,2,3,40.0,3,2,60.0,0,3,3,2.0,2.0,36,105,64,78
+Sun Apr 3 2022,Phoenix Suns,117,Oklahoma City Thunder,,96,117,april,2021-2022,2,3,40.0,4,1,80.0,1,3,4,2.0,2.0,43,97,107,33
+Sun Apr 3 2022,Portland Trail Blazers,113,San Antonio Spurs,,92,113,april,2021-2022,3,2,60.0,1,4,20.0,4,0,4,2.0,2.0,63,76,62,78
+Sun Apr 3 2022,Miami Heat,109,Toronto Raptors,,114,109,april,2021-2022,1,4,20.0,2,3,40.0,2,2,4,1.0,2.0,71,69,83,58
+Sun Apr 3 2022,Golden State Warriors,90,Sacramento Kings,,109,90,april,2021-2022,5,0,100.0,3,2,60.0,0,4,4,1.0,2.0,55,86,80,61
+Sun Apr 3 2022,New Orleans Pelicans,119,Los Angeles Clippers,,100,119,april,2021-2022,3,2,60.0,2,3,40.0,1,4,5,2.0,2.0,81,61,62,78
+Tue Apr 5 2022,Philadelphia 76ers,122,Indiana Pacers,,131,122,april,2021-2022,2,3,40.0,3,2,60.0,1,2,3,2.0,2.0,54,87,90,51
+Tue Apr 5 2022,Cleveland Cavaliers,120,Orlando Magic,,115,120,april,2021-2022,2,3,40.0,2,3,40.0,1,2,3,2.0,2.0,39,103,64,78
+Tue Apr 5 2022,Houston Rockets,118,Brooklyn Nets,,105,118,april,2021-2022,2,3,40.0,1,4,20.0,1,1,2,2.0,3.0,83,59,36,106
+Tue Apr 5 2022,Charlotte Hornets,144,Miami Heat,,115,144,april,2021-2022,3,2,60.0,3,2,60.0,4,0,4,3.0,2.0,84,58,70,70
+Tue Apr 5 2022,Atlanta Hawks,118,Toronto Raptors,,108,118,april,2021-2022,1,4,20.0,2,3,40.0,3,1,4,3.0,2.0,71,70,75,67
+Tue Apr 5 2022,Milwaukee Bucks,106,Chicago Bulls,,127,106,april,2021-2022,3,2,60.0,3,2,60.0,1,8,9,2.0,3.0,71,70,87,54
+Tue Apr 5 2022,Washington Wizards,114,Minnesota Timberwolves,,132,114,april,2021-2022,4,1,80.0,1,4,20.0,0,2,2,2.0,2.0,65,78,63,78
+Tue Apr 5 2022,Portland Trail Blazers,98,Oklahoma City Thunder,,94,98,april,2021-2022,2,3,40.0,2,3,40.0,4,0,4,2.0,2.0,44,97,62,79
+Tue Apr 5 2022,San Antonio Spurs,97,Denver Nuggets,,116,97,april,2021-2022,3,2,60.0,2,3,40.0,2,2,4,2.0,2.0,89,53,64,76
+Tue Apr 5 2022,Memphis Grizzlies,121,Utah Jazz,OT,115,121,april,2021-2022,4,1,80.0,1,4,20.0,1,2,3,4.0,3.0,91,50,87,53
+Tue Apr 5 2022,New Orleans Pelicans,109,Sacramento Kings,,123,109,april,2021-2022,4,1,80.0,3,2,60.0,2,2,4,2.0,2.0,55,87,62,79
+Tue Apr 5 2022,Los Angeles Lakers,121,Phoenix Suns,,110,121,april,2021-2022,4,1,80.0,3,2,60.0,4,0,4,2.0,2.0,107,34,67,74
+Wed Apr 6 2022,Dallas Mavericks,113,Detroit Pistons,,131,113,april,2021-2022,3,2,60.0,3,2,60.0,0,2,2,3.0,3.0,42,100,84,57
+Wed Apr 6 2022,Brooklyn Nets,98,New York Knicks,,110,98,april,2021-2022,2,3,40.0,1,4,20.0,0,4,4,1.0,3.0,70,72,84,59
+Wed Apr 6 2022,Washington Wizards,118,Atlanta Hawks,,103,118,april,2021-2022,3,2,60.0,2,3,40.0,3,1,4,1.0,1.0,75,68,64,78
+Wed Apr 6 2022,Boston Celtics,94,Chicago Bulls,,117,94,april,2021-2022,2,3,40.0,1,4,20.0,1,2,3,3.0,1.0,71,71,83,60
+Wed Apr 6 2022,Oklahoma City Thunder,137,Utah Jazz,,101,137,april,2021-2022,3,2,60.0,1,4,20.0,4,0,4,1.0,1.0,92,50,45,97
+Wed Apr 6 2022,Phoenix Suns,113,Los Angeles Clippers,,109,113,april,2021-2022,2,3,40.0,3,2,60.0,2,2,4,1.0,3.0,82,61,108,34
+Thu Apr 7 2022,Orlando Magic,128,Charlotte Hornets,,101,128,april,2021-2022,4,1,80.0,2,3,40.0,3,1,4,2.0,2.0,70,71,40,103
+Thu Apr 7 2022,Boston Celtics,127,Milwaukee Bucks,,121,127,april,2021-2022,3,2,60.0,2,3,40.0,2,2,4,1.0,2.0,88,54,84,60
+Thu Apr 7 2022,Philadelphia 76ers,119,Toronto Raptors,,114,119,april,2021-2022,1,4,20.0,3,2,60.0,5,5,10,2.0,2.0,72,70,91,51
+Thu Apr 7 2022,San Antonio Spurs,127,Minnesota Timberwolves,,121,127,april,2021-2022,4,1,80.0,2,3,40.0,3,0,3,2.0,2.0,65,79,65,76
+Thu Apr 7 2022,Portland Trail Blazers,127,New Orleans Pelicans,,94,127,april,2021-2022,4,1,80.0,3,2,60.0,3,0,3,2.0,2.0,63,79,62,80
+Thu Apr 7 2022,Memphis Grizzlies,122,Denver Nuggets,,109,122,april,2021-2022,3,2,60.0,2,3,40.0,1,3,4,2.0,2.0,89,54,87,54
+Thu Apr 7 2022,Los Angeles Lakers,128,Golden State Warriors,,112,128,april,2021-2022,3,2,60.0,3,2,60.0,3,1,4,2.0,4.0,81,61,67,75
+Fri Apr 8 2022,Milwaukee Bucks,101,Detroit Pistons,,131,101,april,2021-2022,3,2,60.0,2,3,40.0,1,3,4,1.0,2.0,42,101,89,54
+Fri Apr 8 2022,New York Knicks,92,Washington Wizards,,114,92,april,2021-2022,3,2,60.0,1,4,20.0,1,2,3,2.0,2.0,64,79,70,73
+Fri Apr 8 2022,Cleveland Cavaliers,118,Brooklyn Nets,,107,118,april,2021-2022,2,3,40.0,3,2,60.0,4,1,5,3.0,2.0,85,59,64,79
+Fri Apr 8 2022,Houston Rockets,117,Toronto Raptors,,115,117,april,2021-2022,1,4,20.0,1,4,20.0,2,0,2,3.0,1.0,73,70,36,107
+Fri Apr 8 2022,Charlotte Hornets,117,Chicago Bulls,,133,117,april,2021-2022,1,4,20.0,3,2,60.0,2,1,3,1.0,2.0,71,72,71,71
+Fri Apr 8 2022,Atlanta Hawks,113,Miami Heat,,109,113,april,2021-2022,3,2,60.0,2,3,40.0,7,2,9,2.0,3.0,85,58,76,68
+Fri Apr 8 2022,Portland Trail Blazers,128,Dallas Mavericks,,78,128,april,2021-2022,4,1,80.0,4,1,80.0,3,0,3,1.0,2.0,85,57,62,81
+Fri Apr 8 2022,Phoenix Suns,105,Utah Jazz,,111,105,april,2021-2022,2,3,40.0,4,1,80.0,1,3,4,2.0,2.0,93,50,108,35
+Fri Apr 8 2022,Oklahoma City Thunder,120,Los Angeles Lakers,,101,120,april,2021-2022,3,2,60.0,1,4,20.0,2,2,4,2.0,1.0,67,76,45,98
+Sat Apr 9 2022,Indiana Pacers,133,Philadelphia 76ers,,120,133,april,2021-2022,4,1,80.0,1,4,20.0,2,1,3,4.0,2.0,91,52,54,88
+Sat Apr 9 2022,New Orleans Pelicans,141,Memphis Grizzlies,,114,141,april,2021-2022,3,2,60.0,4,1,80.0,3,1,4,2.0,2.0,87,55,64,79
+Sat Apr 9 2022,Golden State Warriors,94,San Antonio Spurs,,100,94,april,2021-2022,2,3,40.0,2,3,40.0,2,2,4,2.0,2.0,65,77,82,61
+Sat Apr 9 2022,Sacramento Kings,117,Los Angeles Clippers,,98,117,april,2021-2022,2,3,40.0,3,2,60.0,2,2,4,4.0,3.0,83,61,55,88
+Sun Apr 10 2022,Indiana Pacers,134,Brooklyn Nets,,126,134,april,2021-2022,2,3,40.0,2,3,40.0,3,0,3,1.0,2.0,86,59,54,89
+Sun Apr 10 2022,Washington Wizards,124,Charlotte Hornets,,108,124,april,2021-2022,4,1,80.0,3,2,60.0,3,1,4,2.0,2.0,72,71,64,80
+Sun Apr 10 2022,Milwaukee Bucks,133,Cleveland Cavaliers,,115,133,april,2021-2022,4,1,80.0,2,3,40.0,3,1,4,2.0,2.0,64,80,90,54
+Sun Apr 10 2022,Atlanta Hawks,114,Houston Rockets,,130,114,april,2021-2022,2,3,40.0,2,3,40.0,1,1,2,2.0,2.0,36,108,76,69
+Sun Apr 10 2022,Boston Celtics,110,Memphis Grizzlies,,139,110,april,2021-2022,3,2,60.0,2,3,40.0,0,2,2,3.0,1.0,88,55,84,61
+Sun Apr 10 2022,Toronto Raptors,105,New York Knicks,,94,105,april,2021-2022,2,3,40.0,1,4,20.0,1,3,4,2.0,2.0,71,73,74,70
+Sun Apr 10 2022,Miami Heat,125,Orlando Magic,,111,125,april,2021-2022,2,3,40.0,3,2,60.0,1,3,4,2.0,3.0,40,104,86,58
+Sun Apr 10 2022,Detroit Pistons,118,Philadelphia 76ers,,106,118,april,2021-2022,3,2,60.0,2,3,40.0,3,1,4,2.0,1.0,92,52,42,102
+Sun Apr 10 2022,Chicago Bulls,120,Minnesota Timberwolves,,124,120,april,2021-2022,3,2,60.0,0,5,0.0,0,2,2,2.0,3.0,66,79,71,73
+Sun Apr 10 2022,San Antonio Spurs,130,Dallas Mavericks,,120,130,april,2021-2022,4,1,80.0,2,3,40.0,4,0,4,1.0,2.0,86,57,65,78
+Sun Apr 10 2022,Los Angeles Lakers,141,Denver Nuggets,OT,146,141,april,2021-2022,2,3,40.0,2,3,40.0,2,1,3,2.0,3.0,90,54,68,76
+Sun Apr 10 2022,Oklahoma City Thunder,138,Los Angeles Clippers,,88,138,april,2021-2022,2,3,40.0,2,3,40.0,2,1,3,2.0,1.0,84,61,45,99
+Sun Apr 10 2022,Golden State Warriors,107,New Orleans Pelicans,,128,107,april,2021-2022,4,1,80.0,2,3,40.0,1,2,3,1.0,1.0,64,80,83,61
+Sun Apr 10 2022,Sacramento Kings,109,Phoenix Suns,,116,109,april,2021-2022,4,1,80.0,3,2,60.0,2,2,4,1.0,2.0,109,35,55,89
+Sun Apr 10 2022,Utah Jazz,80,Portland Trail Blazers,,111,80,april,2021-2022,5,0,100.0,1,4,20.0,0,4,4,2.0,2.0,62,82,93,51
+Tue Apr 12 2022,Cleveland Cavaliers,115,Brooklyn Nets,,108,115,april,2021-2022,2,3,40.0,3,2,60.0,4,1,5,2.0,2.0,87,59,65,80
+Tue Apr 12 2022,Los Angeles Clippers,109,Minnesota Timberwolves,,104,109,april,2021-2022,2,3,40.0,1,4,20.0,2,3,5,2.0,2.0,66,80,85,61
+Wed Apr 13 2022,Charlotte Hornets,132,Atlanta Hawks,,103,132,april,2021-2022,3,2,60.0,3,2,60.0,3,2,5,3.0,3.0,77,69,73,71
+Wed Apr 13 2022,San Antonio Spurs,113,New Orleans Pelicans,,103,113,april,2021-2022,3,2,60.0,3,2,60.0,2,3,5,3.0,3.0,64,81,65,79
+Fri Apr 15 2022,Atlanta Hawks,101,Cleveland Cavaliers,,107,101,april,2021-2022,3,2,60.0,3,2,60.0,1,4,5,2.0,3.0,65,81,78,69
+Fri Apr 15 2022,New Orleans Pelicans,101,Los Angeles Clippers,,105,101,april,2021-2022,1,4,20.0,2,3,40.0,1,4,5,2.0,3.0,85,62,65,81
+Sat Apr 16 2022,Utah Jazz,93,Dallas Mavericks,,99,93,april,2021-2022,3,2,60.0,2,3,40.0,6,4,10,6.0,6.0,87,57,94,51
+Sat Apr 16 2022,Minnesota Timberwolves,117,Memphis Grizzlies,,130,117,april,2021-2022,2,3,40.0,1,4,20.0,6,4,10,4.0,6.0,88,56,67,80
+Sat Apr 16 2022,Toronto Raptors,131,Philadelphia 76ers,,111,131,april,2021-2022,3,2,60.0,1,4,20.0,5,5,10,6.0,6.0,93,52,74,71
+Sat Apr 16 2022,Denver Nuggets,123,Golden State Warriors,,107,123,april,2021-2022,3,2,60.0,1,4,20.0,5,4,9,6.0,6.0,84,61,90,55
+Sun Apr 17 2022,Atlanta Hawks,115,Miami Heat,,91,115,april,2021-2022,3,2,60.0,3,2,60.0,7,2,9,2.0,7.0,86,59,79,69
+Sun Apr 17 2022,Brooklyn Nets,115,Boston Celtics,,114,115,april,2021-2022,3,2,60.0,1,4,20.0,7,1,8,5.0,7.0,85,61,88,59
+Sun Apr 17 2022,Chicago Bulls,93,Milwaukee Bucks,,86,93,april,2021-2022,3,2,60.0,1,4,20.0,8,1,9,7.0,7.0,90,55,72,73
+Sun Apr 17 2022,New Orleans Pelicans,110,Phoenix Suns,,99,110,april,2021-2022,3,2,60.0,2,3,40.0,7,3,10,2.0,7.0,109,36,66,81
+Mon Apr 18 2022,Toronto Raptors,112,Philadelphia 76ers,,97,112,april,2021-2022,2,3,40.0,2,3,40.0,5,5,10,2.0,2.0,94,52,74,72
+Mon Apr 18 2022,Utah Jazz,110,Dallas Mavericks,,104,110,april,2021-2022,2,3,40.0,2,3,40.0,6,4,10,2.0,2.0,87,58,95,51
+Mon Apr 18 2022,Denver Nuggets,126,Golden State Warriors,,106,126,april,2021-2022,3,2,60.0,2,3,40.0,5,4,9,2.0,2.0,85,61,90,56
+Tue Apr 19 2022,Atlanta Hawks,115,Miami Heat,,105,115,april,2021-2022,2,3,40.0,4,1,80.0,7,2,9,2.0,2.0,87,59,79,70
+Tue Apr 19 2022,Minnesota Timberwolves,124,Memphis Grizzlies,,96,124,april,2021-2022,2,3,40.0,1,4,20.0,6,4,10,3.0,3.0,88,57,68,80
+Tue Apr 19 2022,New Orleans Pelicans,114,Phoenix Suns,,125,114,april,2021-2022,2,3,40.0,3,2,60.0,7,3,10,2.0,2.0,110,36,66,82
+Wed Apr 20 2022,Brooklyn Nets,114,Boston Celtics,,107,114,april,2021-2022,3,2,60.0,2,3,40.0,7,1,8,3.0,3.0,86,61,88,60
+Wed Apr 20 2022,Philadelphia 76ers,101,Toronto Raptors,OT,104,101,april,2021-2022,3,2,60.0,1,4,20.0,5,5,10,2.0,2.0,74,73,95,52
+Wed Apr 20 2022,Chicago Bulls,110,Milwaukee Bucks,,114,110,april,2021-2022,3,2,60.0,2,3,40.0,8,1,9,3.0,3.0,91,55,72,74
+Thu Apr 21 2022,Memphis Grizzlies,95,Minnesota Timberwolves,,104,95,april,2021-2022,2,3,40.0,1,4,20.0,4,6,10,2.0,2.0,68,81,89,57
+Thu Apr 21 2022,Dallas Mavericks,118,Utah Jazz,,126,118,april,2021-2022,3,2,60.0,1,4,20.0,4,6,10,3.0,3.0,95,52,88,58
+Thu Apr 21 2022,Golden State Warriors,113,Denver Nuggets,,118,113,april,2021-2022,2,3,40.0,2,3,40.0,4,5,9,3.0,3.0,90,57,86,61
+Fri Apr 22 2022,Miami Heat,111,Atlanta Hawks,,110,111,april,2021-2022,4,1,80.0,1,4,20.0,2,7,9,3.0,3.0,79,71,88,59
+Fri Apr 22 2022,Milwaukee Bucks,81,Chicago Bulls,,111,81,april,2021-2022,3,2,60.0,2,3,40.0,1,8,9,2.0,2.0,73,74,91,56
+Fri Apr 22 2022,Phoenix Suns,111,New Orleans Pelicans,,114,111,april,2021-2022,3,2,60.0,2,3,40.0,3,7,10,3.0,3.0,67,82,110,37
+Sat Apr 23 2022,Philadelphia 76ers,110,Toronto Raptors,,102,110,april,2021-2022,3,2,60.0,1,4,20.0,5,5,10,3.0,3.0,74,74,96,52
+Sat Apr 23 2022,Dallas Mavericks,100,Utah Jazz,,99,100,april,2021-2022,3,2,60.0,1,4,20.0,4,6,10,2.0,2.0,95,53,89,58
+Sat Apr 23 2022,Boston Celtics,103,Brooklyn Nets,,109,103,april,2021-2022,2,3,40.0,3,2,60.0,1,7,8,3.0,3.0,88,61,87,61
+Sat Apr 23 2022,Memphis Grizzlies,119,Minnesota Timberwolves,,118,119,april,2021-2022,2,3,40.0,1,4,20.0,4,6,10,2.0,2.0,68,82,90,57
+Sun Apr 24 2022,Milwaukee Bucks,95,Chicago Bulls,,119,95,april,2021-2022,3,2,60.0,3,2,60.0,1,8,9,2.0,2.0,73,75,92,56
+Sun Apr 24 2022,Golden State Warriors,126,Denver Nuggets,,121,126,april,2021-2022,2,3,40.0,3,2,60.0,4,5,9,3.0,3.0,90,58,87,61
+Sun Apr 24 2022,Miami Heat,86,Atlanta Hawks,,110,86,april,2021-2022,3,2,60.0,2,3,40.0,2,7,9,2.0,2.0,80,71,88,60
+Sun Apr 24 2022,Phoenix Suns,118,New Orleans Pelicans,,103,118,april,2021-2022,3,2,60.0,2,3,40.0,3,7,10,2.0,2.0,67,83,111,37
+Mon Apr 25 2022,Boston Celtics,112,Brooklyn Nets,,116,112,april,2021-2022,2,3,40.0,3,2,60.0,1,7,8,2.0,2.0,88,62,88,61
+Mon Apr 25 2022,Toronto Raptors,88,Philadelphia 76ers,,103,88,april,2021-2022,2,3,40.0,3,2,60.0,5,5,10,2.0,2.0,96,53,75,74
+Mon Apr 25 2022,Utah Jazz,102,Dallas Mavericks,,77,102,april,2021-2022,2,3,40.0,3,2,60.0,6,4,10,2.0,2.0,89,59,96,53
+Tue Apr 26 2022,Atlanta Hawks,97,Miami Heat,,94,97,april,2021-2022,3,2,60.0,3,2,60.0,7,2,9,2.0,2.0,89,60,80,72
+Tue Apr 26 2022,Minnesota Timberwolves,111,Memphis Grizzlies,,109,111,april,2021-2022,2,3,40.0,2,3,40.0,6,4,10,3.0,3.0,90,58,69,82
+Tue Apr 26 2022,New Orleans Pelicans,112,Phoenix Suns,,97,112,april,2021-2022,2,3,40.0,3,2,60.0,7,3,10,2.0,2.0,111,38,68,83
+Wed Apr 27 2022,Chicago Bulls,116,Milwaukee Bucks,,100,116,april,2021-2022,3,2,60.0,3,2,60.0,8,1,9,3.0,3.0,93,56,73,76
+Wed Apr 27 2022,Denver Nuggets,102,Golden State Warriors,,98,102,april,2021-2022,3,2,60.0,2,3,40.0,5,4,9,3.0,3.0,87,62,91,58
+Thu Apr 28 2022,Philadelphia 76ers,97,Toronto Raptors,,132,97,april,2021-2022,3,2,60.0,2,3,40.0,5,5,10,3.0,3.0,76,74,96,54
+Thu Apr 28 2022,Phoenix Suns,109,New Orleans Pelicans,,115,109,april,2021-2022,3,2,60.0,2,3,40.0,3,7,10,2.0,2.0,68,84,112,38
+Thu Apr 28 2022,Dallas Mavericks,96,Utah Jazz,,98,96,april,2021-2022,3,2,60.0,2,3,40.0,4,6,10,3.0,3.0,96,54,90,59
+Fri Apr 29 2022,Memphis Grizzlies,106,Minnesota Timberwolves,,114,106,april,2021-2022,3,2,60.0,2,3,40.0,4,6,10,3.0,3.0,69,83,91,58
