@@ -21,6 +21,41 @@ CORS(app, resources={r"/api/*": {
     "allow_headers": ["*"]
 }})
 
+TEAM_ABBREVIATION_MAP = {
+    # Eastern Conference
+    "ATL": "ATLANTA HAWKS",
+    "BOS": "BOSTON CELTICS",
+    "BKN": "BROOKLYN NETS",
+    "CHA": "CHARLOTTE HORNETS",
+    "CHI": "CHICAGO BULLS",
+    "CLE": "CLEVELAND CAVALIERS",
+    "DET": "DETROIT PISTONS",
+    "IND": "INDIANA PACERS",
+    "MIA": "MIAMI HEAT",
+    "MIL": "MILWAUKEE BUCKS",
+    "NYK": "NEW YORK KNICKS",
+    "ORL": "ORLANDO MAGIC",
+    "PHI": "PHILADELPHIA 76ERS",
+    "TOR": "TORONTO RAPTORS",
+    "WAS": "WASHINGTON WIZARDS",
+    # Western Conference
+    "DAL": "DALLAS MAVERICKS",
+    "DEN": "DENVER NUGGETS",
+    "GSW": "GOLDEN STATE WARRIORS",
+    "HOU": "HOUSTON ROCKETS",
+    "LAC": "LOS ANGELES CLIPPERS",
+    "LAL": "LOS ANGELES LAKERS",
+    "MEM": "MEMPHIS GRIZZLIES",
+    "MIN": "MINNESOTA TIMBERWOLVES",
+    "NOP": "NEW ORLEANS PELICANS",
+    "OKC": "OKLAHOMA CITY THUNDER",
+    "PHX": "PHOENIX SUNS",
+    "POR": "PORTLAND TRAIL BLAZERS",
+    "SAC": "SACRAMENTO KINGS",
+    "SAS": "SAN ANTONIO SPURS",
+    "UTA": "UTAH JAZZ"
+}
+
 # Load models and data
 model = joblib.load('model.pkl')
 
@@ -67,21 +102,23 @@ except Exception as e:
 
 @app.route("/api/compare-teams", methods=["GET"])
 def compare_teams():
-    team1 = request.args.get("team1", "").strip().upper()
-    team2 = request.args.get("team2", "").strip().upper()
+    team1_abbr = request.args.get("team1", "").strip().upper()
+    team2_abbr = request.args.get("team2", "").strip().upper()
     season = request.args.get("season", "2024-2025")
-    
-    if not team1 or not team2:
+
+    if not team1_abbr or not team2_abbr:
         return jsonify({"error": "Both team1 and team2 must be specified."}), 400
 
-    # Get the appropriate dataset for the season
+    # Convert abbreviations to full names if needed
+    team1 = TEAM_ABBREVIATION_MAP.get(team1_abbr, team1_abbr)
+    team2 = TEAM_ABBREVIATION_MAP.get(team2_abbr, team2_abbr)
+
     data = season_data.get(season)
     if data is None:
         return jsonify({"error": f"Data for season {season} not available."}), 400
 
-    # Debug: Print available teams
-    print(f"Available home teams: {data['home_team'].unique()}")
-    print(f"Available visitor teams: {data['visitor_team'].unique()}")
+    # Debug: Print the team names being searched
+    print(f"Searching for teams: {team1} and {team2}")
 
     # Get team stats - more robust lookup
     def get_team_stats(team):
@@ -119,9 +156,12 @@ def compare_teams():
     head_to_head = calculate_head_to_head(data, team1, team2)
 
     return jsonify({
-        team1: stats1,
-        team2: stats2,
-        "headToHead": head_to_head
+        team1_abbr: stats1,  # Return the original abbreviations in response
+        team2_abbr: stats2,
+        "headToHead": {
+            team1_abbr: head_to_head[team1],
+            team2_abbr: head_to_head[team2]
+        }
     })
 
 def calculate_head_to_head(data, team1, team2):
