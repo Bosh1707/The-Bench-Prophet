@@ -27,7 +27,7 @@ model = joblib.load('model.pkl')
 # Dictionary to hold data for different seasons
 season_data = {}
 
-# Load data with proper column mapping
+# Load data with proper column mapping and processing
 try:
     # Map your actual column names to our expected names
     column_mapping = {
@@ -42,35 +42,34 @@ try:
     }
     
     # Load each season's data with column renaming
-    season_data["2021-2022"] = pd.read_csv('data/nba_2021_2022_final_data.csv').rename(columns=column_mapping)
-    season_data["2022-2023"] = pd.read_csv('data/nba_2022_2023_final_data.csv').rename(columns=column_mapping)
-    season_data["2023-2024"] = pd.read_csv('data/nba_2023_2024_final_data.csv').rename(columns=column_mapping)
-    season_data["2024-2025"] = pd.read_csv('data/nba_2024_2025_final_data.csv').rename(columns=column_mapping)
-    
-    # Add home_win column based on points comparison
-    for season, df in season_data.items():
+    for season in ["2021-2022", "2022-2023", "2023-2024", "2024-2025"]:
+        filename = f'data/nba_{season.replace("-", "_")}_final_data.csv'
+        df = pd.read_csv(filename)
+        
+        # Clean team names - remove any whitespace and convert to uppercase
+        df['Home/Neutral'] = df['Home/Neutral'].str.strip().str.upper()
+        df['Visitor/Neutral'] = df['Visitor/Neutral'].str.strip().str.upper()
+        
+        # Rename columns
+        df = df.rename(columns=column_mapping)
+        
+        # Add home_win column
         df['home_win'] = (df['home_pts'] > df['visitor_pts']).astype(int)
+        
+        season_data[season] = df
+        
+        # Debug print to verify data loading
+        print(f"Loaded {season} data. Sample home teams:", df['home_team'].unique()[:5])
         
 except Exception as e:
     print(f"Error loading data: {str(e)}")
-
-@app.route("/api/predict", methods=["POST"])
-def predict_outcome():
-    data_json = request.get_json()
-    prediction, probs = predict(model, data_json)
-    return jsonify({
-        "prediction": "Home Team Wins" if prediction == 1 else "Visitor Team Wins",
-        "probabilities": {
-            "home_win": probs[1],
-            "visitor_win": probs[0]
-        }
-    })
+    raise e  # Re-raise the error to see it in logs
 
 @app.route("/api/compare-teams", methods=["GET"])
 def compare_teams():
-    team1 = request.args.get("team1")
-    team2 = request.args.get("team2")
-    season = request.args.get("season", "2024-2025")  # Default to current season
+    team1 = request.args.get("team1", "").strip().upper()
+    team2 = request.args.get("team2", "").strip().upper()
+    season = request.args.get("season", "2024-2025")
     
     if not team1 or not team2:
         return jsonify({"error": "Both team1 and team2 must be specified."}), 400
@@ -80,28 +79,44 @@ def compare_teams():
     if data is None:
         return jsonify({"error": f"Data for season {season} not available."}), 400
 
-    # Get team stats
-    stats1 = {
-        'wins': data[data['home_team'] == team1]['home_wins'].iloc[0] if not data[data['home_team'] == team1].empty else 0,
-        'ppg': data[data['home_team'] == team1]['home_pts'].mean() if not data[data['home_team'] == team1].empty else 0
-    }
-    
-    stats2 = {
-        'wins': data[data['visitor_team'] == team2]['visitor_wins'].iloc[0] if not data[data['visitor_team'] == team2].empty else 0,
-        'ppg': data[data['visitor_team'] == team2]['visitor_pts'].mean() if not data[data['visitor_team'] == team2].empty else 0
-    }
+    # Debug: Print available teams
+    print(f"Available home teams: {data['home_team'].unique()}")
+    print(f"Available visitor teams: {data['visitor_team'].unique()}")
+
+    # Get team stats - more robust lookup
+    def get_team_stats(team):
+        home_games = data[data['home_team'] == team]
+        visitor_games = data[data['visitor_team'] == team]
+        
+        if home_games.empty and visitor_games.empty:
+            return None
+            
+        total_wins = (home_games['home_win'].sum() + 
+                     (visitor_games['home_win'] == 0).sum())
+        
+        total_ppg = (home_games['home_pts'].sum() + 
+                    visitor_games['visitor_pts'].sum()) / \
+                   (len(home_games) + len(visitor_games)) if (len(home_games) + len(visitor_games)) > 0 else 0
+        
+        return {
+            'wins': int(total_wins),
+            'ppg': float(total_ppg)
+        }
+
+    stats1 = get_team_stats(team1)
+    stats2 = get_team_stats(team2)
+
+    if stats1 is None or stats2 is None:
+        return jsonify({
+            "error": "One or both teams not found.",
+            "available_teams": {
+                "home_teams": list(data['home_team'].unique()),
+                "visitor_teams": list(data['visitor_team'].unique())
+            }
+        }), 404
 
     # Calculate head-to-head results
-    try:
-        head_to_head = calculate_head_to_head(data, team1, team2)
-    except Exception as e:
-        return jsonify({
-            "error": f"Could not calculate head-to-head: {str(e)}",
-            "team_stats": {
-                team1: stats1,
-                team2: stats2
-            }
-        }), 200
+    head_to_head = calculate_head_to_head(data, team1, team2)
 
     return jsonify({
         team1: stats1,
