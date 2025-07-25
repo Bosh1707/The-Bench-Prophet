@@ -63,7 +63,7 @@ const PredictionDashboard = () => {
 
     try {
       const response = await axios.post(
-        "https://the-bench-prophet.onrender.com/api/predict",
+        "https://the-bench-prophet.onrender.com/api/predict-teams",
         {
           home_team: homeTeam,
           away_team: awayTeam
