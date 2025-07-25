@@ -7,6 +7,13 @@ import os
 
 app = Flask(__name__)
 
+try:
+    model = joblib.load('model.pkl')
+    print("✅ Model loaded successfully!")
+except Exception as e:
+    print("❌ Model loading failed:", str(e))
+    model = None  # Ensure the variable exists even if loading fails
+    
 ALLOWED_ORIGINS = [
     "https://the-bench-prophet.vercel.app",
     "https://the-bench-prophet-nauflqscz-joshuas-projects-517c4114.vercel.app",
