@@ -1,19 +1,25 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from model_utils import predict_game, get_team_stats, get_matchup_stats, load_model_and_data, TEAM_ABBREVIATIONS
-import joblib
+from model_utils import (
+    predict_game, 
+    get_team_stats, 
+    get_matchup_stats, 
+    load_model_and_data, 
+    TEAM_ABBREVIATIONS,
+    predictor  # The GamePredictor instance
+)
 import pandas as pd
 import os
 
 app = Flask(__name__)
 
-try:
-    model = joblib.load('model.pkl')
-    print("✅ Model loaded successfully!")
-except Exception as e:
-    print("❌ Model loading failed:", str(e))
-    model = None  # Ensure the variable exists even if loading fails
-    
+# Initialize model and data before first request
+@app.before_first_request
+def initialize_app():
+    """Initialize model and data before serving requests"""
+    if not load_model_and_data() or not predictor.load_model():
+        print("⚠️ WARNING: Failed to initialize model or data")
+
 ALLOWED_ORIGINS = [
     "https://the-bench-prophet.vercel.app",
     "https://the-bench-prophet-nauflqscz-joshuas-projects-517c4114.vercel.app",
@@ -63,9 +69,6 @@ TEAM_ABBREVIATION_MAP = {
     "UTA": "UTAH JAZZ"
 }
 
-# Load models and data
-model = joblib.load('model.pkl')
-
 # Dictionary to hold data for different seasons
 season_data = {}
 
@@ -111,69 +114,73 @@ except Exception as e:
 def predict_teams():
     """Endpoint to predict game outcome based on team selection"""
     try:
-        data_received = request.get_json()
-        home_team = data_received.get('home_team')
-        away_team = data_received.get('away_team')
-        season = data_received.get('season', '2024-2025')
+        data = request.get_json()
+        home_abbr = data.get('home_team', '').upper()
+        away_abbr = data.get('away_team', '').upper()
+        season = data.get('season', '2024-2025')
         
         # Validate input
-        if not home_team or not away_team:
-            return jsonify({'error': 'Both home_team and away_team are required'}), 400
-        
-        if home_team == away_team:
+        if not home_abbr or not away_abbr:
+            return jsonify({'error': 'Missing team abbreviations'}), 400
+            
+        if home_abbr == away_abbr:
             return jsonify({'error': 'Teams must be different'}), 400
+            
+        if home_abbr not in TEAM_ABBREVIATION_MAP or away_abbr not in TEAM_ABBREVIATION_MAP:
+            return jsonify({
+                'error': 'Invalid team abbreviation',
+                'valid_teams': list(TEAM_ABBREVIATION_MAP.keys())
+            }), 400
         
-        if home_team not in TEAM_ABBREVIATION_MAP or away_team not in TEAM_ABBREVIATION_MAP:
-            return jsonify({'error': 'Invalid team abbreviation'}), 400
+        # Get stats
+        home_stats = get_team_stats(home_abbr, season)
+        away_stats = get_team_stats(away_abbr, season)
+        matchup_stats = get_matchup_stats(home_abbr, away_abbr, season)
         
-        # Get team statistics
-        home_stats = get_team_stats(home_team, season)
-        away_stats = get_team_stats(away_team, season)
-        
-        if not home_stats:
-            return jsonify({'error': f'No data found for {TEAM_ABBREVIATION_MAP[home_team]}'}), 400
-        
-        if not away_stats:
-            return jsonify({'error': f'No data found for {TEAM_ABBREVIATION_MAP[away_team]}'}), 400
-        
-        # Get matchup statistics
-        matchup_stats = get_matchup_stats(home_team, away_team, season)
+        if not all([home_stats, away_stats]):
+            return jsonify({'error': 'Could not fetch team stats'}), 404
         
         # Make prediction
-        prediction_result = predict_game(home_stats, away_stats, matchup_stats)
-        
-        if not prediction_result:
+        prediction = predict_game(home_stats, away_stats, matchup_stats)
+        if not prediction:
             return jsonify({'error': 'Prediction failed'}), 500
         
-        # Determine winner
-        if prediction_result['prediction'] == 1:
-            predicted_winner = TEAM_ABBREVIATION_MAP[home_team]
-        else:
-            predicted_winner = TEAM_ABBREVIATION_MAP[away_team]
-        
-        # Prepare response
+        # Build response
         response = {
-            'predicted_winner': predicted_winner,
-            'home_win_prob': prediction_result['home_win_prob'],
-            'away_win_prob': prediction_result['away_win_prob'],
-            'team_stats': {
-                'home': home_stats,
-                'away': away_stats
+            'prediction': {
+                'winner': TEAM_ABBREVIATION_MAP[home_abbr if prediction['prediction'] == 1 else away_abbr],
+                'probability': {
+                    'home': prediction['home_win_prob'],
+                    'away': prediction['away_win_prob']
+                },
+                'confidence': abs(prediction['home_win_prob'] - 0.5) * 2  # 0-1 scale
+            },
+            'teams': {
+                'home': {
+                    'name': TEAM_ABBREVIATION_MAP[home_abbr],
+                    'stats': home_stats
+                },
+                'away': {
+                    'name': TEAM_ABBREVIATION_MAP[away_abbr],
+                    'stats': away_stats
+                }
+            },
+            'matchup': matchup_stats,
+            'model_info': {
+                'type': prediction.get('model_type', 'Unknown'),
+                'features_used': prediction.get('features_used', {})
             }
         }
-        
-        # Add matchup record if games exist
-        if matchup_stats['home_wins'] > 0 or matchup_stats['away_wins'] > 0:
-            response['matchup_record'] = {
-                'home_wins': matchup_stats['home_wins'],
-                'away_wins': matchup_stats['away_wins']
-            }
         
         return jsonify(response)
         
     except Exception as e:
-        print(f"Error in predict_teams: {str(e)}")
-        return jsonify({'error': 'Internal server error'}), 500
+        print(f"Prediction error: {str(e)}")
+        return jsonify({
+            'error': 'Internal server error',
+            'details': str(e)
+        }), 500
+
 
 @app.route("/api/compare-teams", methods=["GET"])
 def compare_teams():
@@ -269,24 +276,34 @@ def calculate_head_to_head(data, team1, team2):
 
 @app.route('/api/health', methods=['GET'])
 def health_check():
-    """Health check endpoint"""
-    status = {
-        'status': 'healthy',
-        'model_loaded': model is not None,
-        'seasons_loaded': list(season_data.keys())
-    }
-    
-    return jsonify(status)
+    """Enhanced health check endpoint"""
+    return jsonify({
+        'status': 'operational' if predictor.model else 'degraded',
+        'services': {
+            'model': bool(predictor.model),
+            'scaler': bool(predictor.scaler),
+            'data': bool(season_data)
+        },
+        'seasons_loaded': list(season_data.keys()),
+        'model_type': predictor.model.__class__.__name__ if predictor.model else None
+    })
 
 @app.route('/api/teams', methods=['GET'])
 def get_teams():
-    """Get list of all teams"""
-    teams = [{'abbreviation': abbr, 'name': name} for abbr, name in TEAM_ABBREVIATION_MAP.items()]
-    return jsonify({'teams': teams})
+    """Get team list with additional metadata"""
+    teams = []
+    for abbr, name in TEAM_ABBREVIATION_MAP.items():
+        teams.append({
+            'abbreviation': abbr,
+            'name': name.title(),
+            'conference': 'Eastern' if abbr in [
+                'ATL', 'BOS', 'BKN', 'CHA', 'CHI', 
+                'CLE', 'DET', 'IND', 'MIA', 'MIL',
+                'NYK', 'ORL', 'PHI', 'TOR', 'WAS'
+            ] else 'Western'
+        })
+    return jsonify({'teams': sorted(teams, key=lambda x: x['name'])})
 
 if __name__ == "__main__":
-    # Initialize model_utils data
-    load_model_and_data()
-    
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=True)

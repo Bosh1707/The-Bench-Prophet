@@ -36,6 +36,53 @@ TEAM_ABBREVIATIONS = {
     "WAS": "Washington Wizards"
 }
 
+class GamePredictor:
+    def __init__(self):
+        self.model = None
+        self.scaler = None
+        self.feature_names = None
+    
+    def load_model(self, model_path='model.pkl', scaler_path='scaler.pkl'):
+        try:
+            self.model = joblib.load(model_path)
+            self.scaler = joblib.load(scaler_path)
+            print("✅ Model and scaler loaded successfully")
+            return True
+        except Exception as e:
+            print(f"❌ Error loading model/scaler: {str(e)}")
+            return False
+    
+    def prepare_features(self, home_stats, away_stats, matchup_stats):
+        """Enhanced feature engineering"""
+        features = {
+            # Win percentages
+            'home_win_pct': home_stats['wins'] / (home_stats['wins'] + home_stats['losses'] + 1e-6),
+            'away_win_pct': away_stats['wins'] / (away_stats['wins'] + away_stats['losses'] + 1e-6),
+            'win_pct_diff': 0,  # Calculated below
+            
+            # Recent performance
+            'home_recent_win_pct': home_stats.get('recent_win_pct', 0.5),
+            'away_recent_win_pct': away_stats.get('recent_win_pct', 0.5),
+            
+            # Matchup history
+            'matchup_ratio': (matchup_stats.get('matchup_home_wins', 0) + 1) / 
+                           (matchup_stats.get('matchup_away_wins', 0) + 1),
+            
+            # Derived features
+            'momentum_diff': (home_stats.get('recent_win_pct', 0.5) - 
+                            away_stats.get('recent_win_pct', 0.5)),
+            
+            # Add your existing features
+            'Recent Win % (Home)': home_stats.get('recent_win_pct', 0.5),
+            'Recent Losses (Home)': home_stats.get('recent_losses', 0),
+            # ... (keep your other feature mappings)
+        }
+        
+        # Calculate derived features
+        features['win_pct_diff'] = features['home_win_pct'] - features['away_win_pct']
+        
+        return pd.DataFrame([features])
+    
 # Global variables
 model = None
 season_data = {}
@@ -259,66 +306,68 @@ def get_matchup_stats(home_team, away_team):
         print(f"Error getting matchup stats: {str(e)}")
         return {"home_wins": 0, "away_wins": 0, "matchup_home_wins": 0, "matchup_away_wins": 0}
 
+# Initialize predictor instance
+predictor = GamePredictor()
+
 def predict(features_dict):
-    """Make prediction based on features dictionary"""
+    """Legacy prediction function - maintain for backward compatibility"""
     try:
-        if model is None:
+        if not predictor.model:
             raise ValueError("Model not loaded")
         
-        # Ensure all required features are present with default values
-        required_features = [
-            'Recent Win % (Home)', 'Recent Losses (Home)',
-            'Recent Win % (Visitor)', 'Recent Losses (Visitor)',
-            'Matchup Wins (Home)', 'Matchup Wins (Visitor)',
-            'DSLG (Home)', 'DSLG (Visitor)',
-            'Wins (Home)', 'Losses (Home)', 
-            'Wins (Visitor)', 'Losses (Visitor)'
-        ]
-        
-        # Fill in missing features with defaults
-        complete_features = {}
-        for feature in required_features:
-            complete_features[feature] = features_dict.get(feature, 0)
-        
-        # Create DataFrame for prediction
-        X = pd.DataFrame([complete_features])
-        
-        # Make prediction
-        prediction = model.predict(X)[0]
-        probabilities = model.predict_proba(X)[0]
-        
-        return {
-            'prediction': int(prediction),
-            'home_win_prob': float(probabilities[1]),  # Class 1 = home win
-            'away_win_prob': float(probabilities[0]),  # Class 0 = away win
-            'features': complete_features
+        # Convert legacy features to new format
+        home_stats = {
+            'wins': features_dict.get('Wins (Home)', 0),
+            'losses': features_dict.get('Losses (Home)', 0),
+            'recent_win_pct': features_dict.get('Recent Win % (Home)', 0.5),
+            'recent_losses': features_dict.get('Recent Losses (Home)', 0)
         }
+        
+        away_stats = {
+            'wins': features_dict.get('Wins (Visitor)', 0),
+            'losses': features_dict.get('Losses (Visitor)', 0),
+            'recent_win_pct': features_dict.get('Recent Win % (Visitor)', 0.5),
+            'recent_losses': features_dict.get('Recent Losses (Visitor)', 0)
+        }
+        
+        matchup_stats = {
+            'matchup_home_wins': features_dict.get('Matchup Wins (Home)', 0),
+            'matchup_away_wins': features_dict.get('Matchup Wins (Visitor)', 0)
+        }
+        
+        # Use the enhanced predictor
+        result = predictor.predict_game(home_stats, away_stats, matchup_stats)
+        
+        # Maintain legacy return format
+        if result:
+            return {
+                'prediction': result['prediction'],
+                'home_win_prob': result['home_win_prob'],
+                'away_win_prob': result['away_win_prob'],
+                'features': features_dict  # Preserve original features
+            }
+        return None
+        
     except Exception as e:
-        print(f"Error making prediction: {str(e)}")
+        print(f"Legacy prediction error: {str(e)}")
         return None
 
 def predict_game(home_team_stats, away_team_stats, matchup_stats):
-    """Make prediction based on team stats"""
+    """Enhanced prediction function using GamePredictor"""
     try:
-        # Prepare features for prediction
-        features = {
-            'Recent Win % (Home)': home_team_stats.get('recent_win_pct', 0.5),
-            'Recent Losses (Home)': home_team_stats.get('recent_losses', 0),
-            'Recent Win % (Visitor)': away_team_stats.get('recent_win_pct', 0.5),
-            'Recent Losses (Visitor)': away_team_stats.get('recent_losses', 0),
-            'Matchup Wins (Home)': matchup_stats.get('matchup_home_wins', 0),
-            'Matchup Wins (Visitor)': matchup_stats.get('matchup_away_wins', 0),
-            'DSLG (Home)': 0,  # Default value - you may need to calculate this
-            'DSLG (Visitor)': 0,  # Default value - you may need to calculate this
-            'Wins (Home)': home_team_stats.get('wins', 0),
-            'Losses (Home)': home_team_stats.get('losses', 0),
-            'Wins (Visitor)': away_team_stats.get('wins', 0),
-            'Losses (Visitor)': away_team_stats.get('losses', 0)
-        }
+        # Use the predictor instance
+        result = predictor.predict_game(home_team_stats, away_team_stats, matchup_stats)
         
-        return predict(features)
+        # Add team info to results
+        if result:
+            result['team_info'] = {
+                'home': home_team_stats,
+                'away': away_team_stats
+            }
+        return result
+        
     except Exception as e:
-        print(f"Error making game prediction: {str(e)}")
+        print(f"Game prediction error: {str(e)}")
         return None
 
 def is_model_loaded():
@@ -346,11 +395,17 @@ def get_data_info():
         'seasons': seasons_info
     }
 
-# Initialize on import
 def initialize():
-    """Initialize the model and data"""
-    return load_model_and_data()
+    """Initialize model and data"""
+    data_loaded = load_model_and_data()
+    model_loaded = predictor.load_model()
+    
+    return {
+        'data_loaded': data_loaded,
+        'model_loaded': model_loaded,
+        'status': 'ready' if (data_loaded and model_loaded) else 'error'
+    }
 
-# Auto-initialize when module is imported
+# Auto-initialize
 if __name__ != '__main__':
     initialize()
