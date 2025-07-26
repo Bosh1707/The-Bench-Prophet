@@ -13,10 +13,8 @@ import os
 
 app = Flask(__name__)
 
-# Initialize model and data before first request
-@app.before_first_request
 def initialize_app():
-    """Initialize model and data before serving requests"""
+    """Initialize model and data"""
     if not load_model_and_data() or not predictor.load_model():
         print("⚠️ WARNING: Failed to initialize model or data")
 
