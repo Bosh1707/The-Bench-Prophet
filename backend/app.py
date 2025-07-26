@@ -110,73 +110,39 @@ except Exception as e:
 
 @app.route('/api/predict-teams', methods=['POST'])
 def predict_teams():
-    """Endpoint to predict game outcome based on team selection"""
     try:
         data = request.get_json()
-        home_abbr = data.get('home_team', '').upper()
-        away_abbr = data.get('away_team', '').upper()
-        season = data.get('season', '2024-2025')
-        
-        # Validate input
-        if not home_abbr or not away_abbr:
-            return jsonify({'error': 'Missing team abbreviations'}), 400
+        if not data:
+            return jsonify({"error": "No JSON data provided"}), 400
             
-        if home_abbr == away_abbr:
-            return jsonify({'error': 'Teams must be different'}), 400
-            
-        if home_abbr not in TEAM_ABBREVIATION_MAP or away_abbr not in TEAM_ABBREVIATION_MAP:
-            return jsonify({
-                'error': 'Invalid team abbreviation',
-                'valid_teams': list(TEAM_ABBREVIATION_MAP.keys())
-            }), 400
+        home_team = data.get('home_team', '').upper()
+        away_team = data.get('away_team', '').upper()
         
-        # Get stats
-        home_stats = get_team_stats(home_abbr, season)
-        away_stats = get_team_stats(away_abbr, season)
-        matchup_stats = get_matchup_stats(home_abbr, away_abbr, season)
+        if not home_team or not away_team:
+            return jsonify({"error": "Missing team abbreviations"}), 400
+        
+        # Add debug logging
+        print(f"Attempting prediction for {home_team} vs {away_team}")
+        
+        home_stats = get_team_stats(home_team)
+        away_stats = get_team_stats(away_team)
+        matchup_stats = get_matchup_stats(home_team, away_team)
         
         if not all([home_stats, away_stats]):
-            return jsonify({'error': 'Could not fetch team stats'}), 404
+            return jsonify({"error": "Could not fetch team stats"}), 404
+            
+        prediction = predictor.predict_game(home_stats, away_stats, matchup_stats)
         
-        # Make prediction
-        prediction = predict_game(home_stats, away_stats, matchup_stats)
-        if not prediction:
-            return jsonify({'error': 'Prediction failed'}), 500
-        
-        # Build response
-        response = {
-            'prediction': {
-                'winner': TEAM_ABBREVIATION_MAP[home_abbr if prediction['prediction'] == 1 else away_abbr],
-                'probability': {
-                    'home': prediction['home_win_prob'],
-                    'away': prediction['away_win_prob']
-                },
-                'confidence': abs(prediction['home_win_prob'] - 0.5) * 2  # 0-1 scale
-            },
-            'teams': {
-                'home': {
-                    'name': TEAM_ABBREVIATION_MAP[home_abbr],
-                    'stats': home_stats
-                },
-                'away': {
-                    'name': TEAM_ABBREVIATION_MAP[away_abbr],
-                    'stats': away_stats
-                }
-            },
-            'matchup': matchup_stats,
-            'model_info': {
-                'type': prediction.get('model_type', 'Unknown'),
-                'features_used': prediction.get('features_used', {})
-            }
-        }
-        
-        return jsonify(response)
+        return jsonify({
+            "prediction": prediction,
+            "status": "success"
+        })
         
     except Exception as e:
-        print(f"Prediction error: {str(e)}")
+        print(f"Prediction failed: {str(e)}")  # This will appear in Render logs
         return jsonify({
-            'error': 'Internal server error',
-            'details': str(e)
+            "error": "Prediction failed",
+            "details": str(e)
         }), 500
 
 
