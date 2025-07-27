@@ -399,6 +399,62 @@ def get_teams():
         })
     return jsonify({'teams': sorted(teams, key=lambda x: x['name'])})
 
+# Added debugging endpoint
+@app.route('/api/debug-team/<team_abbr>/<season>', methods=['GET'])
+def debug_team(team_abbr, season):
+    """Debug endpoint to check team data availability"""
+    try:
+        team_abbr = team_abbr.upper()
+        
+        # Check if team exists in abbreviation map
+        team_name = TEAM_ABBREVIATION_MAP.get(team_abbr)
+        if not team_name:
+            return jsonify({
+                "error": f"Team abbreviation {team_abbr} not found",
+                "available_teams": list(TEAM_ABBREVIATION_MAP.keys())
+            })
+        
+        # Check if season data exists
+        if season not in season_data:
+            return jsonify({
+                "error": f"Season {season} not found",
+                "available_seasons": list(season_data.keys())
+            })
+        
+        df = season_data[season]
+        
+        # Check if team appears in data
+        home_games = df[df['home_team'] == team_name]
+        away_games = df[df['visitor_team'] == team_name]
+        
+        # Sample team names from data
+        sample_home_teams = list(df['home_team'].unique()[:10])
+        sample_visitor_teams = list(df['visitor_team'].unique()[:10])
+        
+        # Find similar team names
+        all_teams = set(df['home_team'].unique()) | set(df['visitor_team'].unique())
+        similar_teams = [t for t in all_teams if team_abbr in t or any(word in t for word in team_name.split())]
+        
+        return jsonify({
+            "team_abbr": team_abbr,
+            "team_name": team_name,
+            "season": season,
+            "home_games_found": len(home_games),
+            "away_games_found": len(away_games),
+            "total_games": len(home_games) + len(away_games),
+            "sample_home_teams": sample_home_teams,
+            "sample_visitor_teams": sample_visitor_teams,
+            "similar_teams_in_data": similar_teams,
+            "data_shape": df.shape,
+            "data_columns": list(df.columns)
+        })
+        
+    except Exception as e:
+        return jsonify({
+            "error": str(e),
+            "traceback": traceback.format_exc()
+        }), 500
+
 # Initialize the application
 print("🚀 Initializing The Bench Prophet...")
 initialize_app()

@@ -4,16 +4,38 @@ import os
 
 # Team abbreviations dictionary
 TEAM_ABBREVIATIONS = {
-    "ATL": "ATLANTA HAWKS", "BOS": "BOSTON CELTICS", "BKN": "BROOKLYN NETS",
-    "CHA": "CHARLOTTE HORNETS", "CHI": "CHICAGO BULLS", "CLE": "CLEVELAND CAVALIERS",
-    "DET": "DETROIT PISTONS", "IND": "INDIANA PACERS", "MIA": "MIAMI HEAT",
-    "MIL": "MILWAUKEE BUCKS", "NYK": "NEW YORK KNICKS", "ORL": "ORLANDO MAGIC",
-    "PHI": "PHILADELPHIA 76ERS", "TOR": "TORONTO RAPTORS", "WAS": "WASHINGTON WIZARDS",
-    "DAL": "DALLAS MAVERICKS", "DEN": "DENVER NUGGETS", "GSW": "GOLDEN STATE WARRIORS",
-    "HOU": "HOUSTON ROCKETS", "LAC": "LOS ANGELES CLIPPERS", "LAL": "LOS ANGELES LAKERS",
-    "MEM": "MEMPHIS GRIZZLIES", "MIN": "MINNESOTA TIMBERWOLVES", "NOP": "NEW ORLEANS PELICANS",
-    "OKC": "OKLAHOMA CITY THUNDER", "PHX": "PHOENIX SUNS", "POR": "PORTLAND TRAIL BLAZERS",
-    "SAC": "SACRAMENTO KINGS", "SAS": "SAN ANTONIO SPURS", "UTA": "UTAH JAZZ"
+    # Eastern Conference
+    "ATL": "ATLANTA HAWKS",
+    "BOS": "BOSTON CELTICS",
+    "BKN": "BROOKLYN NETS",
+    "CHA": "CHARLOTTE HORNETS",
+    "CHI": "CHICAGO BULLS",
+    "CLE": "CLEVELAND CAVALIERS",
+    "DET": "DETROIT PISTONS",
+    "IND": "INDIANA PACERS",
+    "MIA": "MIAMI HEAT",
+    "MIL": "MILWAUKEE BUCKS",
+    "NYK": "NEW YORK KNICKS",
+    "ORL": "ORLANDO MAGIC",
+    "PHI": "PHILADELPHIA 76ERS",
+    "TOR": "TORONTO RAPTORS",
+    "WAS": "WASHINGTON WIZARDS",
+    # Western Conference
+    "DAL": "DALLAS MAVERICKS",
+    "DEN": "DENVER NUGGETS",
+    "GSW": "GOLDEN STATE WARRIORS",
+    "HOU": "HOUSTON ROCKETS",
+    "LAC": "LOS ANGELES CLIPPERS",
+    "LAL": "LOS ANGELES LAKERS",  
+    "MEM": "MEMPHIS GRIZZLIES",
+    "MIN": "MINNESOTA TIMBERWOLVES",
+    "NOP": "NEW ORLEANS PELICANS",
+    "OKC": "OKLAHOMA CITY THUNDER",
+    "PHX": "PHOENIX SUNS",
+    "POR": "PORTLAND TRAIL BLAZERS",
+    "SAC": "SACRAMENTO KINGS",
+    "SAS": "SAN ANTONIO SPURS",
+    "UTA": "UTAH JAZZ"
 }
 
 class GamePredictor:
@@ -262,78 +284,146 @@ def get_combined_data():
     return None
 
 def get_team_stats(team_abbr, season):
-    """Get stats with fallbacks for missing data"""
+    """Enhanced get_team_stats with better error handling and debugging"""
     try:
-        team_name = TEAM_ABBREVIATIONS.get(team_abbr)
-        if not team_name:
-            return None
-            
-        df = season_data.get(season)
-        if df is None:
-            return None
-            
-        home = df[df['home_team'] == team_name]
-        away = df[df['visitor_team'] == team_name]
+        # Debug logging
+        print(f"🔍 Getting stats for {team_abbr} in season {season}")
         
-        if home.empty and away.empty:
+        # Check if abbreviation exists
+        if team_abbr not in TEAM_ABBREVIATIONS:
+            print(f"❌ Team abbreviation {team_abbr} not found in TEAM_ABBREVIATIONS")
+            available_abbrs = list(TEAM_ABBREVIATIONS.keys())
+            print(f"Available abbreviations: {available_abbrs}")
             return None
             
+        team_name = TEAM_ABBREVIATIONS[team_abbr]
+        print(f"✅ Mapped {team_abbr} to {team_name}")
+        
+        # Check if season data exists
+        if season not in season_data:
+            print(f"❌ Season {season} not found in season_data")
+            print(f"Available seasons: {list(season_data.keys())}")
+            return None
+            
+        df = season_data[season]
+        print(f"✅ Found season data with {len(df)} rows")
+        
+        # Debug: Show unique team names in data
+        unique_home_teams = df['home_team'].unique()
+        unique_visitor_teams = df['visitor_team'].unique()
+        print(f"Sample home teams in data: {unique_home_teams[:5]}")
+        print(f"Sample visitor teams in data: {unique_visitor_teams[:5]}")
+        
+        # Check if team exists in data
+        home_games = df[df['home_team'] == team_name]
+        away_games = df[df['visitor_team'] == team_name]
+        
+        print(f"Found {len(home_games)} home games and {len(away_games)} away games for {team_name}")
+        
+        if home_games.empty and away_games.empty:
+            print(f"❌ No games found for {team_name}")
+            # Try fuzzy matching
+            all_teams = set(df['home_team'].unique()) | set(df['visitor_team'].unique())
+            similar_teams = [t for t in all_teams if team_abbr in t or any(word in t for word in team_name.split())]
+            print(f"Similar teams found: {similar_teams}")
+            return None
+            
+        # Calculate stats
+        home_wins = len(home_games[home_games['home_win'] == 1])
+        away_wins = len(away_games[away_games['home_win'] == 0])
+        total_wins = home_wins + away_wins
+        
+        home_losses = len(home_games[home_games['home_win'] == 0])
+        away_losses = len(away_games[away_games['home_win'] == 1])
+        total_losses = home_losses + away_losses
+        
+        total_games = len(home_games) + len(away_games)
+        
         stats = {
-            'wins': len(home[home['home_win']]) + len(away[~away['home_win']]),
-            'losses': len(home[~home['home_win']]) + len(away[away['home_win']]),
+            'wins': total_wins,
+            'losses': total_losses,
+            'games_played': total_games,
+            'win_pct': total_wins / max(total_games, 1),
             'ppg': 0,
-            'last_5': []
+            'recent_win_pct': 0.5,  # Default for now
+            'recent_losses': 0      # Default for now
         }
         
         # Calculate points per game
-        total_games = len(home) + len(away)
         if total_games > 0:
-            stats['ppg'] = round(
-                (home['home_pts'].sum() + away['visitor_pts'].sum()) / total_games, 
-                1
-            )
+            total_points = home_games['home_pts'].sum() + away_games['visitor_pts'].sum()
+            stats['ppg'] = round(total_points / total_games, 1)
             
+        print(f"✅ Stats calculated: W-L: {total_wins}-{total_losses}, PPG: {stats['ppg']}")
         return stats
         
     except Exception as e:
-        print(f"Error getting stats for {team_abbr}: {str(e)}")
+        print(f"❌ Error getting stats for {team_abbr}: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return None
 
 def get_matchup_stats(home_abbr, away_abbr, season):
-    """Get head-to-head stats with date tracking"""
+    """Enhanced matchup stats with better debugging"""
     try:
+        print(f"🔍 Getting matchup stats: {home_abbr} vs {away_abbr} in {season}")
+        
         home_team = TEAM_ABBREVIATIONS.get(home_abbr)
         away_team = TEAM_ABBREVIATIONS.get(away_abbr)
         
+        if not home_team or not away_team:
+            print(f"❌ Team mapping failed: {home_abbr}->{home_team}, {away_abbr}->{away_team}")
+            return {}
+        
         df = season_data.get(season, pd.DataFrame())
         if df.empty:
+            print(f"❌ No data for season {season}")
             return {}
             
+        # Find head-to-head games
         matchups = df[
             ((df['home_team'] == home_team) & (df['visitor_team'] == away_team)) |
             ((df['home_team'] == away_team) & (df['visitor_team'] == home_team))
         ]
         
-        if matchups.empty:
-            return {}
-            
-        last_meeting = matchups.iloc[-1]
-        home_wins = len(matchups[
-            (matchups['home_team'] == home_team) & matchups['home_win']
-        ])
+        print(f"Found {len(matchups)} head-to-head games")
         
-        return {
-            'home_wins': home_wins,
-            'away_wins': len(matchups) - home_wins,
-            'last_meeting_date': last_meeting['date'],
-            'last_score': {
-                'home': last_meeting['home_pts'],
-                'away': last_meeting['visitor_pts']
+        if matchups.empty:
+            return {
+                'home_wins': 0,
+                'away_wins': 0,
+                'total_games': 0
             }
+            
+        # Calculate wins for each team
+        home_wins = 0
+        away_wins = 0
+        
+        for _, row in matchups.iterrows():
+            if row['home_team'] == home_team:
+                # home_team is playing at home
+                if row['home_win'] == 1:
+                    home_wins += 1
+                else:
+                    away_wins += 1
+            else:
+                # home_team is playing away
+                if row['home_win'] == 0:
+                    home_wins += 1  # away team (home_team) won
+                else:
+                    away_wins += 1  # home team (away_team) won
+        
+        result = {
+            'home_wins': home_wins,
+            'away_wins': away_wins,
+            'total_games': len(matchups)
         }
         
+        print(f"✅ Matchup stats: {result}")
+        return result
+        
     except Exception as e:
-        print(f"Error getting matchup stats: {str(e)}")
+        print(f"❌ Error getting matchup stats: {str(e)}")
         return {}
 
 # Initialize predictor instance
