@@ -35,6 +35,8 @@ const TEAM_OPTIONS = [
   { value: "WAS", label: "Washington Wizards" }
 ];
 
+const API_BASE_URL = "https://the-bench-prophet.onrender.com";
+
 const PredictionDashboard = () => {
   const [homeTeam, setHomeTeam] = useState("");
   const [awayTeam, setAwayTeam] = useState("");
@@ -46,38 +48,67 @@ const PredictionDashboard = () => {
   const [backendReady, setBackendReady] = useState(false);
   const [retryCount, setRetryCount] = useState(0);
 
-  // Enhanced backend health check with retries
+  // Backend health check with retries
   useEffect(() => {
+    let isMounted = true;
+    const maxRetries = 10; // ~30 seconds total with delays
+
     const checkBackend = async () => {
       try {
-        const res = await axios.get(
-          "https://the-bench-prophet.onrender.com/api/health",
-          { timeout: 3000 }
-        );
+        const res = await axios.get(`${API_BASE_URL}/api/health`, {
+          timeout: 3000,
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
         
-        if (res.data.status === "healthy") {
-          setBackendReady(true);
-          setError(null);
-        } else {
-          throw new Error("Backend not ready");
+        if (isMounted) {
+          if (res.data.status === "healthy") {
+            setBackendReady(true);
+            setError(null);
+          } else {
+            throw new Error("Backend not ready");
+          }
         }
       } catch (err) {
-        if (retryCount < 10) { // Try for ~30 seconds total
+        if (isMounted && retryCount < maxRetries) {
           setTimeout(() => {
-            setRetryCount(c => c + 1);
+            if (isMounted) setRetryCount(c => c + 1);
           }, 3000);
-        } else {
-          setError("Backend is taking longer than expected to start. Please refresh the page.");
+        } else if (isMounted) {
+          setError("Backend is taking longer than expected to start.");
+          setBackendReady(false);
         }
       }
     };
 
     checkBackend();
+
+    return () => {
+      isMounted = false;
+    };
   }, [retryCount]);
+
+  // Keep-alive ping when backend is ready
+  useEffect(() => {
+    if (backendReady) {
+      const interval = setInterval(() => {
+        axios.get(`${API_BASE_URL}/api/health`, { timeout: 3000 })
+          .catch(() => {}); // Silent keep-alive
+      }, 300000); // Ping every 5 minutes
+
+      return () => clearInterval(interval);
+    }
+  }, [backendReady]);
 
   const handlePredict = async (e) => {
     e.preventDefault();
     
+    if (!backendReady) {
+      setError("Backend is still starting. Please wait...");
+      return;
+    }
+
     if (!homeTeam || !awayTeam) {
       setError("Please select both teams");
       return;
@@ -95,7 +126,7 @@ const PredictionDashboard = () => {
 
     try {
       const response = await axios.post(
-        "https://the-bench-prophet.onrender.com/api/predict-teams",
+        `${API_BASE_URL}/api/predict-teams`,
         {
           home_team: homeTeam,
           away_team: awayTeam,
@@ -115,14 +146,17 @@ const PredictionDashboard = () => {
       }
     } catch (err) {
       let errorMessage = "Prediction failed. Please try again.";
-      if (err.response) {
-        errorMessage = err.response.data?.error || 
-                      `Server error: ${err.response.status}`;
-      } else if (err.code === "ECONNABORTED") {
-        errorMessage = "Request timed out. The backend might be overloaded.";
-      } else {
-        errorMessage = `Error: ${err.message}`;
+      
+      if (err.code === "ECONNABORTED") {
+        errorMessage = "Request timed out. Please try again.";
+      } else if (err.response) {
+        if (err.response.status === 503) {
+          errorMessage = "Backend is waking up. Please wait 30 seconds and try again.";
+        } else {
+          errorMessage = err.response.data?.error || `Error: ${err.response.status}`;
+        }
       }
+      
       setError(errorMessage);
     } finally {
       setLoading(false);
@@ -195,11 +229,19 @@ const PredictionDashboard = () => {
         
         <div className="backend-status">
           {backendReady ? (
-            <span className="status-connected">✅ Backend Connected</span>
+            <div className="status-badge success">
+              ✅ Backend Connected
+            </div>
           ) : (
-            <span className="status-connecting">
-              🔄 Connecting ({retryCount * 3}s elapsed)...
-            </span>
+            <div className="status-badge warning">
+              ⚠️ Connecting... ({retryCount * 3}s elapsed)
+              <button 
+                onClick={() => window.location.reload()} 
+                className="refresh-btn"
+              >
+                Refresh
+              </button>
+            </div>
           )}
         </div>
       </div>
@@ -268,19 +310,9 @@ const PredictionDashboard = () => {
               Predicting...
             </>
           ) : (
-            backendReady ? "🔮 Predict Game Outcome" : "⏳ Backend Starting"
+            backendReady ? "🔮 Predict Game Outcome" : "⏳ Awaiting Backend"
           )}
         </button>
-
-        {!backendReady && retryCount >= 10 && (
-          <button
-            type="button"
-            onClick={() => window.location.reload()}
-            className="refresh-button"
-          >
-            🔄 Refresh Page
-          </button>
-        )}
       </form>
 
       {error && (
@@ -288,7 +320,7 @@ const PredictionDashboard = () => {
           <span>⚠️</span>
           <div>
             <strong>Error:</strong> {error}
-            {error.includes("backend") && (
+            {error.includes("waking up") && (
               <p className="retry-note">
                 Render.com free instances sleep after inactivity. Try refreshing in 30 seconds.
               </p>
@@ -342,6 +374,23 @@ const PredictionDashboard = () => {
                   stats={teamStats.away} 
                   isHome={false}
                 />
+              </div>
+            </div>
+          )}
+
+          {result.matchup_record && (
+            <div className="matchup-section">
+              <h3>🥊 Head-to-Head Record</h3>
+              <div className="matchup-stats">
+                <div className="matchup-stat">
+                  <span>{getTeamLabel(homeTeam)}</span>
+                  <span className="record">{result.matchup_record.home_wins || 0}</span>
+                </div>
+                <div className="matchup-divider">-</div>
+                <div className="matchup-stat">
+                  <span>{getTeamLabel(awayTeam)}</span>
+                  <span className="record">{result.matchup_record.away_wins || 0}</span>
+                </div>
               </div>
             </div>
           )}

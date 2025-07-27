@@ -29,7 +29,8 @@ ALLOWED_ORIGINS = [
 CORS(app, resources={r"/api/*": {
     "origins": ALLOWED_ORIGINS,
     "methods": ["GET", "POST", "OPTIONS"],
-    "allow_headers": ["*"]
+    "allow_headers": ["Content-Type"],
+    "supports_credentials": True
 }})
 
 TEAM_ABBREVIATION_MAP = {
@@ -107,6 +108,11 @@ try:
 except Exception as e:
     print(f"Error loading data: {str(e)}")
     raise e  # Re-raise the error to see it in logs
+
+#OPTIONS handler for preflight requests
+@app.route('/api/<path:path>', methods=['OPTIONS'])
+def options_handler(path):
+    return {}, 200
 
 @app.route('/api/predict-teams', methods=['POST'])
 def predict_teams():
