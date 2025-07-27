@@ -349,3 +349,53 @@
   margin-top: 0.5rem;
   color: #666;
 }
+
+/* Status indicators */
+.backend-status {
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.status-connected {
+  color: #2e7d32;
+  background: #e8f5e9;
+}
+
+.status-connecting {
+  color: #ff8f00;
+  background: #fff3e0;
+}
+
+/* Button states */
+.button-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.refresh-button {
+  background: #e3f2fd;
+  color: #1565c0;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.refresh-button:hover {
+  background: #bbdefb;
+}
+
+/* Error message improvements */
+.retry-note {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  color: #616161;
+}

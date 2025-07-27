@@ -44,33 +44,40 @@ const PredictionDashboard = () => {
   const [error, setError] = useState(null);
   const [teamStats, setTeamStats] = useState(null);
   const [backendReady, setBackendReady] = useState(false);
+  const [retryCount, setRetryCount] = useState(0);
 
-  // Check backend status on component mount
+  // Enhanced backend health check with retries
   useEffect(() => {
     const checkBackend = async () => {
       try {
         const res = await axios.get(
-          "https://the-bench-prophet.onrender.com/api/health"
+          "https://the-bench-prophet.onrender.com/api/health",
+          { timeout: 3000 }
         );
-        console.log("Backend status:", res.data);
-        setBackendReady(res.data.status === "healthy");
+        
+        if (res.data.status === "healthy") {
+          setBackendReady(true);
+          setError(null);
+        } else {
+          throw new Error("Backend not ready");
+        }
       } catch (err) {
-        console.error("Backend check failed:", err);
-        setError("Backend service is starting up. Please try again in 30 seconds.");
-        setBackendReady(false);
+        if (retryCount < 10) { // Try for ~30 seconds total
+          setTimeout(() => {
+            setRetryCount(c => c + 1);
+          }, 3000);
+        } else {
+          setError("Backend is taking longer than expected to start. Please refresh the page.");
+        }
       }
     };
+
     checkBackend();
-  }, []);
+  }, [retryCount]);
 
   const handlePredict = async (e) => {
     e.preventDefault();
     
-    if (!backendReady) {
-      setError("Backend is still initializing. Please wait...");
-      return;
-    }
-
     if (!homeTeam || !awayTeam) {
       setError("Please select both teams");
       return;
@@ -87,12 +94,6 @@ const PredictionDashboard = () => {
     setTeamStats(null);
 
     try {
-      console.log("Sending prediction request for:", {
-        homeTeam,
-        awayTeam,
-        season
-      });
-
       const response = await axios.post(
         "https://the-bench-prophet.onrender.com/api/predict-teams",
         {
@@ -108,26 +109,20 @@ const PredictionDashboard = () => {
         }
       );
       
-      console.log("Prediction response:", response.data);
       setResult(response.data);
-      
       if (response.data.team_stats) {
         setTeamStats(response.data.team_stats);
       }
     } catch (err) {
-      console.error("Full prediction error:", err);
-      
       let errorMessage = "Prediction failed. Please try again.";
       if (err.response) {
         errorMessage = err.response.data?.error || 
-                      err.response.data?.message || 
                       `Server error: ${err.response.status}`;
-      } else if (err.request) {
-        errorMessage = "No response from server. The backend might be starting up.";
+      } else if (err.code === "ECONNABORTED") {
+        errorMessage = "Request timed out. The backend might be overloaded.";
       } else {
-        errorMessage = `Request error: ${err.message}`;
+        errorMessage = `Error: ${err.message}`;
       }
-      
       setError(errorMessage);
     } finally {
       setLoading(false);
@@ -149,14 +144,12 @@ const PredictionDashboard = () => {
         <div 
           className="home-prob" 
           style={{ width: `${homeProb}%` }}
-          title={`${Math.round(homeProb)}% win probability`}
         >
           {Math.round(homeProb)}%
         </div>
         <div 
           className="away-prob" 
           style={{ width: `${awayProb}%` }}
-          title={`${Math.round(awayProb)}% win probability`}
         >
           {Math.round(awayProb)}%
         </div>
@@ -199,11 +192,16 @@ const PredictionDashboard = () => {
       <div className="dashboard-header">
         <h1>🏀 The Bench Prophet</h1>
         <p>NBA Game Outcome Predictor</p>
-        {!backendReady && (
-          <div className="backend-status">
-            <span className="pulse">⚡</span> Backend is waking up... (This may take 30 seconds after first load)
-          </div>
-        )}
+        
+        <div className="backend-status">
+          {backendReady ? (
+            <span className="status-connected">✅ Backend Connected</span>
+          ) : (
+            <span className="status-connecting">
+              🔄 Connecting ({retryCount * 3}s elapsed)...
+            </span>
+          )}
+        </div>
       </div>
 
       <form onSubmit={handlePredict} className="prediction-form">
@@ -261,18 +259,28 @@ const PredictionDashboard = () => {
 
         <button 
           type="submit" 
-          disabled={loading || !homeTeam || !awayTeam || !backendReady}
-          className="predict-button"
+          disabled={!backendReady || loading || !homeTeam || !awayTeam}
+          className={`predict-button ${!backendReady ? "button-pulse" : ""}`}
         >
           {loading ? (
-            <span>
+            <>
               <span className="spinner"></span>
-              Analyzing Matchup...
-            </span>
+              Predicting...
+            </>
           ) : (
-            "🔮 Predict Game Outcome"
+            backendReady ? "🔮 Predict Game Outcome" : "⏳ Backend Starting"
           )}
         </button>
+
+        {!backendReady && retryCount >= 10 && (
+          <button
+            type="button"
+            onClick={() => window.location.reload()}
+            className="refresh-button"
+          >
+            🔄 Refresh Page
+          </button>
+        )}
       </form>
 
       {error && (
@@ -280,9 +288,9 @@ const PredictionDashboard = () => {
           <span>⚠️</span>
           <div>
             <strong>Error:</strong> {error}
-            {error.includes("starting up") && (
-              <p className="retry-message">
-                Render.com free instances sleep after inactivity. They typically wake up within 30 seconds.
+            {error.includes("backend") && (
+              <p className="retry-note">
+                Render.com free instances sleep after inactivity. Try refreshing in 30 seconds.
               </p>
             )}
           </div>
@@ -337,36 +345,13 @@ const PredictionDashboard = () => {
               </div>
             </div>
           )}
-
-          {result.matchup_record && (
-            <div className="matchup-section">
-              <h3>🥊 Head-to-Head Record</h3>
-              <div className="matchup-stats">
-                <div className="matchup-stat">
-                  <span>{getTeamLabel(homeTeam)}</span>
-                  <span className="record">{result.matchup_record.home_wins || 0}</span>
-                </div>
-                <div className="matchup-divider">-</div>
-                <div className="matchup-stat">
-                  <span>{getTeamLabel(awayTeam)}</span>
-                  <span className="record">{result.matchup_record.away_wins || 0}</span>
-                </div>
-              </div>
-              {((result.matchup_record.home_wins || 0) + (result.matchup_record.away_wins || 0)) === 0 && (
-                <p className="no-matchup">No previous matchups this season</p>
-              )}
-            </div>
-          )}
         </div>
       )}
 
       {loading && (
         <div className="loading-overlay">
           <div className="spinner"></div>
-          <p>Crunching latest stats...</p>
-          <p className="loading-subtext">
-            First predictions may take 30 seconds while the backend wakes up
-          </p>
+          <p>Crunching the numbers...</p>
         </div>
       )}
     </div>
