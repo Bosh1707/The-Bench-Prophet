@@ -322,8 +322,8 @@ def get_team_stats(team_abbr, season):
 def get_matchup_stats(home_abbr, away_abbr, season):
     """Get head-to-head stats with date tracking"""
     try:
-        home_team = TEAM_ABBREVIATIONS[home_abbr]
-        away_team = TEAM_ABBREVIATIONS[away_abbr]
+        home_team = TEAM_ABBREVIATIONS.get(home_abbr)
+        away_team = TEAM_ABBREVIATIONS.get(away_abbr)
         
         df = season_data.get(season, pd.DataFrame())
         if df.empty:
