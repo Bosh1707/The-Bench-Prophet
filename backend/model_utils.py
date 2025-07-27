@@ -281,67 +281,42 @@ def get_combined_data():
     
     return None
 
-def get_team_stats(team_abbr):
-    """Get team statistics from the dataset"""
+def get_team_stats(team_abbr, season):
+    """Get stats with fallbacks for missing data"""
     try:
-        data = get_combined_data()
-        if data is None:
+        team_name = TEAM_ABBREVIATIONS.get(team_abbr)
+        if not team_name:
             return None
             
-        team_name = TEAM_ABBREVIATIONS.get(team_abbr.upper(), team_abbr.upper())
-        
-        # Get games where team played as home
-        team_home = data[data['Home/Neutral'] == team_name].copy()
-        # Get games where team played as visitor
-        team_away = data[data['Visitor/Neutral'] == team_name].copy()
-        
-        if 'Date' in data.columns:
-            team_home = team_home.sort_values('Date', ascending=False)
-            team_away = team_away.sort_values('Date', ascending=False)
-            # Combine and get most recent games
-            recent = pd.concat([team_home, team_away]).sort_values('Date', ascending=False)
-        else:
-            recent = pd.concat([team_home, team_away])
-        
-        if recent.empty:
+        df = season_data.get(season)
+        if df is None:
             return None
-        
-        # Get the most recent game to extract current stats
-        latest = recent.iloc[0]
-        
-        # Determine if team was home or away in latest game
-        is_home = latest["Home/Neutral"] == team_name
-        prefix = "Home" if is_home else "Visitor"
-        
-        # Extract stats with fallback values
-        try:
-            wins = int(latest[f"Wins ({prefix})"])
-        except (KeyError, ValueError):
-            wins = 0
             
-        try:
-            losses = int(latest[f"Losses ({prefix})"])
-        except (KeyError, ValueError):
-            losses = 0
-            
-        try:
-            recent_win_pct = float(latest[f"Recent Win % ({prefix})"])
-        except (KeyError, ValueError):
-            recent_win_pct = 0.5  # Default to 50%
-            
-        try:
-            recent_losses = int(latest[f"Recent Losses ({prefix})"])
-        except (KeyError, ValueError):
-            recent_losses = 0
+        home = df[df['home_team'] == team_name]
+        away = df[df['visitor_team'] == team_name]
         
-        return {
-            "wins": wins,
-            "losses": losses,
-            "recent_win_pct": recent_win_pct,
-            "recent_losses": recent_losses
+        if home.empty and away.empty:
+            return None
+            
+        stats = {
+            'wins': len(home[home['home_win']]) + len(away[~away['home_win']]),
+            'losses': len(home[~home['home_win']]) + len(away[away['home_win']]),
+            'ppg': 0,
+            'last_5': []
         }
+        
+        # Calculate points per game
+        total_games = len(home) + len(away)
+        if total_games > 0:
+            stats['ppg'] = round(
+                (home['home_pts'].sum() + away['visitor_pts'].sum()) / total_games, 
+                1
+            )
+            
+        return stats
+        
     except Exception as e:
-        print(f"Error getting team stats for {team_abbr}: {str(e)}")
+        print(f"Error getting stats for {team_abbr}: {str(e)}")
         return None
 
 def get_matchup_stats(home_team, away_team):
