@@ -47,37 +47,77 @@ const PredictionDashboard = () => {
   const [teamStats, setTeamStats] = useState(null);
   const [backendReady, setBackendReady] = useState(false);
   const [retryCount, setRetryCount] = useState(0);
+  const [wakingUp, setWakingUp] = useState(false);
 
-  // Backend health check with retries
+  // Enhanced axios configuration with better error handling
+  const apiClient = axios.create({
+    baseURL: API_BASE_URL,
+    timeout: 30000, // 30 second timeout for initial requests
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  });
+
+  // Add response interceptor for better error handling
+  apiClient.interceptors.response.use(
+    (response) => response,
+    (error) => {
+      console.error('API Error:', error);
+      
+      if (error.code === 'ECONNABORTED') {
+        return Promise.reject(new Error('Request timed out. Backend may be sleeping.'));
+      }
+      
+      if (error.message === 'Network Error' || error.code === 'ERR_NETWORK') {
+        return Promise.reject(new Error('Network connection failed. Backend may be sleeping.'));
+      }
+      
+      return Promise.reject(error);
+    }
+  );
+
+  // Backend health check with exponential backoff
   useEffect(() => {
     let isMounted = true;
-    const maxRetries = 10; // ~30 seconds total with delays
+    const maxRetries = 15; // Increase max retries
+    
+    const getBackoffDelay = (attempt) => {
+      return Math.min(1000 * Math.pow(1.5, attempt), 10000); // Max 10 seconds
+    };
 
     const checkBackend = async () => {
+      if (!isMounted) return;
+      
       try {
-        const res = await axios.get(`${API_BASE_URL}/api/health`, {
-          timeout: 3000,
-          headers: {
-            'Content-Type': 'application/json'
-          }
-        });
+        console.log(`Health check attempt ${retryCount + 1}/${maxRetries}`);
+        
+        const res = await apiClient.get('/api/health');
         
         if (isMounted) {
           if (res.data.status === "healthy") {
             setBackendReady(true);
             setError(null);
+            setWakingUp(false);
+            console.log('✅ Backend is healthy');
           } else {
-            throw new Error("Backend not ready");
+            throw new Error(`Backend status: ${res.data.status}`);
           }
         }
       } catch (err) {
+        console.error('Health check failed:', err.message);
+        
         if (isMounted && retryCount < maxRetries) {
+          setWakingUp(true);
+          const delay = getBackoffDelay(retryCount);
+          console.log(`Retrying in ${delay}ms...`);
+          
           setTimeout(() => {
             if (isMounted) setRetryCount(c => c + 1);
-          }, 3000);
+          }, delay);
         } else if (isMounted) {
-          setError("Backend is taking longer than expected to start.");
+          setError("Backend is taking longer than expected to start. Please try refreshing the page.");
           setBackendReady(false);
+          setWakingUp(false);
         }
       }
     };
@@ -92,10 +132,14 @@ const PredictionDashboard = () => {
   // Keep-alive ping when backend is ready
   useEffect(() => {
     if (backendReady) {
-      const interval = setInterval(() => {
-        axios.get(`${API_BASE_URL}/api/health`, { timeout: 3000 })
-          .catch(() => {}); // Silent keep-alive
-      }, 300000); // Ping every 5 minutes
+      const interval = setInterval(async () => {
+        try {
+          await apiClient.get('/api/health');
+        } catch (err) {
+          console.warn('Keep-alive ping failed:', err.message);
+          // Don't immediately mark as unhealthy, but prepare for potential issues
+        }
+      }, 240000); // Ping every 4 minutes
 
       return () => clearInterval(interval);
     }
@@ -105,7 +149,7 @@ const PredictionDashboard = () => {
     e.preventDefault();
     
     if (!backendReady) {
-      setError("Backend is still starting. Please wait...");
+      setError("Backend is still starting up. Please wait...");
       return;
     }
 
@@ -124,43 +168,64 @@ const PredictionDashboard = () => {
     setResult(null);
     setTeamStats(null);
 
-    try {
-      const response = await axios.post(
-        `${API_BASE_URL}/api/predict-teams`,
-        {
+    // Retry logic for predictions
+    const maxPredictionRetries = 3;
+    let attempt = 0;
+
+    while (attempt < maxPredictionRetries) {
+      try {
+        console.log(`Prediction attempt ${attempt + 1}/${maxPredictionRetries}`);
+        
+        const response = await apiClient.post('/api/predict-teams', {
           home_team: homeTeam,
           away_team: awayTeam,
           season: season
-        },
-        {
-          headers: {
-            "Content-Type": "application/json"
-          },
-          timeout: 10000 // 10 second timeout
+        });
+        
+        // Success - break out of retry loop
+        setResult(response.data);
+        if (response.data.stats && response.data.stats.teams) {
+          setTeamStats(response.data.stats.teams);
         }
-      );
-      
-      setResult(response.data);
-      if (response.data.team_stats) {
-        setTeamStats(response.data.team_stats);
-      }
-    } catch (err) {
-      let errorMessage = "Prediction failed. Please try again.";
-      
-      if (err.code === "ECONNABORTED") {
-        errorMessage = "Request timed out. Please try again.";
-      } else if (err.response) {
-        if (err.response.status === 503) {
-          errorMessage = "Backend is waking up. Please wait 30 seconds and try again.";
+        console.log('✅ Prediction successful');
+        console.log('Response data:', response.data); // Debug log
+        break;
+        
+      } catch (err) {
+        attempt++;
+        console.error(`Prediction attempt ${attempt} failed:`, err.message);
+        
+        if (attempt >= maxPredictionRetries) {
+          // All retries exhausted
+          let errorMessage = "Prediction failed after multiple attempts.";
+          
+          if (err.message.includes('timed out') || err.message.includes('sleeping')) {
+            errorMessage = "Backend appears to be sleeping. Please wait 30-60 seconds and try again.";
+            setBackendReady(false); // Trigger health check restart
+            setRetryCount(0);
+          } else if (err.response) {
+            errorMessage = err.response.data?.error || `Server error: ${err.response.status}`;
+          } else if (err.message.includes('Network')) {
+            errorMessage = "Network connection failed. Please check your internet connection.";
+          }
+          
+          setError(errorMessage);
         } else {
-          errorMessage = err.response.data?.error || `Error: ${err.response.status}`;
+          // Wait before retry
+          await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
         }
       }
-      
-      setError(errorMessage);
-    } finally {
-      setLoading(false);
     }
+
+    setLoading(false);
+  };
+
+  const handleRefresh = () => {
+    setRetryCount(0);
+    setBackendReady(false);
+    setWakingUp(false);
+    setError(null);
+    window.location.reload();
   };
 
   const getTeamLabel = (abbreviation) => {
@@ -193,26 +258,26 @@ const PredictionDashboard = () => {
 
   const TeamStatsCard = ({ team, stats, isHome }) => (
     <div className={`team-stats-card ${isHome ? 'home' : 'away'}`}>
-      <h4>{isHome ? '🏠' : '✈️'} {getTeamLabel(team)}</h4>
+      <h4>{isHome ? '🏠' : '✈️'} {stats?.name || getTeamLabel(team)}</h4>
       {stats ? (
         <div className="stats-grid">
           <div className="stat">
-            <span className="stat-label">Wins</span>
-            <span className="stat-value">{stats.wins || 0}</span>
+            <span className="stat-label">Record</span>
+            <span className="stat-value">{stats.wins || 0}-{stats.losses || 0}</span>
           </div>
           <div className="stat">
-            <span className="stat-label">Losses</span>
-            <span className="stat-value">{stats.losses || 0}</span>
+            <span className="stat-label">Games</span>
+            <span className="stat-value">{stats.games_played || 0}</span>
           </div>
           <div className="stat">
             <span className="stat-label">Win %</span>
             <span className="stat-value">
-              {stats.recent_win_pct ? (stats.recent_win_pct * 100).toFixed(1) : 'N/A'}%
+              {stats.win_pct ? (stats.win_pct * 100).toFixed(1) : '0.0'}%
             </span>
           </div>
           <div className="stat">
             <span className="stat-label">PPG</span>
-            <span className="stat-value">{stats.ppg ? stats.ppg.toFixed(1) : 'N/A'}</span>
+            <span className="stat-value">{stats.ppg ? stats.ppg.toFixed(1) : '0.0'}</span>
           </div>
         </div>
       ) : (
@@ -221,6 +286,24 @@ const PredictionDashboard = () => {
     </div>
   );
 
+  const getStatusMessage = () => {
+    if (backendReady) {
+      return { text: "✅ Backend Connected", class: "success" };
+    } else if (wakingUp) {
+      const elapsed = retryCount * 2; // Approximate seconds
+      return { 
+        text: `⏳ Waking up backend... (${elapsed}s elapsed)`, 
+        class: "warning" 
+      };
+    } else if (error && error.includes('longer than expected')) {
+      return { text: "❌ Connection Failed", class: "error" };
+    } else {
+      return { text: "🔄 Connecting...", class: "warning" };
+    }
+  };
+
+  const status = getStatusMessage();
+
   return (
     <div className="dashboard-content">
       <div className="dashboard-header">
@@ -228,21 +311,14 @@ const PredictionDashboard = () => {
         <p>NBA Game Outcome Predictor</p>
         
         <div className="backend-status">
-          {backendReady ? (
-            <div className="status-badge success">
-              ✅ Backend Connected
-            </div>
-          ) : (
-            <div className="status-badge warning">
-              ⚠️ Connecting... ({retryCount * 3}s elapsed)
-              <button 
-                onClick={() => window.location.reload()} 
-                className="refresh-btn"
-              >
+          <div className={`status-badge ${status.class}`}>
+            {status.text}
+            {(!backendReady || error) && (
+              <button onClick={handleRefresh} className="refresh-btn">
                 Refresh
               </button>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
 
@@ -302,7 +378,7 @@ const PredictionDashboard = () => {
         <button 
           type="submit" 
           disabled={!backendReady || loading || !homeTeam || !awayTeam}
-          className={`predict-button ${!backendReady ? "button-pulse" : ""}`}
+          className={`predict-button ${wakingUp ? "button-pulse" : ""}`}
         >
           {loading ? (
             <>
@@ -320,9 +396,14 @@ const PredictionDashboard = () => {
           <span>⚠️</span>
           <div>
             <strong>Error:</strong> {error}
-            {error.includes("waking up") && (
+            {error.includes("sleeping") && (
               <p className="retry-note">
-                Render.com free instances sleep after inactivity. Try refreshing in 30 seconds.
+                Free hosting services sleep after inactivity. The backend should wake up in 30-60 seconds.
+              </p>
+            )}
+            {error.includes("Connection Failed") && (
+              <p className="retry-note">
+                Try refreshing the page or check your internet connection.
               </p>
             )}
           </div>
@@ -331,21 +412,26 @@ const PredictionDashboard = () => {
 
       {result && (
         <div className="results-section">
+          {/* Debug section - remove this in production */}
+          {process.env.NODE_ENV === 'development' && (
+            <details style={{ marginBottom: '20px', padding: '10px', background: '#f5f5f5', borderRadius: '5px' }}>
+              <summary style={{ cursor: 'pointer', fontWeight: 'bold' }}>🐛 Debug: Raw Response Data</summary>
+              <pre style={{ fontSize: '12px', overflow: 'auto', maxHeight: '200px' }}>
+                {JSON.stringify(result, null, 2)}
+              </pre>
+            </details>
+          )}
+
           <div className="prediction-result">
             <h2>🎯 Prediction Results</h2>
             <div className="winner-announcement">
               <h3>
                 Predicted Winner: <span className="winner-name">
-                  {result.predicted_winner || getTeamLabel(result.prediction === 1 ? homeTeam : awayTeam)}
+                  {result.prediction?.winner || "Unknown"}
                 </span>
               </h3>
               <p className="confidence">
-                Confidence: {Math.round(
-                  Math.max(
-                    result.home_win_prob || 0, 
-                    result.away_win_prob || 0
-                  ) * 100
-                )}%
+                Confidence: {result.prediction?.confidence || 0}%
               </p>
             </div>
           </div>
@@ -353,8 +439,8 @@ const PredictionDashboard = () => {
           <div className="probability-section">
             <h3>📊 Win Probabilities</h3>
             <WinProbabilityBar 
-              homeProb={(result.home_win_prob || 0) * 100}
-              awayProb={(result.away_win_prob || 0) * 100}
+              homeProb={result.prediction?.probabilities?.home || 0}
+              awayProb={result.prediction?.probabilities?.away || 0}
               homeTeam={homeTeam}
               awayTeam={awayTeam}
             />
@@ -378,20 +464,25 @@ const PredictionDashboard = () => {
             </div>
           )}
 
-          {result.matchup_record && (
+          {result.stats?.matchup && (result.stats.matchup.home_wins > 0 || result.stats.matchup.away_wins > 0) && (
             <div className="matchup-section">
-              <h3>🥊 Head-to-Head Record</h3>
+              <h3>🥊 Head-to-Head Record ({result.stats.matchup.history?.total_games || 0} games)</h3>
               <div className="matchup-stats">
                 <div className="matchup-stat">
                   <span>{getTeamLabel(homeTeam)}</span>
-                  <span className="record">{result.matchup_record.home_wins || 0}</span>
+                  <span className="record">{result.stats.matchup.home_wins || 0}</span>
                 </div>
                 <div className="matchup-divider">-</div>
                 <div className="matchup-stat">
                   <span>{getTeamLabel(awayTeam)}</span>
-                  <span className="record">{result.matchup_record.away_wins || 0}</span>
+                  <span className="record">{result.stats.matchup.away_wins || 0}</span>
                 </div>
               </div>
+              {result.stats.matchup.history && (
+                <p style={{ textAlign: 'center', marginTop: '10px', color: '#666' }}>
+                  Home team wins {result.stats.matchup.history.home_win_pct.toFixed(1)}% of matchups
+                </p>
+              )}
             </div>
           )}
         </div>
