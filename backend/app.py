@@ -10,6 +10,8 @@ from model_utils import (
 )
 import pandas as pd
 import os
+import datetime
+import traceback
 
 app = Flask(__name__)
 
@@ -116,84 +118,137 @@ def options_handler(path):
 
 @app.route('/api/predict-teams', methods=['POST'])
 def predict_teams():
+    """Enhanced prediction endpoint with comprehensive error handling"""
     try:
+        # Request validation
         data = request.get_json()
         if not data:
-            return jsonify({"error": "No JSON data provided"}), 400
-            
-        home_team = data.get('home_team', '').upper()
-        away_team = data.get('away_team', '').upper()
-        
-        if not home_team or not away_team:
-            return jsonify({"error": "Missing team abbreviations"}), 400
-        
-        # Add debug logging
-        print(f"Attempting prediction for {home_team} vs {away_team}")
-        
-        # Get team statistics
-        home_stats = get_team_stats(home_team)
-        away_stats = get_team_stats(away_team)
-        matchup_stats = get_matchup_stats(home_team, away_team)
-        
-        if not home_stats or not away_stats:
             return jsonify({
-                "error": "Could not fetch team stats",
-                "details": f"Home stats: {bool(home_stats)}, Away stats: {bool(away_stats)}"
+                "error": "Invalid request",
+                "details": "No JSON data provided"
+            }), 400
+            
+        home_team = data.get('home_team', '').strip().upper()
+        away_team = data.get('away_team', '').strip().upper()
+        season = data.get('season', '2023-2024')
+        
+        # Input validation
+        if not home_team or not away_team:
+            return jsonify({
+                "error": "Missing required fields",
+                "details": "Both home_team and away_team are required",
+                "valid_teams": list(TEAM_ABBREVIATION_MAP.keys())
+            }), 400
+            
+        if home_team == away_team:
+            return jsonify({
+                "error": "Invalid team selection",
+                "details": "Home and away teams must be different"
+            }), 400
+            
+        if home_team not in TEAM_ABBREVIATION_MAP or away_team not in TEAM_ABBREVIATION_MAP:
+            return jsonify({
+                "error": "Invalid team abbreviation",
+                "details": f"Valid abbreviations: {', '.join(TEAM_ABBREVIATION_MAP.keys())}",
+                "received": {
+                    "home_team": home_team,
+                    "away_team": away_team
+                }
+            }), 400
+
+        # Debug logging
+        print(f"\n🔍 Prediction request - {home_team} vs {away_team} | Season: {season}")
+        
+        # Get statistics with fallbacks
+        home_stats = get_team_stats(home_team, season) or {}
+        away_stats = get_team_stats(away_team, season) or {}
+        matchup_stats = get_matchup_stats(home_team, away_team, season) or {}
+        
+        # Stats validation
+        if not home_stats or not away_stats:
+            missing = []
+            if not home_stats: missing.append(home_team)
+            if not away_stats: missing.append(away_team)
+            
+            return jsonify({
+                "error": "Missing team data",
+                "details": f"No stats available for: {', '.join(missing)}",
+                "available_seasons": list(season_data.keys()),
+                "sample_teams": list(season_data.get(season, {}).get('home_team', []).unique())[:5]
             }), 404
+
+        # Make prediction
+        try:
+            prediction_result = predictor.predict_game(home_stats, away_stats, matchup_stats)
+            if not prediction_result:
+                raise ValueError("Prediction returned empty result")
+        except Exception as pred_error:
+            print(f"❌ Prediction failed: {str(pred_error)}")
+            return jsonify({
+                "error": "Prediction computation failed",
+                "details": str(pred_error)
+            }), 500
+
+        # Build response
+        home_team_name = TEAM_ABBREVIATION_MAP[home_team].title()
+        away_team_name = TEAM_ABBREVIATION_MAP[away_team].title()
         
-        # Make prediction using the predictor instance
-        prediction_result = predictor.predict_game(home_stats, away_stats, matchup_stats)
-        
-        if not prediction_result:
-            return jsonify({"error": "Prediction failed"}), 500
-        
-        # Get team names for response
-        home_team_name = TEAM_ABBREVIATION_MAP.get(home_team, home_team)
-        away_team_name = TEAM_ABBREVIATION_MAP.get(away_team, away_team)
-        
-        # Determine predicted winner name
-        if prediction_result['prediction'] == 1:
-            predicted_winner_name = home_team_name.title()
-        else:
-            predicted_winner_name = away_team_name.title()
-        
-        # Build comprehensive response
         response = {
-            "prediction": prediction_result['prediction'],
-            "home_win_prob": prediction_result['home_win_prob'],
-            "away_win_prob": prediction_result['away_win_prob'],
-            "predicted_winner": predicted_winner_name,
-            "confidence": prediction_result['confidence'],
-            "team_stats": {
-                "home": {
-                    **home_stats,
-                    "team_name": home_team_name.title(),
-                    "abbreviation": home_team
-                },
-                "away": {
-                    **away_stats,
-                    "team_name": away_team_name.title(),
-                    "abbreviation": away_team
+            "meta": {
+                "season": season,
+                "model_version": getattr(predictor.model, '__sklearn_version__', 'unknown'),
+                "timestamp": datetime.datetime.now().isoformat()
+            },
+            "prediction": {
+                "winner": home_team_name if prediction_result['prediction'] == 1 else away_team_name,
+                "winner_abbreviation": home_team if prediction_result['prediction'] == 1 else away_team,
+                "confidence": round(max(prediction_result['home_win_prob'], 
+                                     prediction_result['away_win_prob']) * 100, 1),
+                "probabilities": {
+                    "home": round(prediction_result['home_win_prob'] * 100, 1),
+                    "away": round(prediction_result['away_win_prob'] * 100, 1)
                 }
             },
-            "matchup_record": {
-                "home_wins": matchup_stats.get('home_wins', 0),
-                "away_wins": matchup_stats.get('away_wins', 0),
-                "total_games": (matchup_stats.get('home_wins', 0) + 
-                              matchup_stats.get('away_wins', 0))
-            },
-            "status": "success"
+            "stats": {
+                "teams": {
+                    "home": {
+                        **home_stats,
+                        "name": home_team_name,
+                        "abbreviation": home_team
+                    },
+                    "away": {
+                        **away_stats,
+                        "name": away_team_name,
+                        "abbreviation": away_team
+                    }
+                },
+                "matchup": {
+                    "home_wins": matchup_stats.get('home_wins', 0),
+                    "away_wins": matchup_stats.get('away_wins', 0),
+                    "last_meeting": matchup_stats.get('last_meeting_date')
+                }
+            }
         }
-        
+
+        # Add head-to-head if available
+        if matchup_stats.get('home_wins', 0) > 0 or matchup_stats.get('away_wins', 0) > 0:
+            response['stats']['matchup']['history'] = {
+                "total_games": matchup_stats['home_wins'] + matchup_stats['away_wins'],
+                "home_win_pct": round(matchup_stats['home_wins'] / 
+                                    (matchup_stats['home_wins'] + matchup_stats['away_wins']) * 100, 1)
+            }
+
+        print(f"✅ Prediction successful - Winner: {response['prediction']['winner']}")
         return jsonify(response)
-        
+
     except Exception as e:
-        print(f"Prediction failed: {str(e)}")
-        import traceback
+        print(f"🔥 Critical error in /predict-teams: {str(e)}")
         traceback.print_exc()
+        
         return jsonify({
-            "error": "Prediction failed",
-            "details": str(e)
+            "error": "Internal server error",
+            "details": str(e),
+            "support": "If this persists, contact support with the request details"
         }), 500
 
 
@@ -217,7 +272,7 @@ def compare_teams():
     # Debug: Print the team names being searched
     print(f"Searching for teams: {team1} and {team2}")
 
-    # Get team stats - more robust lookup
+    # Get team stats 
     def get_team_stats_comparison(team):
         home_games = data[data['home_team'] == team]
         visitor_games = data[data['visitor_team'] == team]
