@@ -319,74 +319,42 @@ def get_team_stats(team_abbr, season):
         print(f"Error getting stats for {team_abbr}: {str(e)}")
         return None
 
-def get_matchup_stats(home_team, away_team):
-    """Get head-to-head matchup statistics"""
+def get_matchup_stats(home_abbr, away_abbr, season):
+    """Get head-to-head stats with date tracking"""
     try:
-        data = get_combined_data()
-        if data is None:
-            return {"home_wins": 0, "away_wins": 0, "matchup_home_wins": 0, "matchup_away_wins": 0}
-            
-        home_name = TEAM_ABBREVIATIONS.get(home_team.upper(), home_team.upper())
-        away_name = TEAM_ABBREVIATIONS.get(away_team.upper(), away_team.upper())
+        home_team = TEAM_ABBREVIATIONS[home_abbr]
+        away_team = TEAM_ABBREVIATIONS[away_abbr]
         
-        # Find games between these two teams
-        matchups = data[
-            ((data['Home/Neutral'] == home_name) & (data['Visitor/Neutral'] == away_name)) |
-            ((data['Home/Neutral'] == away_name) & (data['Visitor/Neutral'] == home_name))
+        df = season_data.get(season, pd.DataFrame())
+        if df.empty:
+            return {}
+            
+        matchups = df[
+            ((df['home_team'] == home_team) & (df['visitor_team'] == away_team)) |
+            ((df['home_team'] == away_team) & (df['visitor_team'] == home_team))
         ]
         
-        if 'Date' in data.columns:
-            matchups = matchups.sort_values('Date', ascending=False)
-        
         if matchups.empty:
-            return {"home_wins": 0, "away_wins": 0, "matchup_home_wins": 0, "matchup_away_wins": 0}
-        
-        # Calculate wins when home_team was actually at home vs away_team
-        home_wins = 0
-        away_wins_as_visitor = 0
-        away_wins = 0
-        home_wins_vs_away = 0
-        
-        try:
-            home_wins = len(matchups[
-                (matchups['Home/Neutral'] == home_name) & 
-                (matchups['Visitor/Neutral'] == away_name) &
-                (matchups['Home_PTS'] > matchups['Visitor_PTS'])
-            ])
+            return {}
             
-            away_wins_as_visitor = len(matchups[
-                (matchups['Home/Neutral'] == away_name) & 
-                (matchups['Visitor/Neutral'] == home_name) &
-                (matchups['Visitor_PTS'] > matchups['Home_PTS'])
-            ])
-            
-            away_wins = len(matchups[
-                (matchups['Home/Neutral'] == away_name) & 
-                (matchups['Visitor/Neutral'] == home_name) &
-                (matchups['Home_PTS'] > matchups['Visitor_PTS'])
-            ])
-            
-            home_wins_vs_away = len(matchups[
-                (matchups['Home/Neutral'] == home_name) & 
-                (matchups['Visitor/Neutral'] == away_name) &
-                (matchups['Visitor_PTS'] > matchups['Home_PTS'])
-            ])
-        except KeyError:
-            # If PTS columns don't exist, return zeros
-            pass
-        
-        total_home_wins = home_wins + away_wins_as_visitor
-        total_away_wins = away_wins + home_wins_vs_away
+        last_meeting = matchups.iloc[-1]
+        home_wins = len(matchups[
+            (matchups['home_team'] == home_team) & matchups['home_win']
+        ])
         
         return {
-            "home_wins": total_home_wins,
-            "away_wins": total_away_wins,
-            "matchup_home_wins": home_wins,
-            "matchup_away_wins": away_wins
+            'home_wins': home_wins,
+            'away_wins': len(matchups) - home_wins,
+            'last_meeting_date': last_meeting['date'],
+            'last_score': {
+                'home': last_meeting['home_pts'],
+                'away': last_meeting['visitor_pts']
+            }
         }
+        
     except Exception as e:
         print(f"Error getting matchup stats: {str(e)}")
-        return {"home_wins": 0, "away_wins": 0, "matchup_home_wins": 0, "matchup_away_wins": 0}
+        return {}
 
 # Initialize predictor instance
 predictor = GamePredictor()
