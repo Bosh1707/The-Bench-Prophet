@@ -130,22 +130,67 @@ def predict_teams():
         # Add debug logging
         print(f"Attempting prediction for {home_team} vs {away_team}")
         
+        # Get team statistics
         home_stats = get_team_stats(home_team)
         away_stats = get_team_stats(away_team)
         matchup_stats = get_matchup_stats(home_team, away_team)
         
-        if not all([home_stats, away_stats]):
-            return jsonify({"error": "Could not fetch team stats"}), 404
-            
-        prediction = predictor.predict_game(home_stats, away_stats, matchup_stats)
+        if not home_stats or not away_stats:
+            return jsonify({
+                "error": "Could not fetch team stats",
+                "details": f"Home stats: {bool(home_stats)}, Away stats: {bool(away_stats)}"
+            }), 404
         
-        return jsonify({
-            "prediction": prediction,
+        # Make prediction using the predictor instance
+        prediction_result = predictor.predict_game(home_stats, away_stats, matchup_stats)
+        
+        if not prediction_result:
+            return jsonify({"error": "Prediction failed"}), 500
+        
+        # Get team names for response
+        home_team_name = TEAM_ABBREVIATION_MAP.get(home_team, home_team)
+        away_team_name = TEAM_ABBREVIATION_MAP.get(away_team, away_team)
+        
+        # Determine predicted winner name
+        if prediction_result['prediction'] == 1:
+            predicted_winner_name = home_team_name.title()
+        else:
+            predicted_winner_name = away_team_name.title()
+        
+        # Build comprehensive response
+        response = {
+            "prediction": prediction_result['prediction'],
+            "home_win_prob": prediction_result['home_win_prob'],
+            "away_win_prob": prediction_result['away_win_prob'],
+            "predicted_winner": predicted_winner_name,
+            "confidence": prediction_result['confidence'],
+            "team_stats": {
+                "home": {
+                    **home_stats,
+                    "team_name": home_team_name.title(),
+                    "abbreviation": home_team
+                },
+                "away": {
+                    **away_stats,
+                    "team_name": away_team_name.title(),
+                    "abbreviation": away_team
+                }
+            },
+            "matchup_record": {
+                "home_wins": matchup_stats.get('home_wins', 0),
+                "away_wins": matchup_stats.get('away_wins', 0),
+                "total_games": (matchup_stats.get('home_wins', 0) + 
+                              matchup_stats.get('away_wins', 0))
+            },
             "status": "success"
-        })
+        }
+        
+        return jsonify(response)
         
     except Exception as e:
-        print(f"Prediction failed: {str(e)}")  # This will appear in Render logs
+        print(f"Prediction failed: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return jsonify({
             "error": "Prediction failed",
             "details": str(e)
@@ -247,16 +292,41 @@ def calculate_head_to_head(data, team1, team2):
 @app.route('/api/health', methods=['GET'])
 def health_check():
     """Enhanced health check endpoint"""
-    return jsonify({
-        'status': 'operational' if predictor.model else 'degraded',
-        'services': {
-            'model': bool(predictor.model),
-            'scaler': bool(predictor.scaler),
-            'data': bool(season_data)
-        },
-        'seasons_loaded': list(season_data.keys()),
-        'model_type': predictor.model.__class__.__name__ if predictor.model else None
-    })
+    try:
+        model_loaded = bool(predictor.model)
+        scaler_loaded = bool(predictor.scaler)
+        data_loaded = bool(season_data)
+        
+        # Determine overall status
+        if model_loaded and scaler_loaded and data_loaded:
+            status = "healthy"
+        elif model_loaded or data_loaded:
+            status = "degraded"
+        else:
+            status = "unhealthy"
+        
+        return jsonify({
+            'status': status,
+            'services': {
+                'model': model_loaded,
+                'scaler': scaler_loaded,
+                'data': data_loaded
+            },
+            'seasons_loaded': list(season_data.keys()) if season_data else [],
+            'model_type': predictor.model.__class__.__name__ if predictor.model else None,
+            'total_games': sum(len(df) for df in season_data.values()) if season_data else 0
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'status': 'error',
+            'error': str(e),
+            'services': {
+                'model': False,
+                'scaler': False,
+                'data': False
+            }
+        }), 500
 
 @app.route('/api/teams', methods=['GET'])
 def get_teams():
@@ -273,6 +343,10 @@ def get_teams():
             ] else 'Western'
         })
     return jsonify({'teams': sorted(teams, key=lambda x: x['name'])})
+
+# Initialize the application
+print("🚀 Initializing The Bench Prophet...")
+initialize_app()
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))

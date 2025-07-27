@@ -83,6 +83,113 @@ class GamePredictor:
         
         return pd.DataFrame([features])
     
+    def predict_game(self, home_stats, away_stats, matchup_stats):
+        """
+        Main prediction method for the GamePredictor class
+        """
+        try:
+            if not self.model or not self.scaler:
+                raise ValueError("Model or scaler not loaded")
+            
+            # Prepare features for prediction
+            features_df = self.prepare_features(home_stats, away_stats, matchup_stats)
+            
+            # Scale features
+            features_scaled = self.scaler.transform(features_df)
+            
+            # Make prediction
+            prediction = self.model.predict(features_scaled)[0]
+            probabilities = self.model.predict_proba(features_scaled)[0]
+            
+            # Extract probabilities (assuming binary classification: 0=away win, 1=home win)
+            away_win_prob = probabilities[0]
+            home_win_prob = probabilities[1]
+            
+            # Determine winner
+            predicted_winner = "home" if prediction == 1 else "away"
+            
+            return {
+                'prediction': int(prediction),
+                'home_win_prob': float(home_win_prob),
+                'away_win_prob': float(away_win_prob),
+                'predicted_winner': predicted_winner,
+                'confidence': float(max(home_win_prob, away_win_prob))
+            }
+            
+        except Exception as e:
+            print(f"Prediction error: {str(e)}")
+            return None
+
+    def prepare_features(self, home_stats, away_stats, matchup_stats):
+        """
+        Prepare features for model input - updated to match your training data
+        """
+        try:
+            # Calculate win percentages with small epsilon to avoid division by zero
+            home_total_games = home_stats.get('wins', 0) + home_stats.get('losses', 0)
+            away_total_games = away_stats.get('wins', 0) + away_stats.get('losses', 0)
+            
+            home_win_pct = home_stats.get('wins', 0) / max(home_total_games, 1)
+            away_win_pct = away_stats.get('wins', 0) / max(away_total_games, 1)
+            
+            # Create feature dictionary matching your training data structure
+            features = {
+                # Basic win percentages
+                'home_win_pct': home_win_pct,
+                'away_win_pct': away_win_pct,
+                'win_pct_diff': home_win_pct - away_win_pct,
+                
+                # Recent performance
+                'home_recent_win_pct': home_stats.get('recent_win_pct', 0.5),
+                'away_recent_win_pct': away_stats.get('recent_win_pct', 0.5),
+                'recent_win_pct_diff': (home_stats.get('recent_win_pct', 0.5) - 
+                                    away_stats.get('recent_win_pct', 0.5)),
+                
+                # Team records
+                'home_wins': home_stats.get('wins', 0),
+                'home_losses': home_stats.get('losses', 0),
+                'away_wins': away_stats.get('wins', 0),
+                'away_losses': away_stats.get('losses', 0),
+                
+                # Recent losses
+                'home_recent_losses': home_stats.get('recent_losses', 0),
+                'away_recent_losses': away_stats.get('recent_losses', 0),
+                
+                # Matchup statistics
+                'matchup_home_wins': matchup_stats.get('home_wins', 0),
+                'matchup_away_wins': matchup_stats.get('away_wins', 0),
+                'matchup_total': (matchup_stats.get('home_wins', 0) + 
+                                matchup_stats.get('away_wins', 0)),
+                
+                # Additional derived features
+                'games_diff': home_total_games - away_total_games,
+                'recent_momentum': (home_stats.get('recent_win_pct', 0.5) - 
+                                away_stats.get('recent_win_pct', 0.5)),
+            }
+            
+            # Handle case where no matchup history exists
+            if features['matchup_total'] > 0:
+                features['matchup_home_advantage'] = (features['matchup_home_wins'] / 
+                                                    features['matchup_total'])
+            else:
+                features['matchup_home_advantage'] = 0.5  # Neutral
+            
+            return pd.DataFrame([features])
+            
+        except Exception as e:
+            print(f"Feature preparation error: {str(e)}")
+            # Return default features if there's an error
+            default_features = {
+                'home_win_pct': 0.5, 'away_win_pct': 0.5, 'win_pct_diff': 0,
+                'home_recent_win_pct': 0.5, 'away_recent_win_pct': 0.5,
+                'recent_win_pct_diff': 0, 'home_wins': 0, 'home_losses': 0,
+                'away_wins': 0, 'away_losses': 0, 'home_recent_losses': 0,
+                'away_recent_losses': 0, 'matchup_home_wins': 0,
+                'matchup_away_wins': 0, 'matchup_total': 0, 'games_diff': 0,
+                'recent_momentum': 0, 'matchup_home_advantage': 0.5
+            }
+            return pd.DataFrame([default_features])
+    
 # Global variables
 model = None
 season_data = {}
