@@ -1,4 +1,9 @@
 {
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run start"
+  },
   "dependencies": {
     "antd": "^5.26.2",
     "axios": "^1.10.0",
