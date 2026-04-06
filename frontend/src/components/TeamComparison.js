@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, ResponsiveContainer } from "recharts";
-import { Select, Button, Spin, Alert, Divider } from "antd";
+import { Select, Button, Alert, Divider } from "antd";
 import "./TeamComparison.css";
 import 'antd/dist/reset.css'
 const { Option } = Select;
@@ -45,10 +45,8 @@ const TeamComparison = () => {
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [seasons, setSeasons] = useState(["2021-2022", "2022-2023", "2023-2024", "2024-2025"]);
+  const seasons = ["2021-2022", "2022-2023", "2023-2024", "2024-2025"];
   const [selectedSeason, setSelectedSeason] = useState("2024-2025");
-
-  const teams = Object.keys(TEAM_MAP);
 
   const handleCompare = async (e) => {
     if (!team1 || !team2) {

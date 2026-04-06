@@ -37,6 +37,33 @@ const TEAM_OPTIONS = [
 
 const API_BASE_URL = "https://the-bench-prophet.onrender.com";
 
+// Reuse one client instance so hooks don't depend on recreated objects.
+const apiClient = axios.create({
+  baseURL: API_BASE_URL,
+  timeout: 30000, // 30 second timeout for initial requests
+  headers: {
+    'Content-Type': 'application/json'
+  }
+});
+
+// Add response interceptor for better error handling.
+apiClient.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    console.error('API Error:', error);
+
+    if (error.code === 'ECONNABORTED') {
+      return Promise.reject(new Error('Request timed out. Backend may be sleeping.'));
+    }
+
+    if (error.message === 'Network Error' || error.code === 'ERR_NETWORK') {
+      return Promise.reject(new Error('Network connection failed. Backend may be sleeping.'));
+    }
+
+    return Promise.reject(error);
+  }
+);
+
 const PredictionDashboard = () => {
   const [homeTeam, setHomeTeam] = useState("");
   const [awayTeam, setAwayTeam] = useState("");
@@ -48,33 +75,6 @@ const PredictionDashboard = () => {
   const [backendReady, setBackendReady] = useState(false);
   const [retryCount, setRetryCount] = useState(0);
   const [wakingUp, setWakingUp] = useState(false);
-
-  // Enhanced axios configuration with better error handling
-  const apiClient = axios.create({
-    baseURL: API_BASE_URL,
-    timeout: 30000, // 30 second timeout for initial requests
-    headers: {
-      'Content-Type': 'application/json'
-    }
-  });
-
-  // Add response interceptor for better error handling
-  apiClient.interceptors.response.use(
-    (response) => response,
-    (error) => {
-      console.error('API Error:', error);
-      
-      if (error.code === 'ECONNABORTED') {
-        return Promise.reject(new Error('Request timed out. Backend may be sleeping.'));
-      }
-      
-      if (error.message === 'Network Error' || error.code === 'ERR_NETWORK') {
-        return Promise.reject(new Error('Network connection failed. Backend may be sleeping.'));
-      }
-      
-      return Promise.reject(error);
-    }
-  );
 
   // Backend health check with exponential backoff
   useEffect(() => {
@@ -212,7 +212,8 @@ const PredictionDashboard = () => {
           setError(errorMessage);
         } else {
           // Wait before retry
-          await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
+          const retryDelay = 2000 * attempt;
+          await new Promise(resolve => setTimeout(resolve, retryDelay));
         }
       }
     }
