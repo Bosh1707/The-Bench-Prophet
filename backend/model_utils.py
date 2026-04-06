@@ -1,6 +1,8 @@
 import pandas as pd
 import joblib
 import os
+import glob
+import json
 
 # Team abbreviations dictionary
 TEAM_ABBREVIATIONS = {
@@ -38,6 +40,46 @@ TEAM_ABBREVIATIONS = {
     "UTA": "UTAH JAZZ"
 }
 
+
+def _resolve_backend_dir():
+    return os.path.dirname(os.path.abspath(__file__))
+
+
+def _load_artifact_paths():
+    """Resolve model/scaler paths from metadata, then fallback to latest timestamped artifacts."""
+    base_dir = _resolve_backend_dir()
+    metadata_path = os.path.join(base_dir, 'model_metadata.json')
+
+    if os.path.exists(metadata_path):
+        try:
+            with open(metadata_path, 'r', encoding='utf-8') as f:
+                metadata = json.load(f)
+            model_file = metadata.get('model_file')
+            scaler_file = metadata.get('scaler_file')
+            if model_file and scaler_file:
+                model_path = os.path.join(base_dir, model_file)
+                scaler_path = os.path.join(base_dir, scaler_file)
+                if os.path.exists(model_path) and os.path.exists(scaler_path):
+                    return model_path, scaler_path
+        except Exception as e:
+            print(f"⚠️ Failed reading model metadata: {str(e)}")
+
+    model_candidates = sorted(
+        glob.glob(os.path.join(base_dir, 'model_*.pkl')),
+        key=os.path.getmtime,
+        reverse=True,
+    )
+    scaler_candidates = sorted(
+        glob.glob(os.path.join(base_dir, 'scaler_*.pkl')),
+        key=os.path.getmtime,
+        reverse=True,
+    )
+
+    if model_candidates and scaler_candidates:
+        return model_candidates[0], scaler_candidates[0]
+
+    return os.path.join(base_dir, 'model.pkl'), os.path.join(base_dir, 'scaler.pkl')
+
 class GamePredictor:
     def __init__(self):
         self.model = None
@@ -46,9 +88,11 @@ class GamePredictor:
     
     def load_model(self, model_path='model.pkl', scaler_path='scaler.pkl'):
         try:
+            if model_path == 'model.pkl' and scaler_path == 'scaler.pkl':
+                model_path, scaler_path = _load_artifact_paths()
             self.model = joblib.load(model_path)
             self.scaler = joblib.load(scaler_path)
-            print("✅ Model and scaler loaded successfully")
+            print(f"✅ Model and scaler loaded successfully: {os.path.basename(model_path)}, {os.path.basename(scaler_path)}")
             return True
         except Exception as e:
             print(f"❌ Error loading model/scaler: {str(e)}")
@@ -201,10 +245,13 @@ def load_model_and_data():
     global model, season_data
     
     try:
+        base_dir = _resolve_backend_dir()
+
         # Load the model
-        if os.path.exists('model.pkl'):
-            model = joblib.load('model.pkl')
-            print("Model loaded successfully")
+        model_path, _ = _load_artifact_paths()
+        if os.path.exists(model_path):
+            model = joblib.load(model_path)
+            print(f"Model loaded successfully: {os.path.basename(model_path)}")
         else:
             print("Model file 'model.pkl' not found")
             return False
@@ -223,7 +270,7 @@ def load_model_and_data():
         
         # Load each season's data
         for season in ["2021-2022", "2022-2023", "2023-2024", "2024-2025"]:
-            filename = f'data/nba_{season.replace("-", "_")}_final_data.csv'
+            filename = os.path.join(base_dir, 'data', f'nba_{season.replace("-", "_")}_final_data.csv')
             if os.path.exists(filename):
                 df = pd.read_csv(filename)
                 
@@ -244,8 +291,9 @@ def load_model_and_data():
         if not season_data:
             data_files = ['nba_data.csv', 'data.csv', 'nba_games.csv', 'games.csv']
             for filename in data_files:
-                if os.path.exists(filename):
-                    df = pd.read_csv(filename)
+                file_path = os.path.join(base_dir, filename)
+                if os.path.exists(file_path):
+                    df = pd.read_csv(file_path)
                     # Clean team names if columns exist
                     if 'Home/Neutral' in df.columns:
                         df['Home/Neutral'] = df['Home/Neutral'].str.strip().str.upper()
@@ -253,7 +301,7 @@ def load_model_and_data():
                         df['Visitor/Neutral'] = df['Visitor/Neutral'].str.strip().str.upper()
                     
                     season_data['combined'] = df
-                    print(f"Loaded combined data from {filename}: {len(df)} rows")
+                    print(f"Loaded combined data from {file_path}: {len(df)} rows")
                     break
         
         if not season_data:

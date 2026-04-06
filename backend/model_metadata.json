@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-04-06T14:35:40.189471",
+  "model_file": "model_2026_04_06_143540.pkl",
+  "scaler_file": "scaler_2026_04_06_143540.pkl",
+  "feature_count": 18,
+  "samples": 6053,
+  "best_params": {
+    "C": 0.1,
+    "class_weight": null,
+    "solver": "lbfgs"
+  },
+  "random_split_metrics": {
+    "accuracy": 0.772089,
+    "roc_auc": 0.863866,
+    "log_loss": 0.427418,
+    "brier_score": 0.145873,
+    "home_win_rate_actual": 0.552436,
+    "home_win_rate_predicted": 0.64327
+  },
+  "time_split_metrics": {
+    "accuracy": 0.807843,
+    "roc_auc": 0.90329,
+    "log_loss": 0.375497,
+    "brier_score": 0.125191,
+    "home_win_rate_actual": 0.545098,
+    "home_win_rate_predicted": 0.608627
+  }
+}

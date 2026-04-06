@@ -14,6 +14,7 @@ import datetime
 import traceback
 
 app = Flask(__name__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def initialize_app():
     """Initialize model and data"""
@@ -89,7 +90,7 @@ try:
     
     # Load each season's data with column renaming
     for season in ["2021-2022", "2022-2023", "2023-2024", "2024-2025"]:
-        filename = f'data/nba_{season.replace("-", "_")}_final_data.csv'
+        filename = os.path.join(BASE_DIR, 'data', f'nba_{season.replace("-", "_")}_final_data.csv')
         df = pd.read_csv(filename)
         
         # Clean team names - remove any whitespace and convert to uppercase
